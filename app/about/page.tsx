@@ -1,6 +1,3 @@
-import Link from 'next/link'
-import { Button } from '@/components/ui/Button'
-import { Heart, Users, Award, Target } from 'lucide-react'
 import type { Metadata } from 'next'
 import { aboutMetadata } from '../metadata'
 
@@ -8,220 +5,99 @@ export const metadata: Metadata = aboutMetadata
 
 export default function AboutPage() {
   return (
-    <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-pam-white to-pam-gray-50 py-20 sm:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl sm:text-5xl font-bold text-pam-gray-900 mb-6">
-              About PAM
-            </h1>
-            <p className="text-lg sm:text-xl text-pam-gray-700">
-              We're on a mission to make parenting easier for Australian families by providing 
-              the right tools and information at the right time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Story Section */}
-      <section className="py-16 sm:py-20 bg-pam-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-pam-gray-900 mb-6">
-                Our Story
-              </h2>
-              <div className="space-y-4 text-pam-gray-700">
-                <p>
-                  PAM was born from a simple observation: new parents in Australia were overwhelmed 
-                  with information, appointments, and administrative tasks during the most precious 
-                  and exhausting time of their lives.
-                </p>
-                <p>
-                  As parents ourselves, we experienced firsthand the challenge of keeping track of 
-                  immunizations, Centrelink registrations, developmental milestones, and the endless 
-                  stream of appointments—all while running on minimal sleep.
-                </p>
-                <p>
-                  We created PAM (Parent Admin Manager) to be the companion we wished we had: 
-                  a smart, simple app that takes the mental load off parents by organizing everything 
-                  in one place and sending timely reminders for what matters most.
-                </p>
-                <p>
-                  Today, PAM helps thousands of Australian families navigate the first 1000 days 
-                  with confidence, ensuring they never miss important milestones while having more 
-                  time to enjoy the moments that matter.
-                </p>
-              </div>
+    <main>
+      <section className="hero" style={{ paddingTop: 40 }}>
+        <div className="container">
+          <div className="about-grid">
+            <div className="about-story">
+              <span className="eyebrow">Our Story</span>
+              <h1 className="display-xl" style={{ fontSize: 'clamp(2.4rem,4.6vw,3.6rem)', margin: '18px 0 22px' }}>
+                We&apos;re Oly &amp; Ash. Mums, founders <em>and best friends.</em>
+              </h1>
+              <p>We both have 15-month-olds — Mila (Ash) and Leo (Oly) — and like so many mums, we found ourselves in the thick of it together.</p>
+              <p>The love, the chaos, the exhaustion… and the constant mental load no one really prepares you for. Somewhere between the feeds, the naps, the appointments and the endless to-do lists, we kept coming back to the same thought: <em>why are we trying to hold all of this on our own?</em></p>
+              <p>We created PAM because we knew other mums were feeling it too. The remembering. The organising. The invisible weight that sits in your mind every single day.</p>
+              <p>PAM is our way of supporting mums — not by adding more, but by taking something off your plate. Because you deserve to be present for the moments that matter most.</p>
             </div>
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-pam-gray-100 to-pam-gray-200 rounded-2xl">
-                {/* Placeholder for team/story image */}
-                <div className="w-full h-full flex items-center justify-center">
-                  <Heart className="w-32 h-32 text-pam-primary/20" />
-                </div>
-              </div>
+            <div className="about-art">
+              <div className="mark">PAM<small>For the moments that matter</small></div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="py-16 sm:py-20 bg-pam-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-pam-gray-900 mb-4">
-              Our Values
-            </h2>
-            <p className="text-lg text-pam-gray-700 max-w-2xl mx-auto">
-              Everything we do is guided by these core principles
-            </p>
+      <section style={{ paddingTop: 30 }}>
+        <div className="container">
+          <div className="sec-head">
+            <span className="eyebrow">What we believe</span>
+            <h2>The values <span className="em">behind</span> PAM.</h2>
           </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-pam-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-8 h-8 text-pam-primary" />
+          <div className="values-grid">
+            <div className="value">
+              <div className="v-ico">
+                <svg viewBox="0 0 24 24"><path d="M3 12h4l2-7 4 14 2-7h4" /></svg>
               </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900 mb-2">Parent-First</h3>
-              <p className="text-pam-gray-600">
-                Every feature is designed with exhausted parents in mind—simple, clear, and helpful.
-              </p>
+              <h3>Calm by design</h3>
+              <p>Less noise, fewer notifications. Only what matters, exactly when it matters.</p>
             </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-pam-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-pam-primary" />
+            <div className="value">
+              <div className="v-ico">
+                <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z" /><path d="M9 12l2 2 4-4" /></svg>
               </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900 mb-2">Privacy & Security</h3>
-              <p className="text-pam-gray-600">
-                Your family's data is precious. We protect it with bank-level security and never share it.
-              </p>
+              <h3>Privacy first</h3>
+              <p>Your family&apos;s data is yours. Always encrypted, never sold — full stop.</p>
             </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-pam-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Target className="w-8 h-8 text-pam-primary" />
+            <div className="value">
+              <div className="v-ico">
+                <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" /><circle cx="17" cy="9" r="2.4" /><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5M15.5 18.5c0-2 1.6-3.4 4-3.4" /></svg>
               </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900 mb-2">Evidence-Based</h3>
-              <p className="text-pam-gray-600">
-                All our content and recommendations are based on Australian health guidelines and research.
-              </p>
+              <h3>Built by parents</h3>
+              <p>Every feature comes from a real 2am moment we&apos;ve actually lived through.</p>
             </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-pam-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-pam-primary" />
+            <div className="value">
+              <div className="v-ico">
+                <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z" /></svg>
               </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900 mb-2">Inclusive</h3>
-              <p className="text-pam-gray-600">
-                PAM is designed for all families—single parents, same-sex couples, and diverse households.
-              </p>
+              <h3>For every family</h3>
+              <p>However your family is shaped, PAM fits gently around it.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 sm:py-20 bg-pam-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-pam-gray-900 mb-4">
-              Meet the Team
-            </h2>
-            <p className="text-lg text-pam-gray-700 max-w-2xl mx-auto">
-              We're a small team of parents and technologists passionate about making family life easier
-            </p>
+      <section style={{ paddingTop: 30 }}>
+        <div className="container">
+          <div className="sec-head">
+            <span className="eyebrow">The founders</span>
+            <h2>Hello from <span className="em">us two.</span></h2>
           </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {/* Team Member 1 */}
-            <div className="text-center">
-              <div className="w-32 h-32 bg-pam-gray-200 rounded-full mx-auto mb-4">
-                {/* Placeholder for team member photo */}
+          <div className="founders-grid">
+            <div className="founder">
+              <div className="av" style={{ background: 'linear-gradient(140deg,var(--blush),var(--wine))' }}>O</div>
+              <div>
+                <h3>Oly</h3>
+                <div className="role">Co-Founder · Mum to Leo</div>
+                <p>&ldquo;Somewhere between feeds, naps and a never-ending mental to-do list, we said: <em>why are we trying to hold all of this on our own?</em>&rdquo;</p>
               </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900">Sarah Chen</h3>
-              <p className="text-pam-primary font-medium">Co-Founder & CEO</p>
-              <p className="text-sm text-pam-gray-600 mt-2">
-                Mother of two, former pediatric nurse
-              </p>
             </div>
-
-            {/* Team Member 2 */}
-            <div className="text-center">
-              <div className="w-32 h-32 bg-pam-gray-200 rounded-full mx-auto mb-4">
-                {/* Placeholder for team member photo */}
+            <div className="founder">
+              <div className="av" style={{ background: 'linear-gradient(140deg,var(--tan),var(--wine))' }}>A</div>
+              <div>
+                <h3>Ash</h3>
+                <div className="role">Co-Founder · Mum to Mila</div>
+                <p>&ldquo;PAM is our way of supporting mums — not by adding more, but by taking something off your plate.&rdquo;</p>
               </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900">Michael Roberts</h3>
-              <p className="text-pam-primary font-medium">Co-Founder & CTO</p>
-              <p className="text-sm text-pam-gray-600 mt-2">
-                Dad of three, software engineer
-              </p>
-            </div>
-
-            {/* Team Member 3 */}
-            <div className="text-center">
-              <div className="w-32 h-32 bg-pam-gray-200 rounded-full mx-auto mb-4">
-                {/* Placeholder for team member photo */}
-              </div>
-              <h3 className="text-xl font-semibold text-pam-gray-900">Dr. Lisa Wong</h3>
-              <p className="text-pam-primary font-medium">Medical Advisor</p>
-              <p className="text-sm text-pam-gray-600 mt-2">
-                Pediatrician, child health advocate
-              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Awards Section */}
-      <section className="py-16 sm:py-20 bg-pam-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-pam-gray-900 mb-4">
-              Recognition
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <Award className="w-16 h-16 text-pam-primary mx-auto mb-4" />
-              <h3 className="font-semibold text-pam-gray-900">Best Family App 2024</h3>
-              <p className="text-sm text-pam-gray-600 mt-1">Australian App Awards</p>
-            </div>
-
-            <div className="text-center">
-              <Award className="w-16 h-16 text-pam-primary mx-auto mb-4" />
-              <h3 className="font-semibold text-pam-gray-900">Parent's Choice</h3>
-              <p className="text-sm text-pam-gray-600 mt-1">Raising Children Network</p>
-            </div>
-
-            <div className="text-center">
-              <Award className="w-16 h-16 text-pam-primary mx-auto mb-4" />
-              <h3 className="font-semibold text-pam-gray-900">Innovation Award</h3>
-              <p className="text-sm text-pam-gray-600 mt-1">HealthTech Australia</p>
-            </div>
-          </div>
+      <div className="quote-banner">
+        <div className="container">
+          <q>Made by two mums who get it.</q>
+          <div className="attribution">PAM · Parental Admin Manager</div>
         </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 sm:py-20 bg-pam-primary">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-pam-white mb-4">
-            Join thousands of Australian families
-          </h2>
-          <p className="text-lg text-pam-white/90 mb-8">
-            Start your journey with PAM today and experience parenting with confidence.
-          </p>
-          <Link href="/signup">
-            <Button size="lg" variant="secondary" className="bg-pam-white text-pam-primary hover:bg-pam-gray-100 px-8 py-6 text-lg font-semibold">
-              Get Started Free
-            </Button>
-          </Link>
-        </div>
-      </section>
-    </>
+      </div>
+    </main>
   )
 }

@@ -105,52 +105,52 @@ export default function HomePage() {
           <div className="flow-list">
             <article className="flow-row">
               <div className="flow-image flow-image--morning">
-                <span className="flow-pill">Checklist · Morning</span>
+                <span className="flow-pill">Morning · Checklist</span>
               </div>
               <div className="flow-content">
                 <h3>Morning</h3>
-                <h4>Know what&apos;s ahead</h4>
-                <p>Wake up to today&apos;s checklist already laid out. See what&apos;s due, who needs what, and start the day knowing nothing&apos;s slipping through.</p>
+                <h4>A clear start</h4>
+                <p>Wake to a day already laid out — what&apos;s due, what&apos;s done, who needs what. The remembering&apos;s handled, so you can simply be present.</p>
               </div>
             </article>
             <article className="flow-row">
               <div className="flow-image flow-image--midday">
-                <span className="flow-pill">Tracker · Midday</span>
+                <span className="flow-pill">Midday · Tracker</span>
               </div>
               <div className="flow-content">
                 <h3>Midday</h3>
-                <h4>Stay in the loop</h4>
-                <p>Pause for a quick log while bub naps. Tap in a feed, sync with your partner, and step away knowing everyone&apos;s on the same page.</p>
+                <h4>A shared pause</h4>
+                <p>While bub naps, a few taps keeps the day captured — a feed here, a sleep there. Your partner sees every entry, so you&apos;re never the only one keeping track.</p>
               </div>
             </article>
             <article className="flow-row">
-              <div className="flow-image flow-image--afterschool">
-                <span className="flow-pill">Calendar · After School</span>
+              <div className="flow-image flow-image--afternoon">
+                <span className="flow-pill">Afternoon · Calendar</span>
               </div>
               <div className="flow-content">
-                <h3>After School</h3>
-                <h4>Keep life moving</h4>
-                <p>Glance at the calendar between pickups. See permission slips, after-school plans and tomorrow&apos;s commitments, and keep life moving without missing a thing.</p>
+                <h3>Afternoon</h3>
+                <h4>The week, in hand</h4>
+                <p>As the afternoon softens, look to what&apos;s coming — the next check-up, an appointment, a reminder you set weeks ago. Tomorrow arrives already handled.</p>
               </div>
             </article>
             <article className="flow-row">
               <div className="flow-image flow-image--evening">
-                <span className="flow-pill">Memories · Evening</span>
+                <span className="flow-pill">Evening · Memories</span>
               </div>
               <div className="flow-content">
                 <h3>Evening</h3>
-                <h4>Reflect and prepare</h4>
-                <p>Wind down with the day in voice notes. Tuck a memory into the baby book, peek at tomorrow&apos;s checklist, and rest knowing nothing&apos;s missed.</p>
+                <h4>A soft landing</h4>
+                <p>Wind down and let the day settle — a voice note, a photo tucked into the baby book, a glance at what tomorrow holds. Then rest, properly.</p>
               </div>
             </article>
             <article className="flow-row">
               <div className="flow-image flow-image--everyday">
-                <span className="flow-pill">Family Info · Every Day</span>
+                <span className="flow-pill">Every Day · Family Info</span>
               </div>
               <div className="flow-content">
                 <h3>Every Day</h3>
-                <h4>Build your family&apos;s story</h4>
-                <p>Lean on PAM in the background. Capture the moments, organise the admin and share the load, and watch your family&apos;s story take shape — bit by bit.</p>
+                <h4>Your story, gathering</h4>
+                <p>Through it all, PAM works quietly in the background — holding the details, easing the admin, gathering the moments. Bit by bit, your family&apos;s story takes shape.</p>
               </div>
             </article>
           </div>
@@ -161,8 +161,8 @@ export default function HomePage() {
       <section>
         <div className="container">
           <div className="sec-head">
-            <span className="eyebrow">Loved by early families</span>
-            <h2>Real relief, in <span className="em">real life.</span></h2>
+            <span className="eyebrow">The PAM experience</span>
+            <h2>In their <span className="em">own words.</span></h2>
           </div>
           <div className="testimonials-grid">
             <div className="tst">

@@ -7,35 +7,34 @@ type Tab = {
   alt: string
 }
 
-// TODO: replace body placeholders when final copy is ready
 const tabs: Tab[] = [
   {
-    name: 'Home',
-    body: "What's due today, what's been done, and a gentle daily reminder — all in one warm place.",
+    name: 'Today',
+    body: "What's due, what's done, and nothing left to remember — your whole day the moment you open the app.",
     src: '/phone-home.jpg',
-    alt: 'PAM Home tab — Welcome back, daily reminder and quick log',
+    alt: 'PAM Today tab — Welcome back, daily reminder and quick log',
   },
   {
     name: 'Checklist',
-    body: 'Immunisations, MCH appointments, health checks and registrations — surfaced exactly when they’re due.',
+    body: 'Everything from immunisations to MCH visits to registering the birth — pre-loaded and reminded as each task nears, and a nudge if one slips by.',
     src: '/phone-checklist.jpg',
     alt: 'PAM Checklist tab — calendar view with upcoming tasks',
   },
   {
     name: 'Tracker',
-    body: 'Feeds, sleep, nappies, medicine and activities in seconds. See patterns, not pressure.',
+    body: 'From feeds to growth in one place — daily logs, percentile charts, clear reports, and nap predictions built around your baby.',
     src: '/phone-tracker.jpg',
     alt: 'PAM Tracker tab — daily tracking tiles and summary',
   },
   {
     name: 'Family Info',
-    body: 'Contacts, kids’ profiles, documents, local services and postpartum support — organised in one trusted place.',
+    body: "Whatever you'd scramble for at 2am, already where it should be — the people, details and services, kept close and organised.",
     src: '/phone-family.jpg',
     alt: 'PAM Family Info tab — People, Records and Journey',
   },
   {
     name: 'Memories',
-    body: 'Photos, voice notes, baby books and letters — the story of your growing family, captured as it happens.',
+    body: 'The little moments and big firsts, saved as they happen.',
     src: '/phone-memories.jpg',
     alt: 'PAM Memories tab — Capture, Preserve and Write',
   },

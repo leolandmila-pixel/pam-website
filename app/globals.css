@@ -293,6 +293,40 @@ section{padding:96px 0}
 .story-callout{background:linear-gradient(135deg,var(--blush-soft),#fff);border:1px solid var(--blush);border-radius:20px;padding:26px;margin-top:10px}
 .story-callout h4{font-family:var(--display);font-size:1.2rem;margin-bottom:8px}
 .story-callout p{font-size:0.9rem;color:var(--ink-soft)}
+
+/* ===== Story index — clickable cards ===== */
+.story-link{display:block;text-decoration:none;color:inherit}
+.story-link:hover,.story-link:focus-visible{text-decoration:none;color:inherit}
+.story.is-coming-soon{opacity:0.7;cursor:default}
+.story.is-coming-soon .read{color:var(--ink-faint)}
+
+/* ===== Story detail page ===== */
+.story-back{display:inline-block;font-size:0.88rem;color:var(--wine);font-weight:600;text-decoration:none;margin-bottom:24px;letter-spacing:0.02em}
+.story-back:hover{text-decoration:underline}
+.story-cover{height:280px;border-radius:24px;display:flex;align-items:flex-end;padding:30px 34px;margin-bottom:26px;box-shadow:0 18px 44px rgba(74,7,19,0.16)}
+.story-cover b{font-family:var(--sans);font-weight:700;font-size:1.2rem;color:#fff;letter-spacing:0.005em}
+.story-meta{display:flex;align-items:center;gap:10px;font-size:0.85rem;color:var(--ink-soft);margin-bottom:14px}
+.story-meta .tag{font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--wine);font-weight:700;margin-bottom:0}
+.story-meta .dot{color:var(--ink-faint)}
+.story-title{font-family:var(--display);font-weight:400;font-size:clamp(2rem,4.4vw,3rem);line-height:1.12;margin:0 0 8px;color:var(--ink)}
+.story-article{max-width:680px;margin:0 auto}
+.story-article .lede{font-size:1.12rem;line-height:1.7;color:var(--ink);margin:0 0 20px}
+.story-article .lede:last-of-type{margin-bottom:36px}
+.story-section{margin:38px 0 26px}
+.story-section h2{font-family:var(--display);font-weight:400;font-size:1.7rem;line-height:1.2;color:var(--wine);margin:0 0 6px}
+.story-section .subhead{font-style:italic;color:var(--ink-soft);font-size:1rem;margin:0 0 18px}
+.story-section p{font-size:1rem;line-height:1.7;color:var(--ink);margin:0 0 14px}
+.story-section ul{list-style:none;padding:0;margin:0}
+.story-section li{position:relative;padding-left:22px;margin-bottom:14px;line-height:1.65;color:var(--ink);font-size:0.98rem}
+.story-section li::before{content:"";position:absolute;left:0;top:0.7em;width:8px;height:8px;border-radius:50%;background:var(--blush)}
+.story-closing{margin-top:44px;padding:30px 32px;background:linear-gradient(135deg,var(--blush-soft),#fff);border:1px solid var(--blush);border-radius:20px}
+.story-closing h2{font-family:var(--display);font-weight:400;font-size:1.4rem;color:var(--wine);margin:0 0 12px}
+.story-closing p{font-size:1rem;line-height:1.7;color:var(--ink);margin:0 0 12px}
+.story-closing p:last-child{margin-bottom:0}
+.story-coming-soon{text-align:center;padding:50px 30px;color:var(--ink-soft)}
+.story-coming-soon .lede{font-size:1.1rem;line-height:1.6;margin-bottom:20px;color:var(--ink)}
+.story-coming-soon .cta-link{display:inline-block;margin-top:18px;color:var(--wine);font-weight:600;text-decoration:none}
+.story-coming-soon .cta-link:hover{text-decoration:underline}
 .contact-form{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:38px;box-shadow:var(--shadow-sm)}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .field{margin-bottom:18px}
@@ -329,6 +363,7 @@ section{padding:96px 0}
 footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin-top:40px}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:50px;margin-bottom:54px}
 .footer-brand .logo b{color:var(--cream)}
+.footer-brand .logo-img{height:48px;width:auto;display:block;filter:brightness(0) invert(1);margin-bottom:6px}
 .footer-brand .logo small{color:rgba(252,246,241,0.55)}
 .footer-brand p{color:rgba(252,246,241,0.7);margin:20px 0;line-height:1.6;max-width:300px;font-size:0.92rem}
 .footer-brand .socials{display:flex;gap:12px}
@@ -408,7 +443,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 /* Gradient placeholders (swap for real photos later) */
 .flow-image--morning{background:linear-gradient(140deg,#F4E2E3 0%,#C68A8E 70%,#9A1E37 100%)}
 .flow-image--midday{background:linear-gradient(150deg,#E6D3B8 0%,#B06E72 60%,#9A1E37 100%)}
-.flow-image--afterschool{background:linear-gradient(140deg,#C5A085 0%,#7E0F25 60%,#6D0015 100%)}
+.flow-image--afternoon{background:linear-gradient(140deg,#C5A085 0%,#7E0F25 60%,#6D0015 100%)}
 .flow-image--evening{background:linear-gradient(155deg,#7E0F25 0%,#4A0010 60%,#260008 100%)}
 .flow-image--everyday{background:linear-gradient(150deg,#F1DBDC 0%,#C5A085 50%,#6D0015 100%)}
 

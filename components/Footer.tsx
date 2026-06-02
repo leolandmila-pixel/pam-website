@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -7,7 +8,14 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="logo">
-              <b>PAM</b>
+              <Image
+                src="/logo.png"
+                alt="PAM"
+                width={239}
+                height={120}
+                className="logo-img"
+                priority={false}
+              />
               <small>Parental Admin Manager</small>
             </div>
             <p>The assistant every parent deserves. Less mental load, more moments that matter.</p>

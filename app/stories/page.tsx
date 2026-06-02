@@ -1,17 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { storiesMetadata } from '../metadata'
+import { stories } from './stories-data'
 
 export const metadata: Metadata = storiesMetadata
-
-const stories = [
-  { cover: 'c-newborn', label: 'The first six weeks', tag: 'Newborn', title: 'What I wish someone had told me about week one', body: 'The forms, the feelings, the feeds. A gentle, honest guide to surviving (and savouring) the fourth trimester.' },
-  { cover: 'c-wellbeing', label: 'The mental load', tag: 'Wellbeing', title: 'How I finally put down the invisible to-do list', body: "One mum's story of sharing the load — and what changed when she stopped holding it all in her head." },
-  { cover: 'c-memories', label: 'Memory keeping', tag: 'Memories', title: "The voice note I'll treasure forever", body: 'Why capturing the little sounds — first giggles, first words — matters more than the perfect photo.' },
-  { cover: 'c-family', label: 'Two mums, one family', tag: 'Family', title: 'Building our family, our way', body: 'A heartfelt look at parenthood beyond the traditional mould — and why every family deserves to be seen.' },
-  { cover: 'c-returning', label: 'Going back to work', tag: 'Returning', title: 'The return-to-work juggle, made gentler', body: 'Childcare, routines and the guilt nobody warns you about — plus the systems that actually helped.' },
-  { cover: 'c-siblings', label: 'Second time around', tag: 'Siblings', title: 'Everything I forgot the second time', body: "Turns out you don't remember a thing. How PAM became the brain a tired mum-of-two desperately needed." },
-]
 
 export default function StoriesPage() {
   return (
@@ -32,19 +24,32 @@ export default function StoriesPage() {
       <section style={{ paddingTop: 10 }}>
         <div className="container">
           <div className="blog-grid">
-            {stories.map((s) => (
-              <article key={s.title} className="story">
-                <div className={`cover ${s.cover}`}>
-                  <b>{s.label}</b>
+            {stories.map((s) => {
+              const card = (
+                <article className={`story${s.published ? '' : ' is-coming-soon'}`}>
+                  <div className={`cover ${s.cover}`}>
+                    <b>{s.label}</b>
+                  </div>
+                  <div className="body">
+                    <span className="tag">{s.tag}</span>
+                    <h3>{s.title}</h3>
+                    <p>{s.body}</p>
+                    <span className="read">
+                      {s.published ? 'Read story →' : 'Coming soon'}
+                    </span>
+                  </div>
+                </article>
+              )
+              return s.published ? (
+                <Link key={s.slug} href={`/stories/${s.slug}`} className="story-link">
+                  {card}
+                </Link>
+              ) : (
+                <div key={s.slug} className="story-link">
+                  {card}
                 </div>
-                <div className="body">
-                  <span className="tag">{s.tag}</span>
-                  <h3>{s.title}</h3>
-                  <p>{s.body}</p>
-                  <span className="read">Read story →</span>
-                </div>
-              </article>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>

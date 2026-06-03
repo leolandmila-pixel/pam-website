@@ -1,0 +1,150 @@
+'use client'
+
+import { useState } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+const OPTIONS = [
+  {
+    id: 'appointments',
+    label: "I can never keep track of appointments — things keep slipping through",
+    result: {
+      tag: 'Smart Calendar & Checklists',
+      heading: 'You need a brain that never forgets.',
+      tagline: 'PAM surfaces what\'s due, when it\'s due — before you even have to think about it.',
+      body: 'Every appointment, reminder and upcoming task lives in one calm place. PAM sends gentle nudges so nothing slips, and your mornings start already organised.',
+      gradient: 'linear-gradient(140deg,#F4E2E3,#C68A8E 60%,#9A1E37)',
+      phone: '/phone-checklist.jpg',
+      phoneAlt: 'PAM checklist screen',
+    },
+  },
+  {
+    id: 'load',
+    label: "I carry the mental load alone — my partner has no idea what's going on",
+    result: {
+      tag: 'Shared Family Tracking',
+      heading: 'You shouldn\'t be the only one holding it.',
+      tagline: 'PAM is built for two — so the load is actually shared.',
+      body: 'Everything you track, your partner sees too. From feeds to schedules to family info, PAM keeps both of you in sync without the constant catch-up conversations.',
+      gradient: 'linear-gradient(140deg,#E6D3B8,#B06E72 60%,#9A1E37)',
+      phone: '/phone-tracker.jpg',
+      phoneAlt: 'PAM daily tracker screen',
+    },
+  },
+  {
+    id: 'milestones',
+    label: "I'm worried I'm missing milestones or forgetting to track development",
+    result: {
+      tag: 'Milestone & Baby Tracker',
+      heading: 'Every moment deserves to be remembered.',
+      tagline: 'PAM tracks your child\'s journey so you don\'t have to hold it all in your head.',
+      body: 'From the first smile to the first steps, log and celebrate every milestone without the admin overwhelm. It\'s all there when you want to look back.',
+      gradient: 'linear-gradient(140deg,#C5A085,#8B3A50 60%,#6D0015)',
+      phone: '/phone-family.jpg',
+      phoneAlt: 'PAM family tracker screen',
+    },
+  },
+  {
+    id: 'memories',
+    label: "I want to capture memories but life is too chaotic to keep up",
+    result: {
+      tag: 'Memories & Voice Notes',
+      heading: 'The little moments are slipping by.',
+      tagline: 'PAM makes capturing memories as easy as a single tap.',
+      body: 'A voice note, a photo, a thought — tucked away in your family\'s story before it disappears. The sounds that are gone by week six. Future you will thank you.',
+      gradient: 'linear-gradient(140deg,#7E0F25,#4A0010 60%,#260008)',
+      phone: '/phone-memories.jpg',
+      phoneAlt: 'PAM memories screen',
+    },
+  },
+  {
+    id: 'scattered',
+    label: "Everything is scattered across apps, notes and my head — I need one place",
+    result: {
+      tag: 'Family Dashboard',
+      heading: 'One calm place for everything.',
+      tagline: 'PAM brings it all together so your brain can finally let go.',
+      body: 'Appointments, checklists, trackers, memories, family info — all in one app, built for the way parenting actually works. No more juggling twelve tabs.',
+      gradient: 'linear-gradient(140deg,#F1DBDC,#C5A085 50%,#6D0015)',
+      phone: '/phone-home.jpg',
+      phoneAlt: 'PAM home dashboard screen',
+    },
+  },
+]
+
+export default function ChaosQuiz() {
+  const [selected, setSelected] = useState<string | null>(null)
+
+  const result = OPTIONS.find((o) => o.id === selected)?.result ?? null
+
+  return (
+    <section className="chaosquiz">
+      <div className="container">
+        <div className="sec-head">
+          <span className="eyebrow">Find your fit</span>
+          <h2>What kind of family admin <em>chaos</em> is yours?</h2>
+          <p className="quiz-intro">Pick the one that feels most like you — we&apos;ll show you exactly how PAM helps.</p>
+        </div>
+
+        <div className="quiz-body">
+          {/* OPTIONS */}
+          <div className={`quiz-options${result ? ' quiz-options--hidden' : ''}`}>
+            {OPTIONS.map((o) => (
+              <button
+                key={o.id}
+                className={`quiz-opt${selected === o.id ? ' quiz-opt--selected' : ''}`}
+                onClick={() => setSelected(o.id)}
+              >
+                <span className="quiz-opt-check">
+                  <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" /></svg>
+                </span>
+                {o.label}
+              </button>
+            ))}
+          </div>
+
+          {/* RESULT */}
+          {result && (
+            <div className="quiz-result">
+              <div className="quiz-result-text">
+                <div className="quiz-result-tag" style={{ background: result.gradient }}>
+                  {result.tag}
+                </div>
+                <h3 className="quiz-result-heading">{result.heading}</h3>
+                <p className="quiz-result-tagline">{result.tagline}</p>
+                <p className="quiz-result-body">{result.body}</p>
+                <div className="quiz-result-actions">
+                  <Link href="#founding" className="quiz-cta">
+                    Get early access
+                    <span className="arrow">
+                      <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                    </span>
+                  </Link>
+                  <button className="quiz-restart" onClick={() => setSelected(null)}>
+                    ↩ Try another
+                  </button>
+                </div>
+              </div>
+
+              <div className="quiz-phone-wrap">
+                <div className="quiz-phone-frame">
+                  <div className="quiz-phone-notch" />
+                  <div className="quiz-phone-screen">
+                    <Image
+                      src={result.phone}
+                      alt={result.phoneAlt}
+                      fill
+                      sizes="260px"
+                      style={{ objectFit: 'cover', objectPosition: 'top' }}
+                    />
+                  </div>
+                  <div className="quiz-phone-btn quiz-phone-btn--side" />
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  )
+}

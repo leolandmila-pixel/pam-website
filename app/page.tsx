@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { homepageMetadata } from './metadata'
 import PhoneShowcase from '@/components/PhoneShowcase'
 import FoundingListForm from '@/components/FoundingListForm'
+import ChaosQuiz from '@/components/ChaosQuiz'
 
 export const metadata: Metadata = homepageMetadata
 
@@ -72,92 +72,23 @@ export default function HomePage() {
           </div>
           <div className="life-grid">
             <article className="life-card life-card--organise">
-<div className="life-headline"><h3>Stay Organised</h3></div>
+              <div className="life-headline"><h3>Stay Organised</h3></div>
               <p className="life-body">Never miss an appointment, self care or important date.</p>
             </article>
             <article className="life-card life-card--prepare">
-<div className="life-headline"><h3>Stay Prepared</h3></div>
+              <div className="life-headline"><h3>Stay Prepared</h3></div>
               <p className="life-body">Keep essential family information at your fingertips.</p>
             </article>
             <article className="life-card life-card--connect">
-<div className="life-headline"><h3>Stay Connected</h3></div>
+              <div className="life-headline"><h3>Stay Connected</h3></div>
               <p className="life-body">Share updates, milestones, and memories with the people who matter.</p>
             </article>
           </div>
         </div>
       </section>
 
-      {/* ============== A DAY IN THE LIFE ============== */}
-      <section className="dayinlife">
-        <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">A day in the life</span>
-            <h2>Calm, <em>daily flows</em> that stick.</h2>
-          </div>
-          <div className="flow-list">
-            <article className="flow-row">
-              <div className="flow-col">
-                <div className="flow-image flow-image--morning">
-                  <span className="flow-pill">Morning · Checklist</span>
-                </div>
-              </div>
-              <div className="flow-content">
-                <h3>Morning</h3>
-                <h4>A clear start</h4>
-                <p>Wake to a day already laid out — what&apos;s due, what&apos;s done, who needs what. The remembering&apos;s handled, so you can simply be present.</p>
-              </div>
-            </article>
-            <article className="flow-row">
-              <div className="flow-col">
-                <div className="flow-image flow-image--midday">
-                  <span className="flow-pill">Midday · Tracker</span>
-                </div>
-              </div>
-              <div className="flow-content">
-                <h3>Midday</h3>
-                <h4>A shared pause</h4>
-                <p>While bub naps, a few taps keeps the day captured — a feed here, a sleep there. Your partner sees every entry, so you&apos;re never the only one keeping track.</p>
-              </div>
-            </article>
-            <article className="flow-row">
-              <div className="flow-col">
-                <div className="flow-image flow-image--afternoon">
-                  <span className="flow-pill">Afternoon · Calendar</span>
-                </div>
-              </div>
-              <div className="flow-content">
-                <h3>Afternoon</h3>
-                <h4>The week, in hand</h4>
-                <p>As the afternoon softens, look to what&apos;s coming — the next check-up, an appointment, a reminder you set weeks ago. Tomorrow arrives already handled.</p>
-              </div>
-            </article>
-            <article className="flow-row">
-              <div className="flow-col">
-                <div className="flow-image flow-image--evening">
-                  <span className="flow-pill">Evening · Memories</span>
-                </div>
-              </div>
-              <div className="flow-content">
-                <h3>Evening</h3>
-                <h4>A soft landing</h4>
-                <p>Wind down and let the day settle — a voice note, a photo tucked into the baby book, a glance at what tomorrow holds. Then rest, properly.</p>
-              </div>
-            </article>
-            <article className="flow-row">
-              <div className="flow-col">
-                <div className="flow-image flow-image--everyday">
-                  <span className="flow-pill">Every Day · Family Info</span>
-                </div>
-              </div>
-              <div className="flow-content">
-                <h3>Every Day</h3>
-                <h4>Your story, gathering</h4>
-                <p>Through it all, PAM works quietly in the background — holding the details, easing the admin, gathering the moments. Bit by bit, your family&apos;s story takes shape.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+      {/* ============== CHAOS QUIZ ============== */}
+      <ChaosQuiz />
 
       {/* ============== TESTIMONIALS ============== */}
       <section>

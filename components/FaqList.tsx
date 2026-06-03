@@ -12,8 +12,7 @@ const items: Faq[] = [
   { cat: 'family', q: 'Can my partner share the same account?', a: 'Yes. PAM is built for shared parenting — partners, co-parents and trusted carers can all stay in sync on the same family, so the load is genuinely shared.' },
   { cat: 'family', q: 'Does PAM work for non-traditional families?', a: 'Absolutely. Single parents, same-sex parents, blended families, grandparents and carers — PAM flexes around however your family is shaped.' },
   { cat: 'family', q: 'What ages is PAM for?', a: "From the newborn fog through to the school years. PAM's lists and content grow with your child, surfacing what's relevant at every stage." },
-  { cat: 'askpam', q: 'What is Ask PAM — is it medical advice?', a: "Ask PAM is a warm, always-on parenting assistant for everyday questions and next steps. It's general guidance, not medical advice — for health concerns, always speak with your GP, MCH nurse or health professional." },
-  { cat: 'launch', q: 'Can I sync my existing calendar?', a: 'Yes — PAM can sync with your calendar so appointments and reminders sit alongside everything else you\'re already juggling.' },
+{ cat: 'launch', q: 'Can I sync my existing calendar?', a: 'Yes — PAM can sync with your calendar so appointments and reminders sit alongside everything else you\'re already juggling.' },
   { cat: 'launch', q: 'Which devices does PAM support?', a: "PAM is built for iPhone and Android, with everything synced securely across your family's devices." },
 ]
 

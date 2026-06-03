@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { storiesMetadata } from '../metadata'
 import { stories } from './stories-data'
@@ -27,9 +28,16 @@ export default function StoriesPage() {
             {stories.map((s) => {
               const card = (
                 <article className={`story${s.published ? '' : ' is-coming-soon'}`}>
-                  <div className={`cover ${s.cover}`}>
-                    <b>{s.label}</b>
-                  </div>
+                  {s.heroImage ? (
+                    <div className="cover cover-photo">
+                      <Image src={s.heroImage} alt={s.title} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+                      <b>{s.label}</b>
+                    </div>
+                  ) : (
+                    <div className={`cover ${s.cover}`}>
+                      <b>{s.label}</b>
+                    </div>
+                  )}
                   <div className="body">
                     <span className="tag">{s.tag}</span>
                     <h3>{s.title}</h3>

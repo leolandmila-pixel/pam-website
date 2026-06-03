@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { stories, getStoryBySlug } from '../stories-data'
@@ -40,9 +41,25 @@ export default async function StoryPage({
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 20 }}>
         <div className="container" style={{ maxWidth: 760 }}>
           <Link href="/stories" className="story-back">← All stories</Link>
-          <div className={`story-cover ${story.cover}`}>
-            <b>{story.label}</b>
-          </div>
+          {story.heroImage ? (
+            <div className="story-cover-photo">
+              <Image
+                src={story.heroImage}
+                alt={story.title}
+                fill
+                sizes="(max-width: 768px) 100vw, 760px"
+                style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+                priority
+              />
+              <div className="story-cover-photo-label">
+                <b>{story.label}</b>
+              </div>
+            </div>
+          ) : (
+            <div className={`story-cover ${story.cover}`}>
+              <b>{story.label}</b>
+            </div>
+          )}
           <div className="story-meta">
             <span className="tag">{story.tag}</span>
             <span className="dot">·</span>

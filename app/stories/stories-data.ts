@@ -23,6 +23,7 @@ export type Story = {
   body: string
   readMinutes: number
   published: boolean
+  heroImage?: string
   content?: StoryContent
 }
 
@@ -247,6 +248,56 @@ export const stories: Story[] = [
           'Thirty-two seconds. Milk-drunk, grunty, already almost asleep.',
           "She's four now. She hasn't made that sound in years. I didn't know when I recorded it that it would be the last time I heard it — you never do.",
           "Open PAM. Press record. You don't need a reason.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-lauren',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Finding Beauty in the Chaos of Motherhood',
+    body: "Lauren shares her honest reflections on motherhood, the invisible load many mums carry, and the version of herself she's discovered along the way.",
+    readMinutes: 4,
+    published: true,
+    heroImage: '/lauren-story.jpeg',
+    content: {
+      hook: [
+        "Every mum's journey is different, but one thing remains the same — motherhood has a way of teaching us things we never expected about ourselves.",
+        "In this edition of Real Mums, Real Stories, Lauren shares her honest reflections on the realities of motherhood, the invisible load many mums carry, and the version of herself she's discovered along the way.",
+      ],
+      sections: [
+        {
+          heading: "What's one thing motherhood taught you about yourself?",
+          paragraphs: [
+            "Motherhood has taught me how capable I really am. I'm capable of more than I ever gave myself credit for. I can hold a lot at once, be present as a mum, build something for myself, juggle the everyday chaos and still keep showing up. It's definitely taught me to trust myself more.",
+          ],
+        },
+        {
+          heading: "What's the hardest invisible part of motherhood?",
+          paragraphs: [
+            "That we really do carry so much. The mental load, the household load, the remembering, planning, organising. So much of motherhood happens behind the scenes. And while we do it out of love, that doesn't mean we don't need support too.",
+          ],
+        },
+        {
+          heading: "Describe motherhood in one sentence.",
+          paragraphs: [
+            "For me, motherhood feels like beautiful chaos. It can be exhausting and overwhelming in the really hard moments, but somehow even in the middle of that there's so much beauty too.",
+          ],
+        },
+        {
+          heading: "What's something your pre-mum self would never understand now?",
+          paragraphs: [
+            "That you can lose parts of yourself for a little while after becoming a mum… and that can feel really strange. But slowly, a new version of you starts to come through, and for me I actually think I like this version of myself even more.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "Thank you, Lauren.",
+        paragraphs: [
+          "At PAM, we believe every mum has a story worth telling. Real Mums, Real Stories is a space for honest conversations, shared experiences, and the beautifully imperfect realities of motherhood. Through these stories, we hope mums feel seen, supported, and reminded that they're not navigating this journey alone.",
+          "Want to share your story? We'd love to hear from you.",
         ],
       },
     },

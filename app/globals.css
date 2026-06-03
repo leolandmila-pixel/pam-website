@@ -241,7 +241,7 @@ section{padding:96px 0}
 /* ============== ABOUT ============== */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
 .about-story p{color:var(--ink-soft);font-size:1.06rem;margin-bottom:18px}
-.about-art{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%);display:grid;place-items:center;box-shadow:var(--shadow-md)}
+.about-art{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:2/3;background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%);display:grid;place-items:center;box-shadow:var(--shadow-md)}
 .about-art .mark{font-family:var(--display);font-size:7rem;color:rgba(255,255,255,0.92);font-weight:600;letter-spacing:0.04em}
 .about-art .mark small{display:block;font-family:var(--sans);font-size:0.85rem;letter-spacing:0.3em;text-transform:uppercase;text-align:center;margin-top:8px;font-weight:600;color:rgba(255,255,255,0.8)}
 

@@ -17,24 +17,24 @@ export default function ContactPage() {
           </div>
           <div className="contact-grid">
             <div className="contact-info">
-              <div className="detail">
+              <a className="detail" href="mailto:hello@parentaladminmanager.com">
                 <div className="d-ico">
                   <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M4 7l8 6 8-6" /></svg>
                 </div>
                 <div>
                   <b>Email us</b>
-                  <span>hello@pamapp.com.au</span>
+                  <span>hello@parentaladminmanager.com</span>
                 </div>
-              </div>
-              <div className="detail">
+              </a>
+              <a className="detail" href="https://instagram.com/parentaladminmanager" target="_blank" rel="noreferrer">
                 <div className="d-ico">
                   <svg viewBox="0 0 24 24"><path d="M5 6.5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9.5L5 19z" /></svg>
                 </div>
                 <div>
                   <b>Social</b>
-                  <span>@pam.app on Instagram &amp; TikTok</span>
+                  <span>@parentaladminmanager on Instagram</span>
                 </div>
-              </div>
+              </a>
               <div className="detail">
                 <div className="d-ico">
                   <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a7 7 0 0 1 14 0c0 5.5-7 10-7 10z" /><circle cx="12" cy="11" r="2.5" /></svg>

@@ -34,14 +34,6 @@ export default function HomePage() {
             <p className="hero-sub">
               PAM is the assistant every parent deserves — built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what matters most.
             </p>
-            <div className="floating-cta-wrap" style={{ marginTop: 32 }}>
-              <Link href="#founding" className="floating-cta">
-                Start your free 14-day PAM trial today
-                <span className="arrow">
-                  <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </span>
-              </Link>
-            </div>
           </div>
         </div>
         <a href="#showcase" className="scroll-down" aria-label="Scroll to next section">
@@ -104,8 +96,10 @@ export default function HomePage() {
           </div>
           <div className="flow-list">
             <article className="flow-row">
-              <div className="flow-image flow-image--morning">
-                <span className="flow-pill">Morning · Checklist</span>
+              <div className="flow-col">
+                <div className="flow-image flow-image--morning">
+                  <span className="flow-pill">Morning · Checklist</span>
+                </div>
               </div>
               <div className="flow-content">
                 <h3>Morning</h3>
@@ -114,8 +108,10 @@ export default function HomePage() {
               </div>
             </article>
             <article className="flow-row">
-              <div className="flow-image flow-image--midday">
-                <span className="flow-pill">Midday · Tracker</span>
+              <div className="flow-col">
+                <div className="flow-image flow-image--midday">
+                  <span className="flow-pill">Midday · Tracker</span>
+                </div>
               </div>
               <div className="flow-content">
                 <h3>Midday</h3>
@@ -124,8 +120,10 @@ export default function HomePage() {
               </div>
             </article>
             <article className="flow-row">
-              <div className="flow-image flow-image--afternoon">
-                <span className="flow-pill">Afternoon · Calendar</span>
+              <div className="flow-col">
+                <div className="flow-image flow-image--afternoon">
+                  <span className="flow-pill">Afternoon · Calendar</span>
+                </div>
               </div>
               <div className="flow-content">
                 <h3>Afternoon</h3>
@@ -134,8 +132,10 @@ export default function HomePage() {
               </div>
             </article>
             <article className="flow-row">
-              <div className="flow-image flow-image--evening">
-                <span className="flow-pill">Evening · Memories</span>
+              <div className="flow-col">
+                <div className="flow-image flow-image--evening">
+                  <span className="flow-pill">Evening · Memories</span>
+                </div>
               </div>
               <div className="flow-content">
                 <h3>Evening</h3>
@@ -144,8 +144,10 @@ export default function HomePage() {
               </div>
             </article>
             <article className="flow-row">
-              <div className="flow-image flow-image--everyday">
-                <span className="flow-pill">Every Day · Family Info</span>
+              <div className="flow-col">
+                <div className="flow-image flow-image--everyday">
+                  <span className="flow-pill">Every Day · Family Info</span>
+                </div>
               </div>
               <div className="flow-content">
                 <h3>Every Day</h3>

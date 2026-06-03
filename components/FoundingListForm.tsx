@@ -36,7 +36,7 @@ export default function FoundingListForm() {
           required
         />
         <button type="submit" disabled={submitting}>
-          {submitting ? 'Sending…' : 'Notify Me'}
+          {submitting ? 'Sending…' : 'Join Now'}
         </button>
       </form>
       <p className="founding-note">{note}</p>

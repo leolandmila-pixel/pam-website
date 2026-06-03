@@ -59,7 +59,7 @@ em,.em{font-style:italic;color:var(--wine)}
 
 /* ============== NAV ============== */
 .nav-wrapper{position:sticky;top:0;z-index:100;padding:18px 0;background:linear-gradient(var(--cream) 62%, transparent)}
-.nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:32px;margin:0 auto;padding:0 36px}
+.nav{display:grid;grid-template-columns:max-content 1fr max-content;align-items:center;gap:32px;margin:0 auto;padding:0 36px}
 .nav>.logo{justify-self:start;grid-column:1}
 .nav>.nav-pills{justify-self:center;grid-column:2}
 .nav>.store-buttons{justify-self:end;grid-column:3}
@@ -285,7 +285,8 @@ section{padding:96px 0}
 
 /* ============== CONTACT ============== */
 .contact-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:start}
-.contact-info .detail{display:flex;gap:16px;align-items:flex-start;margin-bottom:26px}
+.contact-info .detail{display:flex;gap:16px;align-items:flex-start;margin-bottom:26px;text-decoration:none;cursor:pointer}
+.contact-info a.detail:hover{opacity:0.8}
 .contact-info .d-ico{width:46px;height:46px;border-radius:13px;background:var(--wine);display:grid;place-items:center;flex-shrink:0}
 .contact-info .d-ico svg{width:22px;height:22px;stroke:#fff;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}
 .contact-info .detail b{display:block;font-size:0.95rem;color:var(--ink)}
@@ -400,13 +401,15 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 /* ============== A DAY IN THE LIFE (timeline zigzag) ============== */
 .dayinlife{padding:96px 0}
 .dayinlife .sec-head{max-width:none;margin-bottom:64px}
-.flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:72px}
+.flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:52px}
 .flow-list::before{
   content:"";position:absolute;left:50%;top:40px;bottom:40px;width:0;
   border-left:2px dashed rgba(125,8,32,0.25);z-index:0
 }
-.flow-row{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:48px;position:relative}
-.flow-row>*{flex:1 1 0;min-width:0}
+.flow-row{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:36px;position:relative}
+.flow-col,.flow-content{flex:1 1 0;min-width:0}
+.flow-col{display:flex;justify-content:flex-end}
+.flow-row:nth-child(even) .flow-col{justify-content:flex-start}
 .flow-row::before{
   content:"";position:absolute;left:50%;top:50%;
   width:14px;height:14px;border-radius:50%;background:var(--wine);
@@ -414,7 +417,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 }
 .flow-image{
   position:relative;border-radius:24px;aspect-ratio:4/3;overflow:hidden;
-  box-shadow:var(--shadow-md);max-width:460px;width:100%
+  box-shadow:var(--shadow-md);max-width:380px;width:100%
 }
 .flow-pill{
   position:absolute;top:18px;left:18px;
@@ -422,7 +425,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   color:#fff;border-radius:100px;padding:7px 16px;
   font-family:var(--sans);font-weight:500;font-size:0.82rem;letter-spacing:0.02em
 }
-.flow-content{padding-left:56px}
+.flow-content{padding-left:72px}
 .flow-content h3{
   font-family:var(--display);font-weight:400;
   font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin-bottom:14px;color:var(--ink)
@@ -436,7 +439,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 /* Even rows reverse direction so image lands on right side (KIC-style alternation) */
 .flow-row:nth-child(even){flex-direction:row-reverse}
 .flow-row:nth-child(even)>.flow-content{
-  padding-left:0;padding-right:56px;text-align:right
+  padding-left:0;padding-right:72px;text-align:right
 }
 .flow-row:nth-child(even) .flow-content p{margin-left:auto}
 
@@ -451,9 +454,11 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   .dayinlife{padding:70px 0}
   .flow-list::before{display:none}
   .flow-list{gap:48px}
-  .flow-row,.flow-row--reverse{grid-template-columns:1fr;gap:22px}
-  .flow-row>.flow-image,.flow-row--reverse>.flow-image{grid-column:1;margin:0}
-  .flow-row>.flow-content,.flow-row--reverse>.flow-content{grid-column:1;padding:0}
+  .flow-row{flex-direction:column;gap:22px}
+  .flow-col{justify-content:center}
+  .flow-row:nth-child(even){flex-direction:column}
+  .flow-row:nth-child(even) .flow-col{justify-content:center}
+  .flow-content,.flow-row:nth-child(even)>.flow-content{padding:0;text-align:left}
   .flow-row::before{display:none}
 }
 

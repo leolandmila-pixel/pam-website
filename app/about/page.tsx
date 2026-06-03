@@ -22,7 +22,7 @@ export default function AboutPage() {
             </div>
             <div className="about-art">
               <Image
-                src="/oly-and-ash.jpg"
+                src="/DSC01229.JPG"
                 alt="Oly and Ash — the mums and founders behind PAM"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

@@ -42,28 +42,23 @@ export default function AboutPage() {
           </div>
           <div className="values-grid">
             <div className="value value--morning">
-              <h3>We see you</h3>
-              <p className="v-tagline">The whole you — not just the parent.</p>
+              <div className="value-head"><h3>We see you</h3><p className="v-tagline">The whole you — not just the parent.</p></div>
               <p>Not the version of you that has it together. The one at 3am with cracked nipples and a racing mind. The one who loves her baby and misses her old life in the same breath. PAM is built for that person. We don&apos;t look away from the hard parts — we design for them.</p>
             </div>
             <div className="value value--midday">
-              <h3>Helpful is the point</h3>
-              <p className="v-tagline">We exist to make your life genuinely easier.</p>
+              <div className="value-head"><h3>Helpful is the point</h3><p className="v-tagline">We exist to make your life genuinely easier.</p></div>
               <p>Not easier in theory. Easier today, in this moment, with this problem. Every feature, every article, every tool we build is measured against one question: does this actually help? If it doesn&apos;t, it doesn&apos;t belong here.</p>
             </div>
             <div className="value value--afternoon">
-              <h3>Calm in the chaos</h3>
-              <p className="v-tagline">Less noise. More clarity.</p>
+              <div className="value-head"><h3>Calm in the chaos</h3><p className="v-tagline">Less noise. More clarity.</p></div>
               <p>New parenthood comes with enough overwhelm. PAM&apos;s job is to reduce it — to be the steady, quiet thing in a loud season. We don&apos;t add complexity. We cut through it.</p>
             </div>
             <div className="value value--evening">
-              <h3>You should feel capable, not compared</h3>
-              <p className="v-tagline">PAM lifts you up. Full stop.</p>
+              <div className="value-head"><h3>You should feel capable, not compared</h3><p className="v-tagline">PAM lifts you up. Full stop.</p></div>
               <p>There&apos;s no perfect timeline here, no implied standard you&apos;re falling short of. We write, design, and build in a way that leaves every mum feeling more confident walking away than she did arriving. Empowered, not judged.</p>
             </div>
             <div className="value value--everyday">
-              <h3>The little things are the big things</h3>
-              <p className="v-tagline">We take it all seriously — because you do.</p>
+              <div className="value-head"><h3>The little things are the big things</h3><p className="v-tagline">We take it all seriously — because you do.</p></div>
               <p>The sounds that disappear by week six. The mental load that nobody sees. The milestone that happened on a Tuesday with no one watching. PAM exists because these things matter enormously, even when the world doesn&apos;t treat them that way.</p>
             </div>
           </div>

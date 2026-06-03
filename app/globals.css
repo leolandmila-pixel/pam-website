@@ -247,21 +247,19 @@ section{padding:96px 0}
 .about-art .mark{font-family:var(--display);font-size:7rem;color:rgba(255,255,255,0.92);font-weight:600;letter-spacing:0.04em}
 .about-art .mark small{display:block;font-family:var(--sans);font-size:0.85rem;letter-spacing:0.3em;text-transform:uppercase;text-align:center;margin-top:8px;font-weight:600;color:rgba(255,255,255,0.8)}
 
-.values-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:22px;margin-top:24px}
-.value{border:none;border-radius:20px;padding:28px 26px;box-shadow:0 14px 36px rgba(74,7,19,0.15);display:flex;flex-direction:column;color:var(--cream);text-align:center}
-.value:nth-child(1){grid-column:1/span 2}
-.value:nth-child(2){grid-column:3/span 2}
-.value:nth-child(3){grid-column:5/span 2}
-.value:nth-child(4){grid-column:2/span 2}
-.value:nth-child(5){grid-column:4/span 2}
-.value h3{font-family:var(--montserrat);font-weight:700;font-size:1.1rem;margin-bottom:8px;line-height:1.3;color:var(--cream);letter-spacing:0.01em}
-.value .v-tagline{font-family:var(--display);font-style:italic;color:rgba(255,251,248,0.95);font-size:1.02rem;line-height:1.4;margin:0 0 16px}
-.value p{font-size:0.92rem;color:rgba(255,251,248,0.85);line-height:1.6;margin:0}
-.value--morning{background:linear-gradient(140deg,#F4E2E3 0%,#C68A8E 70%,#9A1E37 100%)}
-.value--midday{background:linear-gradient(150deg,#E6D3B8 0%,#B06E72 60%,#9A1E37 100%)}
-.value--afternoon{background:linear-gradient(140deg,#C5A085 0%,#7E0F25 60%,#6D0015 100%)}
-.value--evening{background:linear-gradient(155deg,#7E0F25 0%,#4A0010 60%,#260008 100%)}
-.value--everyday{background:linear-gradient(150deg,#F1DBDC 0%,#C5A085 50%,#6D0015 100%)}
+.values-grid{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line);margin-top:40px;counter-reset:values}
+.value{counter-increment:values;background:none;border-radius:0;box-shadow:none;color:var(--ink);border-bottom:1px solid var(--line);padding:30px 0;display:grid;grid-template-columns:52px 1fr 1.6fr;grid-template-rows:auto auto;gap:0 40px}
+.value:nth-child(n){grid-column:auto}
+.value::before{content:"0" counter(values);font-family:var(--display);font-style:italic;font-size:1.6rem;color:var(--wine);grid-column:1;grid-row:1/3;padding-top:4px}
+.value-head{grid-column:2;grid-row:1/3;align-self:center;border-radius:14px;padding:14px 22px;color:#fff}
+.value--morning .value-head{background:linear-gradient(140deg,#C68A8E,#9A1E37)}
+.value--midday .value-head{background:linear-gradient(150deg,#B06E72,#9A1E37)}
+.value--afternoon .value-head{background:linear-gradient(140deg,#C5A085,#7E0F25)}
+.value--evening .value-head{background:linear-gradient(155deg,#7E0F25,#4A0010)}
+.value--everyday .value-head{background:linear-gradient(150deg,#C5A085,#6D0015)}
+.value h3{font-family:var(--display);font-weight:400;font-size:1.1rem;line-height:1.2;color:#fff;margin:0 0 6px}
+.value .v-tagline{font-family:var(--display);font-style:italic;font-size:0.88rem;color:rgba(255,251,248,0.88);margin:0;line-height:1.4}
+.value>p:last-child{grid-column:3;grid-row:1/3;font-size:0.95rem;color:var(--ink-soft);line-height:1.65;margin:0;align-self:center}
 
 .founders-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:24px}
 .founder{display:flex;gap:22px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow-sm)}
@@ -577,7 +575,8 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   .nav-pills.open .nav-pill{text-align:center;padding:13px}
   .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:44px}
   .steps,.features-grid,.testimonials-grid,.blog-grid,.founders-grid{grid-template-columns:1fr}
-  .values-grid{grid-template-columns:1fr 1fr}
+  .value{grid-template-columns:40px 1fr;grid-template-rows:auto auto auto}
+  .value p:last-child{grid-column:2;grid-row:3;margin-top:10px}
   .value:nth-child(n){grid-column:auto}
   .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
   .form-row{grid-template-columns:1fr}
@@ -588,7 +587,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 }
 @media (max-width:560px){
   .container,.nav{padding-left:20px;padding-right:20px}
-  .values-grid{grid-template-columns:1fr}
+  .value{gap:0 24px}
   .footer-grid{grid-template-columns:1fr}
   .presignup{flex-direction:column;border-radius:18px}
   .presignup input,.presignup button{border-radius:14px}

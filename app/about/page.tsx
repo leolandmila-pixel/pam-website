@@ -41,33 +41,30 @@ export default function AboutPage() {
             <h2>The values <span className="em">behind</span> PAM.</h2>
           </div>
           <div className="values-grid">
-            <div className="value">
-              <div className="v-ico">
-                <svg viewBox="0 0 24 24"><path d="M3 12h4l2-7 4 14 2-7h4" /></svg>
-              </div>
-              <h3>Calm by design</h3>
-              <p>Less noise, fewer notifications. Only what matters, exactly when it matters.</p>
+            <div className="value value--morning">
+              <h3>We see you</h3>
+              <p className="v-tagline">The whole you — not just the parent.</p>
+              <p>Not the version of you that has it together. The one at 3am with cracked nipples and a racing mind. The one who loves her baby and misses her old life in the same breath. PAM is built for that person. We don&apos;t look away from the hard parts — we design for them.</p>
             </div>
-            <div className="value">
-              <div className="v-ico">
-                <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z" /><path d="M9 12l2 2 4-4" /></svg>
-              </div>
-              <h3>Privacy first</h3>
-              <p>Your family&apos;s data is yours. Always encrypted, never sold — full stop.</p>
+            <div className="value value--midday">
+              <h3>Helpful is the point</h3>
+              <p className="v-tagline">We exist to make your life genuinely easier.</p>
+              <p>Not easier in theory. Easier today, in this moment, with this problem. Every feature, every article, every tool we build is measured against one question: does this actually help? If it doesn&apos;t, it doesn&apos;t belong here.</p>
             </div>
-            <div className="value">
-              <div className="v-ico">
-                <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" /><circle cx="17" cy="9" r="2.4" /><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5M15.5 18.5c0-2 1.6-3.4 4-3.4" /></svg>
-              </div>
-              <h3>Built by parents</h3>
-              <p>Every feature comes from a real 2am moment we&apos;ve actually lived through.</p>
+            <div className="value value--afternoon">
+              <h3>Calm in the chaos</h3>
+              <p className="v-tagline">Less noise. More clarity.</p>
+              <p>New parenthood comes with enough overwhelm. PAM&apos;s job is to reduce it — to be the steady, quiet thing in a loud season. We don&apos;t add complexity. We cut through it.</p>
             </div>
-            <div className="value">
-              <div className="v-ico">
-                <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z" /></svg>
-              </div>
-              <h3>For every family</h3>
-              <p>However your family is shaped, PAM fits gently around it.</p>
+            <div className="value value--evening">
+              <h3>You should feel capable, not compared</h3>
+              <p className="v-tagline">PAM lifts you up. Full stop.</p>
+              <p>There&apos;s no perfect timeline here, no implied standard you&apos;re falling short of. We write, design, and build in a way that leaves every mum feeling more confident walking away than she did arriving. Empowered, not judged.</p>
+            </div>
+            <div className="value value--everyday">
+              <h3>The little things are the big things</h3>
+              <p className="v-tagline">We take it all seriously — because you do.</p>
+              <p>The sounds that disappear by week six. The mental load that nobody sees. The milestone that happened on a Tuesday with no one watching. PAM exists because these things matter enormously, even when the world doesn&apos;t treat them that way.</p>
             </div>
           </div>
         </div>

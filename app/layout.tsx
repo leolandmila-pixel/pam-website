@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Instrument_Serif } from 'next/font/google'
+import { Inter, Instrument_Serif, Montserrat } from 'next/font/google'
 import Script from 'next/script'
 import { baseMetadata } from './metadata'
 import { organizationSchema, mobileAppSchema } from './structured-data'
@@ -22,6 +22,13 @@ const instrumentSerif = Instrument_Serif({
   display: 'swap',
 })
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-montserrat',
+  display: 'swap',
+})
+
 export const metadata: Metadata = baseMetadata
 
 export default function RootLayout({
@@ -30,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable}`}>
+    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable}`}>
       <body>
         <Script
           id="organization-schema"

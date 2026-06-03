@@ -15,10 +15,19 @@ export default function FoundingListForm() {
     }
     setSubmitting(true)
     try {
-      // TODO: wire to Ortto audience or n8n webhook
-      await new Promise((r) => setTimeout(r, 400))
-      setEmail('')
-      setNote("You're on the list! We'll be in touch the moment PAM opens.")
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      })
+      if (res.ok) {
+        setEmail('')
+        setNote("You're on the list! Check your inbox for a welcome email from us.")
+      } else {
+        setNote("Something went wrong — please try again or email us directly.")
+      }
+    } catch {
+      setNote("Something went wrong — please try again or email us directly.")
     } finally {
       setSubmitting(false)
     }

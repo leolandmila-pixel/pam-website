@@ -62,9 +62,9 @@ export const homepageMetadata: Metadata = {
 }
 
 export const aboutMetadata: Metadata = {
-  title: 'About — Oly, Ash, and the story behind PAM.',
+  title: 'About — Ash, Oly, and the story behind PAM.',
   description:
-    "Meet Oly and Ash — two mums of 15-month-olds (Leo and Mila) who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
+    "Meet Ash and Oly — two mums of 15-month-olds (Mila and Leo) who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
   alternates: { canonical: 'https://pamapp.com.au/about' },
   openGraph: {
     ...baseMetadata.openGraph,

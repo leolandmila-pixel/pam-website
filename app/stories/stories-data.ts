@@ -37,6 +37,7 @@ export const stories: Story[] = [
     body: 'The forms, the feelings, the feeds. A gentle, honest guide to surviving (and savouring) the fourth trimester.',
     readMinutes: 7,
     published: true,
+    heroImage: '/week-one-hero.jpg',
     content: {
       hook: [
         "Nobody warns you that week one doesn't feel like the movies. You're not glowing. You're bleeding through a maternity pad the size of a small country, your nipples are cracked, and you've cried three times before 9am — once because the baby wouldn't latch, once because they finally did, and once because someone sent flowers and the card said enjoy every moment.",
@@ -105,6 +106,7 @@ export const stories: Story[] = [
     body: "One mum's story of sharing the load — and what changed when she stopped holding it all in her head.",
     readMinutes: 8,
     published: true,
+    heroImage: '/mental-load-hero.jpg',
     content: {
       hook: [
         "It's 11pm. Your partner is asleep. You're lying in the dark making a mental note to book the four-month needles, reply to the maternal health nurse, order more nappy rash cream, check if the pram rain cover is still in the garage, and remember to tell your mum what time she's coming on Saturday.",
@@ -182,6 +184,7 @@ export const stories: Story[] = [
     body: 'Why capturing the little sounds — first giggles, first words — matters more than the perfect photo.',
     readMinutes: 6,
     published: true,
+    heroImage: '/voice-note-hero.jpg',
     content: {
       hook: [
         "I have 847 photos from my daughter's first month. I couldn't tell you what most of them are — blurry onesies, the top of her head, one very unflattering angle of me at 4am.",

@@ -13,9 +13,9 @@ export default function AboutPage() {
             <div className="about-story">
               <span className="eyebrow">Our Story</span>
               <h1 className="display-xl" style={{ fontSize: 'clamp(2.4rem,4.6vw,3.6rem)', margin: '18px 0 22px' }}>
-                We&apos;re Oly &amp; Ash<br /><em>Mums, Founders<br />and Best Friends</em>
+                We&apos;re Ash &amp; Oly<br /><em>Mums, Founders<br />and Best Friends</em>
               </h1>
-              <p>We both have 15-month-olds — Mila (Ash) and Leo (Oly) — and like so many mums, we found ourselves in the thick of it together.</p>
+              <p>We both have 15-month-olds: Mila (Ash) and Leo (Oly) and like so many mums, we found ourselves in the thick of it together.</p>
               <p>The love, the chaos, the exhaustion… and the constant mental load no one really prepares you for. Somewhere between the feeds, the naps, the appointments and the endless to-do lists, we kept coming back to the same thought: <em>why are we trying to hold all of this on our own?</em></p>
               <p>We created PAM because we knew other mums were feeling it too. The remembering. The organising. The invisible weight that sits in your mind every single day.</p>
               <p>PAM is our way of supporting mums — not by adding more, but by taking something off your plate. Because you deserve to be present for the moments that matter most.</p>
@@ -23,7 +23,7 @@ export default function AboutPage() {
             <div className="about-art">
               <Image
                 src="/DSC01229.JPG"
-                alt="Oly and Ash — the mums and founders behind PAM"
+                alt="Ash and Oly — the mums and founders behind PAM"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: 'cover' }}

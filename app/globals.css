@@ -273,7 +273,7 @@ section{padding:96px 0}
 .value>p:last-child{grid-column:3;grid-row:1/3;font-size:0.88rem;color:var(--ink-soft);line-height:1.6;margin:0;align-self:center}
 
 .founders-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:24px}
-.founder{display:flex;gap:22px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow-sm)}
+.founder{display:flex;gap:22px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow-sm)}
 .founder .av{width:94px;height:94px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;color:#fff;font-family:var(--display);font-size:2.2rem;font-weight:600}
 .founder .av--photo{position:relative;overflow:hidden;background:var(--card)}
 .founder h3{font-family:var(--montserrat);font-weight:700;font-size:1.3rem;margin-bottom:2px}
@@ -525,12 +525,13 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .chaosquiz .quiz-pre .sec-head h2{white-space:normal}
 .chaosquiz .sec-head h2{white-space:nowrap}
 @media (max-width:900px){.chaosquiz .sec-head h2{white-space:normal}}
-.quiz-pre{display:grid;grid-template-columns:0.9fr 1.1fr;gap:60px;align-items:center;transition:opacity 0.3s ease}
+.quiz-pre{display:grid;grid-template-columns:0.9fr 1.1fr;gap:60px;align-items:stretch;transition:opacity 0.3s ease}
 .quiz-pre--hidden{display:none}
 .quiz-pre-image{position:relative;aspect-ratio:3/4;border-radius:28px;overflow:hidden;box-shadow:var(--shadow-md);background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%);max-height:560px}
-.quiz-pre-content{display:flex;flex-direction:column;gap:32px}
-.quiz-pre-content .sec-head{margin-bottom:0}
-.quiz-pre-content .quiz-options{max-width:none;margin:0}
+.quiz-pre-content{display:flex;flex-direction:column;gap:24px}
+.quiz-pre-content .sec-head{margin-bottom:0;flex-shrink:0}
+.quiz-pre-content .quiz-options{flex:1;gap:10px;max-width:none;margin:0}
+.quiz-pre-content .quiz-opt{flex:1;align-items:center}
 @media (max-width:900px){
   .quiz-pre{grid-template-columns:1fr;gap:36px}
 }
@@ -620,10 +621,10 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 
 /* ============== LIFE WITH PAM (KIC-style gradient cards) ============== */
 .lifewith .sec-head{max-width:none;margin-bottom:48px}
-.life-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.life-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:960px;margin:0 auto}
 .life-card{
-  position:relative;border-radius:28px;overflow:hidden;aspect-ratio:3/4;
-  padding:28px;display:flex;flex-direction:column;color:#fff;
+  position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/5;
+  padding:22px;display:flex;flex-direction:column;color:#fff;
   box-shadow:var(--shadow-md);
   transition:transform 0.35s ease,box-shadow 0.35s ease
 }
@@ -631,11 +632,11 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .life-headline{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
 .life-headline h3{
   font-family:var(--display);font-weight:400;color:#fff;
-  font-size:clamp(2.4rem,4vw,3.4rem);line-height:1.05;letter-spacing:0
+  font-size:clamp(1.7rem,2.6vw,2.3rem);line-height:1.05;letter-spacing:0
 }
 .life-body{
-  text-align:center;font-size:1rem;line-height:1.55;
-  color:rgba(255,255,255,0.88);max-width:24em;margin:0 auto
+  text-align:center;font-size:0.9rem;line-height:1.5;
+  color:rgba(255,255,255,0.88);max-width:22em;margin:0 auto
 }
 
 .life-card--organise{
@@ -658,8 +659,8 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 }
 
 @media (max-width:980px){
-  .life-grid{grid-template-columns:1fr;gap:18px}
-  .life-card{aspect-ratio:auto;min-height:380px}
+  .life-grid{grid-template-columns:1fr;gap:18px;max-width:420px}
+  .life-card{aspect-ratio:auto;min-height:280px}
 }
 
 /* ============== VIDEO HERO + PHONE SHOWCASE ============== */

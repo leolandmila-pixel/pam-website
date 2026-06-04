@@ -452,9 +452,9 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .founding-note{color:var(--ink-faint);font-size:0.86rem;margin-top:20px}
 
 /* ============== A DAY IN THE LIFE (timeline zigzag) ============== */
-.dayinlife{padding:96px 0}
-.dayinlife .sec-head{max-width:none;margin-bottom:64px}
-.flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:52px}
+.dayinlife{padding:72px 0}
+.dayinlife .sec-head{max-width:none;margin-bottom:44px}
+.flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
 .flow-list::before{
   content:"";position:absolute;left:50%;top:40px;bottom:40px;width:0;
   border-left:2px dashed rgba(125,8,32,0.25);z-index:0
@@ -469,8 +469,8 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   transform:translate(-50%,-50%);z-index:2;box-shadow:0 0 0 6px var(--cream)
 }
 .flow-image{
-  position:relative;border-radius:24px;aspect-ratio:4/3;overflow:hidden;
-  box-shadow:var(--shadow-md);max-width:380px;width:100%
+  position:relative;border-radius:20px;aspect-ratio:4/3;overflow:hidden;
+  box-shadow:var(--shadow-md);max-width:320px;width:100%
 }
 .flow-pill{
   position:absolute;top:18px;left:18px;
@@ -481,13 +481,13 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .flow-content{padding-left:72px}
 .flow-content h3{
   font-family:var(--display);font-weight:400;
-  font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin-bottom:14px;color:var(--ink)
+  font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.1;margin-bottom:10px;color:var(--ink)
 }
 .flow-content h4{
-  font-family:var(--sans);font-weight:700;font-size:1.05rem;
-  color:var(--ink);margin-bottom:14px
+  font-family:var(--sans);font-weight:700;font-size:0.95rem;
+  color:var(--ink);margin-bottom:10px
 }
-.flow-content p{color:var(--ink);font-size:1rem;line-height:1.65;max-width:30em}
+.flow-content p{color:var(--ink);font-size:0.92rem;line-height:1.6;max-width:30em}
 
 /* Even rows reverse direction so image lands on right side (KIC-style alternation) */
 .flow-row:nth-child(even){flex-direction:row-reverse}
@@ -680,7 +680,8 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .hero-video .display-xl strong{color:var(--navy);text-shadow:0 1px 18px rgba(255,251,248,0.6),0 0 2px rgba(255,251,248,0.7)}
 .hero-video .hero-sub{color:rgba(255,251,248,0.94);text-shadow:0 1px 20px rgba(20,2,8,0.55)}
 .hero-signup{margin-top:36px;display:flex;flex-direction:column;align-items:center}
-.hero-signup-pill{display:inline-flex;align-items:center;justify-content:center;background:rgba(252,246,241,0.92);color:var(--ink);padding:10px 22px;border-radius:100px;font-family:var(--sans);font-weight:600;font-size:0.92rem;letter-spacing:0.01em;margin-bottom:24px;box-shadow:0 10px 24px rgba(20,2,8,0.3);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.hero-signup-pill{display:inline-flex;align-items:center;justify-content:center;background:var(--wine);color:#fff;padding:16px 32px;border-radius:100px;font-family:var(--sans);font-weight:600;font-size:1rem;letter-spacing:0.01em;box-shadow:0 18px 40px rgba(125,8,32,0.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);text-decoration:none;cursor:pointer;transition:box-shadow 0.3s ease,transform 0.2s ease}
+.hero-signup-pill:hover{box-shadow:0 24px 54px rgba(125,8,32,0.48);transform:translateY(-2px)}
 .hero-signup .notify{max-width:440px;padding:6px 6px 6px 14px;box-shadow:0 26px 60px rgba(20,2,8,0.45),0 6px 18px rgba(20,2,8,0.3)}
 .hero-signup .notify input{padding:10px 10px;font-size:0.92rem}
 .hero-signup .notify button{padding:10px 20px;font-size:0.9rem}

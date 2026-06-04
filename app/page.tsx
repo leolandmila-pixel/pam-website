@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { homepageMetadata } from './metadata'
 import PhoneShowcase from '@/components/PhoneShowcase'
-import FoundingListForm from '@/components/FoundingListForm'
 import ChaosQuiz from '@/components/ChaosQuiz'
 
 export const metadata: Metadata = homepageMetadata
@@ -36,8 +35,9 @@ export default function HomePage() {
               PAM is the assistant every parent deserves — built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what matters most.
             </p>
             <div className="hero-signup" id="founding">
-              <span className="hero-signup-pill">Pre-sign up is open: Join Waitlist Now</span>
-              <FoundingListForm />
+              <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="hero-signup-pill">
+                Pre-sign up is open — Join Waitlist Now
+              </a>
             </div>
           </div>
         </div>

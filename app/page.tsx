@@ -36,7 +36,7 @@ export default function HomePage() {
               PAM is the assistant every parent deserves — built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what matters most.
             </p>
             <div className="hero-signup" id="founding">
-              <span className="eyebrow hero-signup-eyebrow">Pre-sign up is open</span>
+              <span className="hero-signup-pill">Pre-sign up is open: Join Waitlist Now</span>
               <FoundingListForm />
             </div>
           </div>
@@ -84,6 +84,78 @@ export default function HomePage() {
 
       {/* ============== CHAOS QUIZ ============== */}
       <ChaosQuiz />
+
+      {/* ============== A DAY IN THE LIFE ============== */}
+      <section className="dayinlife">
+        <div className="container">
+          <div className="sec-head">
+            <span className="eyebrow">A day in the life</span>
+            <h2>Calm, <em>daily flows</em> that stick.</h2>
+          </div>
+          <div className="flow-list">
+            <article className="flow-row">
+              <div className="flow-col">
+                <div className="flow-image flow-image--morning">
+                  <span className="flow-pill">Morning · Checklist</span>
+                </div>
+              </div>
+              <div className="flow-content">
+                <h3>Morning</h3>
+                <h4>A clear start</h4>
+                <p>Wake to a day already laid out — what&apos;s due, what&apos;s done, who needs what. The remembering&apos;s handled, so you can simply be present.</p>
+              </div>
+            </article>
+            <article className="flow-row">
+              <div className="flow-col">
+                <div className="flow-image flow-image--midday">
+                  <span className="flow-pill">Midday · Tracker</span>
+                </div>
+              </div>
+              <div className="flow-content">
+                <h3>Midday</h3>
+                <h4>A shared pause</h4>
+                <p>While bub naps, a few taps keeps the day captured — a feed here, a sleep there. Your partner sees every entry, so you&apos;re never the only one keeping track.</p>
+              </div>
+            </article>
+            <article className="flow-row">
+              <div className="flow-col">
+                <div className="flow-image flow-image--afternoon">
+                  <span className="flow-pill">Afternoon · Calendar</span>
+                </div>
+              </div>
+              <div className="flow-content">
+                <h3>Afternoon</h3>
+                <h4>The week, in hand</h4>
+                <p>As the afternoon softens, look to what&apos;s coming — the next check-up, an appointment, a reminder you set weeks ago. Tomorrow arrives already handled.</p>
+              </div>
+            </article>
+            <article className="flow-row">
+              <div className="flow-col">
+                <div className="flow-image flow-image--evening">
+                  <span className="flow-pill">Evening · Memories</span>
+                </div>
+              </div>
+              <div className="flow-content">
+                <h3>Evening</h3>
+                <h4>A soft landing</h4>
+                <p>Wind down and let the day settle — a voice note, a photo tucked into the baby book, a glance at what tomorrow holds. Then rest, properly.</p>
+              </div>
+            </article>
+            <article className="flow-row">
+              <div className="flow-col">
+                <div className="flow-image flow-image--everyday">
+                  <span className="flow-pill">Every Day · Family Info</span>
+                </div>
+              </div>
+              <div className="flow-content">
+                <h3>Every Day</h3>
+                <h4>Your story, gathering</h4>
+                <p>Through it all, PAM works quietly in the background — holding the details, easing the admin, gathering the moments. Bit by bit, your family&apos;s story takes shape.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
       {/* ============== TESTIMONIALS ============== */}
       <section>

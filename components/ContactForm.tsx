@@ -5,10 +5,10 @@ import { useState } from 'react'
 
 const topics = [
   'General question',
-  'Founding trial & pricing',
   'Share my story',
-  'Partnership / press',
   'Feedback & ideas',
+  'Partnership or press',
+  'App support',
   'Something else',
 ]
 
@@ -66,14 +66,6 @@ export default function ContactForm() {
       <div className="field">
         <label htmlFor="cMsg">Message</label>
         <textarea id="cMsg" placeholder="Tell us what's on your mind..." value={message} onChange={(e) => setMessage(e.target.value)} />
-      </div>
-      <div className="contact-feature-pill">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" />
-          <circle cx="5" cy="19" r="1.2" />
-          <circle cx="19" cy="6.5" r="1" />
-        </svg>
-        <span>Want to be featured? Pick &ldquo;Share my story&rdquo; above.</span>
       </div>
       <button type="submit" className="send-btn" disabled={submitting}>
         {submitting ? 'Sending…' : 'Send message'}

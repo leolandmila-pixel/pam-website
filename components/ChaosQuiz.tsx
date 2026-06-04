@@ -80,28 +80,40 @@ export default function ChaosQuiz() {
   return (
     <section className="chaosquiz">
       <div className="container">
-        <div className="sec-head">
-          <span className="eyebrow">Find your fit</span>
-          <h2>What kind of family admin <em>chaos</em> is yours?</h2>
-          <p className="quiz-intro">Pick the one that feels most like you — we&apos;ll show you exactly how PAM helps.</p>
+        <div className={`quiz-pre${result ? ' quiz-pre--hidden' : ''}`}>
+          <div className="quiz-pre-image">
+            <Image
+              src="/mum-juggling.jpg"
+              alt="A mum on a couch with a child on her lap, working on a laptop, while another draws on the floor"
+              fill
+              sizes="(max-width: 900px) 100vw, 50vw"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div className="quiz-pre-content">
+            <div className="sec-head">
+              <span className="eyebrow">Find your fit</span>
+              <h2>What kind of family admin <em>chaos</em> is yours?</h2>
+              <p className="quiz-intro">Pick the one that feels most like you — we&apos;ll show you exactly how PAM helps.</p>
+            </div>
+            <div className="quiz-options">
+              {OPTIONS.map((o) => (
+                <button
+                  key={o.id}
+                  className={`quiz-opt${selected === o.id ? ' quiz-opt--selected' : ''}`}
+                  onClick={() => setSelected(o.id)}
+                >
+                  <span className="quiz-opt-check">
+                    <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" /></svg>
+                  </span>
+                  {o.label}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="quiz-body">
-          {/* OPTIONS */}
-          <div className={`quiz-options${result ? ' quiz-options--hidden' : ''}`}>
-            {OPTIONS.map((o) => (
-              <button
-                key={o.id}
-                className={`quiz-opt${selected === o.id ? ' quiz-opt--selected' : ''}`}
-                onClick={() => setSelected(o.id)}
-              >
-                <span className="quiz-opt-check">
-                  <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" /></svg>
-                </span>
-                {o.label}
-              </button>
-            ))}
-          </div>
 
           {/* RESULT */}
           {result && (

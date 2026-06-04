@@ -73,7 +73,9 @@ export default function AboutPage() {
           </div>
           <div className="founders-grid">
             <div className="founder">
-              <div className="av" style={{ background: 'linear-gradient(140deg,var(--blush),var(--wine))' }}>O</div>
+              <div className="av av--photo">
+                <Image src="/oly-avatar.jpg" alt="Oly" fill sizes="94px" style={{ objectFit: 'cover', objectPosition: 'center 25%' }} />
+              </div>
               <div>
                 <h3>Oly</h3>
                 <div className="role">Co-Founder · Mum to Leo</div>
@@ -81,7 +83,9 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="founder">
-              <div className="av" style={{ background: 'linear-gradient(140deg,var(--tan),var(--wine))' }}>A</div>
+              <div className="av av--photo">
+                <Image src="/ash-avatar.jpg" alt="Ash" fill sizes="94px" style={{ objectFit: 'cover' }} />
+              </div>
               <div>
                 <h3>Ash</h3>
                 <div className="role">Co-Founder · Mum to Mila</div>
@@ -91,13 +95,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <div className="quote-banner">
-        <div className="container">
-          <q>Made by two mums who get it.</q>
-          <div className="attribution">PAM · Parental Admin Manager</div>
-        </div>
-      </div>
     </main>
   )
 }

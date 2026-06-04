@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { homepageMetadata } from './metadata'
 import PhoneShowcase from '@/components/PhoneShowcase'
 import FoundingListForm from '@/components/FoundingListForm'
@@ -34,6 +35,10 @@ export default function HomePage() {
             <p className="hero-sub">
               PAM is the assistant every parent deserves — built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what matters most.
             </p>
+            <div className="hero-signup" id="founding">
+              <span className="eyebrow hero-signup-eyebrow">Pre-sign up is open</span>
+              <FoundingListForm />
+            </div>
           </div>
         </div>
         <a href="#showcase" className="scroll-down" aria-label="Scroll to next section">
@@ -52,16 +57,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============== FOUNDING LIST ============== */}
-      <div className="founding" id="founding">
-        <div className="container">
-          <div className="founding-inner">
-            <span className="eyebrow">Sign up to get early access</span>
-            <h2 className="display-lg">Pre-Launch <em>Now Open</em></h2>
-            <FoundingListForm />
-          </div>
-        </div>
-      </div>
 
       {/* ============== LIFE WITH PAM ============== */}
       <section className="lifewith">
@@ -97,6 +92,20 @@ export default function HomePage() {
             <span className="eyebrow">The PAM experience</span>
             <h2>In their <span className="em">own words.</span></h2>
           </div>
+
+          {/* Featured testimonial — swap photo + copy when a real one is ready */}
+          <div className="tst-featured">
+            <div className="tst-featured-photo">
+              <Image src="/testimonial-1.jpg" alt="Sarah" fill sizes="148px" style={{ objectFit: 'cover', objectPosition: 'center 20%' }} />
+            </div>
+            <div className="stars">★★★★★</div>
+            <p className="tst-featured-quote">&ldquo;PAM has completely changed the way I parent — I&apos;m no longer the only one holding everything in my head, and that has given me back so much more than just time.&rdquo;</p>
+            <div className="tst-featured-who">
+              <b>Sarah</b>
+              <span>Mum of two · Working full-time</span>
+            </div>
+          </div>
+
           <div className="testimonials-grid">
             <div className="tst">
               <div className="stars">★★★★★</div>

@@ -168,7 +168,7 @@ export default function HomePage() {
           {/* Featured testimonial — swap photo + copy when a real one is ready */}
           <div className="tst-featured">
             <div className="tst-featured-photo">
-              <Image src="/testimonial-1.jpg" alt="Sarah" fill sizes="148px" style={{ objectFit: 'cover', objectPosition: 'center 20%' }} />
+              <Image src="/testimonial-1.jpg" alt="Sarah" width={148} height={148} style={{ objectFit: 'cover', objectPosition: 'center 20%', width: '100%', height: '100%' }} />
             </div>
             <div className="stars">★★★★★</div>
             <p className="tst-featured-quote">&ldquo;PAM has completely changed the way I parent — I&apos;m no longer the only one holding everything in my head, and that has given me back so much more than just time.&rdquo;</p>

@@ -522,7 +522,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 @media (max-width:900px){.chaosquiz .sec-head h2{white-space:normal}}
 .quiz-pre{display:grid;grid-template-columns:0.9fr 1.1fr;gap:60px;align-items:center;transition:opacity 0.3s ease}
 .quiz-pre--hidden{display:none}
-.quiz-pre-image{position:relative;aspect-ratio:3/4;border-radius:28px;overflow:hidden;box-shadow:var(--shadow-md);background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%)}
+.quiz-pre-image{position:relative;aspect-ratio:3/4;border-radius:28px;overflow:hidden;box-shadow:var(--shadow-md);background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%);max-height:560px}
 .quiz-pre-content{display:flex;flex-direction:column;gap:32px}
 .quiz-pre-content .sec-head{margin-bottom:0}
 .quiz-pre-content .quiz-options{max-width:none;margin:0}

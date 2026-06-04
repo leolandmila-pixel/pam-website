@@ -276,9 +276,13 @@ section{padding:96px 0}
 .founder{display:flex;gap:22px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow-sm)}
 .founder .av{width:94px;height:94px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;color:#fff;font-family:var(--display);font-size:2.2rem;font-weight:600}
 .founder .av--photo{position:relative;overflow:hidden;background:var(--card)}
-.founder h3{font-size:1.3rem;margin-bottom:2px}
-.founder .role{font-size:0.78rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--wine);font-weight:600;margin-bottom:12px}
-.founder p{font-size:0.92rem;color:var(--ink-soft)}
+.founder h3{font-family:var(--montserrat);font-weight:700;font-size:1.3rem;margin-bottom:2px}
+.founder .role{font-family:var(--montserrat);font-size:0.78rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--wine);font-weight:600;margin-bottom:12px}
+.founder p{font-family:var(--montserrat);font-weight:400;font-size:0.92rem;color:var(--ink-soft)}
+.founder p em{font-family:var(--montserrat);font-style:italic}
+.founder-qa{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+.founder-qa dt{font-family:var(--montserrat);font-weight:700;font-size:0.86rem;color:var(--wine);margin:0}
+.founder-qa dd{margin:2px 0 0;font-family:var(--montserrat);font-weight:400;font-style:normal;font-size:0.85rem;color:var(--ink);line-height:1.4}
 
 /* ============== BLOG ============== */
 .blog-note{max-width:640px;margin:0 auto 56px;text-align:center}
@@ -456,8 +460,9 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .dayinlife .sec-head{max-width:none;margin-bottom:44px}
 .flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
 .flow-list::before{
-  content:"";position:absolute;left:50%;top:40px;bottom:40px;width:0;
-  border-left:2px dashed rgba(125,8,32,0.25);z-index:0
+  content:"";position:absolute;left:0;right:0;top:40px;bottom:40px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000' preserveAspectRatio='none'%3E%3Cpath d='M50 0V100Q22 200 50 300Q78 400 50 500Q22 600 50 700Q78 800 50 900V1000' fill='none' stroke='%237d0820' stroke-opacity='0.28' stroke-width='2' stroke-dasharray='6 6' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+  background-size:100% 100%;background-repeat:no-repeat;z-index:0;pointer-events:none
 }
 .flow-row{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:36px;position:relative}
 .flow-col,.flow-content{flex:1 1 0;min-width:0}
@@ -497,11 +502,11 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .flow-row:nth-child(even) .flow-content p{margin-left:auto}
 
 /* Gradient placeholders (swap for real photos later) */
-.flow-image--morning{background:linear-gradient(140deg,#F4E2E3 0%,#C68A8E 70%,#9A1E37 100%)}
-.flow-image--midday{background:linear-gradient(150deg,#E6D3B8 0%,#B06E72 60%,#9A1E37 100%)}
-.flow-image--afternoon{background:linear-gradient(140deg,#C5A085 0%,#7E0F25 60%,#6D0015 100%)}
-.flow-image--evening{background:linear-gradient(155deg,#7E0F25 0%,#4A0010 60%,#260008 100%)}
-.flow-image--everyday{background:linear-gradient(150deg,#F1DBDC 0%,#C5A085 50%,#6D0015 100%)}
+.flow-image--morning{background:url('/daily-morning.jpg') center/cover no-repeat}
+.flow-image--midday{background:url('/daily-midday.jpg') center/cover no-repeat}
+.flow-image--afternoon{background:url('/daily-afternoon.jpg') center/cover no-repeat}
+.flow-image--evening{background:url('/daily-evening.jpg') center/cover no-repeat}
+.flow-image--everyday{background:url('/daily-everyday.jpg') center/cover no-repeat}
 
 @media (max-width:780px){
   .dayinlife{padding:70px 0}

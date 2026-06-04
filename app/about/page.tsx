@@ -80,6 +80,16 @@ export default function AboutPage() {
                 <h3>Oly</h3>
                 <div className="role">Co-Founder · Mum to Leo</div>
                 <p>&ldquo;Somewhere between feeds, naps and a never-ending mental to-do list, we said: <em>why are we trying to hold all of this on our own?</em>&rdquo;</p>
+                <dl className="founder-qa">
+                  <dt>Coffee or sleep?</dt>
+                  <dd>Sleep &amp; lots of coffee — can I say both?</dd>
+                  <dt>How many tabs do you currently have open?</dt>
+                  <dd>Too many.</dd>
+                  <dt>What&apos;s one thing parents never have enough of?</dt>
+                  <dd>Time.</dd>
+                  <dt>Biggest parenting challenge?</dt>
+                  <dd>Remembering everything.</dd>
+                </dl>
               </div>
             </div>
             <div className="founder">
@@ -90,6 +100,16 @@ export default function AboutPage() {
                 <h3>Ash</h3>
                 <div className="role">Co-Founder · Mum to Mila</div>
                 <p>&ldquo;PAM is our way of supporting mums — not by adding more, but by taking something off your plate.&rdquo;</p>
+                <dl className="founder-qa">
+                  <dt>Morning or Evening person?</dt>
+                  <dd>Morning, don&apos;t ask me anything after 3pm.</dd>
+                  <dt>Planner or wing it?</dt>
+                  <dd>Little bit of both, actually.</dd>
+                  <dt>Phone call or text?</dt>
+                  <dd>Text me, I&apos;m usually doing a million things and will answer when I can.</dd>
+                  <dt>One word to describe motherhood?</dt>
+                  <dd>Beautiful &amp; chaotic (I know that&apos;s two).</dd>
+                </dl>
               </div>
             </div>
           </div>

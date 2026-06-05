@@ -168,13 +168,13 @@ export default function HomePage() {
           {/* Featured testimonial — swap photo + copy when a real one is ready */}
           <div className="tst-featured">
             <div className="tst-featured-photo">
-              <Image src="/testimonial-1.jpg" alt="Sarah" width={148} height={148} style={{ objectFit: 'cover', objectPosition: 'center 20%', width: '100%', height: '100%' }} />
+              <Image src="/testimonial-1.jpg" alt="Chloe" width={148} height={148} style={{ objectFit: 'cover', objectPosition: 'center 20%', width: '100%', height: '100%' }} />
             </div>
             <div className="stars">★★★★★</div>
-            <p className="tst-featured-quote">&ldquo;PAM has completely changed the way I parent — I&apos;m no longer the only one holding everything in my head, and that has given me back so much more than just time.&rdquo;</p>
+            <p className="tst-featured-quote">&ldquo;I started using PAM in my third trimester and it genuinely changed how prepared I felt. Every appointment, every form, every &lsquo;don&apos;t forget&rsquo; moment was already there waiting for me. I arrived at the hospital calm, organised, and ready — and that felt like everything.&rdquo;</p>
             <div className="tst-featured-who">
-              <b>Sarah</b>
-              <span>Mum of two · Working full-time</span>
+              <b>Chloe</b>
+              <span>Mum of one · VIC</span>
             </div>
           </div>
 

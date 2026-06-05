@@ -394,10 +394,30 @@ section{padding:96px 0}
   padding:13px 16px;font-family:var(--sans);font-size:0.95rem;color:var(--ink);outline:none;
   transition:border-color 0.2s ease,box-shadow 0.2s ease
 }
+.field select{
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235E6276' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 28px center;
+  padding-right:40px
+}
 .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blush);box-shadow:0 0 0 4px rgba(249,177,188,0.3)}
 .field textarea{resize:vertical;min-height:120px}
 .send-btn{background:var(--wine);color:#fff;border:none;border-radius:100px;padding:15px 34px;font-family:var(--sans);font-weight:600;font-size:0.95rem;cursor:pointer;transition:background 0.2s ease}
 .send-btn:hover{background:var(--wine-deep)}
+
+/* ============== PRIVACY POLICY ============== */
+.privacy-body{color:var(--ink)}
+.privacy-section{border-bottom:1px solid var(--line);padding:40px 0}
+.privacy-section:last-child{border-bottom:none}
+.privacy-section h2{font-family:var(--display);font-weight:400;font-size:1.6rem;color:var(--ink);margin-bottom:20px}
+.privacy-section h3{font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--wine);margin:28px 0 10px}
+.privacy-section p{font-size:0.97rem;line-height:1.75;color:var(--ink);margin-bottom:18px}
+.privacy-section p:last-child{margin-bottom:0}
+.privacy-section ul{padding-left:20px;margin:4px 0 18px}
+.privacy-section ul li{font-size:0.97rem;line-height:1.75;color:var(--ink);margin-bottom:8px;padding-left:6px}
+.privacy-link{color:var(--wine);text-decoration:underline;text-underline-offset:3px}
+.privacy-link:hover{color:var(--wine-deep)}
 
 /* ============== FAQ ============== */
 .faq-cats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:42px}
@@ -527,7 +547,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 @media (max-width:900px){.chaosquiz .sec-head h2{white-space:normal}}
 .quiz-pre{display:grid;grid-template-columns:0.9fr 1.1fr;gap:60px;align-items:stretch;transition:opacity 0.3s ease}
 .quiz-pre--hidden{display:none}
-.quiz-pre-image{position:relative;aspect-ratio:3/4;border-radius:28px;overflow:hidden;box-shadow:var(--shadow-md);background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%);max-height:560px}
+.quiz-pre-image{position:relative;aspect-ratio:3/4;border-radius:28px;overflow:hidden;box-shadow:var(--shadow-md);background:linear-gradient(150deg,var(--blush) 0%,var(--wine) 100%);max-height:500px;width:100%;max-width:380px;margin:0 auto;align-self:center;justify-self:center}
 .quiz-pre-content{display:flex;flex-direction:column;gap:24px}
 .quiz-pre-content .sec-head{margin-bottom:0;flex-shrink:0}
 .quiz-pre-content .quiz-options{flex:1;gap:10px;max-width:none;margin:0}

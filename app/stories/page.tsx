@@ -1,12 +1,19 @@
-import type { Metadata } from 'next'
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
-import { storiesMetadata } from '../metadata'
+import { useState } from 'react'
 import { stories } from './stories-data'
 
-export const metadata: Metadata = storiesMetadata
+const CATEGORIES = ['All', 'Newborn', 'Sleep', 'Wellbeing', 'Memories', 'Feeding', 'Community']
 
 export default function StoriesPage() {
+  const [activeCategory, setActiveCategory] = useState('All')
+
+  const filtered = activeCategory === 'All'
+    ? stories
+    : stories.filter((s) => s.tag === activeCategory)
+
   return (
     <main>
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 30 }}>
@@ -24,8 +31,34 @@ export default function StoriesPage() {
 
       <section style={{ paddingTop: 10 }}>
         <div className="container">
+
+          {/* Category filter */}
+          <div className="blog-filter">
+            <div className="blog-filter-label">Filter by topic</div>
+            <div className="blog-filter-pills">
+              {CATEGORIES.map((cat) => (
+                <button
+                  key={cat}
+                  className={`blog-filter-pill${activeCategory === cat ? ' blog-filter-pill--active' : ''}`}
+                  onClick={() => setActiveCategory(cat)}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+            <select
+              className="blog-filter-select"
+              value={activeCategory}
+              onChange={(e) => setActiveCategory(e.target.value)}
+            >
+              {CATEGORIES.map((cat) => (
+                <option key={cat} value={cat}>{cat}</option>
+              ))}
+            </select>
+          </div>
+
           <div className="blog-grid">
-            {stories.map((s) => {
+            {filtered.map((s) => {
               const card = (
                 <article className={`story${s.published ? '' : ' is-coming-soon'}`}>
                   {s.heroImage ? (
@@ -59,6 +92,12 @@ export default function StoriesPage() {
               )
             })}
           </div>
+
+          {filtered.length === 0 && (
+            <p style={{ textAlign: 'center', color: 'var(--ink-soft)', padding: '48px 0' }}>
+              No stories in this category yet — check back soon.
+            </p>
+          )}
         </div>
       </section>
 

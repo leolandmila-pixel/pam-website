@@ -419,7 +419,7 @@ section{padding:96px 0}
 .privacy-body{color:var(--ink)}
 .privacy-section{border-bottom:1px solid var(--line);padding:40px 0}
 .privacy-section:last-child{border-bottom:none}
-.privacy-section h2{font-family:var(--display);font-weight:400;font-size:1.6rem;color:var(--ink);margin-bottom:20px}
+.privacy-section h2{font-family:var(--montserrat);font-weight:600;font-size:1.3rem;color:var(--ink);margin-bottom:20px}
 .privacy-section h3{font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--wine);margin:28px 0 10px}
 .privacy-section p{font-size:0.97rem;line-height:1.75;color:var(--ink);margin-bottom:18px}
 .privacy-section p:last-child{margin-bottom:0}
@@ -427,6 +427,23 @@ section{padding:96px 0}
 .privacy-section ul li{font-size:0.97rem;line-height:1.75;color:var(--ink);margin-bottom:8px;padding-left:6px}
 .privacy-link{color:var(--wine);text-decoration:underline;text-underline-offset:3px}
 .privacy-link:hover{color:var(--wine-deep)}
+
+.terms-note{background:rgba(107,26,42,0.07);border-left:3px solid var(--wine);border-radius:0 8px 8px 0;padding:0.9rem 1.2rem;margin-top:1.25rem;font-size:0.92rem;color:var(--ink)}
+.terms-pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+.terms-pricing-card{background:rgba(107,26,42,0.07);border:1px solid rgba(107,26,42,0.15);border-radius:10px;padding:1.25rem 1.5rem}
+.terms-pricing-card h3{font-family:var(--sans);font-weight:700;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--wine);margin:0 0 0.75rem}
+.terms-pricing-card ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:0.4rem}
+.terms-pricing-card ul li{display:flex;justify-content:space-between;align-items:baseline;font-size:0.92rem;color:var(--ink)}
+.terms-pricing-card ul li span:last-child{font-weight:500;color:var(--wine);white-space:nowrap}
+.terms-pricing-card--annual{border-color:var(--wine);background:rgba(107,26,42,0.12)}
+.terms-savings-badge{display:inline-block;background:var(--wine);color:#fff;font-size:0.7rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:20px;margin-bottom:0.75rem}
+.terms-check-list{list-style:none;padding:0;display:grid;gap:0.75rem;margin-top:0.75rem}
+.terms-check-list li{display:flex;align-items:flex-start;gap:0.75rem;font-size:0.97rem;line-height:1.75;color:var(--ink)}
+.terms-check-list li::before{content:'';flex-shrink:0;width:18px;height:18px;margin-top:4px;border-radius:50%;background:var(--wine) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 6l3 3 5-5' stroke='white' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat}
+.terms-cross-list{list-style:none;padding:0;display:grid;gap:0.75rem;margin-top:0.75rem}
+.terms-cross-list li{display:flex;align-items:flex-start;gap:0.75rem;font-size:0.97rem;line-height:1.75;color:var(--ink)}
+.terms-cross-list li::before{content:'';flex-shrink:0;width:18px;height:18px;margin-top:4px;border-radius:50%;background:rgba(107,26,42,0.15) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 3l6 6M9 3l-6 6' stroke='%236B1A2A' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center/10px no-repeat}
+@media(max-width:600px){.terms-pricing-grid{grid-template-columns:1fr}}
 
 /* ============== FAQ ============== */
 .faq-cats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:42px}

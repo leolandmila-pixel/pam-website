@@ -15,10 +15,10 @@ const tabs: Tab[] = [
     alt: 'PAM Today tab — Welcome back, daily reminder and quick log',
   },
   {
-    name: 'Checklist',
+    name: 'Smart Checklist',
     body: 'Everything from immunisations to MCH visits to registering the birth — pre-loaded and reminded as each task nears, and a nudge if one slips by.',
     src: '/phone-checklist.jpg',
-    alt: 'PAM Checklist tab — calendar view with upcoming tasks',
+    alt: 'PAM Smart Checklist tab — calendar view with upcoming tasks',
   },
   {
     name: 'Tracker',
@@ -44,7 +44,11 @@ export default function PhoneShowcase() {
   return (
     <div className="feature-cards-grid">
       {tabs.map((t) => (
-        <article key={t.name} className="feature-card">
+        <article
+          key={t.name}
+          id={`feature-${t.name.toLowerCase().replace(/\s+/g, '-')}`}
+          className="feature-card"
+        >
           <div className="feature-card-stage">
             <div className="feature-card-phone">
               <Image

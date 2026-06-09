@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const OPTIONS = [
   {
@@ -15,7 +14,7 @@ const OPTIONS = [
       body: 'Every appointment, reminder and upcoming task lives in one calm place. PAM sends gentle nudges so nothing slips, and your mornings start already organised.',
       gradient: 'linear-gradient(140deg,#F4E2E3,#C68A8E 60%,#9A1E37)',
       phone: '/phone-checklist.jpg',
-      phoneAlt: 'PAM checklist screen',
+      phoneAlt: 'PAM Smart Checklist screen',
     },
   },
   {
@@ -126,12 +125,12 @@ export default function ChaosQuiz() {
                 <p className="quiz-result-tagline">{result.tagline}</p>
                 <p className="quiz-result-body">{result.body}</p>
                 <div className="quiz-result-actions">
-                  <Link href="#founding" className="quiz-cta">
+                  <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta">
                     Get early access
                     <span className="arrow">
                       <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                     </span>
-                  </Link>
+                  </a>
                   <button className="quiz-restart" onClick={() => setSelected(null)}>
                     ↩ Try another
                   </button>

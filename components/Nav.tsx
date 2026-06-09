@@ -5,9 +5,26 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
-const links = [
+type NavLink = {
+  href: string
+  label: string
+  children?: { href: string; label: string }[]
+}
+
+const links: NavLink[] = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
+  {
+    href: '/#showcase',
+    label: 'App',
+    children: [
+      { href: '/features/checklist', label: 'Smart Checklist' },
+      { href: '/features/tracker', label: 'Tracker' },
+      { href: '/features/family-info', label: 'Family Info' },
+      { href: '/features/memories', label: 'Memories' },
+      { href: '/features/pricing', label: 'App Pricing' },
+    ],
+  },
   { href: '/stories', label: 'Real Mums, Real Stories' },
   { href: '/contact', label: 'Contact' },
   { href: '/faq', label: 'FAQ' },
@@ -30,14 +47,34 @@ export default function Nav() {
         </Link>
         <ul className={`nav-pills${open ? ' open' : ''}`}>
           {links.map((l) => (
-            <li key={l.href}>
+            <li key={l.label} className={l.children ? 'has-dropdown' : undefined}>
               <Link
                 href={l.href}
                 className={`nav-pill${pathname === l.href ? ' active' : ''}`}
                 onClick={() => setOpen(false)}
               >
                 {l.label}
+                {l.children && (
+                  <svg className="nav-caret" viewBox="0 0 12 8" aria-hidden="true">
+                    <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                )}
               </Link>
+              {l.children && (
+                <ul className="nav-dropdown">
+                  {l.children.map((c) => (
+                    <li key={c.href}>
+                      <Link
+                        href={c.href}
+                        className="nav-dropdown-item"
+                        onClick={() => setOpen(false)}
+                      >
+                        {c.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
         </ul>

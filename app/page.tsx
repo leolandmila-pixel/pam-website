@@ -96,7 +96,7 @@ export default function HomePage() {
             <article className="flow-row">
               <div className="flow-col">
                 <div className="flow-image flow-image--morning">
-                  <span className="flow-pill">Morning · Checklist</span>
+                  <span className="flow-pill">Morning · Smart Checklist</span>
                 </div>
               </div>
               <div className="flow-content">

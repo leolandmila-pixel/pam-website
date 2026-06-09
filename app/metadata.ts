@@ -112,3 +112,43 @@ export const faqMetadata: Metadata = {
     url: 'https://pamapp.com.au/faq',
   },
 }
+
+export const checklistMetadata: Metadata = {
+  title: 'Smart Checklist',
+  description:
+    "PAM's Smart Checklist — every appointment, registration, and reminder Australian parents need to remember, pre-loaded and ready.",
+  alternates: { canonical: 'https://pamapp.com.au/features/checklist' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Smart Checklist', url: 'https://pamapp.com.au/features/checklist' },
+}
+
+export const trackerMetadata: Metadata = {
+  title: 'Tracker',
+  description:
+    "PAM's tracker — feeds, sleep, nappies, growth charts and nap predictions in one calm place. Shared with your partner.",
+  alternates: { canonical: 'https://pamapp.com.au/features/tracker' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Tracker', url: 'https://pamapp.com.au/features/tracker' },
+}
+
+export const familyInfoMetadata: Metadata = {
+  title: 'Family Info',
+  description:
+    "Everything you'd scramble for at 2am — already where it should be. People, records and services for your whole family.",
+  alternates: { canonical: 'https://pamapp.com.au/features/family-info' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Info', url: 'https://pamapp.com.au/features/family-info' },
+}
+
+export const memoriesMetadata: Metadata = {
+  title: 'Memories',
+  description:
+    "Voice notes, photos and milestones — saved as they happen. The little moments and big firsts, gently gathered into your family's story.",
+  alternates: { canonical: 'https://pamapp.com.au/features/memories' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Memories', url: 'https://pamapp.com.au/features/memories' },
+}
+
+export const pricingMetadata: Metadata = {
+  title: 'App Pricing',
+  description:
+    'Simple, transparent PAM pricing — Single, Couple and Family plans. From $7.99/month with a 7-day free trial.',
+  alternates: { canonical: 'https://pamapp.com.au/features/pricing' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://pamapp.com.au/features/pricing' },
+}

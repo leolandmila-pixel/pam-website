@@ -86,7 +86,7 @@ export default function ChaosQuiz() {
               alt="A mum on a couch with a child on her lap, working on a laptop, while another draws on the floor"
               fill
               sizes="(max-width: 900px) 100vw, 50vw"
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'cover', objectPosition: 'center bottom' }}
             />
           </div>
           <div className="quiz-pre-content">

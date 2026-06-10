@@ -127,7 +127,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .feature-hero-phone img{display:block;border-radius:32px;box-shadow:0 30px 80px rgba(74,7,19,0.22);width:100%;max-width:300px;height:auto}
 .feature-body{padding:60px 0 30px}
 .feature-body .sec-head{margin-bottom:28px}
-.feature-prose{font-size:1.05rem;line-height:1.75;color:var(--ink);max-width:36em;margin:0 auto 18px;text-align:center}
+.feature-prose{font-size:1.05rem;line-height:1.75;color:var(--ink);max-width:52em;margin:0 auto 18px;text-align:center}
 .feature-prose:last-child{margin-bottom:0}
 .feature-grid-section{padding:60px 0}
 .feature-grid-section .sec-head{margin-bottom:48px}

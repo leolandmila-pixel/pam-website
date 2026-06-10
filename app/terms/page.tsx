@@ -39,7 +39,7 @@ export default function TermsPage() {
             <ul className="terms-check-list">
               <li>Provide accurate, current, and complete information</li>
               <li>Keep your login credentials secure and confidential</li>
-              <li>Notify us immediately if you suspect any unauthorised access to your account - contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></li>
+              <li><span>Notify us immediately if you suspect any unauthorised access to your account - contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></span></li>
               <li>Take responsibility for all activity that occurs under your account</li>
             </ul>
             <p style={{ marginTop: '1rem' }}>PAM reserves the right to suspend or terminate accounts where false or misleading information has been provided.</p>
@@ -58,8 +58,7 @@ export default function TermsPage() {
                 </ul>
               </div>
               <div className="terms-pricing-card terms-pricing-card--annual">
-                <div className="terms-savings-badge">Save 2 months</div>
-                <h3>Annual</h3>
+                <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>Annual <span className="terms-savings-badge" style={{ margin: 0 }}>Save 2 months</span></h3>
                 <ul>
                   <li><span>Single</span><span>$79.90/yr</span></li>
                   <li><span>Two</span><span>$129.90/yr</span></li>

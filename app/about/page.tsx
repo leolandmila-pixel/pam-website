@@ -15,7 +15,7 @@ export default function AboutPage() {
           fill
           priority
           sizes="100vw"
-          style={{ objectFit: 'cover', objectPosition: 'center center' }}
+          style={{ objectFit: 'cover', objectPosition: 'center 20%' }}
         />
       </section>
 

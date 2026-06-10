@@ -12,8 +12,8 @@ export default function TrackerFeaturePage() {
         <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
         <div className="pricing-hero-overlay" />
         <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">Feeds, sleep, growth - in one calm place.</h1>
-          <p className="pricing-hero-sub">Shared with your partner in real time.</p>
+          <h1 className="pricing-hero-heading">Every part of your baby&apos;s day, <em>tracked.</em></h1>
+          <p className="pricing-hero-sub">Feeds, sleep, nappies, growth, milestones - all in one place, shared with your partner in real time.</p>
         </div>
       </section>
       <section className="hero feature-hero">
@@ -21,7 +21,7 @@ export default function TrackerFeaturePage() {
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
               <span className="eyebrow">App · Tracker</span>
-              <h1 className="display-xl feature-hero-title">Feeds, sleep, growth - in <em>one calm</em> place.</h1>
+              <h1 className="display-xl feature-hero-title">Every part of your baby&apos;s day, in <em>one calm</em> place.</h1>
               <p className="feature-hero-lead">
                 Daily logs, percentile charts, clear reports and nap predictions built around your baby. Shared with
                 your partner so you&apos;re never the only one keeping track.

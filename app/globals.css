@@ -130,7 +130,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .feature-hero-lead{font-size:1.12rem;line-height:1.6;color:var(--ink-soft);max-width:32em;margin-bottom:30px}
 .feature-cta{margin-top:6px}
 .feature-hero-phone{justify-self:center;position:relative}
-.feature-hero-phone img{display:block;border-radius:32px;box-shadow:0 30px 80px rgba(74,7,19,0.22);width:100%;max-width:300px;height:auto}
+.feature-hero-phone img{display:block;border-radius:32px;box-shadow:0 30px 80px rgba(74,7,19,0.22);width:100%;max-width:420px;height:auto}
 .feature-body{padding:60px 0 30px}
 .feature-body .sec-head{margin-bottom:28px}
 .feature-prose{font-size:1.05rem;line-height:1.75;color:var(--ink);max-width:52em;margin:0 auto 18px;text-align:center}
@@ -287,7 +287,7 @@ em,.em{font-style:italic;color:var(--wine)}
   .pfeat-phone{width:200px}
 }
 
-.store-buttons{display:flex;gap:10px;flex-shrink:0}
+.store-buttons{display:none;gap:10px;flex-shrink:0}
 .store-btn{
   display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--navy);color:#fff;
   padding:9px 20px;border-radius:100px;min-width:140px;

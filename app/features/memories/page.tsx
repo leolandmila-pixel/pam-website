@@ -34,7 +34,7 @@ export default function MemoriesFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-memories.jpg" alt="PAM Memories screen" width={300} height={650} priority />
+              <Image src="/phone-memories.jpg" alt="PAM Memories screen" width={420} height={910} priority />
             </div>
           </div>
         </div>

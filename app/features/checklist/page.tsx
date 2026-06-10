@@ -34,7 +34,7 @@ export default function ChecklistFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-checklist.jpg" alt="PAM Smart Checklist screen" width={300} height={650} priority />
+              <Image src="/phone-checklist.jpeg" alt="PAM Smart Checklist screen" width={420} height={910} priority />
             </div>
           </div>
         </div>

@@ -7,12 +7,12 @@ export default function PricingFeatures() {
           Everything a parent needs, <em>all in one place.</em>
         </h2>
         <p className="pfeat-intro-lead">
-          From your baby&apos;s first feed to their first day of school — PAM holds the detail so you can hold the
+          From your baby&apos;s first feed to their first day of school - PAM holds the detail so you can hold the
           moments.
         </p>
       </div>
 
-      {/* SECTION 1 — Smart Checklist */}
+      {/* SECTION 1 - Smart Checklist */}
       <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--warm" aria-hidden="true">
           <div className="pfeat-phone">
@@ -36,7 +36,7 @@ export default function PricingFeatures() {
                 <div style={{ height: 10 }} />
                 <div className="pfeat-pill pfeat-pill--muted">Coming up</div>
                 <PhoneRow text="4-month immunisation" badge="4 weeks" badgeMuted />
-                <PhoneRow text="Book dentist — mum" badge="6 weeks" badgeMuted />
+                <PhoneRow text="Book dentist - mum" badge="6 weeks" badgeMuted />
                 <PhoneRow text="Postpartum eye check" badge="8 weeks" badgeMuted />
               </div>
             </div>
@@ -48,19 +48,19 @@ export default function PricingFeatures() {
             Nothing falls through the <em>cracks.</em>
           </h3>
           <p className="pfeat-subhead">
-            Every important date, appointment and reminder — already there when you need it.
+            Every important date, appointment and reminder - already there when you need it.
           </p>
           <ul className="pfeat-list">
             <li>Pre-populated immunisation schedule aligned to the Australian childhood program</li>
             <li>MCH appointments and postnatal check reminders built in from day one</li>
-            <li>Mum&apos;s health reminders too — 6-week check, dentist, eye health and more</li>
+            <li>Mum&apos;s health reminders too - 6-week check, dentist, eye health and more</li>
             <li>Add your own tasks and set custom reminders alongside the pre-populated ones</li>
-            <li>Tick things off as you go — because you deserve to see how much you&apos;re actually doing</li>
+            <li>Tick things off as you go - because you deserve to see how much you&apos;re actually doing</li>
           </ul>
         </div>
       </section>
 
-      {/* SECTION 2 — Tracker (flipped) */}
+      {/* SECTION 2 - Tracker (flipped) */}
       <section className="pfeat-section pfeat-section--flip">
         <div className="pfeat-visual pfeat-visual--rose" aria-hidden="true">
           <div className="pfeat-phone">
@@ -74,7 +74,7 @@ export default function PricingFeatures() {
               </div>
               <div className="pfeat-phone-header">
                 <div className="pfeat-phone-title">Tracker</div>
-                <div className="pfeat-phone-sub">Today — 14 Jun</div>
+                <div className="pfeat-phone-sub">Today - 14 Jun</div>
               </div>
               <div className="pfeat-phone-body">
                 <div className="pfeat-section-label">Feeds today</div>
@@ -89,10 +89,10 @@ export default function PricingFeatures() {
                 </div>
                 <div className="pfeat-chart-labels"><span>6am</span><span>9pm</span></div>
                 <div className="pfeat-section-label">Last logged</div>
-                <PhoneRow text="Sleep — 2h 40min nap" badge="2hr ago" badgeMuted />
-                <PhoneRow text="Nappy — wet" badge="1hr ago" badgeMuted />
+                <PhoneRow text="Sleep - 2h 40min nap" badge="2hr ago" badgeMuted />
+                <PhoneRow text="Nappy - wet" badge="1hr ago" badgeMuted />
                 <PhoneRow text="Paracetamol 2.5ml" badge="4hr ago" badgeMuted />
-                <PhoneRow text="Weight — 5.2 kg" badge="today" badgeMuted />
+                <PhoneRow text="Weight - 5.2 kg" badge="today" badgeMuted />
               </div>
             </div>
           </div>
@@ -106,16 +106,16 @@ export default function PricingFeatures() {
             The early days are a blur. PAM keeps the detail so you don&apos;t have to hold it all in your head.
           </p>
           <ul className="pfeat-list">
-            <li>Feeding tracker for breast, bottle and solids — times, amounts and which side</li>
+            <li>Feeding tracker for breast, bottle and solids - times, amounts and which side</li>
             <li>Sleep tracking with nap and overnight logs so you can start to spot patterns</li>
-            <li>Nappy logs — wet, dirty and mixed, with notes for the doctor if needed</li>
+            <li>Nappy logs - wet, dirty and mixed, with notes for the doctor if needed</li>
             <li>Medicine tracker with dose, time and next-due reminder so nothing is doubled up</li>
-            <li>Growth measurements and activity logs — all in one place, ready for any appointment</li>
+            <li>Growth measurements and activity logs - all in one place, ready for any appointment</li>
           </ul>
         </div>
       </section>
 
-      {/* SECTION 3 — Family Info */}
+      {/* SECTION 3 - Family Info */}
       <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--sage" aria-hidden="true">
           <div className="pfeat-phone">
@@ -157,19 +157,19 @@ export default function PricingFeatures() {
             Everything you need, <em>right when</em> you need it.
           </h3>
           <p className="pfeat-subhead">
-            From your GP&apos;s number to your baby&apos;s birth weight — it&apos;s all here, organised and easy to find.
+            From your GP&apos;s number to your baby&apos;s birth weight - it&apos;s all here, organised and easy to find.
           </p>
           <ul className="pfeat-list">
-            <li>Curated local guides — hospitals, maternal health services, support lines and helplines</li>
+            <li>Curated local guides - hospitals, maternal health services, support lines and helplines</li>
             <li>Kids profiles with health history, allergies, Medicare details and key contacts</li>
             <li>Document storage for birth certificates, immunisation records and hospital summaries</li>
-            <li>Age and stage guides so you always know what to expect — and when</li>
+            <li>Age and stage guides so you always know what to expect - and when</li>
             <li>A dedicated postpartum section with resources for mum&apos;s physical and mental recovery</li>
           </ul>
         </div>
       </section>
 
-      {/* SECTION 4 — Memories (flipped) */}
+      {/* SECTION 4 - Memories (flipped) */}
       <section className="pfeat-section pfeat-section--flip">
         <div className="pfeat-visual pfeat-visual--blush" aria-hidden="true">
           <div className="pfeat-phone">
@@ -217,11 +217,11 @@ export default function PricingFeatures() {
             They grow so fast. PAM gives you a beautiful place to save, treasure and revisit every chapter.
           </p>
           <ul className="pfeat-list">
-            <li>Photos and videos saved alongside milestones — not lost in a camera roll</li>
+            <li>Photos and videos saved alongside milestones - not lost in a camera roll</li>
             <li>Voice notes to capture the sounds and moments you never want to forget</li>
-            <li>Baby Book for first smiles, first words, first steps — and everything in between</li>
+            <li>Baby Book for first smiles, first words, first steps - and everything in between</li>
             <li>Yearly Books to look back on each year as a whole family chapter</li>
-            <li>Letters to your child — words written today that they&apos;ll treasure one day</li>
+            <li>Letters to your child - words written today that they&apos;ll treasure one day</li>
           </ul>
         </div>
       </section>

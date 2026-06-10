@@ -3,11 +3,11 @@ import { Metadata } from 'next'
 export const baseMetadata: Metadata = {
   metadataBase: new URL('https://pamapp.com.au'),
   title: {
-    default: 'PAM — The mental load, managed.',
+    default: 'PAM - The mental load, managed.',
     template: '%s | PAM',
   },
   description:
-    'PAM (Parental Admin Manager) — the assistant every parent deserves. Smart checklists, a gentle tracker, memories, family info and Ask PAM, all in one beautifully simple app.',
+    'PAM (Parental Admin Manager) - the assistant every parent deserves. Smart checklists, a gentle tracker, memories, family info and Ask PAM, all in one beautifully simple app.',
   keywords: [
     'parenting app',
     'Australian parents',
@@ -28,17 +28,17 @@ export const baseMetadata: Metadata = {
     type: 'website',
     locale: 'en_AU',
     url: 'https://pamapp.com.au',
-    title: 'PAM — The mental load, managed.',
+    title: 'PAM - The mental load, managed.',
     description:
-      'The assistant every parent deserves — built for the appointments, checklists, milestones and quiet moments that make up a family.',
+      'The assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family.',
     siteName: 'PAM',
     images: [
-      { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM — The mental load, managed.' },
+      { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM - The mental load, managed.' },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PAM — The mental load, managed.',
+    title: 'PAM - The mental load, managed.',
     description: 'The assistant every parent deserves. Built in Australia by two mums.',
     images: ['/og-image.png'],
     creator: '@pam.app',
@@ -62,13 +62,13 @@ export const homepageMetadata: Metadata = {
 }
 
 export const aboutMetadata: Metadata = {
-  title: 'About — Ash, Oly, and the story behind PAM.',
+  title: 'About - Ash, Oly, and the story behind PAM.',
   description:
-    "Meet Ash and Oly — two mums of 15-month-olds (Mila and Leo) who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
+    "Meet Ash and Oly - two mums of 15-month-olds (Mila and Leo) who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
   alternates: { canonical: 'https://pamapp.com.au/about' },
   openGraph: {
     ...baseMetadata.openGraph,
-    title: 'About PAM — Mums, founders, best friends.',
+    title: 'About PAM - Mums, founders, best friends.',
     description: 'The founders, values and story behind PAM.',
     url: 'https://pamapp.com.au/about',
   },
@@ -77,11 +77,11 @@ export const aboutMetadata: Metadata = {
 export const storiesMetadata: Metadata = {
   title: 'Real Mums, Real Stories',
   description:
-    "The honest, unfiltered bits — real Australian parents sharing what helped, what hurt, and what they wish they'd known.",
+    "The honest, unfiltered bits - real Australian parents sharing what helped, what hurt, and what they wish they'd known.",
   alternates: { canonical: 'https://pamapp.com.au/stories' },
   openGraph: {
     ...baseMetadata.openGraph,
-    title: 'Real Mums, Real Stories — PAM',
+    title: 'Real Mums, Real Stories - PAM',
     description: 'No highlight reels. Just real parents, telling it straight.',
     url: 'https://pamapp.com.au/stories',
   },
@@ -90,12 +90,12 @@ export const storiesMetadata: Metadata = {
 export const contactMetadata: Metadata = {
   title: 'Contact',
   description:
-    "Real humans, real replies. Questions, feedback or a story to share — we read every message.",
+    "Real humans, real replies. Questions, feedback or a story to share - we read every message.",
   alternates: { canonical: 'https://pamapp.com.au/contact' },
   openGraph: {
     ...baseMetadata.openGraph,
     title: 'Contact PAM',
-    description: 'Say hello — real humans, real replies.',
+    description: 'Say hello - real humans, real replies.',
     url: 'https://pamapp.com.au/contact',
   },
 }
@@ -103,12 +103,12 @@ export const contactMetadata: Metadata = {
 export const faqMetadata: Metadata = {
   title: 'FAQ',
   description:
-    'Everything you might be wondering before you join the PAM founding trial — launch, pricing, privacy, Ask PAM and more.',
+    'Everything you might be wondering before you join the PAM founding trial - launch, pricing, privacy, Ask PAM and more.',
   alternates: { canonical: 'https://pamapp.com.au/faq' },
   openGraph: {
     ...baseMetadata.openGraph,
     title: 'PAM FAQ',
-    description: 'Launch, pricing, privacy and family — answered.',
+    description: 'Launch, pricing, privacy and family - answered.',
     url: 'https://pamapp.com.au/faq',
   },
 }
@@ -116,7 +116,7 @@ export const faqMetadata: Metadata = {
 export const checklistMetadata: Metadata = {
   title: 'Smart Checklist',
   description:
-    "PAM's Smart Checklist — every appointment, registration, and reminder Australian parents need to remember, pre-loaded and ready.",
+    "PAM's Smart Checklist - every appointment, registration, and reminder Australian parents need to remember, pre-loaded and ready.",
   alternates: { canonical: 'https://pamapp.com.au/features/checklist' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Smart Checklist', url: 'https://pamapp.com.au/features/checklist' },
 }
@@ -124,7 +124,7 @@ export const checklistMetadata: Metadata = {
 export const trackerMetadata: Metadata = {
   title: 'Tracker',
   description:
-    "PAM's tracker — feeds, sleep, nappies, growth charts and nap predictions in one calm place. Shared with your partner.",
+    "PAM's tracker - feeds, sleep, nappies, growth charts and nap predictions in one calm place. Shared with your partner.",
   alternates: { canonical: 'https://pamapp.com.au/features/tracker' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Tracker', url: 'https://pamapp.com.au/features/tracker' },
 }
@@ -132,7 +132,7 @@ export const trackerMetadata: Metadata = {
 export const familyInfoMetadata: Metadata = {
   title: 'Family Info',
   description:
-    "Everything you'd scramble for at 2am — already where it should be. People, records and services for your whole family.",
+    "Everything you'd scramble for at 2am - already where it should be. People, records and services for your whole family.",
   alternates: { canonical: 'https://pamapp.com.au/features/family-info' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Info', url: 'https://pamapp.com.au/features/family-info' },
 }
@@ -140,7 +140,7 @@ export const familyInfoMetadata: Metadata = {
 export const memoriesMetadata: Metadata = {
   title: 'Memories',
   description:
-    "Voice notes, photos and milestones — saved as they happen. The little moments and big firsts, gently gathered into your family's story.",
+    "Voice notes, photos and milestones - saved as they happen. The little moments and big firsts, gently gathered into your family's story.",
   alternates: { canonical: 'https://pamapp.com.au/features/memories' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Memories', url: 'https://pamapp.com.au/features/memories' },
 }
@@ -148,7 +148,7 @@ export const memoriesMetadata: Metadata = {
 export const pricingMetadata: Metadata = {
   title: 'App Pricing',
   description:
-    'Simple, transparent PAM pricing — Single, Couple and Family plans. From $7.99/month with a 7-day free trial.',
+    'Simple, transparent PAM pricing - Single, Couple and Family plans. From $7.99/month with a 14-day free trial.',
   alternates: { canonical: 'https://pamapp.com.au/features/pricing' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://pamapp.com.au/features/pricing' },
 }

@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
 
   if (!contactRes.ok && contactRes.status !== 204) {
     const err = await contactRes.json()
-    // Contact already exists is fine — still send the welcome email
+    // Contact already exists is fine - still send the welcome email
     if (err?.code !== 'duplicate_parameter') {
       return NextResponse.json({ error: 'Failed to add contact' }, { status: 500 })
     }

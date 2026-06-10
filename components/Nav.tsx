@@ -42,7 +42,7 @@ export default function Nav() {
     <div className="nav-wrapper">
       <nav className="nav">
         <Link href="/" className="logo" onClick={() => setOpen(false)}>
-          <Image src="/logo.png" alt="PAM — Parental Admin Manager" width={120} height={34} className="logo-img" priority />
+          <Image src="/logo.png" alt="PAM - Parental Admin Manager" width={120} height={34} className="logo-img" priority />
           <small>Parental Admin Manager</small>
         </Link>
         <ul className={`nav-pills${open ? ' open' : ''}`}>

@@ -39,7 +39,7 @@ export default function TermsPage() {
             <ul className="terms-check-list">
               <li>Provide accurate, current, and complete information</li>
               <li>Keep your login credentials secure and confidential</li>
-              <li>Notify us immediately at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a> if you suspect any unauthorised access to your account</li>
+              <li>Notify us immediately if you suspect any unauthorised access to your account - contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></li>
               <li>Take responsibility for all activity that occurs under your account</li>
             </ul>
             <p style={{ marginTop: '1rem' }}>PAM reserves the right to suspend or terminate accounts where false or misleading information has been provided.</p>
@@ -69,7 +69,7 @@ export default function TermsPage() {
             </div>
             <div className="terms-note">All prices are in Australian dollars and inclusive of any applicable taxes.</div>
             <p style={{ marginTop: '1.25rem' }}>Your subscription begins at the end of your free trial period (if applicable) or immediately upon purchase. Monthly subscriptions are billed in advance at the start of each billing cycle. Annual subscriptions are billed in full at the start of the subscription year.</p>
-            <p>Subscriptions automatically renew unless cancelled before the renewal date. You will not receive a separate reminder before each renewal — it is your responsibility to cancel if you no longer wish to continue.</p>
+            <p>Subscriptions automatically renew unless cancelled before the renewal date. You will not receive a separate reminder before each renewal - it is your responsibility to cancel if you no longer wish to continue.</p>
           </div>
 
           <div className="privacy-section">

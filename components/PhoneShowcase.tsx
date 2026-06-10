@@ -10,33 +10,33 @@ type Tab = {
 const tabs: Tab[] = [
   {
     name: 'Today',
-    body: "What's due, what's done, and nothing left to remember — your whole day the moment you open the app.",
+    body: "What's due, what's done, and nothing left to remember - your whole day the moment you open the app.",
     src: '/phone-home.jpg',
-    alt: 'PAM Today tab — Welcome back, daily reminder and quick log',
+    alt: 'PAM Today tab - Welcome back, daily reminder and quick log',
   },
   {
     name: 'Smart Checklist',
-    body: 'Everything from immunisations to MCH visits to registering the birth — pre-loaded and reminded as each task nears, and a nudge if one slips by.',
+    body: 'Everything from immunisations to MCH visits to registering the birth - pre-loaded and reminded as each task nears, and a nudge if one slips by.',
     src: '/phone-checklist.jpg',
-    alt: 'PAM Smart Checklist tab — calendar view with upcoming tasks',
+    alt: 'PAM Smart Checklist tab - calendar view with upcoming tasks',
   },
   {
     name: 'Tracker',
-    body: 'From feeds to growth in one place — daily logs, percentile charts, clear reports, and nap predictions built around your baby.',
+    body: 'From feeds to growth in one place - daily logs, percentile charts, clear reports, and nap predictions built around your baby.',
     src: '/phone-tracker.jpg',
-    alt: 'PAM Tracker tab — daily tracking tiles and summary',
+    alt: 'PAM Tracker tab - daily tracking tiles and summary',
   },
   {
     name: 'Family Info',
-    body: "Whatever you'd scramble for at 2am, already where it should be — the people, details and services, kept close and organised.",
+    body: "Whatever you'd scramble for at 2am, already where it should be - the people, details and services, kept close and organised.",
     src: '/phone-family.jpg',
-    alt: 'PAM Family Info tab — People, Records and Journey',
+    alt: 'PAM Family Info tab - People, Records and Journey',
   },
   {
     name: 'Memories',
     body: 'The little moments and big firsts, saved as they happen.',
     src: '/phone-memories.jpg',
-    alt: 'PAM Memories tab — Capture, Preserve and Write',
+    alt: 'PAM Memories tab - Capture, Preserve and Write',
   },
 ]
 

@@ -24,10 +24,10 @@ export default function FoundingListForm() {
         setEmail('')
         setNote("You're on the list! Check your inbox for a welcome email from us.")
       } else {
-        setNote("Something went wrong — please try again or email us directly.")
+        setNote("Something went wrong - please try again or email us directly.")
       }
     } catch {
-      setNote("Something went wrong — please try again or email us directly.")
+      setNote("Something went wrong - please try again or email us directly.")
     } finally {
       setSubmitting(false)
     }

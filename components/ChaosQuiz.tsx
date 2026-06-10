@@ -6,11 +6,11 @@ import Image from 'next/image'
 const OPTIONS = [
   {
     id: 'appointments',
-    label: "I can never keep track of appointments — things keep slipping through",
+    label: "I can never stay on top of immunisation schedules and booking appointments at the right ages",
     result: {
       tag: 'Smart Calendar & Checklists',
       heading: 'You need a brain that never forgets.',
-      tagline: 'PAM surfaces what\'s due, when it\'s due — before you even have to think about it.',
+      tagline: 'PAM surfaces what\'s due, when it\'s due - before you even have to think about it.',
       body: 'Every appointment, reminder and upcoming task lives in one calm place. PAM sends gentle nudges so nothing slips, and your mornings start already organised.',
       gradient: 'linear-gradient(140deg,#F4E2E3,#C68A8E 60%,#9A1E37)',
       phone: '/phone-checklist.jpg',
@@ -19,11 +19,11 @@ const OPTIONS = [
   },
   {
     id: 'load',
-    label: "I carry the mental load alone — my partner has no idea what's going on",
+    label: "I carry the mental load alone - my partner has no idea what's going on",
     result: {
       tag: 'Shared Family Tracking',
       heading: 'You shouldn\'t be the only one holding it.',
-      tagline: 'PAM is built for two — so the load is actually shared.',
+      tagline: 'PAM is built for two - so the load is actually shared.',
       body: 'Everything you track, your partner sees too. From feeds to schedules to family info, PAM keeps both of you in sync without the constant catch-up conversations.',
       gradient: 'linear-gradient(140deg,#E6D3B8,#B06E72 60%,#9A1E37)',
       phone: '/phone-tracker.jpg',
@@ -50,7 +50,7 @@ const OPTIONS = [
       tag: 'Memories & Voice Notes',
       heading: 'The little moments are slipping by.',
       tagline: 'PAM makes capturing memories as easy as a single tap.',
-      body: 'A voice note, a photo, a thought — tucked away in your family\'s story before it disappears. The sounds that are gone by week six. Future you will thank you.',
+      body: 'A voice note, a photo, a thought - tucked away in your family\'s story before it disappears. The sounds that are gone by week six. Future you will thank you.',
       gradient: 'linear-gradient(140deg,#7E0F25,#4A0010 60%,#260008)',
       phone: '/phone-memories.jpg',
       phoneAlt: 'PAM memories screen',
@@ -58,12 +58,12 @@ const OPTIONS = [
   },
   {
     id: 'scattered',
-    label: "Everything is scattered across apps, notes and my head — I need one place",
+    label: "Everything is scattered across apps, notes and my head - I need one place",
     result: {
       tag: 'Family Dashboard',
       heading: 'One calm place for everything.',
       tagline: 'PAM brings it all together so your brain can finally let go.',
-      body: 'Appointments, checklists, trackers, memories, family info — all in one app, built for the way parenting actually works. No more juggling twelve tabs.',
+      body: 'Appointments, checklists, trackers, memories, family info - all in one app, built for the way parenting actually works. No more juggling twelve tabs.',
       gradient: 'linear-gradient(140deg,#F1DBDC,#C5A085 50%,#6D0015)',
       phone: '/phone-home.jpg',
       phoneAlt: 'PAM home dashboard screen',
@@ -93,7 +93,7 @@ export default function ChaosQuiz() {
             <div className="sec-head">
               <span className="eyebrow">Find your fit</span>
               <h2>What kind of family admin <em>chaos</em> is yours?</h2>
-              <p className="quiz-intro">Pick the one that feels most like you — we&apos;ll show you exactly how PAM helps.</p>
+              <p className="quiz-intro">Pick the one that feels most like you. We&apos;ll show you exactly how PAM helps.</p>
             </div>
             <div className="quiz-options">
               {OPTIONS.map((o) => (

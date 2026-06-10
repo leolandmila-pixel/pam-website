@@ -32,11 +32,11 @@ export default function HomePage() {
               <span className="word"><strong>managed.</strong></span>
             </h1>
             <p className="hero-sub">
-              PAM is the assistant every parent deserves — built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what matters most.
+              PAM is the assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what matters most.
             </p>
             <div className="hero-signup" id="founding">
               <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="hero-signup-pill">
-                Pre-sign up is open — Join Waitlist Now
+                Pre-sign up is open - Join Waitlist Now
               </a>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function HomePage() {
         <div className="container">
           <div className="sec-head">
             <span className="eyebrow">A look inside</span>
-            <h2>Everything, in <em>one calm</em> place</h2>
+            <h2>Parenting, <em>made effortless.</em></h2>
           </div>
           <PhoneShowcase />
         </div>
@@ -102,7 +102,7 @@ export default function HomePage() {
               <div className="flow-content">
                 <h3>Morning</h3>
                 <h4>A clear start</h4>
-                <p>Wake to a day already laid out — what&apos;s due, what&apos;s done, who needs what. The remembering&apos;s handled, so you can simply be present.</p>
+                <p>Wake to a day already laid out - what&apos;s due, what&apos;s done, who needs what. The remembering&apos;s handled, so you can simply be present.</p>
               </div>
             </article>
             <article className="flow-row">
@@ -114,7 +114,7 @@ export default function HomePage() {
               <div className="flow-content">
                 <h3>Midday</h3>
                 <h4>A shared pause</h4>
-                <p>While bub naps, a few taps keeps the day captured — a feed here, a sleep there. Your partner sees every entry, so you&apos;re never the only one keeping track.</p>
+                <p>While bub naps, a few taps keeps the day captured - a feed here, a sleep there. Your partner sees every entry, so you&apos;re never the only one keeping track.</p>
               </div>
             </article>
             <article className="flow-row">
@@ -126,7 +126,7 @@ export default function HomePage() {
               <div className="flow-content">
                 <h3>Afternoon</h3>
                 <h4>The week, in hand</h4>
-                <p>As the afternoon softens, look to what&apos;s coming — the next check-up, an appointment, a reminder you set weeks ago. Tomorrow arrives already handled.</p>
+                <p>As the afternoon softens, look to what&apos;s coming - the next check-up, an appointment, a reminder you set weeks ago. Tomorrow arrives already handled.</p>
               </div>
             </article>
             <article className="flow-row">
@@ -138,7 +138,7 @@ export default function HomePage() {
               <div className="flow-content">
                 <h3>Evening</h3>
                 <h4>A soft landing</h4>
-                <p>Wind down and let the day settle — a voice note, a photo tucked into the baby book, a glance at what tomorrow holds. Then rest, properly.</p>
+                <p>Wind down and let the day settle - a voice note, a photo tucked into the baby book, a glance at what tomorrow holds. Then rest, properly.</p>
               </div>
             </article>
             <article className="flow-row">
@@ -150,7 +150,7 @@ export default function HomePage() {
               <div className="flow-content">
                 <h3>Every Day</h3>
                 <h4>Your story, gathering</h4>
-                <p>Through it all, PAM works quietly in the background — holding the details, easing the admin, gathering the moments. Bit by bit, your family&apos;s story takes shape.</p>
+                <p>Through it all, PAM works quietly in the background - holding the details, easing the admin, gathering the moments. Bit by bit, your family&apos;s story takes shape.</p>
               </div>
             </article>
           </div>
@@ -165,13 +165,13 @@ export default function HomePage() {
             <h2>In their <span className="em">own words.</span></h2>
           </div>
 
-          {/* Featured testimonial — swap photo + copy when a real one is ready */}
+          {/* Featured testimonial - swap photo + copy when a real one is ready */}
           <div className="tst-featured">
             <div className="tst-featured-photo">
               <Image src="/testimonial-1.jpg" alt="Chloe" width={148} height={148} style={{ objectFit: 'cover', objectPosition: 'center 20%', width: '100%', height: '100%' }} />
             </div>
             <div className="stars">★★★★★</div>
-            <p className="tst-featured-quote">&ldquo;I started using PAM in my third trimester and it genuinely changed how prepared I felt. Every appointment, every form, every &lsquo;don&apos;t forget&rsquo; moment was already there waiting for me. I arrived at the hospital calm, organised, and ready — and that felt like everything.&rdquo;</p>
+            <p className="tst-featured-quote">&ldquo;The newborn weeks are a blur and I genuinely don&apos;t know how I would have kept track of everything without PAM. The six-week check, the immunisations, who to call, what to bring - it was all just there. I wasn&apos;t dropping balls, I was actually present. That felt like a gift.&rdquo;</p>
             <div className="tst-featured-who">
               <b>Chloe</b>
               <span>Mum of one · VIC</span>

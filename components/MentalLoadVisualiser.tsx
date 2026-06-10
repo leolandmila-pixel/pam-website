@@ -43,7 +43,7 @@ export default function MentalLoadVisualiser() {
         <div className="sec-head">
           <span className="eyebrow">The mental load</span>
           <h2>Everything you <em>carry</em> in a week.</h2>
-          <p className="mlv-intro">Every appointment, form, reminder and task — held in your head, all at once. Watch what happens when PAM holds it instead.</p>
+          <p className="mlv-intro">Every appointment, form, reminder and task - held in your head, all at once. Watch what happens when PAM holds it instead.</p>
         </div>
 
         <div className="mlv-stage">

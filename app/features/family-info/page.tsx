@@ -8,6 +8,14 @@ export const metadata: Metadata = familyInfoMetadata
 export default function FamilyInfoFeaturePage() {
   return (
     <main>
+      <section className="pricing-hero-banner">
+        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+        <div className="pricing-hero-overlay" />
+        <div className="pricing-hero-content">
+          <h1 className="pricing-hero-heading">Whatever you&apos;d scramble for at 2am.</h1>
+          <p className="pricing-hero-sub">Your family&apos;s most important details, always within reach.</p>
+        </div>
+      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -15,7 +23,7 @@ export default function FamilyInfoFeaturePage() {
               <span className="eyebrow">App · Family Info</span>
               <h1 className="display-xl feature-hero-title">Whatever you&apos;d scramble for at 2am.</h1>
               <p className="feature-hero-lead">
-                The people, details and services that hold your family together — kept close, organised, and ready
+                The people, details and services that hold your family together - kept close, organised, and ready
                 exactly when you need them.
               </p>
               <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
@@ -41,12 +49,12 @@ export default function FamilyInfoFeaturePage() {
           <p className="feature-prose">
             Emergency numbers. GP contacts. Blood types. Allergies. The childcare educator&apos;s name. The school
             uniform supplier. Insurance details. Medicare numbers. Lockbox codes. Half of it lives in a notes app,
-            half on a fridge magnet, half in your head — and none of it is where you need it at the worst possible
+            half on a fridge magnet, half in your head - and none of it is where you need it at the worst possible
             moment.
           </p>
           <p className="feature-prose">
             PAM&apos;s Family Info tab gathers all of it in one place. People, records and services for every member of
-            your family — searchable, shareable, and quietly there when you need it most.
+            your family - searchable, shareable, and quietly there when you need it most.
           </p>
         </div>
       </section>
@@ -60,7 +68,7 @@ export default function FamilyInfoFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>People</h3>
-              <p>Every family member with their key details — blood type, allergies, medications, conditions, Medicare number, emergency contacts.</p>
+              <p>Every family member with their key details - blood type, allergies, medications, conditions, Medicare number, emergency contacts.</p>
             </div>
             <div className="feature-tile">
               <h3>Records</h3>
@@ -68,7 +76,7 @@ export default function FamilyInfoFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Services</h3>
-              <p>Childcare, school, GP, paediatrician, dentist, optometrist, lactation consultant, insurance — saved with the info you actually need (after-hours numbers, account references).</p>
+              <p>Childcare, school, GP, paediatrician, dentist, optometrist, lactation consultant, insurance - saved with the info you actually need (after-hours numbers, account references).</p>
             </div>
             <div className="feature-tile">
               <h3>Journey timeline</h3>

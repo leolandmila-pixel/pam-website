@@ -17,7 +17,7 @@ export default function ContactPage() {
                 We want to <span className="em">hear from you.</span>
               </h2>
               <p className="contact-card-intro">
-                Real humans, real replies. Questions, feedback, or a story to share — we read every message.
+                Real humans, real replies. Questions, feedback, or a story to share - we read every message.
               </p>
               <div className="contact-card-details">
                 <div className="contact-card-detail">

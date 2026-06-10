@@ -8,12 +8,20 @@ export const metadata: Metadata = trackerMetadata
 export default function TrackerFeaturePage() {
   return (
     <main>
+      <section className="pricing-hero-banner">
+        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+        <div className="pricing-hero-overlay" />
+        <div className="pricing-hero-content">
+          <h1 className="pricing-hero-heading">Feeds, sleep, growth - in one calm place.</h1>
+          <p className="pricing-hero-sub">Shared with your partner in real time.</p>
+        </div>
+      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
               <span className="eyebrow">App · Tracker</span>
-              <h1 className="display-xl feature-hero-title">Feeds, sleep, growth — in <em>one calm</em> place.</h1>
+              <h1 className="display-xl feature-hero-title">Feeds, sleep, growth - in <em>one calm</em> place.</h1>
               <p className="feature-hero-lead">
                 Daily logs, percentile charts, clear reports and nap predictions built around your baby. Shared with
                 your partner so you&apos;re never the only one keeping track.
@@ -39,7 +47,7 @@ export default function TrackerFeaturePage() {
             <h2>One place. <span className="em">Both of you.</span></h2>
           </div>
           <p className="feature-prose">
-            New parents track dozens of data points by hand — feeds, sleeps, nappies, weight, percentile, milestones —
+            New parents track dozens of data points by hand - feeds, sleeps, nappies, weight, percentile, milestones -
             usually scattered across three apps and a notebook. PAM puts all of it in one place that updates in real
             time, and shares with your partner so you both see the same picture.
           </p>
@@ -59,7 +67,7 @@ export default function TrackerFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>Feeding</h3>
-              <p>Breast, bottle or expressed — log feeds in seconds. PAM tracks duration, side, volume and time-since-last automatically.</p>
+              <p>Breast, bottle or expressed - log feeds in seconds. PAM tracks duration, side, volume and time-since-last automatically.</p>
             </div>
             <div className="feature-tile">
               <h3>Sleep &amp; nap prediction</h3>
@@ -79,7 +87,7 @@ export default function TrackerFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>GP-ready reports</h3>
-              <p>One tap and PAM gives you a clean summary of the last week — feeds, sleeps, nappies, weight. Show your GP or MCH nurse and skip the &ldquo;how often have you been feeding?&rdquo; guessing.</p>
+              <p>One tap and PAM gives you a clean summary of the last week - feeds, sleeps, nappies, weight. Show your GP or MCH nurse and skip the &ldquo;how often have you been feeding?&rdquo; guessing.</p>
             </div>
           </div>
         </div>

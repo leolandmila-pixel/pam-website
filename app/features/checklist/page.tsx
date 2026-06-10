@@ -8,6 +8,14 @@ export const metadata: Metadata = checklistMetadata
 export default function ChecklistFeaturePage() {
   return (
     <main>
+      <section className="pricing-hero-banner">
+        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+        <div className="pricing-hero-overlay" />
+        <div className="pricing-hero-content">
+          <h1 className="pricing-hero-heading">Never miss what&apos;s due.</h1>
+          <p className="pricing-hero-sub">Pre-loaded checklists for every Australian parent milestone.</p>
+        </div>
+      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -15,7 +23,7 @@ export default function ChecklistFeaturePage() {
               <span className="eyebrow">App · Smart Checklist</span>
               <h1 className="display-xl feature-hero-title">Never miss what&apos;s due.</h1>
               <p className="feature-hero-lead">
-                Every appointment, registration and reminder Australian parents need to remember — pre-loaded, date-aware,
+                Every appointment, registration and reminder Australian parents need to remember - pre-loaded, date-aware,
                 and gently surfacing exactly when you need to know.
               </p>
               <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
@@ -39,7 +47,7 @@ export default function ChecklistFeaturePage() {
             <h2>The remembering, <span className="em">handled.</span></h2>
           </div>
           <p className="feature-prose">
-            Newborn life means dozens of appointments, registrations, immunisations and MCH visits — and a brain that
+            Newborn life means dozens of appointments, registrations, immunisations and MCH visits - and a brain that
             suddenly can&apos;t hold any of it. Other apps give you a blank calendar and ask you to figure it out.
             PAM&apos;s Smart Checklist is different. It already knows what you need to do, when you need to do it, and
             where you live.
@@ -68,7 +76,7 @@ export default function ChecklistFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Custom tasks for your family</h3>
-              <p>Add the things only you know about — sleep school, allergist follow-up, swimming registration. Recurring or one-off, your call.</p>
+              <p>Add the things only you know about - sleep school, allergist follow-up, swimming registration. Recurring or one-off, your call.</p>
             </div>
             <div className="feature-tile">
               <h3>Shared with your partner</h3>
@@ -80,7 +88,7 @@ export default function ChecklistFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Centrelink &amp; Medicare steps</h3>
-              <p>The newborn upfront payment, parental leave pay, Medicare enrolment — guided steps with the links and deadlines you&apos;ll need.</p>
+              <p>The newborn upfront payment, parental leave pay, Medicare enrolment - guided steps with the links and deadlines you&apos;ll need.</p>
             </div>
           </div>
         </div>
@@ -99,7 +107,7 @@ export default function ChecklistFeaturePage() {
         <div className="container" style={{ textAlign: 'center' }}>
           <h2>Join the PAM <span className="em">waitlist.</span></h2>
           <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 540 }}>
-            Pre-sign up is open. We&apos;re launching to a small group of founding families first — keep your spot before doors open.
+            Pre-sign up is open. We&apos;re launching to a small group of founding families first - keep your spot before doors open.
           </p>
           <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
             Get early access

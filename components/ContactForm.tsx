@@ -37,7 +37,7 @@ export default function ContactForm() {
       setName('')
       setEmail('')
       setMessage('')
-      setNote(`Thank you ${greet} — your message is on its way. We'll reply soon.`)
+      setNote(`Thank you ${greet} - your message is on its way. We'll reply soon.`)
     } finally {
       setSubmitting(false)
     }

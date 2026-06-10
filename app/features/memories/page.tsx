@@ -8,6 +8,14 @@ export const metadata: Metadata = memoriesMetadata
 export default function MemoriesFeaturePage() {
   return (
     <main>
+      <section className="pricing-hero-banner">
+        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+        <div className="pricing-hero-overlay" />
+        <div className="pricing-hero-content">
+          <h1 className="pricing-hero-heading">The little moments, <em>saved as they happen.</em></h1>
+          <p className="pricing-hero-sub">Voice notes, photos and milestones - captured in a single tap.</p>
+        </div>
+      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -45,7 +53,7 @@ export default function MemoriesFeaturePage() {
             something.
           </p>
           <p className="feature-prose">
-            PAM&apos;s Memories tab makes capturing a moment a single tap — and saves it where you&apos;ll actually find
+            PAM&apos;s Memories tab makes capturing a moment a single tap - and saves it where you&apos;ll actually find
             it again. Searchable by month, by milestone, by mood. Your family&apos;s story, gathering quietly as you
             live it.
           </p>
@@ -61,7 +69,7 @@ export default function MemoriesFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>Voice notes</h3>
-              <p>Press and hold to record. The sound of a giggle, a first word, a 3am settle song — kept exactly as it was.</p>
+              <p>Press and hold to record. The sound of a giggle, a first word, a 3am settle song - kept exactly as it was.</p>
             </div>
             <div className="feature-tile">
               <h3>Photo moments</h3>

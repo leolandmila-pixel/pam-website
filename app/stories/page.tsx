@@ -16,6 +16,14 @@ export default function StoriesPage() {
 
   return (
     <main>
+      <section className="pricing-hero-banner">
+        <Image src="/stories-hero.jpeg" alt="Real mums, real stories" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center center' }} />
+        <div className="pricing-hero-overlay" />
+        <div className="pricing-hero-content">
+          <h1 className="pricing-hero-heading">Real Mums, Real Stories</h1>
+          <p className="pricing-hero-sub">The honest, unfiltered bits.</p>
+        </div>
+      </section>
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 30 }}>
         <div className="container">
           <div className="sec-head">
@@ -63,7 +71,7 @@ export default function StoriesPage() {
                 <article className={`story${s.published ? '' : ' is-coming-soon'}`}>
                   {s.heroImage ? (
                     <div className="cover cover-photo">
-                      <Image src={s.heroImage} alt={s.title} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+                      <Image src={s.heroImage} alt={s.title} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover', objectPosition: s.heroImagePosition ?? 'center 30%' }} />
                       <b>{s.label}</b>
                     </div>
                   ) : (
@@ -95,7 +103,7 @@ export default function StoriesPage() {
 
           {filtered.length === 0 && (
             <p style={{ textAlign: 'center', color: 'var(--ink-soft)', padding: '48px 0' }}>
-              No stories in this category yet — check back soon.
+              No stories in this category yet - check back soon.
             </p>
           )}
         </div>
@@ -104,7 +112,7 @@ export default function StoriesPage() {
       <div className="share-cta">
         <div className="container">
           <h2>Got a story <em>to share?</em></h2>
-          <p>We&apos;d love to feature your real, honest, beautiful parenting journey. Big or small — every story matters here.</p>
+          <p>We&apos;d love to feature your real, honest, beautiful parenting journey. Big or small - every story matters here.</p>
           <Link href="/contact?topic=story" className="floating-cta" style={{ animation: 'none' }}>
             Share Your Story
             <span className="arrow">

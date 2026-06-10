@@ -48,7 +48,7 @@ export default async function StoryPage({
                 alt={story.title}
                 fill
                 sizes="(max-width: 768px) 100vw, 760px"
-                style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+                style={{ objectFit: 'cover', objectPosition: story.heroImagePosition ?? 'center 30%' }}
                 priority
               />
               <div className="story-cover-photo-label">

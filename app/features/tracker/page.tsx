@@ -13,7 +13,7 @@ export default function TrackerFeaturePage() {
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
               <span className="eyebrow">App · Tracker</span>
-              <h1 className="display-xl feature-hero-title">Feeds, sleep, growth - in <em>one calm</em> place.</h1>
+              <h1 className="display-xl feature-hero-title">Every part of your baby&apos;s day, in <em>one calm</em> place.</h1>
               <p className="feature-hero-lead">
                 Daily logs, percentile charts, clear reports and nap predictions built around your baby. Shared with
                 your partner so you&apos;re never the only one keeping track.
@@ -26,7 +26,7 @@ export default function TrackerFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-tracker.jpg" alt="PAM Tracker screen" width={300} height={650} priority />
+              <Image src="/phone-tracker.jpeg" alt="PAM Tracker screen" width={420} height={910} priority />
             </div>
           </div>
         </div>

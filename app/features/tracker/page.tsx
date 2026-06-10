@@ -8,14 +8,6 @@ export const metadata: Metadata = trackerMetadata
 export default function TrackerFeaturePage() {
   return (
     <main>
-      <section className="pricing-hero-banner">
-        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">Feeds, sleep, growth - in one calm place.</h1>
-          <p className="pricing-hero-sub">Shared with your partner in real time.</p>
-        </div>
-      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">

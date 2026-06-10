@@ -8,14 +8,6 @@ export const metadata: Metadata = checklistMetadata
 export default function ChecklistFeaturePage() {
   return (
     <main>
-      <section className="pricing-hero-banner">
-        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">Never miss what&apos;s due.</h1>
-          <p className="pricing-hero-sub">Pre-loaded checklists for every Australian parent milestone.</p>
-        </div>
-      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">

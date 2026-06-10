@@ -8,14 +8,6 @@ export const metadata: Metadata = familyInfoMetadata
 export default function FamilyInfoFeaturePage() {
   return (
     <main>
-      <section className="pricing-hero-banner">
-        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">Whatever you&apos;d scramble for at 2am.</h1>
-          <p className="pricing-hero-sub">Your family&apos;s most important details, always within reach.</p>
-        </div>
-      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">

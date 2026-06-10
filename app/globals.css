@@ -565,7 +565,7 @@ section{padding:96px 0}
 
 /* ===== Unified contact card (left wine panel + right form) ===== */
 .contact-card{display:grid;grid-template-columns:0.95fr 1.25fr;border-radius:28px;overflow:hidden;box-shadow:0 20px 50px rgba(74,7,19,0.15);margin-top:30px;background:var(--card-cream)}
-.contact-card-info{background:linear-gradient(160deg,rgba(126,15,37,0.55) 0%,rgba(74,0,16,0.7) 100%),url('/contact-bg.jpg');background-size:cover;background-position:center;color:var(--cream);padding:140px 56px 60px;display:flex;flex-direction:column;position:relative}
+.contact-card-info{background:linear-gradient(160deg,rgba(126,15,37,0.75) 0%,rgba(74,0,16,0.88) 100%),url('/contact-bg.jpg');background-size:cover;background-position:center;color:var(--cream);padding:140px 56px 60px;display:flex;flex-direction:column;position:relative}
 .contact-card-info .eyebrow{color:rgba(252,246,241,0.7)}
 .contact-card-info .eyebrow::before{background:var(--blush);box-shadow:0 0 0 4px rgba(175,104,107,0.28)}
 .contact-card-h{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,2.4vw,1.95rem);line-height:1.15;color:var(--cream);margin:14px 0 22px;white-space:nowrap}

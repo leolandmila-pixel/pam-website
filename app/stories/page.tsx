@@ -26,11 +26,7 @@ export default function StoriesPage() {
       </section>
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 30 }}>
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Real Mums, Real Stories</span>
-            <h2>The honest, <span className="em">unfiltered</span> bits.</h2>
-            <p>No highlight reels. Just real parents sharing what helped, what hurt, and what they wish they&apos;d known.</p>
-          </div>
+          <p style={{ textAlign: 'center', color: 'var(--ink-soft)', fontSize: '1.05rem', maxWidth: 560, margin: '0 auto 28px' }}>No highlight reels. Just real parents sharing what helped, what hurt, and what they wish they&apos;d known.</p>
           <div className="blog-note">
             <p>&ldquo;We started PAM because the hardest parts of early parenthood are the ones no one talks about. This is the space for those conversations.&rdquo;</p>
           </div>

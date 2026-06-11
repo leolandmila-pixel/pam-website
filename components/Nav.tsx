@@ -16,8 +16,9 @@ const links: NavLink[] = [
   { href: '/about', label: 'About' },
   {
     href: '/#showcase',
-    label: 'App',
+    label: 'PAM App',
     children: [
+      { href: '/features/app', label: "What's Inside PAM" },
       { href: '/features/checklist', label: 'Smart Checklist' },
       { href: '/features/tracker', label: 'Tracker' },
       { href: '/features/family-info', label: 'Family Info' },

@@ -13,10 +13,9 @@ export default function ChecklistFeaturePage() {
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
               <span className="eyebrow">App · Smart Checklist</span>
-              <h1 className="display-xl feature-hero-title">Never miss what&apos;s due.</h1>
+              <h1 className="display-xl feature-hero-title">Always know what&apos;s next.</h1>
               <p className="feature-hero-lead">
-                Every appointment, registration and reminder Australian parents need to remember - pre-loaded, date-aware,
-                and gently surfacing exactly when you need to know.
+                Every appointment, immunisation and registration an Australian parent needs. Pre-loaded, date-aware, and gently surfacing exactly when you need to know.
               </p>
               <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
                 Get early access
@@ -36,13 +35,13 @@ export default function ChecklistFeaturePage() {
         <div className="container">
           <div className="sec-head">
             <span className="eyebrow">Why it matters</span>
-            <h2>The remembering, <span className="em">handled.</span></h2>
+            <h2>Finally. A to-do list <span className="em">that already knows.</span></h2>
           </div>
           <p className="feature-prose">
             Newborn life means dozens of appointments, registrations, immunisations and MCH visits - and a brain that
             suddenly can&apos;t hold any of it. Other apps give you a blank calendar and ask you to figure it out.
             PAM&apos;s Smart Checklist is different. It already knows what you need to do, when you need to do it, and
-            where you live.
+            for where you live.
           </p>
           <p className="feature-prose">
             You don&apos;t set it up. You don&apos;t research the immunisation schedule or hunt down the birth
@@ -86,14 +85,6 @@ export default function ChecklistFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;The checklist told me exactly what to do in those first foggy weeks. I didn&apos;t miss a single appointment.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section className="feature-cta-section">
         <div className="container" style={{ textAlign: 'center' }}>

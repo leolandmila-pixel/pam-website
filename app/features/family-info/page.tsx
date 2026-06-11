@@ -86,14 +86,6 @@ export default function FamilyInfoFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;Whatever I&apos;d scramble for at 2am, already where it should be.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section className="feature-cta-section">
         <div className="container" style={{ textAlign: 'center' }}>

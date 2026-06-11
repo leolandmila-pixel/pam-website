@@ -85,14 +85,6 @@ export default function TrackerFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;I used to keep everything in my head and a dozen open tabs. PAM gave me my evenings back.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section className="feature-cta-section">
         <div className="container" style={{ textAlign: 'center' }}>

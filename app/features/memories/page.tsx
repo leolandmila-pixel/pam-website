@@ -87,14 +87,6 @@ export default function MemoriesFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;The voice note is the thing I&apos;ll treasure forever. She&apos;ll never sound like that again, and I&apos;ve still got it.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section className="feature-cta-section">
         <div className="container" style={{ textAlign: 'center' }}>

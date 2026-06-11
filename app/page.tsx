@@ -191,7 +191,7 @@ export default function HomePage() {
               <div className="stars">★★★★★</div>
               <p>&ldquo;The checklist told me exactly what to do in those first foggy weeks. I didn&apos;t miss a single appointment.&rdquo;</p>
               <div className="who">
-                <div className="av" style={{ background: 'var(--blush)', color: 'var(--wine)' }}>J</div>
+                <div className="av" style={{ background: 'var(--navy)' }}>J</div>
                 <div><b>Jess</b><span>First-time mum · NSW</span></div>
               </div>
             </div>

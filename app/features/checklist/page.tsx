@@ -8,23 +8,14 @@ export const metadata: Metadata = checklistMetadata
 export default function ChecklistFeaturePage() {
   return (
     <main>
-      <section className="pricing-hero-banner">
-        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">Never miss what&apos;s due.</h1>
-          <p className="pricing-hero-sub">Pre-loaded checklists for every Australian parent milestone.</p>
-        </div>
-      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
               <span className="eyebrow">App · Smart Checklist</span>
-              <h1 className="display-xl feature-hero-title">Never miss what&apos;s due.</h1>
+              <h1 className="display-xl feature-hero-title">Always know what&apos;s next.</h1>
               <p className="feature-hero-lead">
-                Every appointment, registration and reminder Australian parents need to remember - pre-loaded, date-aware,
-                and gently surfacing exactly when you need to know.
+                Every appointment, immunisation and registration an Australian parent needs. Pre-loaded, date-aware, and gently surfacing exactly when you need to know.
               </p>
               <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
                 Get early access
@@ -95,14 +86,6 @@ export default function ChecklistFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;The checklist told me exactly what to do in those first foggy weeks. I didn&apos;t miss a single appointment.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section style={{ padding: '40px 0', textAlign: 'center' }}>
         <div className="container">

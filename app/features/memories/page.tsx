@@ -8,14 +8,6 @@ export const metadata: Metadata = memoriesMetadata
 export default function MemoriesFeaturePage() {
   return (
     <main>
-      <section className="pricing-hero-banner">
-        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">The little moments, <em>saved as they happen.</em></h1>
-          <p className="pricing-hero-sub">Voice notes, photos and milestones - captured in a single tap.</p>
-        </div>
-      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -93,14 +85,6 @@ export default function MemoriesFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;The voice note is the thing I&apos;ll treasure forever. She&apos;ll never sound like that again, and I&apos;ve still got it.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section style={{ padding: '40px 0', textAlign: 'center' }}>
         <div className="container">

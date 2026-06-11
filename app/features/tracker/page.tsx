@@ -8,14 +8,6 @@ export const metadata: Metadata = trackerMetadata
 export default function TrackerFeaturePage() {
   return (
     <main>
-      <section className="pricing-hero-banner">
-        <Image src="/pricing-hero.jpg" alt="" fill priority style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
-          <h1 className="pricing-hero-heading">Every part of your baby&apos;s day, <em>tracked.</em></h1>
-          <p className="pricing-hero-sub">Feeds, sleep, nappies, growth, milestones - all in one place, shared with your partner in real time.</p>
-        </div>
-      </section>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -93,14 +85,6 @@ export default function TrackerFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-callout-section">
-        <div className="container">
-          <div className="story-callout feature-callout">
-            <h4>From the founding mums</h4>
-            <p>&ldquo;I used to keep everything in my head and a dozen open tabs. PAM gave me my evenings back.&rdquo;</p>
-          </div>
-        </div>
-      </section>
 
       <section style={{ padding: '40px 0', textAlign: 'center' }}>
         <div className="container">

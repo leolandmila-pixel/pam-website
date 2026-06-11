@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function PricingFeatures() {
   return (
     <>
@@ -16,30 +18,13 @@ export default function PricingFeatures() {
       <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--warm" aria-hidden="true">
           <div className="pfeat-phone">
-            <div className="pfeat-phone-screen">
-              <div className="pfeat-status">
-                <span className="pfeat-time">9:41</span>
-                <span className="pfeat-icons">
-                  <span className="pfeat-wifi" />
-                  <span className="pfeat-battery" />
-                </span>
-              </div>
-              <div className="pfeat-phone-header">
-                <div className="pfeat-phone-title">Smart Checklist</div>
-                <div className="pfeat-phone-sub">11 tasks this month</div>
-              </div>
-              <div className="pfeat-phone-body">
-                <div className="pfeat-pill">Due soon</div>
-                <PhoneRow text="6-week immunisation" badge="3 days" />
-                <PhoneRow text="MCH nurse visit" badge="1 week" />
-                <PhoneRow text="6-week postnatal check" badge="1 week" />
-                <div style={{ height: 10 }} />
-                <div className="pfeat-pill pfeat-pill--muted">Coming up</div>
-                <PhoneRow text="4-month immunisation" badge="4 weeks" badgeMuted />
-                <PhoneRow text="Book dentist - mum" badge="6 weeks" badgeMuted />
-                <PhoneRow text="Postpartum eye check" badge="8 weeks" badgeMuted />
-              </div>
-            </div>
+            <Image
+              src="/phone-checklist.jpg"
+              alt=""
+              width={222}
+              height={480}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
           </div>
         </div>
         <div className="pfeat-copy">
@@ -64,37 +49,13 @@ export default function PricingFeatures() {
       <section className="pfeat-section pfeat-section--flip">
         <div className="pfeat-visual pfeat-visual--rose" aria-hidden="true">
           <div className="pfeat-phone">
-            <div className="pfeat-phone-screen">
-              <div className="pfeat-status">
-                <span className="pfeat-time">9:41</span>
-                <span className="pfeat-icons">
-                  <span className="pfeat-wifi" />
-                  <span className="pfeat-battery" />
-                </span>
-              </div>
-              <div className="pfeat-phone-header">
-                <div className="pfeat-phone-title">Tracker</div>
-                <div className="pfeat-phone-sub">Today - 14 Jun</div>
-              </div>
-              <div className="pfeat-phone-body">
-                <div className="pfeat-section-label">Feeds today</div>
-                <div className="pfeat-chart">
-                  <span style={{ height: '50%' }} />
-                  <span style={{ height: '80%' }} className="hi" />
-                  <span style={{ height: '55%' }} />
-                  <span style={{ height: '95%' }} className="hi" />
-                  <span style={{ height: '45%' }} />
-                  <span style={{ height: '70%' }} />
-                  <span style={{ height: '38%' }} />
-                </div>
-                <div className="pfeat-chart-labels"><span>6am</span><span>9pm</span></div>
-                <div className="pfeat-section-label">Last logged</div>
-                <PhoneRow text="Sleep - 2h 40min nap" badge="2hr ago" badgeMuted />
-                <PhoneRow text="Nappy - wet" badge="1hr ago" badgeMuted />
-                <PhoneRow text="Paracetamol 2.5ml" badge="4hr ago" badgeMuted />
-                <PhoneRow text="Weight - 5.2 kg" badge="today" badgeMuted />
-              </div>
-            </div>
+            <Image
+              src="/phone-tracker.jpg"
+              alt=""
+              width={222}
+              height={480}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
           </div>
         </div>
         <div className="pfeat-copy">
@@ -119,36 +80,13 @@ export default function PricingFeatures() {
       <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--sage" aria-hidden="true">
           <div className="pfeat-phone">
-            <div className="pfeat-phone-screen">
-              <div className="pfeat-status">
-                <span className="pfeat-time">9:41</span>
-                <span className="pfeat-icons">
-                  <span className="pfeat-wifi" />
-                  <span className="pfeat-battery" />
-                </span>
-              </div>
-              <div className="pfeat-phone-header">
-                <div className="pfeat-phone-title">Family Info</div>
-                <div className="pfeat-phone-sub">Your family hub</div>
-              </div>
-              <div className="pfeat-phone-body">
-                <div className="pfeat-section-label">People</div>
-                <div className="pfeat-grid">
-                  <PhoneTile label="Contacts" />
-                  <PhoneTile label="Kids Info" />
-                </div>
-                <div className="pfeat-section-label">Resources</div>
-                <div className="pfeat-grid">
-                  <PhoneTile label="Local Info & guides" />
-                  <PhoneTile label="Documents" />
-                </div>
-                <div className="pfeat-section-label">Stages</div>
-                <div className="pfeat-grid">
-                  <PhoneTile label="Key Ages & Stages" />
-                  <PhoneTile label="Postpartum" />
-                </div>
-              </div>
-            </div>
+            <Image
+              src="/phone-family.jpg"
+              alt=""
+              width={222}
+              height={480}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
           </div>
         </div>
         <div className="pfeat-copy">
@@ -173,39 +111,13 @@ export default function PricingFeatures() {
       <section className="pfeat-section pfeat-section--flip">
         <div className="pfeat-visual pfeat-visual--blush" aria-hidden="true">
           <div className="pfeat-phone">
-            <div className="pfeat-phone-screen">
-              <div className="pfeat-status">
-                <span className="pfeat-time">9:41</span>
-                <span className="pfeat-icons">
-                  <span className="pfeat-wifi" />
-                  <span className="pfeat-battery" />
-                </span>
-              </div>
-              <div className="pfeat-phone-header">
-                <div className="pfeat-phone-title">Memories</div>
-                <div className="pfeat-phone-sub">Your family story</div>
-              </div>
-              <div className="pfeat-phone-body">
-                <div className="pfeat-section-label">Capture</div>
-                <div className="pfeat-imgstrip">
-                  <div className="pfeat-img"><CameraIcon /></div>
-                  <div className="pfeat-img"><MicIcon /></div>
-                </div>
-                <div className="pfeat-section-label">Preserve</div>
-                <div className="pfeat-grid" style={{ marginBottom: 10 }}>
-                  <PhoneTile label="Baby Book" />
-                  <PhoneTile label="Yearly Books" />
-                </div>
-                <div className="pfeat-section-label">Write</div>
-                <div className="pfeat-letter">
-                  <div className="pfeat-letter-date">14 June 2026</div>
-                  <div className="pfeat-letter-title">A letter to Olivia</div>
-                  <div className="pfeat-letter-preview">
-                    Today you smiled for the first time. I wasn&apos;t sure if it was real, but your dad saw it too…
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Image
+              src="/phone-memories.jpg"
+              alt=""
+              width={222}
+              height={480}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
           </div>
         </div>
         <div className="pfeat-copy">
@@ -226,44 +138,5 @@ export default function PricingFeatures() {
         </div>
       </section>
     </>
-  )
-}
-
-function PhoneRow({ text, badge, badgeMuted }: { text: string; badge: string; badgeMuted?: boolean }) {
-  return (
-    <div className="pfeat-row">
-      <span className="pfeat-row-dot" aria-hidden="true" />
-      <span className="pfeat-row-text">{text}</span>
-      <span className={`pfeat-row-badge${badgeMuted ? ' pfeat-row-badge--muted' : ''}`}>{badge}</span>
-    </div>
-  )
-}
-
-function PhoneTile({ label }: { label: string }) {
-  return (
-    <div className="pfeat-tile">
-      <span className="pfeat-tile-icon" aria-hidden="true" />
-      <span>{label}</span>
-    </div>
-  )
-}
-
-function CameraIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-      <circle cx="12" cy="13" r="4" />
-    </svg>
-  )
-}
-
-function MicIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
-      <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-      <line x1="12" y1="19" x2="12" y2="23" />
-      <line x1="8" y1="23" x2="16" y2="23" />
-    </svg>
   )
 }

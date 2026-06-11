@@ -42,20 +42,20 @@ export default function FamilyInfoFeaturePage() {
 
       <section className="feature-body">
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Why it matters</span>
-            <h2>The info you need, <span className="em">where you need it.</span></h2>
+          <div className="feature-content-grid">
+            <div className="feature-text-card">
+              <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
+                <span className="eyebrow">Why it matters</span>
+                <h2>The details, <span className="em">organised.</span></h2>
+              </div>
+              <p>Family life runs on hundreds of little pieces of information. The kind you don&apos;t need every day, but need immediately when you do.</p>
+              <p>PAM keeps your family&apos;s important information together in one secure place, so it&apos;s easy to access, easy to share, and available to the people who need it.</p>
+              <p>It also brings together trusted local services, resources and guides relevant to your family and where you live. From healthcare and immunisation information to childcare, schools and parenting support, the information that helps families navigate everyday life is already within reach.</p>
+              <p>Whether you&apos;re enrolling, booking, updating, registering or simply looking for answers, PAM gives your family a reliable place to start.</p>
+              <p>Because the important details shouldn&apos;t depend on who remembers them.</p>
+            </div>
+            <div className="feature-image-placeholder"></div>
           </div>
-          <p className="feature-prose">
-            Emergency numbers. GP contacts. Blood types. Allergies. The childcare educator&apos;s name. The school
-            uniform supplier. Insurance details. Medicare numbers. Lockbox codes. Half of it lives in a notes app,
-            half on a fridge magnet, half in your head - and none of it is where you need it at the worst possible
-            moment.
-          </p>
-          <p className="feature-prose">
-            PAM&apos;s Family Info tab gathers all of it in one place. People, records and services for every member of
-            your family - searchable, shareable, and quietly there when you need it most.
-          </p>
         </div>
       </section>
 
@@ -103,18 +103,8 @@ export default function FamilyInfoFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-cta-section">
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2>Join the PAM <span className="em">waitlist.</span></h2>
-          <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 540 }}>
-            Pre-sign up is open. We&apos;re launching to a small group of founding families first.
-          </p>
-          <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
-            Get early access
-            <span className="arrow">
-              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </span>
-          </a>
+      <section style={{ padding: '40px 0', textAlign: 'center' }}>
+        <div className="container">
           <p className="feature-back"><Link href="/#showcase">← Back to all features</Link></p>
         </div>
       </section>

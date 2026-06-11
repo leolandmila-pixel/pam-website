@@ -42,20 +42,21 @@ export default function ChecklistFeaturePage() {
 
       <section className="feature-body">
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Why it matters</span>
-            <h2>The remembering, <span className="em">handled.</span></h2>
+          <div className="feature-content-grid">
+            <div className="feature-text-card">
+              <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
+                <span className="eyebrow">Why it matters</span>
+                <h2>The mental load, <span className="em">lightened.</span></h2>
+              </div>
+              <p>When a new baby arrives, there&apos;s suddenly so much to remember - birth registrations, immunisations, check-ups, MCH visits and countless appointments. At the exact moment your brain is already stretched thin.</p>
+              <p>Most parenting apps give you a blank calendar and leave the planning to you. PAM takes a different approach.</p>
+              <p>Our Smart Checklist already knows what needs to happen, when it needs to happen, and what applies in your area. No digging through government websites. No researching immunisation schedules. No setting up complicated reminders.</p>
+              <p>Just open PAM and see the next thing that needs your attention.</p>
+            </div>
+            <div className="feature-image-placeholder">
+              <Image src="/checklist-feature.png" alt="Smart Checklist feature" fill style={{objectFit: 'contain'}} />
+            </div>
           </div>
-          <p className="feature-prose">
-            Newborn life means dozens of appointments, registrations, immunisations and MCH visits - and a brain that
-            suddenly can&apos;t hold any of it. Other apps give you a blank calendar and ask you to figure it out.
-            PAM&apos;s Smart Checklist is different. It already knows what you need to do, when you need to do it, and
-            where you live.
-          </p>
-          <p className="feature-prose">
-            You don&apos;t set it up. You don&apos;t research the immunisation schedule or hunt down the birth
-            registration form. PAM has done that. You just open the app and see what&apos;s next.
-          </p>
         </div>
       </section>
 
@@ -103,18 +104,8 @@ export default function ChecklistFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-cta-section">
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2>Join the PAM <span className="em">waitlist.</span></h2>
-          <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 540 }}>
-            Pre-sign up is open. We&apos;re launching to a small group of founding families first - keep your spot before doors open.
-          </p>
-          <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
-            Get early access
-            <span className="arrow">
-              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </span>
-          </a>
+      <section style={{ padding: '40px 0', textAlign: 'center' }}>
+        <div className="container">
           <p className="feature-back"><Link href="/#showcase">← Back to all features</Link></p>
         </div>
       </section>

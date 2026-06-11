@@ -42,21 +42,19 @@ export default function MemoriesFeaturePage() {
 
       <section className="feature-body">
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Why it matters</span>
-            <h2>The year that <span className="em">disappears.</span></h2>
+          <div className="feature-content-grid">
+            <div className="feature-text-card">
+              <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
+                <span className="eyebrow">Why it matters</span>
+                <h2>The year that <span className="em">disappears.</span></h2>
+              </div>
+              <p>The first year is full of moments you assume you&apos;ll never forget.</p>
+              <p>Then one day you realise you can&apos;t remember exactly when they stopped sleeping on your chest, making that funny noise, or reaching for your hand.</p>
+              <p>PAM gives those moments a place to live. A simple way to capture memories as they happen, and revisit them months or years later.</p>
+              <p>Because the moments that matter most are often the ones nobody thinks to write down.</p>
+            </div>
+            <div className="feature-image-placeholder"></div>
           </div>
-          <p className="feature-prose">
-            The first year vanishes at a speed nobody warned you about. The sounds gone by week six. The expressions
-            that change weekly. Most parents try to capture it and end up with thousands of unsorted photos in their
-            camera roll, a few voice notes they can&apos;t find again, and the sense that they&apos;ve already missed
-            something.
-          </p>
-          <p className="feature-prose">
-            PAM&apos;s Memories tab makes capturing a moment a single tap - and saves it where you&apos;ll actually find
-            it again. Searchable by month, by milestone, by mood. Your family&apos;s story, gathering quietly as you
-            live it.
-          </p>
         </div>
       </section>
 
@@ -104,18 +102,8 @@ export default function MemoriesFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-cta-section">
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2>Join the PAM <span className="em">waitlist.</span></h2>
-          <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 540 }}>
-            Pre-sign up is open. We&apos;re launching to a small group of founding families first.
-          </p>
-          <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
-            Get early access
-            <span className="arrow">
-              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </span>
-          </a>
+      <section style={{ padding: '40px 0', textAlign: 'center' }}>
+        <div className="container">
           <p className="feature-back"><Link href="/#showcase">← Back to all features</Link></p>
         </div>
       </section>

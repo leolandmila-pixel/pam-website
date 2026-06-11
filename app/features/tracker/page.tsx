@@ -42,19 +42,19 @@ export default function TrackerFeaturePage() {
 
       <section className="feature-body">
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Why it matters</span>
-            <h2>One place. <span className="em">Both of you.</span></h2>
+          <div className="feature-content-grid">
+            <div className="feature-text-card">
+              <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
+                <span className="eyebrow">Why it matters</span>
+                <h2>You&apos;re raising a baby together. Your information should be <span className="em">shared too.</span></h2>
+              </div>
+              <p>Feeds, sleeps, nappies, milestones, growth checks - there&apos;s a lot to keep track of in the first year. When information lives in different apps, notebooks or text messages, it&apos;s easy to lose track of the bigger picture.</p>
+              <p>PAM keeps everything in one shared place, updating in real time for both parents.</p>
+              <p>That means fewer check-in texts, fewer handover conversations, and less time trying to piece together what happened today.</p>
+              <p>Just one up-to-date view of your baby&apos;s world, available whenever either of you needs it.</p>
+            </div>
+            <div className="feature-image-placeholder"></div>
           </div>
-          <p className="feature-prose">
-            New parents track dozens of data points by hand - feeds, sleeps, nappies, weight, percentile, milestones -
-            usually scattered across three apps and a notebook. PAM puts all of it in one place that updates in real
-            time, and shares with your partner so you both see the same picture.
-          </p>
-          <p className="feature-prose">
-            No more &ldquo;has she fed yet?&rdquo; texts. No more guessing whether the last nap was 40 minutes or two
-            hours. The day is written down as it happens, by either of you.
-          </p>
         </div>
       </section>
 
@@ -102,18 +102,8 @@ export default function TrackerFeaturePage() {
         </div>
       </section>
 
-      <section className="feature-cta-section">
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2>Join the PAM <span className="em">waitlist.</span></h2>
-          <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 540 }}>
-            Pre-sign up is open. We&apos;re launching to a small group of founding families first.
-          </p>
-          <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
-            Get early access
-            <span className="arrow">
-              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </span>
-          </a>
+      <section style={{ padding: '40px 0', textAlign: 'center' }}>
+        <div className="container">
           <p className="feature-back"><Link href="/#showcase">← Back to all features</Link></p>
         </div>
       </section>

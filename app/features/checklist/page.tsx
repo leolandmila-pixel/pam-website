@@ -37,7 +37,6 @@ export default function ChecklistFeaturePage() {
             <div className="feature-text-card">
               <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
                 <span className="eyebrow">Why it matters</span>
-                <h2>The mental load, <span className="em">lightened.</span></h2>
               </div>
               <p>When a new baby arrives, there&apos;s suddenly so much to remember - birth registrations, immunisations, check-ups, MCH visits and countless appointments. At the exact moment your brain is already stretched thin.</p>
               <p>Most parenting apps give you a blank calendar and leave the planning to you. PAM takes a different approach.</p>
@@ -45,7 +44,7 @@ export default function ChecklistFeaturePage() {
               <p>Just open PAM and see the next thing that needs your attention.</p>
             </div>
             <div className="feature-image-placeholder">
-              <Image src="/checklist-feature.png" alt="Smart Checklist feature" fill style={{objectFit: 'contain'}} />
+              <Image src="/checklist-why-matters.png" alt="Smart Checklist why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
             </div>
           </div>
         </div>

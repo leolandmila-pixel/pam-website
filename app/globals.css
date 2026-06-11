@@ -130,7 +130,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .feature-hero-lead{font-size:1.12rem;line-height:1.6;color:var(--ink-soft);max-width:32em;margin-bottom:30px}
 .feature-cta{margin-top:6px}
 .feature-hero-phone{justify-self:center;position:relative}
-.feature-hero-phone img{display:block;border-radius:32px;box-shadow:0 30px 80px rgba(74,7,19,0.22);width:100%;max-width:420px;height:auto}
+.feature-hero-phone img{display:block;border-radius:32px;box-shadow:0 30px 80px rgba(74,7,19,0.22);width:100%;max-width:280px;height:auto}
 .feature-body{padding:60px 0 30px}
 .feature-body .sec-head{margin-bottom:60px;max-width:100%}
 .feature-prose{font-size:1.05rem;line-height:1.75;color:var(--ink);max-width:52em;margin:0 auto 18px;text-align:center}

@@ -478,7 +478,7 @@ section{padding:96px 0}
 .value{counter-increment:values;background:linear-gradient(150deg,#7E0F25 0%,#4A0010 100%);border:none;border-radius:14px;padding:20px 18px;color:#fff;display:flex;flex-direction:column;gap:0}
 .value::before{content:"0" counter(values);font-family:var(--display);font-style:italic;font-size:0.9rem;color:rgba(255,255,255,0.45);display:block;margin-bottom:12px}
 .value h3{font-family:var(--montserrat);font-weight:700;font-size:0.9rem;line-height:1.25;color:#fff;margin:0 0 5px;letter-spacing:0.01em}
-.value .v-tagline{font-family:var(--display);font-style:italic;font-size:0.8rem;color:var(--tan);margin:0 0 12px;line-height:1.4}
+.value .v-tagline{font-family:var(--display);font-style:italic;font-size:0.8rem;color:var(--cream);margin:0 0 12px;line-height:1.4}
 .value>p:last-child{font-size:0.8rem;color:rgba(255,255,255,0.72);line-height:1.6;margin:0}
 
 .founders-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:24px}

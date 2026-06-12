@@ -130,11 +130,11 @@ export const trackerMetadata: Metadata = {
 }
 
 export const familyInfoMetadata: Metadata = {
-  title: 'Family Info',
+  title: 'Family Hub',
   description:
     "Everything you'd scramble for at 2am - already where it should be. People, records and services for your whole family.",
   alternates: { canonical: 'https://pamapp.com.au/features/family-info' },
-  openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Info', url: 'https://pamapp.com.au/features/family-info' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Hub', url: 'https://pamapp.com.au/features/family-info' },
 }
 
 export const memoriesMetadata: Metadata = {

@@ -12,7 +12,7 @@ export default function FamilyInfoFeaturePage() {
         <div className="container">
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
-              <span className="eyebrow">App · Family Info</span>
+              <span className="eyebrow">App · Family Hub</span>
               <h1 className="display-xl feature-hero-title">Whatever you&apos;d scramble for at 2am.</h1>
               <p className="feature-hero-lead">
                 The people, details and services that hold your family together - kept close, organised, and ready
@@ -26,7 +26,7 @@ export default function FamilyInfoFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-family.jpeg" alt="PAM Family Info screen" width={420} height={910} priority />
+              <Image src="/phone-family.jpeg" alt="PAM Family Hub screen" width={420} height={910} priority />
             </div>
           </div>
         </div>

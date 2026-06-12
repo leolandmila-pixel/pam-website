@@ -144,7 +144,7 @@ export default function HomePage() {
             <article className="flow-row">
               <div className="flow-col">
                 <div className="flow-image flow-image--everyday">
-                  <span className="flow-pill">Every Day · Family Info</span>
+                  <span className="flow-pill">Every Day · Family Hub</span>
                 </div>
               </div>
               <div className="flow-content">

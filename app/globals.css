@@ -163,6 +163,8 @@ em,.em{font-style:italic;color:var(--wine)}
   .feature-hero-copy .eyebrow{justify-content:center}
   .feature-hero-lead{margin-left:auto;margin-right:auto}
   .feature-grid{grid-template-columns:1fr;gap:14px}
+  .feature-content-grid{grid-template-columns:1fr;gap:36px}
+  .feature-image-placeholder{max-width:480px;margin:0 auto}
 }
 
 /* ============== PRICING PAGE ============== */
@@ -1006,6 +1008,33 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   .notify input{text-align:center}
   .notify button{width:100%;min-height:44px;padding:12px 16px}
   .hero-video .display-xl{white-space:normal;font-size:clamp(2.4rem,9vw,3.4rem)}
+
+  /* Hero banners */
+  .pricing-hero-banner,.about-hero-banner,.feature-page-banner{height:300px}
+  .pricing-hero-content{margin-top:40px}
+
+  /* Story detail */
+  .story-cover-photo{height:260px}
+  .story-article{padding:0}
+
+  /* Quiz result stacks on mobile */
+  .quiz-result{grid-template-columns:1fr}
+  .quiz-phone-wrap{display:none}
+
+  /* Feature pages */
+  .feature-hero{padding:40px 0 24px}
+  .feature-body{padding:40px 0 20px}
+  .feature-grid-section{padding:40px 0}
+  .feature-cta-section{padding:20px 0 60px}
+
+  /* About page */
+  .founders-grid{grid-template-columns:1fr}
+  .founder{flex-direction:column;align-items:center;text-align:center;padding:20px}
+  .founder-qa{text-align:left}
+
+  /* Blog */
+  .blog-grid{grid-template-columns:1fr}
+  .share-cta{padding:40px 20px;margin-top:40px}
 }
 
 /* ============== ULTRA MOBILE (<400px) ============== */

@@ -45,7 +45,9 @@ export default function MemoriesFeaturePage() {
               <p>PAM gives those moments a place to live. A simple way to capture memories as they happen, and revisit them months or years later.</p>
               <p>Because the moments that matter most are often the ones nobody thinks to write down.</p>
             </div>
-            <div className="feature-image-placeholder"></div>
+            <div className="feature-image-placeholder">
+              <Image src="/memories-why-matters.png" alt="Memories why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
+            </div>
           </div>
         </div>
       </section>

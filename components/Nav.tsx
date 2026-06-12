@@ -21,7 +21,7 @@ const links: NavLink[] = [
       { href: '/features/app', label: "What's Inside PAM" },
       { href: '/features/checklist', label: 'Smart Checklist' },
       { href: '/features/tracker', label: 'Tracker' },
-      { href: '/features/family-info', label: 'Family Info' },
+      { href: '/features/family-info', label: 'Family Hub' },
       { href: '/features/memories', label: 'Memories' },
       { href: '/features/pricing', label: 'App Pricing' },
     ],

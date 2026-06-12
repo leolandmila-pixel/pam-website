@@ -12,7 +12,7 @@ export default function FamilyInfoFeaturePage() {
         <div className="container">
           <div className="feature-hero-grid">
             <div className="feature-hero-copy">
-              <span className="eyebrow">App · Family Info</span>
+              <span className="eyebrow">App · Family Hub</span>
               <h1 className="display-xl feature-hero-title">Whatever you&apos;d scramble for at 2am.</h1>
               <p className="feature-hero-lead">
                 The people, details and services that hold your family together - kept close, organised, and ready
@@ -26,7 +26,7 @@ export default function FamilyInfoFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-family.jpeg" alt="PAM Family Info screen" width={420} height={910} priority />
+              <Image src="/phone-family.jpeg" alt="PAM Family Hub screen" width={420} height={910} priority />
             </div>
           </div>
         </div>
@@ -46,7 +46,9 @@ export default function FamilyInfoFeaturePage() {
               <p>Whether you&apos;re enrolling, booking, updating, registering or simply looking for answers, PAM gives your family a reliable place to start.</p>
               <p>Because the important details shouldn&apos;t depend on who remembers them.</p>
             </div>
-            <div className="feature-image-placeholder"></div>
+            <div className="feature-image-placeholder">
+              <Image src="/family-info-why-matters.png" alt="Family Hub why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
+            </div>
           </div>
         </div>
       </section>

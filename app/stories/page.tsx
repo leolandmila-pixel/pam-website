@@ -17,7 +17,7 @@ export default function StoriesPage() {
   return (
     <main>
       <section className="pricing-hero-banner">
-        <Image src="/stories-hero.jpeg" alt="Real mums, real stories" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center center' }} />
+        <Image src="/stories-hero.png" alt="Real mums, real stories" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center center' }} />
         <div className="pricing-hero-overlay" />
         <div className="pricing-hero-content">
           <h1 className="pricing-hero-heading">Real Mums, Real Stories</h1>

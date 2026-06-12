@@ -3,17 +3,6 @@ import Image from 'next/image'
 export default function PricingFeatures() {
   return (
     <>
-      <div className="pfeat-intro">
-        <p className="eyebrow">What&apos;s inside PAM</p>
-        <h2>
-          Everything a parent needs, <em>all in one place.</em>
-        </h2>
-        <p className="pfeat-intro-lead">
-          From your baby&apos;s first feed to their first day of school - PAM holds the detail so you can hold the
-          moments.
-        </p>
-      </div>
-
       {/* SECTION 1 - Smart Checklist */}
       <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--warm" aria-hidden="true">

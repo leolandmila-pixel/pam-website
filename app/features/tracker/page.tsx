@@ -38,14 +38,15 @@ export default function TrackerFeaturePage() {
             <div className="feature-text-card">
               <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
                 <span className="eyebrow">Why it matters</span>
-                <h2>You&apos;re raising a baby together. Your information should be <span className="em">shared too.</span></h2>
               </div>
               <p>Feeds, sleeps, nappies, milestones, growth checks - there&apos;s a lot to keep track of in the first year. When information lives in different apps, notebooks or text messages, it&apos;s easy to lose track of the bigger picture.</p>
               <p>PAM keeps everything in one shared place, updating in real time for both parents.</p>
               <p>That means fewer check-in texts, fewer handover conversations, and less time trying to piece together what happened today.</p>
               <p>Just one up-to-date view of your baby&apos;s world, available whenever either of you needs it.</p>
             </div>
-            <div className="feature-image-placeholder"></div>
+            <div className="feature-image-placeholder">
+              <Image src="/tracker-why-matters.png" alt="Tracker why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
+            </div>
           </div>
         </div>
       </section>

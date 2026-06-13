@@ -59,7 +59,7 @@ export default function ChecklistFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>Australian-specific by default</h3>
-              <p>Every state&apos;s MCH visit schedule, blue book milestones, immunisation timeline, and birth-registration steps. We&apos;ve done the research so you don&apos;t.</p>
+              <p>Every state&apos;s MCH visit schedule, immunisation timeline, and birth registration steps already in the app. We&apos;ve done the research so you don&apos;t have to.</p>
             </div>
             <div className="feature-tile">
               <h3>Date-aware reminders</h3>

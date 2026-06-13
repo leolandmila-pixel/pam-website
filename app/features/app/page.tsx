@@ -12,7 +12,7 @@ export default function AppFeaturesPage() {
     <main>
       <section className="pricing-hero-banner">
         <Image
-          src="/DSC01229.JPG"
+          src="/Untitled design (4).png"
           alt="Mother holding baby"
           fill
           priority

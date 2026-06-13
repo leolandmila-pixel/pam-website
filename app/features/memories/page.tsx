@@ -61,7 +61,7 @@ export default function MemoriesFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>Voice notes</h3>
-              <p>Press and hold to record. The sound of a giggle, a first word, a 3am settle song - kept exactly as it was.</p>
+              <p>Press and hold to record. The sound of a giggle, a first word, a 3am settle song. Kept exactly as it was.</p>
             </div>
             <div className="feature-tile">
               <h3>Photo moments</h3>

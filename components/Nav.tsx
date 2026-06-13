@@ -22,6 +22,7 @@ const links: NavLink[] = [
       { href: '/features/checklist', label: 'Smart Checklist' },
       { href: '/features/tracker', label: 'Tracker' },
       { href: '/features/family-info', label: 'Family Hub' },
+      { href: '/features/local-info', label: 'Local Info' },
       { href: '/features/memories', label: 'Memories' },
       { href: '/features/pricing', label: 'App Pricing' },
     ],

@@ -126,8 +126,8 @@ export default function AboutPage() {
                   <dd>Morning, don&apos;t ask me anything after 3pm.</dd>
                   <dt>Planner or wing it?</dt>
                   <dd>Little bit of both, actually.</dd>
-                  <dt>Phone call or text?</dt>
-                  <dd>Text me, I&apos;m usually doing a million things and will answer when I can.</dd>
+                  <dt>Most used app on your phone right now?</dt>
+                  <dd>PAM. (I&apos;d say that even if I hadn&apos;t made it, but I also made it, so.)</dd>
                   <dt>One word to describe motherhood?</dt>
                   <dd>Beautiful &amp; chaotic (I know that&apos;s two).</dd>
                 </dl>

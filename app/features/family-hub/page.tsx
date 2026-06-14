@@ -38,7 +38,6 @@ export default function FamilyInfoFeaturePage() {
             <div className="feature-text-card">
               <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
                 <span className="eyebrow">Why it matters</span>
-                <h2>The details, <span className="em">organised.</span></h2>
               </div>
               <p>Family life runs on hundreds of little pieces of information. The kind you don&apos;t need every day, but need immediately when you do.</p>
               <p>PAM keeps your family&apos;s important information together in one secure place, so it&apos;s easy to access, easy to share, and available to the people who need it.</p>

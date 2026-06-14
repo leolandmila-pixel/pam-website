@@ -13,9 +13,9 @@ export default function ContactPage() {
           <div className="contact-card">
             <div className="contact-card-info">
               <span className="eyebrow">Say hello</span>
-              <h2 className="contact-card-h">
+              <h1 className="contact-card-h">
                 We want to <span className="em">hear from you.</span>
-              </h2>
+              </h1>
               <p className="contact-card-intro">
                 Real humans, real replies. Questions, feedback, or a story to share - we read every message.
               </p>

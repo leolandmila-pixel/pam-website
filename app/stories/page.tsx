@@ -1,19 +1,12 @@
-'use client'
-
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
-import { stories } from './stories-data'
+import { storiesMetadata } from '../metadata'
+import StoriesClient from '@/components/StoriesClient'
 
-const CATEGORIES = ['All', 'Newborn', 'Sleep', 'Wellbeing', 'Memories', 'Feeding', 'Community']
+export const metadata: Metadata = storiesMetadata
 
 export default function StoriesPage() {
-  const [activeCategory, setActiveCategory] = useState('All')
-
-  const filtered = activeCategory === 'All'
-    ? stories
-    : stories.filter((s) => s.tag === activeCategory)
-
   return (
     <main>
       <section className="pricing-hero-banner">
@@ -35,73 +28,7 @@ export default function StoriesPage() {
 
       <section style={{ paddingTop: 10 }}>
         <div className="container">
-
-          {/* Category filter */}
-          <div className="blog-filter">
-            <div className="blog-filter-label">Filter by topic</div>
-            <div className="blog-filter-pills">
-              {CATEGORIES.map((cat) => (
-                <button
-                  key={cat}
-                  className={`blog-filter-pill${activeCategory === cat ? ' blog-filter-pill--active' : ''}`}
-                  onClick={() => setActiveCategory(cat)}
-                >
-                  {cat}
-                </button>
-              ))}
-            </div>
-            <select
-              className="blog-filter-select"
-              value={activeCategory}
-              onChange={(e) => setActiveCategory(e.target.value)}
-            >
-              {CATEGORIES.map((cat) => (
-                <option key={cat} value={cat}>{cat}</option>
-              ))}
-            </select>
-          </div>
-
-          <div className="blog-grid">
-            {filtered.map((s) => {
-              const card = (
-                <article className={`story${s.published ? '' : ' is-coming-soon'}`}>
-                  {s.heroImage ? (
-                    <div className="cover cover-photo">
-                      <Image src={s.heroImage} alt={s.title} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover', objectPosition: s.heroImagePosition ?? 'center 30%' }} />
-                      <b>{s.label}</b>
-                    </div>
-                  ) : (
-                    <div className={`cover ${s.cover}`}>
-                      <b>{s.label}</b>
-                    </div>
-                  )}
-                  <div className="body">
-                    <span className="tag">{s.tag}</span>
-                    <h3>{s.title}</h3>
-                    <p>{s.body}</p>
-                    <span className="read">
-                      {s.published ? 'Read story →' : 'Coming soon'}
-                    </span>
-                  </div>
-                </article>
-              )
-              return s.published ? (
-                <Link key={s.slug} href={`/stories/${s.slug}`} className="story-link">
-                  {card}
-                </Link>
-              ) : (
-                <div key={s.slug} className="story-link">
-                  {card}
-                </div>
-              )
-            })}
-          </div>
-
-          {filtered.length === 0 && (
-            <p style={{ textAlign: 'center', color: 'var(--ink-soft)', padding: '48px 0' }}>
-              No stories in this category yet - check back soon.
-            </p>
-          )}
+          <StoriesClient />
         </div>
       </section>
 

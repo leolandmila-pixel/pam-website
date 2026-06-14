@@ -28,9 +28,9 @@ export default function AboutPage() {
           <div className="about-grid">
             <div className="about-story">
               <span className="eyebrow">Our Story</span>
-              <h1 className="display-xl" style={{ fontSize: 'clamp(2.4rem,4.6vw,3.6rem)', margin: '18px 0 22px' }}>
+              <h2 className="display-xl" style={{ fontSize: 'clamp(2.4rem,4.6vw,3.6rem)', margin: '18px 0 22px' }}>
                 <span className="about-name">We&apos;re Ash &amp; Oly</span><br /><em className="about-tagline">Mums, Founders and Best Friends</em>
-              </h1>
+              </h2>
               <p>We both have toddlers: Mila (Ash) and Leo (Oly) and like so many mums, we found ourselves in the thick of it together.</p>
               <p>The love, the chaos, the exhaustion… and the constant mental load no one really prepares you for. Somewhere between the feeds, the naps, the appointments and the endless to-do lists, we kept coming back to the same thought: <em>why are we trying to hold all of this on our own?</em></p>
               <p>We created PAM because we knew other mums were feeling it too. The remembering. The organising. The invisible weight that sits in your mind every single day.</p>

@@ -44,7 +44,7 @@ export default function ChecklistFeaturePage() {
               <p>Just open PAM and see the next thing that needs your attention.</p>
             </div>
             <div className="feature-image-placeholder">
-              <Image src="/checklist-why-matters.png" alt="Smart Checklist why it matters" fill style={{objectFit: 'cover'}} sizes="(max-width: 900px) 100vw, 50vw" />
+              <Image src="/checklist-why-matters.png" alt="Smart Checklist why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
             </div>
           </div>
         </div>

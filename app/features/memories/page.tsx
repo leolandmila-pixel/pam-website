@@ -45,7 +45,7 @@ export default function MemoriesFeaturePage() {
               <p>Because the moments that matter most are often the ones nobody thinks to write down.</p>
             </div>
             <div className="feature-image-placeholder">
-              <Image src="/memories-why-matters.png" alt="Memories why it matters" fill style={{objectFit: 'cover'}} sizes="(max-width: 900px) 100vw, 50vw" />
+              <Image src="/memories-why-matters.png" alt="Memories why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
             </div>
           </div>
         </div>

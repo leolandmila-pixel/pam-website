@@ -3,8 +3,8 @@ export const organizationSchema = {
   '@type': 'Organization',
   name: 'PAM',
   alternateName: 'Parental Admin Manager',
-  url: 'https://pamapp.com.au',
-  logo: 'https://pamapp.com.au/logo.png',
+  url: 'https://parentaladminmanager.com',
+  logo: 'https://parentaladminmanager.com/logo.png',
   description:
     'The assistant every parent deserves - smart checklists, a gentle tracker, memories, family info and Ask PAM.',
   sameAs: [
@@ -13,7 +13,7 @@ export const organizationSchema = {
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'hello@pamapp.com.au',
+    email: 'hello@parentaladminmanager.com',
     contactType: 'customer service',
     areaServed: 'AU',
     availableLanguage: 'English',

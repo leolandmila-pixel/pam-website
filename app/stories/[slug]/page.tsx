@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import { notFound } from 'next/navigation'
 import { stories, getStoryBySlug } from '../stories-data'
+import { buildArticleSchema } from '@/app/structured-data'
 
 export function generateStaticParams() {
   return stories.map((s) => ({ slug: s.slug }))
@@ -36,8 +38,16 @@ export default async function StoryPage({
   const story = getStoryBySlug(slug)
   if (!story) notFound()
 
+  const articleSchema = buildArticleSchema({
+    title: story.title,
+    description: story.body,
+    slug: story.slug,
+    heroImage: story.heroImage,
+  })
+
   return (
     <main>
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 20 }}>
         <div className="container" style={{ maxWidth: 760 }}>
           <Link href="/stories" className="story-back">← All stories</Link>

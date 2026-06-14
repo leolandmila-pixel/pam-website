@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -25,6 +26,26 @@ export default function LocalInfoFeaturePage() {
                   <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </span>
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="feature-body">
+        <div className="container">
+          <div className="feature-content-grid">
+            <div className="feature-text-card">
+              <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
+                <span className="eyebrow">Why it matters</span>
+                <h2>The searching, <span className="em">handled.</span></h2>
+              </div>
+              <p>Becoming a parent means navigating an entirely new world of services, systems and support. Childcare. Immunisations. Registrations. Health services. Government payments. Community programs.</p>
+              <p>The information exists, but it&apos;s scattered across websites, departments and organisations that most parents have never dealt with before.</p>
+              <p>PAM brings it together in one place, organised around the things families actually need. From healthcare and immunisations to childcare, school readiness and parenting support, the information, links and local services relevant to your family are already there when you need them.</p>
+              <p>Less time figuring out where to start. More time focusing on what matters most.</p>
+            </div>
+            <div className="feature-image-placeholder">
+              <Image src="/local-info-why-matters.png" alt="Local Info why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
             </div>
           </div>
         </div>

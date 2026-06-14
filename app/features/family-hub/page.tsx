@@ -47,7 +47,7 @@ export default function FamilyInfoFeaturePage() {
               <p>Because the important details shouldn&apos;t depend on who remembers them.</p>
             </div>
             <div className="feature-image-placeholder">
-              <Image src="/family-info-why-matters.png" alt="Family Hub why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
+              <Image src="/family-info-why-matters.png" alt="Family Hub why it matters" fill style={{objectFit: 'cover'}} sizes="(max-width: 900px) 100vw, 50vw" />
             </div>
           </div>
         </div>

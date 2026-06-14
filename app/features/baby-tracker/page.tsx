@@ -45,7 +45,7 @@ export default function TrackerFeaturePage() {
               <p>Just one up-to-date view of your baby&apos;s world, available whenever either of you needs it.</p>
             </div>
             <div className="feature-image-placeholder">
-              <Image src="/tracker-why-matters.png" alt="Tracker why it matters" width={500} height={600} style={{width: '100%', height: 'auto'}} />
+              <Image src="/tracker-why-matters.png" alt="Tracker why it matters" fill style={{objectFit: 'cover'}} sizes="(max-width: 900px) 100vw, 50vw" />
             </div>
           </div>
         </div>

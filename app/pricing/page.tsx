@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { pricingMetadata } from '../../metadata'
+import { pricingMetadata } from '../metadata'
 import Image from 'next/image'
 import PricingTiles from '@/components/PricingTiles'
 

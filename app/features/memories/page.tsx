@@ -38,7 +38,6 @@ export default function MemoriesFeaturePage() {
             <div className="feature-text-card">
               <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
                 <span className="eyebrow">Why it matters</span>
-                <h2>The year that <span className="em">disappears.</span></h2>
               </div>
               <p>The first year is full of moments you assume you&apos;ll never forget.</p>
               <p>Then one day you realise you can&apos;t remember exactly when they stopped sleeping on your chest, making that funny noise, or reaching for your hand.</p>

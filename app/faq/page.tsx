@@ -23,7 +23,7 @@ export default function FaqPage() {
         <div className="container">
           <div className="sec-head">
             <span className="eyebrow">Good to know</span>
-            <h1>Questions, <span className="em">answered.</span></h1>
+            <h1>Frequently Asked <span className="em">Questions.</span></h1>
             <p>Everything you might be wondering before you join the founding trial.</p>
           </div>
           <FaqList />

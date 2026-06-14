@@ -62,7 +62,7 @@ export default function FamilyInfoFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>People</h3>
-              <p>Every family member with their key details - blood type, allergies, medications, conditions, Medicare number, emergency contacts.</p>
+              <p>Every family member with their key details. Blood type, allergies, medications, conditions, Medicare number, emergency contacts.</p>
             </div>
             <div className="feature-tile">
               <h3>Records</h3>
@@ -70,7 +70,7 @@ export default function FamilyInfoFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Services</h3>
-              <p>Childcare, school, GP, paediatrician, dentist, optometrist, lactation consultant, insurance - saved with the info you actually need (after-hours numbers, account references).</p>
+              <p>Childcare, school, GP, paediatrician, dentist, optometrist, lactation consultant, insurance. Saved with the info you actually need, after-hours numbers, account references.</p>
             </div>
             <div className="feature-tile">
               <h3>Journey timeline</h3>

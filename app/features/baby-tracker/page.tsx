@@ -60,7 +60,7 @@ export default function TrackerFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>Feeding</h3>
-              <p>Breast, bottle or expressed - log feeds in seconds. PAM tracks duration, side, volume and time-since-last automatically.</p>
+              <p>Breast, bottle or expressed. Log feeds in seconds. PAM tracks duration, side, volume and time-since-last automatically.</p>
             </div>
             <div className="feature-tile">
               <h3>Sleep &amp; nap prediction</h3>
@@ -68,7 +68,7 @@ export default function TrackerFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Nappies</h3>
-              <p>Wet, dirty, both. Tap to log. PAM flags if a stretch is unusually quiet so you can mention it at the next MCH visit.</p>
+              <p>Wet, dirty, both. Tap to log. PAM flags if a stretch goes unusually quiet so you can mention it at the next MCH visit.</p>
             </div>
             <div className="feature-tile">
               <h3>Growth &amp; percentiles</h3>
@@ -76,11 +76,11 @@ export default function TrackerFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Milestones</h3>
-              <p>First smile. First roll. First steps. PAM prompts you when each one is typically due, so you can celebrate (and notice if something&apos;s a bit late).</p>
+              <p>First smile. First roll. First steps. PAM prompts you when each one is typically due, so you can celebrate and notice if something&apos;s a bit late.</p>
             </div>
             <div className="feature-tile">
               <h3>GP-ready reports</h3>
-              <p>One tap and PAM gives you a clean summary of the last week - feeds, sleeps, nappies, weight. Show your GP or MCH nurse and skip the &ldquo;how often have you been feeding?&rdquo; guessing.</p>
+              <p>One tap and PAM gives you a clean summary of the last week: feeds, sleeps, nappies, weight. Show your GP or MCH nurse and skip the guessing.</p>
             </div>
           </div>
         </div>

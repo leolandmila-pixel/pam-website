@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import PricingFeatures from '@/components/PricingFeatures'
 
 export const metadata: Metadata = {
@@ -9,6 +10,22 @@ export const metadata: Metadata = {
 export default function AppFeaturesPage() {
   return (
     <main>
+      <section className="pricing-hero-banner">
+        <Image
+          src="/Untitled design (4).png"
+          alt="Mother holding baby"
+          fill
+          priority
+          style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+        />
+        <div className="pricing-hero-overlay" />
+        <div className="pricing-hero-content">
+          <h1 className="pricing-hero-heading">
+            Everything your family<br />needs, all in one place.
+          </h1>
+        </div>
+      </section>
+
       <div className="pfeat-wrapper">
         <PricingFeatures />
       </div>

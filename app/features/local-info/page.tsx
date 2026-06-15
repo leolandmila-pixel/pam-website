@@ -37,7 +37,6 @@ export default function LocalInfoFeaturePage() {
             <div className="feature-text-card">
               <div className="sec-head" style={{marginBottom: '16px', textAlign: 'left', maxWidth: 'none'}}>
                 <span className="eyebrow">Why it matters</span>
-                <h2>The searching, <span className="em">handled.</span></h2>
               </div>
               <p>Becoming a parent means navigating an entirely new world of services, systems and support. Childcare. Immunisations. Registrations. Health services. Government payments. Community programs.</p>
               <p>The information exists, but it&apos;s scattered across websites, departments and organisations that most parents have never dealt with before.</p>

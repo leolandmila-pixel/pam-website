@@ -12,8 +12,8 @@ export default function AppFeaturesPage() {
     <main>
       <section className="pricing-hero-banner">
         <Image
-          src="/Untitled design (4).png"
-          alt="Mother holding baby"
+          src="/features-hero.png"
+          alt="Everything your family needs, all in one place"
           fill
           priority
           style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
@@ -21,7 +21,7 @@ export default function AppFeaturesPage() {
         <div className="pricing-hero-overlay" />
         <div className="pricing-hero-content">
           <h1 className="pricing-hero-heading">
-            Everything your family<br />needs, all in one place.
+            Everything Your Family Needs,<br />All in one Place.
           </h1>
         </div>
       </section>

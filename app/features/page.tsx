@@ -21,7 +21,7 @@ export default function AppFeaturesPage() {
         <div className="pricing-hero-overlay" />
         <div className="pricing-hero-content">
           <h1 className="pricing-hero-heading">
-            Everything Your Family Needs,<br />All in one Place.
+            Everything your family<br />needs, all in one place.
           </h1>
         </div>
       </section>

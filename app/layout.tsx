@@ -47,6 +47,18 @@ export default function RootLayout({
     <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable}`}>
       <body>
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HXDCMKL29F"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HXDCMKL29F');
+          `}
+        </Script>
+        <Script
           id="organization-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

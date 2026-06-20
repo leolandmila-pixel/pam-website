@@ -47,7 +47,7 @@ export default function RootLayout({
     <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable}`}>
       <body>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-HXDCMKL29F"
+          src="https://www.googletagmanager.com/gtag/js?id=G-1BMMSSHD1W"
           strategy="afterInteractive"
         />
         <Script id="ga4" strategy="afterInteractive">
@@ -55,7 +55,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-HXDCMKL29F');
+            gtag('config', 'G-1BMMSSHD1W');
           `}
         </Script>
         <Script

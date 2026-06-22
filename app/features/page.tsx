@@ -19,7 +19,7 @@ export default function AppFeaturesPage() {
           style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
         />
         <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
+        <div className="pricing-hero-content" style={{ marginTop: 0 }}>
           <h1 className="pricing-hero-heading">
             Everything your family<br />needs, all in one place.
           </h1>

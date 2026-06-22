@@ -17,7 +17,7 @@ const tabs: Tab[] = [
   {
     name: 'Smart Checklist',
     body: 'Everything from immunisations to MCH visits to registering the birth - pre-loaded and reminded as each task nears, and a nudge if one slips by.',
-    src: '/phone-checklist.jpg',
+    src: '/WhatsApp Image 2026-06-18 at 12.25.34 PM.jpeg',
     alt: 'PAM Smart Checklist tab - calendar view with upcoming tasks',
   },
   {
@@ -29,7 +29,7 @@ const tabs: Tab[] = [
   {
     name: 'Family Info',
     body: "Whatever you'd scramble for at 2am, already where it should be - the people, details and services, kept close and organised.",
-    src: '/phone-family.jpg',
+    src: '/WhatsApp Image 2026-06-18 at 12.25.34 PM (2).jpeg',
     alt: 'PAM Family Info tab - People, Records and Journey',
   },
   {

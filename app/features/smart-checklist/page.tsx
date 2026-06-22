@@ -25,7 +25,14 @@ export default function ChecklistFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-checklist.jpeg" alt="PAM Smart Checklist screen" width={420} height={910} priority />
+              <video
+                src="/WhatsApp Video 2026-06-18 at 1.13.37 PM.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                style={{ width: '100%', maxWidth: 280, height: 'auto', display: 'block', borderRadius: 32, boxShadow: '0 30px 80px rgba(74,7,19,0.22)' }}
+              />
             </div>
           </div>
         </div>

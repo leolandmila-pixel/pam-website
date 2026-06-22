@@ -8,7 +8,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--warm" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/phone-checklist.jpg"
+              src="/WhatsApp Image 2026-06-18 at 12.25.34 PM.jpeg"
               alt=""
               width={222}
               height={480}
@@ -56,8 +56,8 @@ export default function PricingFeatures() {
             The early days are a blur. PAM keeps the detail so you don&apos;t have to hold it all in your head.
           </p>
           <ul className="pfeat-list">
-            <li>Feeding tracker for breast, bottle and solids - times, amounts and which side</li>
-            <li>Sleep tracking with nap and overnight logs so you can start to spot patterns</li>
+            <li>Feeding tracker for breast, bottle and pumping - times, amounts and which side</li>
+            <li>Sleep tracking with nap and overnight logs, nap and bedtime predictions so you can start to spot patterns</li>
             <li>Nappy logs - wet, dirty and mixed, with notes for the doctor if needed</li>
             <li>Medicine tracker with dose, time and next-due reminder so nothing is doubled up</li>
             <li>Growth measurements and activity logs - all in one place, ready for any appointment</li>
@@ -70,7 +70,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--sage" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/phone-family.jpg"
+              src="/WhatsApp Image 2026-06-18 at 12.25.34 PM (2).jpeg"
               alt=""
               width={222}
               height={480}
@@ -96,8 +96,39 @@ export default function PricingFeatures() {
         </div>
       </section>
 
-      {/* SECTION 4 - Memories (flipped) */}
+      {/* SECTION 4 - Local Info */}
       <section className="pfeat-section pfeat-section--flip">
+        <div className="pfeat-visual pfeat-visual--sage" aria-hidden="true">
+          <div className="pfeat-phone">
+            <Image
+              src="/WhatsApp Image 2026-06-18 at 12.25.33 PM.jpeg"
+              alt=""
+              width={222}
+              height={480}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
+          </div>
+        </div>
+        <div className="pfeat-copy">
+          <p className="eyebrow">Know your area</p>
+          <h3>
+            Local support, <em>already found.</em>
+          </h3>
+          <p className="pfeat-subhead">
+            Trusted services and resources curated for your area — so you&apos;re never starting from scratch when you need help.
+          </p>
+          <ul className="pfeat-list">
+            <li>Hospitals, birth centres and maternity wards near you — with after-hours contacts</li>
+            <li>MCH centres with booking details and what to expect at each scheduled visit</li>
+            <li>GPs and paediatricians in your area who bulk bill or accept new patients</li>
+            <li>Childcare centres, family day care and kindergartens with CCS information</li>
+            <li>Helplines, sleep schools, lactation consultants and postnatal support nearby</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* SECTION 5 - Memories */}
+      <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--blush" aria-hidden="true">
           <div className="pfeat-phone">
             <Image

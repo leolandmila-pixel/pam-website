@@ -26,7 +26,14 @@ export default function MemoriesFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <Image src="/phone-memories.jpg" alt="PAM Memories screen" width={420} height={910} priority />
+              <video
+                src="/WhatsApp Video 2026-06-18 at 1.24.08 PM.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                style={{ width: '100%', maxWidth: 280, height: 'auto', display: 'block', borderRadius: 32, boxShadow: '0 30px 80px rgba(74,7,19,0.22)' }}
+              />
             </div>
           </div>
         </div>

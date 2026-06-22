@@ -1075,6 +1075,38 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .ml-further .ml-list a{color:var(--wine);text-decoration:none;font-weight:500}
 .ml-further .ml-list a:hover{text-decoration:underline}
 
+/* ============== Q&A PAGE ============== */
+.qa-stats{display:flex;gap:32px;margin:36px 0 0;padding:28px 0;border-top:1px solid rgba(109,0,20,0.1)}
+.qa-stat{display:flex;flex-direction:column;gap:4px}
+.qa-stat-n{font-family:var(--montserrat);font-size:1.8rem;font-weight:700;color:var(--wine);line-height:1}
+.qa-stat-label{font-size:0.78rem;color:var(--ink-faint);letter-spacing:0.04em;font-weight:500;text-transform:uppercase}
+.qa-cats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.qa-cat{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:100px;border:1.5px solid rgba(109,0,20,0.18);background:transparent;font-family:var(--sans);font-size:0.84rem;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all 0.18s ease;white-space:nowrap}
+.qa-cat:hover{border-color:var(--wine);color:var(--wine)}
+.qa-cat.active{background:var(--wine);border-color:var(--wine);color:#fff}
+.qa-cat-emoji{font-size:0.9rem}
+.qa-count{font-size:0.8rem;color:var(--ink-faint);margin-bottom:20px;font-weight:500}
+.qa-list{display:flex;flex-direction:column}
+.qa-item{border-bottom:1px solid rgba(109,0,20,0.1)}
+.qa-item:first-child{border-top:1px solid rgba(109,0,20,0.1)}
+.qa-q{width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 0;background:none;border:none;cursor:pointer;text-align:left;font-family:var(--sans);font-size:1rem;font-weight:600;color:var(--ink);line-height:1.45;transition:color 0.15s}
+.qa-q:hover{color:var(--wine)}
+.qa-item.open .qa-q{color:var(--wine)}
+.qa-chevron{width:18px;height:18px;flex-shrink:0;margin-top:2px;color:var(--ink-faint);transition:transform 0.2s ease}
+.qa-item.open .qa-chevron{transform:rotate(180deg);color:var(--wine)}
+.qa-a{padding:0 0 24px}
+.qa-a p{font-size:0.94rem;line-height:1.78;color:var(--ink-soft);margin:0 0 12px;max-width:68ch}
+.qa-a p:last-child{margin-bottom:0}
+.qa-bullets{margin:0 0 12px;padding-left:20px}
+.qa-bullets li{font-size:0.94rem;line-height:1.72;color:var(--ink-soft);margin-bottom:4px}
+@media(max-width:640px){
+  .qa-stats{gap:20px}
+  .qa-stat-n{font-size:1.4rem}
+  .qa-cats{gap:6px}
+  .qa-cat{font-size:0.78rem;padding:6px 12px}
+  .qa-q{font-size:0.93rem}
+}
+
 /* ============== ULTRA MOBILE (<400px) ============== */
 @media (max-width:400px){
   .nav-wrapper{padding:12px 0}

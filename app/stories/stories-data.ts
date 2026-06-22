@@ -593,6 +593,90 @@ export const stories: Story[] = [
     },
   },
   {
+    slug: 'real-mums-real-stories-maddie',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Meet Maddie',
+    body: "Melbourne-based beauty content creator Maddie on body confidence after baby, seeing the world differently, and the parenting motto she and her partner have quietly adopted.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "For many women, motherhood changes everything. For Melbourne-based beauty content creator Maddie, becoming a mum to her daughter Carmine has been transformative in ways she never expected.",
+        "Nearly 14 months into motherhood, Maddie says she's genuinely loving this chapter of life — and the woman it's helped her become.",
+        "\"Having Carmy has made me a better daughter, a more understanding sister, and a more supportive friend,\" she shares. \"I feel more self-aware and closer to the woman I've always wanted to be. This has been very unexpected but equally as welcome.\"",
+      ],
+      sections: [
+        {
+          heading: '"Motherhood strips you bare"',
+          paragraphs: [
+            "When asked to describe motherhood in one sentence, Maddie's answer is both simple and profound:",
+            "\"Motherhood strips you bare and forces you to relearn what you thought you knew. Love has a new definition now, so does pain, so does connection.\"",
+            "It's a sentiment many mums can relate to — the way motherhood challenges old versions of ourselves and creates space for entirely new perspectives.",
+          ],
+        },
+        {
+          heading: 'Finding confidence in a changing body',
+          paragraphs: [
+            "One of the biggest surprises for Maddie has been the confidence she's gained since becoming a mum.",
+            "\"I didn't expect to feel more confident in my body now than I did pre-baby,\" she says.",
+            "Rather than focusing on appearance, motherhood has given her a deep appreciation for what her body has achieved.",
+            "\"Now when the soft, squishy skin on my hips spills over my waistband, it genuinely makes me smile. It's a reminder that Carmy was in there. It's worth celebrating.\"",
+            "Her perspective is refreshing in a world that often pressures women to 'bounce back' after having children. Instead, she's choosing to honour the incredible journey her body has been through.",
+          ],
+        },
+        {
+          heading: 'Seeing the world differently',
+          paragraphs: [
+            "Perhaps the most unexpected lesson motherhood has taught Maddie is how connected she feels to other people.",
+            "\"Every single person is here because a mum fought as hard as she could to birth them,\" she explains.",
+            "Where she once saw strangers, she now sees someone's child.",
+            "\"I wonder what their story is, and I hope they're doing okay.\"",
+            "It's a beautiful reminder of the shared human experience that motherhood can bring into focus.",
+          ],
+        },
+        {
+          heading: 'Navigating motherhood online',
+          paragraphs: [
+            "Known for her honesty and openness online, Maddie admits that motherhood has changed the way she approaches sharing her life with her community.",
+            "\"Motherhood is the best thing that's ever happened to me, and I do want to talk about it and share my experience, but for the first time, I'm nervous to overshare.\"",
+            "As she navigates this new territory, she's learning how to balance authenticity with protecting her daughter.",
+            "\"I'm trying to find a way that I can naturally weave motherhood into the content I already post and share things that I'm going through, rather than what Carmy is going through.\"",
+          ],
+        },
+        {
+          heading: 'More than how we look',
+          paragraphs: [
+            "For years, Maddie has built a platform around helping women feel comfortable in their own skin. Motherhood has only strengthened that message.",
+            "\"It's shown me a multitude of reasons as to why the way we look is really far down the list of what's interesting about us as women.\"",
+            "Even as she adjusts to life after breastfeeding, she approaches the changes with gratitude.",
+            "\"WOW, how cool are these boobs that changed their shape and size so many times over the last year. They do look a little used and abused now, but what a privilege to have been able to breastfeed my baby.\"",
+          ],
+        },
+        {
+          heading: 'Advice for first-time mums',
+          paragraphs: [
+            "If she could go back and speak to herself as a new mum, Maddie's advice would be simple:",
+            "\"You cannot control the uncontrollables, so don't waste your energy trying.\"",
+            "After spending the first three months postpartum recovering from episiotomy complications, she wishes she had allowed herself more grace and rest.",
+            "\"I think I tried to pretend I was fine and pushed myself to be okay out of stubbornness when I really should've just given my body the rest it needed.\"",
+            "It's a powerful reminder that healing deserves just as much attention as caring for a newborn.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'And finally...',
+        paragraphs: [
+          "Every family seems to have a parenting motto, and Maddie's is one that might make a few parents laugh.",
+          "\"It's actually 'f*ck around and find out'. I don't actually say it to Carmy, but Matt and I have adopted it as our parenting style.\"",
+          "Honest, funny, and deeply reflective, Maddie's story is a reminder that motherhood doesn't just change your life — it changes the way you see yourself, your body, and the world around you.",
+          "And sometimes, those changes are the most beautiful surprises of all.",
+        ],
+      },
+    },
+  },
+  {
     slug: 'breastfeeding-didnt-work-for-me',
     cover: 'c-feeding',
     label: "When breastfeeding doesn't work",

@@ -17,7 +17,7 @@ export default function LocalInfoFeaturePage() {
               <h1 className="display-xl feature-hero-title">Everything local, <em>right where you need it.</em></h1>
               <p className="feature-hero-lead">
                 Trusted services, resources and guides curated for your area. From hospitals and maternal health to
-                childcare and parenting support — all in one place, relevant to where you live.
+                childcare and parenting support, all in one place, relevant to where you live.
               </p>
               <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
                 Get early access
@@ -25,6 +25,16 @@ export default function LocalInfoFeaturePage() {
                   <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </span>
               </a>
+            </div>
+            <div className="feature-hero-phone">
+              <video
+                src="/WhatsApp Video 2026-06-18 at 1.24.05 PM.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                style={{ width: '100%', maxWidth: 280, height: 'auto', display: 'block', borderRadius: 32, boxShadow: '0 30px 80px rgba(74,7,19,0.22)' }}
+              />
             </div>
           </div>
         </div>

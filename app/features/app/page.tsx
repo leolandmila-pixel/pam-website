@@ -12,14 +12,14 @@ export default function AppFeaturesPage() {
     <main>
       <section className="pricing-hero-banner">
         <Image
-          src="/Untitled design (4).png"
+          src="/WhatsApp Image 2026-06-18 at 12.55.24 PM.jpeg"
           alt="Mother holding baby"
           fill
           priority
           style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
         />
         <div className="pricing-hero-overlay" />
-        <div className="pricing-hero-content">
+        <div className="pricing-hero-content" style={{ marginTop: 0 }}>
           <h1 className="pricing-hero-heading">
             Everything your family<br />needs, all in one place.
           </h1>

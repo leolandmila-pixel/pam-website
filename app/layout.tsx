@@ -36,7 +36,14 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
-export const metadata: Metadata = baseMetadata
+export const metadata: Metadata = {
+  ...baseMetadata,
+  alternates: {
+    types: {
+      'application/rss+xml': 'https://parentaladminmanager.com/feed.xml',
+    },
+  },
+}
 
 export default function RootLayout({
   children,

@@ -104,7 +104,7 @@ export default function AboutPage() {
               <div>
                 <h3>Oly</h3>
                 <div className="role">Co-Founder · Mum to Leo</div>
-                <p>&ldquo;I started PAM because I genuinely forgot my son had a doctor&apos;s appointment. Twice. For the same appointment.&rdquo;</p>
+                <p>&ldquo;We started PAM because I genuinely forgot my son had a doctor&apos;s appointment. Twice. For the same appointment.&rdquo;</p>
                 <dl className="founder-qa">
                   <dt>Coffee or sleep?</dt>
                   <dd>Genuinely can&apos;t remember what sleep feels like. Coffee it is. Several.</dd>

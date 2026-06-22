@@ -1047,6 +1047,34 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   .share-cta{padding:40px 20px;margin-top:40px}
 }
 
+/* ============== MENTAL LOAD PAGE ============== */
+.ml-breadcrumb{font-size:0.82rem;color:var(--ink-faint);margin-bottom:28px}
+.ml-breadcrumb a{color:var(--ink-faint);text-decoration:none}
+.ml-breadcrumb a:hover{color:var(--wine)}
+.ml-lead{font-size:1.18rem;line-height:1.65;color:var(--ink-soft);max-width:640px;margin-top:16px}
+.ml-section{padding:0 0 80px}
+.ml-prose{max-width:740px}
+.ml-definition-block{background:rgba(109,0,20,0.05);border-left:3px solid var(--wine);border-radius:0 12px 12px 0;padding:20px 24px;margin:0 0 32px}
+.ml-definition{font-size:1.05rem;line-height:1.7;color:var(--ink);margin:0}
+.ml-prose h2{font-family:var(--display);font-size:clamp(1.4rem,2.5vw,1.9rem);margin:44px 0 16px;color:var(--ink)}
+.ml-prose p{font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 20px}
+.ml-list{margin:0 0 24px;padding-left:24px}
+.ml-list li{font-size:0.97rem;line-height:1.7;color:var(--ink);margin-bottom:8px}
+.ml-quote{border-left:3px solid var(--wine);margin:36px 0;padding:20px 28px;background:rgba(109,0,20,0.03);border-radius:0 12px 12px 0}
+.ml-quote p{font-family:var(--display);font-size:1.1rem;font-style:italic;line-height:1.6;color:var(--ink);margin:0 0 12px}
+.ml-quote cite{font-size:0.82rem;color:var(--ink-faint);font-style:normal;font-weight:600;letter-spacing:0.04em}
+.ml-cta-block{background:var(--wine);border-radius:16px;padding:32px;text-align:center;margin:44px 0}
+.ml-cta-block p{color:rgba(255,255,255,0.85);margin:0 0 20px;font-size:0.97rem}
+.ml-faq{margin-top:8px}
+.ml-faq-item{border-bottom:1px solid rgba(109,0,20,0.12);padding:24px 0}
+.ml-faq-item:last-child{border-bottom:none}
+.ml-faq-item h3{font-family:var(--montserrat);font-weight:600;font-size:1rem;color:var(--ink);margin:0 0 10px;line-height:1.4}
+.ml-faq-item p{font-size:0.93rem;line-height:1.75;color:var(--ink-soft);margin:0}
+.ml-further{margin-top:48px;padding-top:32px;border-top:1px solid rgba(109,0,20,0.12)}
+.ml-further h2{font-family:var(--display);font-size:1.4rem;margin:0 0 16px}
+.ml-further .ml-list a{color:var(--wine);text-decoration:none;font-weight:500}
+.ml-further .ml-list a:hover{text-decoration:underline}
+
 /* ============== ULTRA MOBILE (<400px) ============== */
 @media (max-width:400px){
   .nav-wrapper{padding:12px 0}

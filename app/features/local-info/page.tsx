@@ -1,15 +1,26 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import Image from 'next/image'
 import Link from 'next/link'
+import { buildFaqSchema } from '../../structured-data'
 
 export const metadata: Metadata = {
   title: 'Local Info | Parental Admin Manager',
-  description: 'Local services, resources and guides relevant to your family and where you live.',
+  description: 'Local services, resources and guides relevant to your family and where you live — hospitals, playgroups, early childhood services and more, all in one place.',
 }
+
+const faqSchema = buildFaqSchema([
+  { q: 'Is there an app that shows local services for parents in Australia?', a: 'Yes — PAM\'s Local Info feature surfaces services, resources, and guides relevant to your family and your location. This includes local maternal and child health centres, hospitals, playgroups, early childhood services, and parenting support programs relevant to your area.' },
+  { q: 'How does PAM show local parenting services?', a: 'PAM\'s Local Info section uses your location to surface relevant local services — maternal and child health centres, nearby hospitals, playgroups, early childhood education options, and community parenting programs. It is designed to reduce the time parents spend searching for this information across multiple council websites and directories.' },
+  { q: 'Does PAM include information about local hospitals and emergency services?', a: 'Yes. PAM\'s Local Info section includes relevant local hospital and emergency service information so you have it on hand when you need it — without having to search in a stressful moment.' },
+  { q: 'Can PAM help me find playgroups near me?', a: 'Yes. PAM\'s Local Info feature includes playgroup and early childhood activity information relevant to your location, so you can find local options without searching across multiple websites and council directories.' },
+])
 
 export default function LocalInfoFeaturePage() {
   return (
-    <main>
+    <>
+      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <main>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -101,5 +112,6 @@ export default function LocalInfoFeaturePage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

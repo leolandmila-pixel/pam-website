@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Instrument_Serif, Montserrat } from 'next/font/google'
 import Script from 'next/script'
 import { baseMetadata } from './metadata'
-import { organizationSchema, mobileAppSchema } from './structured-data'
+import { organizationSchema, mobileAppSchema, websiteSchema } from './structured-data'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -74,6 +74,11 @@ export default function RootLayout({
           id="app-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(mobileAppSchema) }}
+        />
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
         <Nav />
         {children}

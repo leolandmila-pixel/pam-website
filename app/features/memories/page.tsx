@@ -1,13 +1,25 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import Image from 'next/image'
 import Link from 'next/link'
 import { memoriesMetadata } from '../../metadata'
+import { buildFaqSchema } from '../../structured-data'
 
 export const metadata: Metadata = memoriesMetadata
 
+const faqSchema = buildFaqSchema([
+  { q: 'What is the best app for saving baby memories in Australia?', a: 'PAM\'s Memories feature lets you capture photos, voice notes, and milestone moments in one place — organised by your baby\'s age and stored alongside the context that makes them meaningful. Unlike a camera roll, memories in PAM are dated, tagged, and never get buried under 3,000 other photos.' },
+  { q: 'Can I save voice notes as baby memories in PAM?', a: 'Yes. PAM lets you record voice notes as memories — the sound of a first laugh, a babbled first word, a bedtime routine. These are stored alongside photos and milestone records, with the date and context preserved.' },
+  { q: 'Is there an app that acts as a digital baby book?', a: 'Yes — PAM\'s Memories feature is designed as a living digital baby book. You can capture photos, voice notes, and milestone moments, and they are stored chronologically alongside your baby\'s age and development records. It updates as your baby grows, rather than being a one-time keepsake you fill in.' },
+  { q: 'Can both parents add memories in PAM?', a: 'Yes. Both parents can add photos, voice notes, and milestone moments from their own devices. All memories are shared in the family space, so neither parent misses a moment — even if they were not there for it.' },
+  { q: 'Does PAM save baby milestone moments automatically?', a: 'When you check off a milestone in PAM\'s Smart Checklist, you can add a photo or note to mark the moment and it is saved as a memory. This means your developmental record and your memory keeping are connected, rather than living in separate apps.' },
+])
+
 export default function MemoriesFeaturePage() {
   return (
-    <main>
+    <>
+      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <main>
       <section className="hero feature-hero">
         <div className="container">
           <div className="feature-hero-grid">
@@ -100,5 +112,6 @@ export default function MemoriesFeaturePage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

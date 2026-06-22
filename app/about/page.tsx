@@ -115,7 +115,7 @@ export default function AboutPage() {
                   <dt>What&apos;s one thing PAM would have saved you from?</dt>
                   <dd>Showing up to the maternal health nurse without Leo&apos;s baby book, every time. We don&apos;t talk about it.</dd>
                   <dt>Biggest parenting plot twist?</dt>
-                  <dd>That the hardest part isn&apos;t the baby stuff — it&apos;s the admin that comes with it.</dd>
+                  <dd>That the hardest part isn&apos;t the baby stuff - it&apos;s the admin that comes with it.</dd>
                 </dl>
               </div>
             </div>

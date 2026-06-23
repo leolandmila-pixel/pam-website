@@ -6,11 +6,8 @@ import { faqItems } from '@/lib/faq-data'
 const cats: { key: string; label: string }[] = [
   { key: 'all', label: 'All' },
   { key: 'getting-started', label: 'Getting Started' },
-  { key: 'mental-load', label: 'Mental Load' },
   { key: 'sharing', label: 'Sharing & Family' },
   { key: 'features', label: 'Features' },
-  { key: 'australia', label: 'Australian Families' },
-  { key: 'compare', label: 'How We Compare' },
   { key: 'pricing', label: 'Pricing' },
   { key: 'privacy', label: 'Privacy & Security' },
 ]

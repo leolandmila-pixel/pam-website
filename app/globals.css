@@ -382,7 +382,7 @@ section{padding:96px 0}
 
 /* ===== Feature tab cards (one bubble per app tab) ===== */
 .feature-cards-grid{
-  display:grid;grid-template-columns:repeat(5,1fr);gap:22px;margin-top:18px
+  display:grid;grid-template-columns:repeat(6,1fr);gap:22px;margin-top:18px
 }
 .feature-card{display:flex;flex-direction:column;text-align:left}
 .feature-card-stage{

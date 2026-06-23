@@ -38,14 +38,7 @@ export default function TrackerFeaturePage() {
               </a>
             </div>
             <div className="feature-hero-phone">
-              <video
-                src="/WhatsApp Video 2026-06-18 at 1.24.12 PM.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-                style={{ width: '100%', maxWidth: 280, height: 'auto', display: 'block', borderRadius: 32, boxShadow: '0 30px 80px rgba(74,7,19,0.22)' }}
-              />
+              <Image src="/Tracker.png" alt="PAM Tracker screen" width={280} height={560} style={{ width: '100%', maxWidth: 280, height: 'auto', display: 'block', borderRadius: 32, boxShadow: '0 30px 80px rgba(74,7,19,0.22)' }} />
             </div>
           </div>
         </div>

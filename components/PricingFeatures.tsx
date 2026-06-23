@@ -39,7 +39,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--rose" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/phone-tracker.jpg"
+              src="/Simulator Screenshot - iPhone 17 Pro FRESH - 2026-06-23 at 14.33.37.png"
               alt=""
               width={222}
               height={480}
@@ -101,7 +101,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--sage" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/WhatsApp Image 2026-06-18 at 12.25.33 PM.jpeg"
+              src="/Local Info.v2.png"
               alt=""
               width={222}
               height={480}
@@ -132,7 +132,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--blush" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/phone-memories.jpg"
+              src="/Memories.v2.png"
               alt=""
               width={222}
               height={480}

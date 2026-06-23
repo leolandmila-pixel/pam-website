@@ -33,64 +33,82 @@ const links: NavLink[] = [
   { href: '/faq', label: 'FAQ' },
 ]
 
-// TODO: replace with real App Store / Google Play URLs at launch
-const APP_STORE_URL = '#founding'
-const GOOGLE_PLAY_URL = '#founding'
-
 export default function Nav() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="nav-wrapper">
-      <nav className="nav">
-        <Link href="/" className="logo" onClick={() => setOpen(false)}>
-          <Image src="/logo.png" alt="PAM - Parental Admin Manager" width={120} height={34} className="logo-img" priority />
-          <small>Parental Admin Manager</small>
+    <header className="site-header">
+      {/* Top bar: logo left + announcement text */}
+      <div className="top-bar">
+        <Link href="/" className="top-bar-logo" onClick={() => setOpen(false)}>
+          <Image
+            src="/logo.png"
+            alt="PAM - Parental Admin Manager"
+            width={90}
+            height={26}
+            className="top-bar-logo-img"
+            priority
+          />
+          <span className="top-bar-wordmark">Parental Admin Manager</span>
         </Link>
-        <ul className={`nav-pills${open ? ' open' : ''}`}>
-          {links.map((l) => (
-            <li key={l.label} className={l.children ? 'has-dropdown' : undefined}>
-              <Link
-                href={l.href}
-                className={`nav-pill${pathname === l.href ? ' active' : ''}`}
-                onClick={() => setOpen(false)}
-              >
-                {l.label}
-                {l.children && (
-                  <svg className="nav-caret" viewBox="0 0 12 8" aria-hidden="true">
-                    <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                )}
-              </Link>
-              {l.children && (
-                <ul className="nav-dropdown">
-                  {l.children.map((c) => (
-                    <li key={c.href}>
-                      <Link
-                        href={c.href}
-                        className="nav-dropdown-item"
-                        onClick={() => setOpen(false)}
-                      >
-                        {c.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
-        <button
-          className="menu-btn"
-          aria-label="Menu"
-          onClick={() => setOpen((v) => !v)}
+        <a
+          href="https://tally.so/r/q4J1vg"
+          target="_blank"
+          rel="noreferrer"
+          className="top-bar-text"
         >
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path d="M3 12h18M3 6h18M3 18h18" />
-          </svg>
-        </button>
-      </nav>
-    </div>
+          Less mental load. Start your free PAM trial today.
+        </a>
+      </div>
+
+      {/* Floating nav pill */}
+      <div className="nav-wrapper">
+        <nav className="nav">
+          <ul className={`nav-pills${open ? ' open' : ''}`}>
+            {links.map((l) => (
+              <li key={l.label} className={l.children ? 'has-dropdown' : undefined}>
+                <Link
+                  href={l.href}
+                  className={`nav-pill${pathname === l.href ? ' active' : ''}`}
+                  onClick={() => setOpen(false)}
+                >
+                  {l.label}
+                  {l.children && (
+                    <svg className="nav-caret" viewBox="0 0 12 8" aria-hidden="true">
+                      <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  )}
+                </Link>
+                {l.children && (
+                  <ul className="nav-dropdown">
+                    {l.children.map((c) => (
+                      <li key={c.href}>
+                        <Link
+                          href={c.href}
+                          className="nav-dropdown-item"
+                          onClick={() => setOpen(false)}
+                        >
+                          {c.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+          <button
+            className="menu-btn"
+            aria-label="Menu"
+            onClick={() => setOpen((v) => !v)}
+          >
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path d="M3 12h18M3 6h18M3 18h18" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
   )
 }

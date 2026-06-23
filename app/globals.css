@@ -677,7 +677,8 @@ section{padding:96px 0}
 @media(max-width:600px){.terms-pricing-grid{grid-template-columns:1fr}}
 
 /* ============== FAQ ============== */
-.faq-cats{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:48px}
+.faq-cats{display:flex;justify-content:center;gap:8px;flex-wrap:nowrap;margin-bottom:48px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.faq-cats::-webkit-scrollbar{display:none}
 .faq-cat{border:1.5px solid #e2dcd8;background:transparent;color:var(--ink-soft);border-radius:100px;padding:8px 20px;font-family:var(--montserrat);font-size:0.82rem;font-weight:500;cursor:pointer;transition:all 0.2s ease;letter-spacing:0.01em}
 .faq-cat:hover{border-color:var(--wine);color:var(--wine)}
 .faq-cat.active{background:var(--wine);border-color:var(--wine);color:#fff}

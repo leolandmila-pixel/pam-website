@@ -34,7 +34,7 @@ export default function AboutPage() {
               <p>We both have toddlers: Mila (Ash) and Leo (Oly) and like so many mums, we found ourselves in the thick of it together.</p>
               <p>The love, the chaos, the exhaustion… and the constant mental load no one really prepares you for. Somewhere between the feeds, the naps, the appointments and the endless to-do lists, we kept coming back to the same thought: <em>why are we trying to hold all of this on our own?</em></p>
               <p>We created PAM because we knew other mums were feeling it too. The remembering. The organising. The invisible weight that sits in your mind every single day.</p>
-              <p>PAM is our way of supporting mums - not by adding more, but by taking something off your plate. Because you deserve to be present for the moments that matter most.</p>
+              <p>PAM is our way of supporting parents - not by adding more, but by taking something off your plate. Because you deserve to be present for the moments that matter most.</p>
             </div>
             <div className="about-art">
               <Image
@@ -120,14 +120,16 @@ export default function AboutPage() {
               <div>
                 <h3>Ash</h3>
                 <div className="role">Co-Founder · Mum to Mila</div>
-                <p>&ldquo;PAM is our way of supporting mums - not by adding more, but by taking something off your plate.&rdquo;</p>
+                <p>&ldquo;PAM is our way of supporting parents - not by adding more, but by taking something off your plate.&rdquo;</p>
                 <dl className="founder-qa">
                   <dt>Morning or Evening person?</dt>
                   <dd>Morning, don&apos;t ask me anything after 3pm.</dd>
-                  <dt>Planner or wing it?</dt>
-                  <dd>Little bit of both, actually.</dd>
+                  <dt>What do you hope users get out of PAM?</dt>
+                  <dd>A moment back. That&apos;s genuinely it. If PAM can hold some of the mental load so parents can be more present for the good stuff, even occasionally, that&apos;s everything we set out to do.</dd>
                   <dt>Most used app on your phone right now?</dt>
                   <dd>PAM. (I&apos;d say that even if I hadn&apos;t made it, but I also made it, so.)</dd>
+                  <dt>What&apos;s currently at the bottom of your nappy bag?</dt>
+                  <dd>A receipt from 2024, half a rice cake, and a lip balm I&apos;ve been looking for since Tuesday.</dd>
                   <dt>One word to describe motherhood?</dt>
                   <dd>Beautiful &amp; chaotic (I know that&apos;s two).</dd>
                 </dl>

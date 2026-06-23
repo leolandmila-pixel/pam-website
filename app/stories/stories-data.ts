@@ -25,6 +25,7 @@ export type Story = {
   published: boolean
   heroImage?: string
   heroImagePosition?: string
+  heroImageGrayscale?: boolean
   content?: StoryContent
 }
 
@@ -601,6 +602,9 @@ export const stories: Story[] = [
     body: "Melbourne-based beauty content creator Maddie on body confidence after baby, seeing the world differently, and the parenting motto she and her partner have quietly adopted.",
     readMinutes: 5,
     published: true,
+    heroImage: '/250528880766010026 (1).JPG',
+    heroImagePosition: 'center 30%',
+    heroImageGrayscale: true,
     content: {
       hook: [
         "For many women, motherhood changes everything. For Melbourne-based beauty content creator Maddie, becoming a mum to her daughter Carmine has been transformative in ways she never expected.",

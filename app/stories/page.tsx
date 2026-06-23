@@ -67,7 +67,7 @@ export default function StoriesPage() {
                 <article className={`story${s.published ? '' : ' is-coming-soon'}`}>
                   {s.heroImage ? (
                     <div className="cover cover-photo">
-                      <Image src={s.heroImage} alt={s.title} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover', objectPosition: s.heroImagePosition ?? 'center 30%' }} />
+                      <Image src={s.heroImage} alt={s.title} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover', objectPosition: s.heroImagePosition ?? 'center 30%', filter: s.heroImageGrayscale ? 'grayscale(100%)' : undefined }} />
                       <b>{s.label}</b>
                     </div>
                   ) : (

@@ -11,7 +11,7 @@ const tabs: Tab[] = [
   {
     name: 'Today',
     body: "What's due, what's done, and nothing left to remember - your whole day the moment you open the app.",
-    src: '/phone-home.jpg',
+    src: '/Home Page.png',
     alt: 'PAM Today tab - Welcome back, daily reminder and quick log',
   },
   {

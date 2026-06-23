@@ -33,9 +33,15 @@ const tabs: Tab[] = [
     alt: 'PAM Family Info tab - People, Records and Journey',
   },
   {
+    name: 'Local Info',
+    body: 'Trusted services and resources curated for your area - hospitals, MCH centres, GPs, childcare and support, already found.',
+    src: '/Local Info.png',
+    alt: 'PAM Local Info tab - Find local services and support',
+  },
+  {
     name: 'Memories',
     body: 'The little moments and big firsts, saved as they happen.',
-    src: '/phone-memories.jpg',
+    src: '/Memories.png',
     alt: 'PAM Memories tab - Capture, Preserve and Write',
   },
 ]

@@ -80,6 +80,9 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="top-banner">
+          Less mental load. Start your free PAM trial today.
+        </a>
         <Nav />
         {children}
         <Footer />

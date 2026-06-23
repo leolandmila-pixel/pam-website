@@ -6,13 +6,13 @@ import { buildFaqSchema } from '../../structured-data'
 
 export const metadata: Metadata = {
   title: 'Local Info | Parental Admin Manager',
-  description: 'Local services, resources and guides relevant to your family and where you live — hospitals, playgroups, early childhood services and more, all in one place.',
+  description: 'Local services, resources and guides relevant to your family and where you live - hospitals, playgroups, early childhood services and more, all in one place.',
 }
 
 const faqSchema = buildFaqSchema([
-  { q: 'Is there an app that shows local services for parents in Australia?', a: 'Yes — PAM\'s Local Info feature surfaces services, resources, and guides relevant to your family and your location. This includes local maternal and child health centres, hospitals, playgroups, early childhood services, and parenting support programs relevant to your area.' },
-  { q: 'How does PAM show local parenting services?', a: 'PAM\'s Local Info section uses your location to surface relevant local services — maternal and child health centres, nearby hospitals, playgroups, early childhood education options, and community parenting programs. It is designed to reduce the time parents spend searching for this information across multiple council websites and directories.' },
-  { q: 'Does PAM include information about local hospitals and emergency services?', a: 'Yes. PAM\'s Local Info section includes relevant local hospital and emergency service information so you have it on hand when you need it — without having to search in a stressful moment.' },
+  { q: 'Is there an app that shows local services for parents in Australia?', a: 'Yes - PAM\'s Local Info feature surfaces services, resources, and guides relevant to your family and your location. This includes local maternal and child health centres, hospitals, playgroups, early childhood services, and parenting support programs relevant to your area.' },
+  { q: 'How does PAM show local parenting services?', a: 'PAM\'s Local Info section uses your location to surface relevant local services - maternal and child health centres, nearby hospitals, playgroups, early childhood education options, and community parenting programs. It is designed to reduce the time parents spend searching for this information across multiple council websites and directories.' },
+  { q: 'Does PAM include information about local hospitals and emergency services?', a: 'Yes. PAM\'s Local Info section includes relevant local hospital and emergency service information so you have it on hand when you need it - without having to search in a stressful moment.' },
   { q: 'Can PAM help me find playgroups near me?', a: 'Yes. PAM\'s Local Info feature includes playgroup and early childhood activity information relevant to your location, so you can find local options without searching across multiple websites and council directories.' },
 ])
 
@@ -80,7 +80,7 @@ export default function LocalInfoFeaturePage() {
           <div className="feature-grid">
             <div className="feature-tile">
               <h3>Hospitals &amp; birth centres</h3>
-              <p>Your nearest public and private hospitals, birth centres and maternity wards — with addresses, phone numbers and after-hours contacts.</p>
+              <p>Your nearest public and private hospitals, birth centres and maternity wards - with addresses, phone numbers and after-hours contacts.</p>
             </div>
             <div className="feature-tile">
               <h3>Maternal &amp; child health</h3>
@@ -88,11 +88,11 @@ export default function LocalInfoFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>GPs &amp; paediatricians</h3>
-              <p>Family doctors and paediatricians in your area who bulk bill or accept new patients — filtered to what matters for your family.</p>
+              <p>Family doctors and paediatricians in your area who bulk bill or accept new patients - filtered to what matters for your family.</p>
             </div>
             <div className="feature-tile">
               <h3>Childcare &amp; early learning</h3>
-              <p>Childcare centres, family day care and kindergartens nearby — with CCS information and enrolment guidance.</p>
+              <p>Childcare centres, family day care and kindergartens nearby - with CCS information and enrolment guidance.</p>
             </div>
             <div className="feature-tile">
               <h3>Parenting support services</h3>
@@ -100,7 +100,7 @@ export default function LocalInfoFeaturePage() {
             </div>
             <div className="feature-tile">
               <h3>Community &amp; playgroups</h3>
-              <p>Local mothers&apos; groups, playgroups and family programs — the connections that make early parenthood less lonely.</p>
+              <p>Local mothers&apos; groups, playgroups and family programs - the connections that make early parenthood less lonely.</p>
             </div>
           </div>
         </div>

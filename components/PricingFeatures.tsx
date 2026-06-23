@@ -115,10 +115,10 @@ export default function PricingFeatures() {
             Local support, <em>already found.</em>
           </h3>
           <p className="pfeat-subhead">
-            Trusted services and resources curated for your area — so you&apos;re never starting from scratch when you need help.
+            Trusted services and resources curated for your area - so you&apos;re never starting from scratch when you need help.
           </p>
           <ul className="pfeat-list">
-            <li>Hospitals, birth centres and maternity wards near you — with after-hours contacts</li>
+            <li>Hospitals, birth centres and maternity wards near you - with after-hours contacts</li>
             <li>MCH centres with booking details and what to expect at each scheduled visit</li>
             <li>GPs and paediatricians in your area who bulk bill or accept new patients</li>
             <li>Childcare centres, family day care and kindergartens with CCS information</li>

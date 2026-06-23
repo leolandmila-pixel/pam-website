@@ -26,7 +26,7 @@ export const organizationSchema = {
   url: 'https://parentaladminmanager.com',
   logo: 'https://parentaladminmanager.com/logo.png',
   description:
-    'PAM (Parental Admin Manager) is an Australian parenting app that reduces the mental load of family life. Smart checklists pre-loaded with Australian admin milestones, a shared baby tracker, memory keeping, and family health information — all in one place.',
+    'PAM (Parental Admin Manager) is an Australian parenting app that reduces the mental load of family life. Smart checklists pre-loaded with Australian admin milestones, a shared baby tracker, memory keeping, and family health information - all in one place.',
   foundingDate: '2024',
   founders: [
     { '@type': 'Person', name: 'Ashley' },
@@ -46,14 +46,14 @@ export const organizationSchema = {
   },
 }
 
-// Enriched SoftwareApplication schema — the primary signal for LLM app recommendations
+// Enriched SoftwareApplication schema - the primary signal for LLM app recommendations
 export const mobileAppSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
   name: 'PAM - Parental Admin Manager',
   alternateName: 'PAM App',
   description:
-    'PAM is an Australian parenting app that takes the mental load off parents. It combines a smart checklist pre-loaded with Australian milestones (MCH visits, immunisations, Centrelink), a shared daily baby tracker for feeds, sleep and nappies, family health information storage, and memory keeping — all shared in real time with a partner or carer.',
+    'PAM is an Australian parenting app that takes the mental load off parents. It combines a smart checklist pre-loaded with Australian milestones (MCH visits, immunisations, Centrelink), a shared daily baby tracker for feeds, sleep and nappies, family health information storage, and memory keeping - all shared in real time with a partner or carer.',
   applicationCategory: 'LifestyleApplication',
   applicationSubCategory: 'Parenting',
   operatingSystem: 'iOS, Android',
@@ -76,7 +76,7 @@ export const mobileAppSchema = {
   featureList: [
     'Smart checklist pre-loaded with Australian MCH visits and immunisation schedule',
     'Shared daily baby tracker for feeds, sleep, nappies and measurements',
-    'Real-time partner sharing — both parents see everything',
+    'Real-time partner sharing - both parents see everything',
     'Family health information storage: doctors, medications, allergies, vaccination history',
     'Baby milestone tracking from newborn to school age',
     'Memory keeping: photos, voice notes, milestone moments',
@@ -90,14 +90,14 @@ export const mobileAppSchema = {
   availableOnDevice: ['iPhone', 'iPad', 'Android Phone', 'Android Tablet'],
 }
 
-// WebSite schema with SearchAction — enables sitelinks search box in Google
+// WebSite schema with SearchAction - enables sitelinks search box in Google
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'PAM - Parental Admin Manager',
   url: 'https://parentaladminmanager.com',
   description:
-    'Australian parenting app that reduces the mental load of family life — smart checklists, baby tracker, family health info and memory keeping.',
+    'Australian parenting app that reduces the mental load of family life - smart checklists, baby tracker, family health info and memory keeping.',
   inLanguage: 'en-AU',
   publisher: {
     '@type': 'Organization',

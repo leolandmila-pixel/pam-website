@@ -28,17 +28,17 @@ export function GET() {
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PAM — Parental Admin Manager</title>
+    <title>PAM - Parental Admin Manager</title>
     <link>${baseUrl}</link>
     <description>Stories, guides and honest parenting content from the PAM team. Reducing the mental load of family life, one family at a time.</description>
     <language>en-AU</language>
-    <copyright>© ${new Date().getFullYear()} PAM — Parental Admin Manager</copyright>
+    <copyright>© ${new Date().getFullYear()} PAM - Parental Admin Manager</copyright>
     <managingEditor>hello@parentaladminmanager.com (PAM Team)</managingEditor>
     <webMaster>hello@parentaladminmanager.com (PAM Team)</webMaster>
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>${baseUrl}/logo.png</url>
-      <title>PAM — Parental Admin Manager</title>
+      <title>PAM - Parental Admin Manager</title>
       <link>${baseUrl}</link>
     </image>
 ${items}

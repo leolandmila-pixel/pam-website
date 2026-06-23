@@ -8,7 +8,7 @@ import QAList from '@/components/QAList'
 export const metadata: Metadata = {
   title: 'Parent Questions, Answered | PAM',
   description:
-    'Real answers to the questions parents ask — newborn care, baby sleep, feeding, Australian admin (MCH, Centrelink, immunisations), development milestones, and the mental load. Written for Australian families.',
+    'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin (MCH, Centrelink, immunisations), development milestones, and the mental load. Written for Australian families.',
   keywords: [
     'parenting questions australia',
     'newborn questions',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Parent Questions, Answered | PAM',
     description:
-      'Real answers to the questions parents ask — newborn care, baby sleep, feeding, Australian admin, development, and the mental load.',
+      'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin, development, and the mental load.',
     url: 'https://parentaladminmanager.com/questions',
   },
   alternates: {
@@ -80,7 +80,7 @@ export default function QuestionsPage() {
                 <span className="em">Real answers.</span>
               </h1>
               <p className="ml-lead">
-                The newborn stage. Baby sleep. Feeding. Australian admin — MCH visits, Centrelink, immunisations. Development milestones. And the mental load. All in one place, written for Australian families.
+                The newborn stage. Baby sleep. Feeding. Australian admin - MCH visits, Centrelink, immunisations. Development milestones. And the mental load. All in one place, written for Australian families.
               </p>
             </div>
 
@@ -109,7 +109,7 @@ export default function QuestionsPage() {
               PAM holds it all,<br />so you don&apos;t have to.
             </h2>
             <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 520 }}>
-              Smart checklists pre-loaded with Australian milestones. A shared baby tracker both parents can use in real time. Family health info, memories, and mental load — managed.
+              Smart checklists pre-loaded with Australian milestones. A shared baby tracker both parents can use in real time. Family health info, memories, and mental load - managed.
             </p>
             <a
               href="https://tally.so/r/q4J1vg"

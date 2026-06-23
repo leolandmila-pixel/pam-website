@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.site-header{position:sticky;top:0;z-index:100}
-.top-bar{display:flex;align-items:center;gap:20px;background:var(--wine);padding:0 36px;height:50px}
-.top-bar-logo{display:flex;align-items:center;gap:10px;flex-shrink:0;text-decoration:none}
+.site-header{position:sticky;top:0;z-index:100;height:50px}
+.top-bar{position:relative;display:flex;align-items:center;justify-content:center;background:var(--wine);height:50px;padding:0 36px}
+.top-bar-logo{position:absolute;left:36px;display:flex;align-items:center;gap:10px;text-decoration:none}
 .top-bar-logo-img{filter:brightness(0) invert(1);height:26px;width:auto;display:block}
 .top-bar-wordmark{font-family:var(--sans);font-size:0.55rem;letter-spacing:0.26em;text-transform:uppercase;color:rgba(255,255,255,0.75);font-weight:600;white-space:nowrap}
-.top-bar-text{flex:1;text-align:center;font-family:var(--sans);font-size:0.85rem;font-weight:500;color:#fff;text-decoration:none;letter-spacing:0.01em;transition:opacity 0.15s}
+.top-bar-text{text-align:center;font-family:var(--sans);font-size:0.85rem;font-weight:500;color:#fff;text-decoration:none;letter-spacing:0.01em;transition:opacity 0.15s}
 .top-bar-text:hover{opacity:0.85}
 
 :root{
@@ -74,7 +74,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.1;letter-spaci
 em,.em{font-style:italic;color:var(--wine)}
 
 /* ============== NAV ============== */
-.nav-wrapper{padding:8px 0;background:transparent}
+.nav-wrapper{position:absolute;top:50px;left:0;right:0;z-index:99;padding:8px 0;background:transparent}
 .nav{display:flex;align-items:center;gap:32px;margin:0 auto;padding:0 36px;justify-content:center;position:relative}
 .nav>.logo{position:absolute;left:36px}
 .nav>.nav-pills{flex-shrink:0}
@@ -985,7 +985,8 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 
 /* ============== RESPONSIVE ============== */
 @media (max-width:980px){
-  .top-bar{padding:0 20px;height:46px}
+  .top-bar{height:46px}
+  .top-bar-logo{left:20px}
   .top-bar-text{display:none}
   .top-bar-wordmark{display:none}
   .nav{gap:16px;padding:0 20px}

@@ -35,13 +35,13 @@ const tabs: Tab[] = [
   {
     name: 'Local Info',
     body: 'Trusted services and resources curated for your area - hospitals, MCH centres, GPs, childcare and support, already found.',
-    src: '/Local Info.png',
+    src: '/Local Info.v2.png',
     alt: 'PAM Local Info tab - Find local services and support',
   },
   {
     name: 'Memories',
     body: 'The little moments and big firsts, saved as they happen.',
-    src: '/Memories.png',
+    src: '/Memories.v2.png',
     alt: 'PAM Memories tab - Capture, Preserve and Write',
   },
 ]

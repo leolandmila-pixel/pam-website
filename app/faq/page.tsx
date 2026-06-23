@@ -20,14 +20,7 @@ export default function FaqPage() {
       <section className="hero" style={{ paddingTop: 40 }}>
         <div className="container">
           <div className="sec-head">
-            <span className="eyebrow">Good to know</span>
-            <h1>
-              Your questions, <span className="em">answered.</span>
-            </h1>
-            <p>
-              Everything parents ask us — about the mental load, Australian family admin, how PAM
-              compares to other apps, and how to get started.
-            </p>
+            <h1>Frequently Asked Questions</h1>
           </div>
           <FaqList />
         </div>

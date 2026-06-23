@@ -23,7 +23,7 @@ const tabs: Tab[] = [
   {
     name: 'Tracker',
     body: 'From feeds to growth in one place - daily logs, percentile charts, clear reports, and nap predictions built around your baby.',
-    src: '/phone-tracker.jpg',
+    src: '/Tracker.png',
     alt: 'PAM Tracker tab - daily tracking tiles and summary',
   },
   {

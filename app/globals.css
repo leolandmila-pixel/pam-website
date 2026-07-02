@@ -736,7 +736,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 .dayinlife .sec-head{max-width:none;margin-bottom:44px}
 .flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:36px;isolation:isolate}
 .flow-list::before{
-  content:"";position:absolute;left:0;right:0;top:142px;bottom:142px;
+  content:"";position:absolute;left:0;right:0;top:9%;bottom:9%;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000' preserveAspectRatio='none'%3E%3Cpath d='M50 0 C15 80 15 170 50 250 C85 330 85 420 50 500 C15 580 15 670 50 750 C85 830 85 920 50 1000' fill='none' stroke='%237d0820' stroke-opacity='0.4' stroke-width='2.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
   background-size:100% 100%;background-repeat:no-repeat;z-index:0;pointer-events:none
 }
@@ -759,7 +759,7 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   color:#fff;border-radius:100px;padding:7px 16px;
   font-family:var(--sans);font-weight:500;font-size:0.82rem;letter-spacing:0.02em
 }
-.flow-content{padding-left:72px}
+.flow-content{padding-left:72px;background:var(--cream);align-self:stretch;display:flex;flex-direction:column;justify-content:center}
 .flow-content h3{
   font-family:var(--montserrat);font-weight:400;
   font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.1;margin-bottom:10px;color:var(--ink)

@@ -734,13 +734,13 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
 /* ============== A DAY IN THE LIFE (timeline zigzag) ============== */
 .dayinlife{padding:72px 0}
 .dayinlife .sec-head{max-width:none;margin-bottom:44px}
-.flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
+.flow-list{position:relative;max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:36px;isolation:isolate}
 .flow-list::before{
   content:"";position:absolute;left:0;right:0;top:142px;bottom:142px;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000' preserveAspectRatio='none'%3E%3Cpath d='M50 0Q50 62.5 50 125Q50 187.5 50 250Q50 312.5 50 375Q50 437.5 50 500Q50 562.5 50 625Q50 687.5 50 750Q50 812.5 50 875Q50 937.5 50 1000' fill='none' stroke='%237d0820' stroke-opacity='0.28' stroke-width='2' stroke-dasharray='6 6' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000' preserveAspectRatio='none'%3E%3Cpath d='M50 0 C15 80 15 170 50 250 C85 330 85 420 50 500 C15 580 15 670 50 750 C85 830 85 920 50 1000' fill='none' stroke='%237d0820' stroke-opacity='0.4' stroke-width='2.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
   background-size:100% 100%;background-repeat:no-repeat;z-index:0;pointer-events:none
 }
-.flow-row{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:36px;position:relative}
+.flow-row{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:36px;position:relative;z-index:1}
 .flow-col,.flow-content{flex:1 1 0;min-width:0}
 .flow-col{display:flex;justify-content:flex-end}
 .flow-row:nth-child(even) .flow-col{justify-content:flex-start}

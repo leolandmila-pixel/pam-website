@@ -20,9 +20,6 @@ export default function StoriesPage() {
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 30 }}>
         <div className="container">
           <p style={{ textAlign: 'center', color: 'var(--ink)', fontSize: 'clamp(1.5rem,2.8vw,2rem)', maxWidth: 780, margin: '0 auto 32px', lineHeight: 1.4, fontWeight: 400 }}>No highlight reels. Just real parents sharing what helped, what hurt, and what they wish they&apos;d known.</p>
-          <div className="blog-note" style={{ maxWidth: 480 }}>
-            <p style={{ fontSize: '0.95rem' }}>&ldquo;We started PAM because the hardest parts of early parenthood are the ones no one talks about. This is the space for those conversations.&rdquo;</p>
-          </div>
         </div>
       </section>
 

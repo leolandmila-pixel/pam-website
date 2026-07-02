@@ -17,13 +17,7 @@ export default function StoriesPage() {
           <p className="pricing-hero-sub">The honest, unfiltered bits.</p>
         </div>
       </section>
-      <section className="hero" style={{ paddingTop: 40, paddingBottom: 30 }}>
-        <div className="container">
-          <p style={{ textAlign: 'center', color: 'var(--ink)', fontSize: 'clamp(1.5rem,2.8vw,2rem)', maxWidth: 780, margin: '0 auto 32px', lineHeight: 1.4, fontWeight: 400 }}>No highlight reels. Just real parents sharing what helped, what hurt, and what they wish they&apos;d known.</p>
-        </div>
-      </section>
-
-      <section style={{ paddingTop: 10 }}>
+      <section style={{ paddingTop: 40 }}>
         <div className="container">
           <StoriesClient />
         </div>

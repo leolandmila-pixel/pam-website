@@ -78,10 +78,10 @@ em,.em{font-style:italic;color:var(--wine)}
 /* ============== NAV ============== */
 .nav-wrapper{position:absolute;top:50px;left:0;right:0;z-index:99;padding:8px 0;background:transparent}
 .nav{display:flex;align-items:center;gap:32px;margin:0 auto;padding:0 36px;justify-content:center;position:relative}
-.nav>.logo{position:absolute;left:36px}
+.nav>.logo{position:absolute;left:36px;top:50%;transform:translateY(-50%)}
 .nav>.nav-pills{flex-shrink:0}
-.nav>.store-buttons{position:absolute;right:36px}
-.nav>.menu-btn{position:absolute;right:36px}
+.nav>.store-buttons{position:absolute;right:36px;top:50%;transform:translateY(-50%)}
+.nav>.menu-btn{position:absolute;right:36px;top:50%;transform:translateY(-50%)}
 .logo{cursor:pointer;line-height:1;flex-shrink:0}
 .nav .logo{display:flex;align-items:center;gap:11px}
 .logo-img{height:34px;width:auto;display:block;flex-shrink:0}
@@ -190,7 +190,7 @@ em,.em{font-style:italic;color:var(--wine)}
 /* ============== PRICING PAGE ============== */
 .pricing-hero-banner{position:relative;height:520px;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pricing-hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,2,8,0.25) 0%,rgba(20,2,8,0.35) 100%);z-index:1}
-.pricing-hero-content{position:relative;z-index:2;text-align:center;padding:0 24px;margin-top:80px;width:100%}
+.pricing-hero-content{position:relative;z-index:2;text-align:center;padding:0 24px;margin-top:180px;width:100%}
 .pricing-hero-heading{font-family:var(--display);font-weight:400;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.15;color:#fff;margin-bottom:16px}
 .pricing-hero-heading em{color:#fff;font-style:italic}
 .pricing-hero-sub{font-family:var(--montserrat);font-size:1rem;color:#fff;letter-spacing:0.02em}
@@ -1001,14 +1001,16 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
     border-radius:24px;box-shadow:var(--shadow-md)
   }
   .nav-pills.open .nav-pill{text-align:center;padding:13px}
-  .nav-pills.open .has-dropdown{display:contents}
+  .nav-pills.open .has-dropdown{display:block}
   .nav-pills.open .nav-dropdown{
-    position:static;transform:none;opacity:1;pointer-events:auto;
-    display:flex;flex-direction:column;background:rgba(197,160,133,0.12);
+    display:none;position:static;transform:none;opacity:1;pointer-events:auto;
+    flex-direction:column;background:rgba(197,160,133,0.12);
     border-radius:14px;padding:4px;min-width:0;box-shadow:none;border:none;
-    backdrop-filter:none;-webkit-backdrop-filter:none;gap:2px
+    backdrop-filter:none;-webkit-backdrop-filter:none;gap:2px;margin:0 0 4px
   }
-  .nav-pills.open .nav-caret{display:none}
+  .nav-pills.open .nav-dropdown.mobile-open{display:flex}
+  .nav-pills.open .nav-caret{display:inline-block;transition:transform 0.2s ease}
+  .nav-caret.open{transform:rotate(180deg)}
   .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:44px}
   .steps,.features-grid,.testimonials-grid,.blog-grid,.founders-grid{grid-template-columns:1fr}
   .blog-filter-pills{display:none}

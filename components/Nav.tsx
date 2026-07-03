@@ -35,12 +35,15 @@ const links: NavLink[] = [
 export default function Nav() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
+  const [subOpen, setSubOpen] = useState(false)
+
+  const closeAll = () => { setOpen(false); setSubOpen(false) }
 
   return (
     <header className="site-header">
       {/* Top bar: logo left + announcement text */}
       <div className="top-bar">
-        <Link href="/" className="top-bar-logo" onClick={() => setOpen(false)}>
+        <Link href="/" className="top-bar-logo" onClick={closeAll}>
           <Image
             src="/logo.png"
             alt="PAM - Parental Admin Manager"
@@ -70,23 +73,30 @@ export default function Nav() {
                 <Link
                   href={l.href}
                   className={`nav-pill${pathname === l.href ? ' active' : ''}`}
-                  onClick={() => setOpen(false)}
+                  onClick={(e) => {
+                    if (open && l.children) {
+                      e.preventDefault()
+                      setSubOpen(v => !v)
+                    } else {
+                      closeAll()
+                    }
+                  }}
                 >
                   {l.label}
                   {l.children && (
-                    <svg className="nav-caret" viewBox="0 0 12 8" aria-hidden="true">
+                    <svg className={`nav-caret${open && subOpen ? ' open' : ''}`} viewBox="0 0 12 8" aria-hidden="true">
                       <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   )}
                 </Link>
                 {l.children && (
-                  <ul className="nav-dropdown">
+                  <ul className={`nav-dropdown${open && subOpen ? ' mobile-open' : ''}`}>
                     {l.children.map((c) => (
                       <li key={c.href}>
                         <Link
                           href={c.href}
                           className="nav-dropdown-item"
-                          onClick={() => setOpen(false)}
+                          onClick={closeAll}
                         >
                           {c.label}
                         </Link>
@@ -100,7 +110,7 @@ export default function Nav() {
           <button
             className="menu-btn"
             aria-label="Menu"
-            onClick={() => setOpen((v) => !v)}
+            onClick={() => { setOpen(v => !v); setSubOpen(false) }}
           >
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
               <path d="M3 12h18M3 6h18M3 18h18" />

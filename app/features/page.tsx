@@ -12,8 +12,8 @@ export default function AppFeaturesPage() {
     <main>
       <section className="pricing-hero-banner">
         <Image
-          src="/features-hero.png"
-          alt="Everything your family needs, all in one place"
+          src="/WhatsApp Image 2026-06-18 at 12.55.24 PM.jpeg"
+          alt="Mother holding baby"
           fill
           priority
           style={{ objectFit: 'cover', objectPosition: 'center 30%' }}

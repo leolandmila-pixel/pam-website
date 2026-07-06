@@ -89,8 +89,8 @@ export default function HomePage() {
       <section className="dayinlife">
         <div className="container">
           <div className="sec-head">
-            <span className="eyebrow">A day in the life</span>
-            <h2>Calm, <em>daily flows</em> that stick.</h2>
+            <span className="eyebrow">A day in the life with PAM</span>
+            <h2>Your day, a little <em>more manageable.</em></h2>
           </div>
           <div className="flow-list">
             <article className="flow-row">

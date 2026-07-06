@@ -994,7 +994,9 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   .top-bar-wordmark{display:none}
   .nav{gap:16px;padding:0 20px}
   .nav-pills{display:none}
-  .menu-btn{display:block;width:44px;height:44px;min-width:44px}
+  .menu-btn{display:block;width:44px;height:44px;min-width:44px;color:var(--cream)}
+  .nav>.menu-btn{left:20px;right:auto}
+  .nav>.logo{left:50%;transform:translate(-50%,-50%)}
   .nav-pills.open{
     display:flex;position:absolute;top:calc(100% + 12px);left:20px;right:20px;
     flex-direction:column;align-items:stretch;background:#fff;padding:14px;gap:6px;

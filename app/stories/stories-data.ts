@@ -35,15 +35,15 @@ export const stories: Story[] = [
     cover: 'c-newborn',
     label: 'The first six weeks',
     tag: 'Newborn',
-    title: 'What I wish someone had told me about week one',
-    body: 'The forms, the feelings, the feeds. A gentle, honest guide to surviving (and savouring) the fourth trimester.',
+    title: 'The first week with a newborn: what to actually expect, physically and emotionally',
+    body: "Postpartum recovery, feeding, and the emotional reality of the first week with a newborn - a gentle, honest guide to what nobody tells you about surviving (and savouring) it.",
     readMinutes: 7,
     published: true,
     heroImage: '/week-one-hero.jpg',
     content: {
       hook: [
-        "Nobody warns you that week one doesn't feel like the movies. You're not glowing. You're bleeding through a maternity pad the size of a small country, your nipples are cracked, and you've cried three times before 9am - once because the baby wouldn't latch, once because they finally did, and once because someone sent flowers and the card said enjoy every moment.",
-        'This is for the mum who is in it right now. The one who loves her baby fiercely and also googled "is it normal to feel nothing" at 3am.',
+        "Nobody warns you that the first week with a newborn doesn't feel like the movies. You're not glowing. You're bleeding through a maternity pad the size of a small country, your nipples are cracked, and you've cried three times before 9am - once because the baby wouldn't latch, once because they finally did, and once because someone sent flowers and the card said enjoy every moment.",
+        'This is for the mum who is in it right now, deep in early postpartum recovery. The one who loves her baby fiercely and also googled "is it normal to feel nothing" at 3am.',
       ],
       sections: [
         {
@@ -104,14 +104,14 @@ export const stories: Story[] = [
     cover: 'c-newborn',
     label: 'Hospital bag essentials',
     tag: 'Newborn',
-    title: 'The 5 things nobody puts in the hospital bag (but should)',
-    body: "Forget the maternity pads list. Five small, real things you'll wish someone had quietly slipped in while you were busy packing the aromatherapy roller.",
+    title: 'Hospital bag checklist: 5 things nobody tells you to pack (but should)',
+    body: "Forget the standard hospital bag checklist. Five small, real things you'll wish someone had quietly slipped in while you were busy packing the aromatherapy roller.",
     readMinutes: 5,
     published: true,
     heroImage: '/blog-hospital-bag.jpeg',
     content: {
       hook: [
-        "Every article about hospital bags tells you the same things. Maternity pads. A going-home outfit. Snacks for your partner. A playlist, apparently, as though you'll be in the mood for curated music.",
+        "Every hospital bag checklist tells you the same things. Maternity pads. A going-home outfit. Snacks for your partner. A playlist, apparently, as though you'll be in the mood for curated music.",
         "This is not that list. This is the list from the other side - the things you'll wish someone had quietly slipped in while you were busy packing the aromatherapy roller.",
       ],
       sections: [
@@ -244,7 +244,7 @@ export const stories: Story[] = [
     cover: 'c-newborn',
     label: 'The witching hour',
     tag: 'Newborn',
-    title: 'Why your baby cries more in the evening - and what to do about it',
+    title: 'The witching hour: why babies cry more in the evening, and what actually helps',
     body: "The witching hour: why almost every newborn loses it between 5 and 8pm, what actually helps, and when it's more than just evening fuss.",
     readMinutes: 6,
     published: true,
@@ -390,15 +390,15 @@ export const stories: Story[] = [
     cover: 'c-wellbeing',
     label: 'The mental load',
     tag: 'Wellbeing',
-    title: 'How I finally put down the invisible to-do list',
-    body: "One mum's story of sharing the load - and what changed when she stopped holding it all in her head.",
+    title: 'New mum burnout: the signs, and what actually helped one mum put the mental load down',
+    body: "The signs of new mum burnout are easy to miss because they look like normal tiredness. One mum's story of recognising hers - and what changed when she stopped holding the mental load alone.",
     readMinutes: 8,
     published: true,
     heroImage: '/mental-load-hero.jpg',
     content: {
       hook: [
         "It's 11pm. Your partner is asleep. You're lying in the dark making a mental note to book the four-month needles, reply to the maternal health nurse, order more nappy rash cream, check if the pram rain cover is still in the garage, and remember to tell your mum what time she's coming on Saturday.",
-        "Nobody asked you to hold all of this. You just... started holding it. And now you can't put it down.",
+        "Nobody asked you to hold all of this. You just... started holding it. And now you can't put it down. This is what new mum burnout often looks like from the inside - not collapse, just a slow, invisible accumulation.",
       ],
       sections: [
         {
@@ -446,11 +446,10 @@ export const stories: Story[] = [
         {
           heading: "One mum's story",
           subheading: 'What changed when she stopped holding it all',
-          bullets: [
-            'First-person narrative thread woven through (or a short profile sidebar)',
-            "The moment she realised she was exhausted in a way that sleep couldn't fix",
-            'What the conversation looked like, honestly',
-            "What's still hard, six months on - this isn't a perfect ending story",
+          paragraphs: [
+            "I knew something had to give the night I cried over a Tupperware lid. Not the baby, not the sleep deprivation itself - a lid that didn't have a matching container, at 9pm, after a day that had already asked everything of me. I remember thinking, quite clearly, this isn't about the lid. I was exhausted in a way that no amount of sleep was going to fix, because it wasn't sleep I was short on. It was space in my own head.",
+            "The conversation with my partner wasn't dramatic. I'd expected it to be - I'd rehearsed a version where I listed everything I did and he apologised and everything changed overnight. What actually happened was smaller and slower. I told him I wasn't asking for help anymore, I was handing over ownership of things completely - all appointments, all of it, his to track without me reminding him. He said okay. Then, for about two weeks, he still asked me where things were, and I had to keep saying I don't know, that's yours now, and biting down the urge to just tell him.",
+            "Six months on, it isn't perfect. He still does things differently to how I would - the nappy bag is packed in an order that makes no sense to me, and I've had to let that go entirely. There are still nights I catch myself mentally running through tomorrow's logistics before I remember that half of them aren't mine to hold anymore. But the running list in my head is genuinely shorter than it was. I sleep, when the baby lets me, without an inventory playing behind my eyes. That's the whole win. It's not nothing.",
           ],
         },
       ],
@@ -468,8 +467,8 @@ export const stories: Story[] = [
     cover: 'c-memories',
     label: 'Memory keeping',
     tag: 'Memories',
-    title: "The voice note I'll treasure forever",
-    body: 'Why capturing the little sounds - first giggles, first words - matters more than the perfect photo.',
+    title: "Baby memory keeping ideas: why a 30-second voice note beats 800 photos",
+    body: "Looking for baby memory keeping ideas that actually stick? Here's why capturing the little sounds - first giggles, first words - matters more than another blurry photo.",
     readMinutes: 6,
     published: true,
     heroImage: '/voice-note-hero.jpg',
@@ -594,6 +593,86 @@ export const stories: Story[] = [
     },
   },
   {
+    slug: 'real-mums-real-stories-sian',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Sian',
+    body: "Founder, brand builder, and mum to 16-month-old Sevi. Sian shares what she's learned from closing a six-year business and opening her heart to motherhood.",
+    readMinutes: 5,
+    published: true,
+    heroImage: '/Sian & Sevi.JPG',
+    heroImagePosition: 'center 60%',
+    heroImageGrayscale: true,
+    content: {
+      hook: [
+        "Meet Sian. She's a founder and brand builder living on the Mornington Peninsula with her partner Paddy and their son Sevi. She's the oldest of seven, a lifelong lover of the ocean and the outdoors, and someone who has spent the last year figuring out what really matters.",
+        "Becoming a mum and closing a business she'd spent six years building happened within months of each other. It was a lot to hold at once. But Sian has come out the other side with a clarity a lot of us are still searching for.",
+        "Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: 'Tell us about yourself.',
+          paragraphs: [
+            "I'm a founder, brand builder, and mum to my 16 month old boy, Sevi. I'm a big fan of the outdoors, the ocean, and surfing, which is why my little family — my partner Paddy, myself, and Sevi — live down on the Mornington Peninsula in Victoria.",
+            "I'm in a bit of a transitional period of my life. In the last year I've become a mum and then had to shut down a business I spent six years building. It's been a really challenging time, but it was made a lot easier by Sevi's huge smile and his obsession with cuddles at the end of a tough day. Now that I'm out the other side, I'm learning that failures are a necessity. They're an opportunity for growth. The best is yet to come.",
+            "As the oldest of seven, I always knew I wanted to be a mum. But having Sevi has blown my world right open. It's given me an incredible perspective shift. Life is so much more beautiful with him in it. I feel incredibly lucky.",
+          ],
+        },
+        {
+          heading: 'Describe motherhood in one sentence.',
+          paragraphs: [
+            "Motherhood opens you up to what it means to be alive. It strips away ego and shows you a new, deeper kind of love that makes a lot of life's mysteries make a little more sense.",
+          ],
+        },
+        {
+          heading: "What's one thing motherhood taught you about yourself?",
+          paragraphs: [
+            "Becoming a mum has really helped me understand myself better. What brings me joy, what calms me, what pushes me over the edge. It's helped me strip away all the fluff and focus on the things that bring me and my little boy joy. That's a much simpler, calmer way to live.",
+          ],
+        },
+        {
+          heading: 'What\'s a motherhood moment that made you think, "I\'ve got this"?',
+          paragraphs: [
+            "I have these moments all the time, but just as I do, I feel like everything changes and all of a sudden I'm learning all over again. Parenting feels like a never ending cycle of thinking you've figured it out, and then everything changing again as they grow.",
+            "If I had to pick a moment, it would be when he started cuddling me back and really showing that he loves me. That's when I knew that no matter what happens, we'll always be okay.",
+          ],
+        },
+        {
+          heading: 'How has becoming a mother changed the way you approach business and ambition?',
+          paragraphs: [
+            "I'm still getting my head around this one. But there's been a very clear mental shift. Before Sevi, work and success were really important to me. Now, being a mum is my priority and my passion, and my career is a fun thing I'm lucky enough to be able to do as well. I'm sure this will shift again later in life, but right now I want to really enjoy this early chapter of motherhood while still setting my family up. It's a balance I'm still figuring out.",
+          ],
+        },
+        {
+          heading: 'What does support look like for you in this season of life?',
+          paragraphs: [
+            "Honestly, I just love getting out of the house at the moment. If we're having a tough day, things instantly feel lighter when we get outside or go meet someone at a cafe. So for me, support looks like having people to catch up with in the morning for a walk, coffee, or play. And nothing is more helpful than someone giving me food. Even this far into parenthood, someone handing me a pre-made dinner is life changing.",
+          ],
+        },
+        {
+          heading: 'If you could go back and give advice to yourself as a first time mum, what would it be?',
+          paragraphs: [
+            "I wish I'd journaled. I wish I'd written down how I was feeling before having Sevi and afterwards. It goes by so fast, and you're fully immersed in each stage of the journey. So I would have told myself to write it down. I should start now, actually. I would have also told myself not to buy all the baby things beforehand, and instead just buy things as I needed them.",
+          ],
+        },
+        {
+          heading: 'If you had a personal assistant for parenting, what would you ask them to help with first?',
+          paragraphs: [
+            "Watching Sevi while I went for a surf, honestly. But more practically, it would probably be helping with cooking and meal planning, making sure I'm putting together a broad range of nutritious meals. And making sure I'm across where and when I need to be places. I'm constantly late to things at the moment.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Sian.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
+  {
     slug: 'real-mums-real-stories-maddie',
     cover: 'c-community',
     label: 'Real Mums, Real Stories',
@@ -676,6 +755,79 @@ export const stories: Story[] = [
           "\"It's actually 'f*ck around and find out'. I don't actually say it to Carmy, but Matt and I have adopted it as our parenting style.\"",
           "Honest, funny, and deeply reflective, Maddie's story is a reminder that motherhood doesn't just change your life - it changes the way you see yourself, your body, and the world around you.",
           "And sometimes, those changes are the most beautiful surprises of all.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-marian',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Marian',
+    body: "Marian's son arrived at 34 weeks, three hours after her first real contraction. A birth story about how quickly things can change, and the calm that came from being prepared for exactly that.",
+    readMinutes: 6,
+    published: true,
+    heroImage: '/WhatsApp Image 2026-06-04 at 16.23.33 (1) (1).jpg',
+    heroImagePosition: 'center 25%',
+    heroImageGrayscale: true,
+    content: {
+      hook: [
+        "Meet Marian. She's a Spanish expat who has called Melbourne home for the past decade, sharing her life with her partner Dan and their son Lucas — a very cheeky 16-month-old who is, in her words, the light of their lives.",
+        "\"I am enjoying motherhood, but I definitely underestimated what it takes to raise a child,\" she says. \"I believe that parenthood is something you don't truly understand until you're experiencing it firsthand.\" Having recently returned to paid work, she's now navigating the particular challenge of balancing it all.",
+        "Lucas arrived early, and fast. Here, Marian takes us back to the moment it began.",
+      ],
+      sections: [
+        {
+          heading: 'A slow start, then everything at once',
+          paragraphs: [
+            "At 33.5 weeks, Marian experienced PPROM — preterm premature rupture of membranes — and was hospitalised, told that labour could begin at any moment. For four days, nothing happened.",
+            "\"Right at 34 weeks, I started feeling some 'sensations,'\" she remembers. \"Out of boredom, I asked my partner to start noting how often and for how long these sensations occurred.\" A pattern emerged. The sensations were mild, but something in her recognised what was starting. She arranged for a TENS machine to be delivered that afternoon, bracing herself for what she assumed would be a long labour.",
+          ],
+        },
+        {
+          heading: 'The birth plan that met reality',
+          paragraphs: [
+            "Marian hadn't written a formal birth plan, but she'd done the reading — books, podcasts, other women's stories — hoping to labour unmedicated for as long as she could and deliver vaginally.",
+            "\"I gave birth interstate, away from home, which meant that some little things I was planning — like preparing my hospital bag, or adding personal touches to the birth suite, such as lighting and music — went out the window.\" Preparation, it turned out, meant something looser than she'd imagined.",
+          ],
+        },
+        {
+          heading: 'From barely dilated to pushing in three hours',
+          paragraphs: [
+            "Marian was moved to the birth suite not because labour was progressing, but because Lucas was showing signs of fetal bradycardia — a slow heart rate — and needed continuous monitoring. She wasn't yet dilated and hadn't begun contractions, but was confined to the bed regardless.",
+            "\"All I wanted was to stand up and move around.\" She was given Panadol and codeine, and the doctors, cautious, told her not to get her hopes up — this could still be a long way off, and she might be sent back to the ward.",
+            "\"Things escalated very quickly. The initial sensations turned into intense, painful contractions in no time. I remember closing my eyes and holding onto the bed rails.\" The urge to push arrived, and a senior midwife checked her cervix — completely closed just two hours before. Marian was ready to ask for an epidural, certain she was in for the long haul.",
+            "\"The midwife said she could see the baby's head, and that the next contraction would be the moment to push. I could not believe it — everything happened in less than three hours.\" One detail stayed with her: the uncontrollable shaking in her legs, a surge of adrenaline she hadn't expected.",
+          ],
+        },
+        {
+          heading: 'The towel on her forehead',
+          paragraphs: [
+            "Throughout it all, Marian had her partner and the midwives beside her, and she felt supported and safe. Dan's job was to keep her cool with a wet hand towel — a task he took seriously.",
+            "\"In fact, in our first family photo, I still had the towel stuck to my forehead, haha.\" Everything moved so fast, she says, that there was no time for any of the techniques they'd practised in their birth prep course. It didn't matter. What they had was enough.",
+          ],
+        },
+        {
+          heading: 'Meeting Lucas',
+          paragraphs: [
+            "Because Lucas was arriving at 34 weeks and small for his gestational age, Marian had asked for neonatologists to be present in case he needed support.",
+            "\"I don't think I had to push very much for him to come out.\" He was taken straight to the waiting team and, very quickly, let out a big cry. \"I clearly remember seeing his little arms and legs startle a lot.\" Marian was fortunate enough to have a short window of skin-to-skin before he was moved to the special care nursery, Dan at his side the whole way.",
+          ],
+        },
+        {
+          heading: 'What she wishes she\'d known',
+          paragraphs: [
+            "Looking back, Marian feels at peace with how it unfolded. \"I believe that the way I prepared myself helped me understand what was happening from the start, keeping me calm and confident.\"",
+            "The one thing she hadn't braced for was the possibility itself. \"I never imagined having a premature baby and the challenges we faced, so that is something I wish I knew a little bit more.\"",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'For anyone nervous about their own birth',
+        paragraphs: [
+          "\"That is a fair and normal feeling — just create space for it, the same way you feel excited. I recommend listening to other people's birth stories and keeping an open mind around how things will pan out. Trust your body, and trust the healthcare professionals supporting you through it.\"",
+          "Thank you for sharing your story, Marian. Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
         ],
       },
     },
@@ -797,8 +949,8 @@ export const stories: Story[] = [
     cover: 'c-feeding',
     label: 'Combination feeding',
     tag: 'Feeding',
-    title: 'Combination feeding: the middle ground nobody talks about',
-    body: "Using both breast milk and formula sits in a middle ground that rarely gets its own article. It's its own valid choice - here's what it actually looks like.",
+    title: 'Combination feeding: how to combine breast and formula feeding successfully',
+    body: "Combination feeding - using both breast milk and formula - sits in a middle ground that rarely gets its own article. It's its own valid choice - here's how to make combination feeding work in practice.",
     readMinutes: 5,
     published: true,
     heroImage: '/blog-combo-feeding.jpeg',
@@ -848,8 +1000,8 @@ export const stories: Story[] = [
     cover: 'c-feeding',
     label: 'Cluster feeding',
     tag: 'Feeding',
-    title: 'What cluster feeding actually feels like at 7pm on a Tuesday',
-    body: "One of the most misunderstood, under-explained, completely normal parts of early feeding - and the part most likely to make a new mother think her milk has dried up.",
+    title: 'Cluster feeding: what it is, why it happens in the evening, and how long it lasts',
+    body: "Cluster feeding is one of the most misunderstood, under-explained, completely normal parts of early feeding - and the part most likely to make a new mother think her milk has dried up.",
     readMinutes: 5,
     published: true,
     heroImage: '/blog-cluster-feeding.jpeg',
@@ -970,8 +1122,8 @@ export const stories: Story[] = [
     cover: 'c-sleep',
     label: 'Sleep advice',
     tag: 'Sleep',
-    title: 'Why \'sleep when the baby sleeps\' is terrible advice (and what to do instead)',
-    body: 'The most given piece of advice to new parents. Delivered with kindness. Almost completely useless.',
+    title: "Why you can't actually 'sleep when the baby sleeps' (and what to do instead)",
+    body: "'Sleep when the baby sleeps' is the most given piece of advice to new parents - delivered with kindness, almost completely useless in practice. Here's why, and what actually helps with exhaustion instead.",
     readMinutes: 5,
     published: true,
     heroImage: '/blog-sleep-advice.jpeg',
@@ -1022,8 +1174,8 @@ export const stories: Story[] = [
     cover: 'c-sleep',
     label: 'Safe sleep',
     tag: 'Sleep',
-    title: 'Safe sleep: the guidelines, simplified for exhausted brains',
-    body: 'The information you need, once, clearly - so you don\'t have to hold it anxiously in your head.',
+    title: 'Safe sleep guidelines for babies: SIDS prevention, simplified',
+    body: "Safe sleep guidelines and SIDS prevention basics, explained clearly, once - so you don't have to hold it anxiously in your head.",
     readMinutes: 4,
     published: true,
     heroImage: '/blog-safe-sleep.jpeg',
@@ -1079,8 +1231,8 @@ export const stories: Story[] = [
     cover: 'c-sleep',
     label: 'Contact napping',
     tag: 'Sleep',
-    title: 'When your baby only sleeps on you - and why that\'s okay for now',
-    body: 'You\'ve tried the cot seventeen times today. Every time, the same sequence. This article is for you.',
+    title: "Baby only sleeps on you? What contact napping is, and why it's okay for now",
+    body: "If your baby only sleeps on you, you're dealing with contact napping - one of the most common early sleep patterns. You've tried the cot seventeen times today. This article is for you.",
     readMinutes: 5,
     published: true,
     heroImage: '/blog-contact-napping.jpeg',
@@ -1140,8 +1292,8 @@ export const stories: Story[] = [
     cover: 'c-wellbeing',
     label: 'Identity & matrescence',
     tag: 'Wellbeing',
-    title: 'The identity shift nobody warns you about',
-    body: 'Matrescence - the profound psychological transformation of becoming a mother. What it is, what it actually feels like, and what the other side looks like.',
+    title: 'Losing yourself after having a baby: what matrescence actually is',
+    body: 'Matrescence is the profound psychological transformation of becoming a mother - and it explains why so many women feel like they\'ve lost themselves after having a baby. What it is, what it feels like, and what the other side looks like.',
     readMinutes: 6,
     published: true,
     heroImage: '/blog-identity-shift.jpeg',
@@ -1192,8 +1344,8 @@ export const stories: Story[] = [
     cover: 'c-wellbeing',
     label: 'Postnatal anxiety',
     tag: 'Wellbeing',
-    title: 'What postnatal anxiety actually feels like from the inside',
-    body: 'We have less language for postnatal anxiety than postnatal depression - it often goes unrecognised, and can look like a mother who is very on top of things.',
+    title: 'Postnatal anxiety symptoms: what it actually feels like from the inside',
+    body: 'We have less language - and fewer known symptoms - for postnatal anxiety than postnatal depression. It often goes unrecognised, and can look like a mother who is very on top of things.',
     readMinutes: 7,
     published: true,
     heroImage: '/blog-postnatal-anxiety.jpeg',
@@ -1244,7 +1396,7 @@ export const stories: Story[] = [
     cover: 'c-wellbeing',
     label: 'Body after birth',
     tag: 'Wellbeing',
-    title: 'Your body after birth: an honest, unglamorous guide',
+    title: 'Your body after birth: an honest guide to postpartum recovery',
     body: "The version of postpartum recovery that gets talked about publicly is heavily edited. Here's the unedited version - from the first week to the stuff nobody tells you.",
     readMinutes: 6,
     published: true,
@@ -1300,8 +1452,8 @@ export const stories: Story[] = [
     cover: 'c-wellbeing',
     label: 'Self & restoration',
     tag: 'Wellbeing',
-    title: 'When did I last do something just for me?',
-    body: "Stop for a second and try to answer it. For the mum who can't remember - and the small voice that says I don't have time for that.",
+    title: 'Self-care for new mums: why it matters and how to actually fit it in',
+    body: "When did you last do something just for you? Stop and try to answer it. Real self-care for new mums, for the ones who can't remember - and the small voice that says I don't have time for that.",
     readMinutes: 5,
     published: true,
     heroImage: '/blog-self.jpeg',
@@ -1350,6 +1502,1758 @@ export const stories: Story[] = [
         paragraphs: [
           "Pick one thing. Not a list - one thing. Something small that is genuinely yours. Tell someone you're going to do it and when. And when the moment comes and the small voice says I should probably use this time to catch up on washing - do the thing anyway.",
           "The washing will still be there. You, restored even slightly, are worth more to everyone than the washing done.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-mch-nurse-visits-what-actually-happens',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: 'The MCH nurse visits: what actually happens (and how to prep in 2 minutes)',
+    body: "The Maternal Child Health checks can feel like a pop quiz you didn't study for. Here's what they're really checking, and why the weigh-in is the least interesting part.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "There's a particular kind of dread that arrives the night before an MCH appointment. You find yourself trying to remember how many wet nappies there were yesterday, whether that constitutes 'enough,' and whether you're supposed to have a system for tracking any of this.",
+        "You don't need a system. You need to know what they're actually looking for - and it's rarely the thing you're anxious about.",
+      ],
+      sections: [
+        {
+          heading: 'What the visits are actually for',
+          subheading: "It's less exam, more check-in",
+          paragraphs: [
+            "The Maternal Child Health service (the name and schedule shift slightly by state, but the substance is the same) exists to catch things early - growth trends, feeding issues, developmental milestones, and how you're doing, not just the baby.",
+            "The nurse isn't grading you. They're building a picture over time, which is why the same few things get checked at every visit: weight and length against the centile chart, feeding, sleep, and a general once-over of how things are tracking.",
+          ],
+        },
+        {
+          heading: 'The schedule, roughly',
+          subheading: 'It varies by state, but the shape is similar',
+          bullets: [
+            'A home visit or early check in the first week or two, often while you\'re still finding your feet',
+            'A 4-week check, then 8 weeks, 4 months, 8 months, 12 months, and 18 months as the common touchpoints',
+            'Extra visits are always available if you\'re worried about anything in between - you don\'t need to wait for the scheduled one',
+            'Immunisations are usually scheduled separately with your GP, but the nurse will often flag when they\'re due',
+          ],
+        },
+        {
+          heading: "The centile chart isn't a scoreboard",
+          paragraphs: [
+            "This is the part that trips up the most parents. A baby on the 15th percentile is not doing worse than a baby on the 85th - percentiles describe where your baby sits compared to other babies, not a target to climb toward.",
+            "What the nurse actually watches for is the trend along your baby's own curve over time. A baby who tracks steadily along their own line, even a low one, is generally considered to be doing fine. A sudden drop across percentile lines is what prompts a closer look.",
+          ],
+        },
+        {
+          heading: 'What to actually bring',
+          subheading: 'The 2-minute prep',
+          bullets: [
+            'Your baby\'s health record book (the one from hospital) - most of what they write goes straight in there',
+            'A rough idea of feeds per day, not an exact log. "About every 3 hours" is a perfectly good answer',
+            'Any specific worry, written down. It is astonishingly easy to forget the one thing you actually wanted to ask the second you sit down',
+            'That\'s it. You do not need spreadsheets, apps, or a diary of every nappy',
+          ],
+        },
+        {
+          heading: 'The question under the question',
+          paragraphs: [
+            "Most nurses will ask, in some form, how you're going - not just the baby. Take that question seriously. It's one of the few structured moments in early parenthood where someone is professionally obligated to ask about you, and it's worth a real answer.",
+            "If you're not okay, this is a legitimate place to say so. Maternal Child Health nurses are trained to hear it and know exactly where to point you next.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'Before you go',
+        paragraphs: [
+          "The visit is not a test you can fail. It's a handful of measurements and a conversation, designed to catch things early and reassure you the rest of the time. Most appointments end with some version of 'everything looks great' - because most of the time, it does.",
+          "Bring the book, bring your one real question, and let the rest be what it is: fifteen minutes with someone whose whole job is making sure you're not doing this alone.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-moro-reflex-explained',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: "The Moro reflex: why your baby flings their arms out like they're falling",
+    body: "That dramatic full-body startle - arms thrown wide, then a cry - has a name, a purpose, and an expiry date. Here's what's actually happening.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "You lay them down, gently, slowly, holding your breath the whole way - and just as their back touches the mattress, both arms fly out to the sides like they're bracing for a fall. Then the cry. Then you pick them back up, certain you've done something wrong.",
+        "You haven't. This is the Moro reflex, one of the most dramatic-looking - and most normal - things a newborn does.",
+      ],
+      sections: [
+        {
+          heading: 'What it actually is',
+          paragraphs: [
+            "The Moro reflex is an involuntary startle response present from birth, triggered by a sudden change in position, a loud noise, or the sensation of falling. The arms fling outward, the fingers spread, the back arches slightly, and then the arms draw back in toward the body - usually followed by crying, because it's a genuinely startling sensation for a baby with no context for what just happened.",
+            "It's one of several primitive reflexes doctors check for at birth precisely because its presence (and its disappearance on schedule) tells them something useful about neurological development.",
+          ],
+        },
+        {
+          heading: 'Why babies have it at all',
+          paragraphs: [
+            "The leading theory is that it's an evolutionary holdover - a grasping reflex that would once have helped a falling infant cling to a caregiver. Whether or not that's the full explanation, it serves as a useful, measurable sign that the nervous system is wiring up as expected.",
+            "It's most active in the first couple of months and gradually fades as voluntary muscle control develops, usually disappearing somewhere between 3 and 6 months.",
+          ],
+        },
+        {
+          heading: 'What sets it off',
+          bullets: [
+            'Being laid down, even gently - the change in support is often enough',
+            'A loud or sudden noise nearby',
+            'A sudden bright light or shift in position',
+            'Sometimes nothing you can identify at all - their own arm movement can startle them',
+          ],
+        },
+        {
+          heading: 'How to make bedtime a little less dramatic',
+          bullets: [
+            'Swaddling snugly (arms in) contains the startle and helps many babies settle faster',
+            'Keep one hand on their chest for a beat after laying them down, rather than removing contact all at once',
+            'Lower them slowly and land the bottom first, then the head, rather than a flat drop',
+            'A supportive sleep environment with white noise can reduce how often the reflex fires from ambient sound',
+          ],
+        },
+      ],
+      closing: {
+        heading: 'When to mention it to your MCH nurse',
+        paragraphs: [
+          "A strong, symmetrical Moro reflex in the early months is a good sign, not a concerning one. Worth flagging at a check-up if it seems absent altogether, noticeably one-sided, or hasn't faded by around 6 months - any of which your nurse can assess properly in context.",
+          "For now, the flailing arms and the offended little cry are just your baby's nervous system doing exactly what it's supposed to. Swaddle if it helps, and know that you didn't startle them - their own arms did.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'newborn-jaundice-whats-normal',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: "Newborn jaundice: what's normal, what's not, and what the heel prick actually checks",
+    body: "That golden tinge to their skin has a cause, a common timeline, and a clear line for when it needs more than watching. Here's how to tell where you sit on it.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere around day two or three, a midwife holds your baby up to the window, presses a finger gently into their skin, and says the word jaundice for the first time. It's an alarming word to hear about your two-day-old, mostly because nobody explained it beforehand.",
+        "It's also extremely common - more than half of all newborns show some degree of it. Here's what's actually happening under that golden tinge.",
+      ],
+      sections: [
+        {
+          heading: 'What it actually is',
+          paragraphs: [
+            "Jaundice happens when a substance called bilirubin builds up faster than a newborn's liver can process it. Bilirubin is a normal byproduct of red blood cells breaking down, and adult livers clear it easily - but a newborn liver is still getting up to speed, so a temporary backlog is common and, in most cases, entirely harmless.",
+            "It usually appears first on the face, then can move down the chest and body as levels rise, which is why the check involves pressing gently on the skin to see the colour underneath.",
+          ],
+        },
+        {
+          heading: 'The usual timeline',
+          bullets: [
+            "Physiological jaundice (the common kind) typically appears day 2-3 and peaks around day 4-5",
+            'It usually resolves on its own within 1-2 weeks as the liver catches up',
+            "Breastfed babies can run a slightly longer, milder course - sometimes called breastmilk jaundice - which is generally not a reason to stop breastfeeding",
+            'Jaundice appearing in the first 24 hours of life is different and always warrants prompt review, as it points to a different underlying cause',
+          ],
+        },
+        {
+          heading: 'What the heel prick and blood tests are checking',
+          paragraphs: [
+            "If jaundice is visible, hospital staff will often measure bilirubin levels - sometimes with a light sensor placed on the skin, sometimes with a small blood sample from the heel. The number matters less on its own than in combination with your baby's age in hours and their risk factors, which is why the result is plotted on a chart rather than read as a flat pass or fail.",
+            "Levels that climb into a higher range for their age are usually treated with phototherapy - special blue light that helps the body break bilirubin down faster - either in hospital or, in milder cases, with a portable light blanket at home.",
+          ],
+        },
+        {
+          heading: 'What to actually watch for at home',
+          bullets: [
+            'Yellowing spreading to the arms, legs, or the whites of the eyes',
+            'A baby who is unusually sleepy, hard to wake for feeds, or feeding poorly',
+            'Fewer wet or dirty nappies than expected',
+            'Jaundice that seems to be getting more yellow rather than less past day 5-7',
+            'Any of these are worth a same-day call to your midwife, MCH nurse, or GP - not a wait-and-see',
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The reassuring part',
+        paragraphs: [
+          "For the vast majority of babies, jaundice is a passing, well-understood stage of a liver getting up to speed - not a sign that anything went wrong. It's monitored closely precisely because it's common, not because it's usually serious.",
+          "If in doubt, get it checked. That's what the appointments are for, and 'probably fine but let's just look' is a completely reasonable reason to call.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'starting-solids-how-to-know-when',
+    cover: 'c-feeding',
+    label: 'Feeding, decoded',
+    tag: 'Feeding',
+    title: "Starting solids: how to actually know when they're ready",
+    body: "Not every 4-month-old reaching for your dinner is ready for it. The real readiness signs, and why the calendar date matters less than you'd think.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere around the four-month mark, your baby stares at your toast with an intensity usually reserved for religious experiences, and everyone in a five-metre radius says some version of looks like someone's ready for solids.",
+        "Reaching for food and watching you eat are actually not the readiness signs most professionals look for. Here's what genuinely matters.",
+      ],
+      sections: [
+        {
+          heading: 'The three signs that actually count',
+          bullets: [
+            'Sitting with minimal support and holding their head steady and upright',
+            'Losing the tongue-thrust reflex - the automatic push that shoves anything but liquid back out of their mouth',
+            'Showing real interest in food itself, not just in you - opening their mouth, leaning forward, trying to grab',
+          ],
+        },
+        {
+          heading: 'Why age alone is not the marker',
+          paragraphs: [
+            "Current guidance points to around 6 months as the general starting window, with the emphasis on 'around' doing a lot of work. Some babies show every readiness sign at 5.5 months; others aren't there until closer to 6.5. Both are within normal range.",
+            "Starting significantly before these signs are present isn't about willpower or a baby being advanced - a baby who can't yet sit stably or has an active tongue-thrust reflex simply isn't physically set up to manage food safely yet, regardless of how interested they look.",
+          ],
+        },
+        {
+          heading: 'What the first weeks are actually for',
+          paragraphs: [
+            "In the early stages, solids are about exploration and practice, not nutrition - breastmilk or formula is still doing the heavy lifting for a while yet. That reframe takes a lot of pressure off a first attempt that ends in more food on the floor than in the baby.",
+            "Iron-rich first foods are worth prioritising once you do start, since a baby's iron stores from birth begin to deplete around this age - well-cooked meat, iron-fortified cereal, or legumes are common starting points, alongside whatever approach (purees, baby-led weaning, or a mix) suits your family.",
+          ],
+        },
+        {
+          heading: 'A few things that trip people up',
+          bullets: [
+            "A baby waking more at night around this age is not on its own a sign they need solids - sleep and hunger cues get conflated more than they should",
+            'Gagging is a normal, noisy safety reflex and looks far more alarming than actual choking - it\'s worth knowing the difference before you start',
+            "There's no need to introduce foods in a strict rotation or order - allergen introduction guidance has moved toward earlier, not later, introduction of common allergens",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The honest version',
+        paragraphs: [
+          "There is no prize for starting early, and no harm in a few extra weeks if the signs aren't quite there yet. The signs exist precisely so you don't have to guess.",
+          "When they do line up, it's messy and slow and mostly beside the point for a while - and that's exactly how it's supposed to go.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'mastitis-what-it-feels-like',
+    cover: 'c-feeding',
+    label: 'Feeding, decoded',
+    tag: 'Feeding',
+    title: "Mastitis: what it actually feels like, and what actually helps",
+    body: "A sore red patch, a fever that comes out of nowhere, and a feeling like the flu hit in the space of an hour. Here's how to recognise it early and what genuinely helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "It tends to arrive fast. One feed you're fine, a few hours later there's a hot, tender patch on one breast, and by evening you're shivering under a blanket in July feeling like you've been hit by a truck. That's mastitis, and it's far more common than anyone mentions before it happens to you.",
+        "It's also very treatable, especially caught early - which is the whole point of knowing what to look for before you're too foggy to Google it.",
+      ],
+      sections: [
+        {
+          heading: 'What it actually is',
+          paragraphs: [
+            "Mastitis is inflammation of breast tissue, usually triggered by a blocked milk duct that isn't clearing properly - milk backs up, the surrounding tissue becomes inflamed, and sometimes an infection develops on top of that. It's most common in the early weeks of breastfeeding but can turn up at any point, including well into an established feeding routine.",
+            "The tissue affected is often wedge-shaped, radiating out from the nipple, because that's the shape of a milk duct under pressure.",
+          ],
+        },
+        {
+          heading: 'The signs, in the order they usually show up',
+          bullets: [
+            'A firm, tender, often red patch on one breast - sometimes with a hard lump you can feel',
+            'The area feels noticeably warmer than the rest of the breast',
+            'Flu-like symptoms arriving quickly - chills, aching, fatigue',
+            'A fever, often 38°C or higher, that seems to come from nowhere',
+            'Pain that\'s worse on one side, sometimes sharp during a feed',
+          ],
+        },
+        {
+          heading: 'What actually helps in the first 24 hours',
+          bullets: [
+            'Keep feeding or expressing from the affected side regularly - stopping altogether tends to make it worse, not better',
+            'Start feeds on the affected side when possible, when baby\'s suck is strongest',
+            'Warmth before a feed can help milk flow; cold packs after a feed can ease pain and swelling',
+            'Gentle massage toward the nipple during a feed, rather than aggressive kneading, which can worsen inflammation',
+            'Rest as much as is physically possible - genuinely difficult with a newborn, but the body needs it here',
+          ],
+        },
+        {
+          heading: 'When it needs more than home care',
+          paragraphs: [
+            "If a fever persists past 24 hours, symptoms worsen rather than ease, or there's visible pus or red streaking, it's time to see a GP - antibiotics are often needed once an infection has taken hold, and delaying doesn't make it resolve faster.",
+            "Recurrent mastitis is worth a proper look at latch and positioning with a lactation consultant, since an underlying feeding issue is often what's causing ducts to block in the first place.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The part that gets missed',
+        paragraphs: [
+          "Nobody tells you how suddenly it hits, or how much like the flu it can feel, which means the first time it happens most women assume they're just getting sick. If you're breastfeeding and the flu arrives alongside a sore red patch on one side, mastitis is worth considering before anything else.",
+          "Caught early and treated properly, it usually clears within a few days. It is unpleasant, not dangerous, and not a sign you're doing anything wrong.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-four-month-sleep-regression',
+    cover: 'c-sleep',
+    label: 'Sleep, honestly',
+    tag: 'Sleep',
+    title: "The 4-month sleep regression: why it happens, and why it doesn't actually reverse",
+    body: "One week they're sleeping in decent stretches. The next, they're up every 45 minutes. It's not a phase you wait out - it's a permanent shift in how sleep works.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "You'd found a rhythm. Maybe not perfect, but workable - a few solid stretches, a nap that reliably happened. Then, seemingly overnight, all of it fell apart. Frequent waking, short naps, a baby who seems to fight sleep they clearly need.",
+        "This is the so-called 4-month regression, and the name is slightly misleading - it's less a temporary dip and more a permanent upgrade to how your baby's sleep works.",
+      ],
+      sections: [
+        {
+          heading: "What's actually happening",
+          paragraphs: [
+            "Around 3-5 months, babies' sleep architecture matures from a simpler newborn pattern into an adult-like cycle of light and deep sleep stages. That's a genuine developmental leap - but it comes with a side effect: your baby now briefly surfaces to lighter sleep between cycles, the same way adults do, and at this age they don't yet have the skills to drift back down on their own.",
+            "This is why it's often described as not reversing - because it isn't a temporary glitch that resolves by itself. What resolves is your baby gradually learning how to settle themselves back down between cycles.",
+          ],
+        },
+        {
+          heading: 'What it tends to look like',
+          bullets: [
+            'Waking every 45 minutes to 2 hours overnight, often needing help to resettle each time',
+            'Naps that used to last an hour dropping to 20-30 minutes',
+            'More fussiness and difficulty settling at bedtime',
+            'A baby who seems more alert and engaged during awake windows - the flip side of the same developmental leap',
+          ],
+        },
+        {
+          heading: 'What genuinely helps',
+          bullets: [
+            'A consistent, simple pre-sleep routine, so their body starts recognising the cues for sleep, not just the environment',
+            'Watching awake windows rather than the clock - an overtired baby fights sleep harder, not less',
+            'A dark, cool, white-noise-supported sleep space, which supports the transition between sleep cycles',
+            "Giving them a brief pause before rushing in at every stir - some resettling happens on its own, even if it doesn't feel like it will",
+          ],
+        },
+        {
+          heading: 'What this is not',
+          paragraphs: [
+            "It's not a sign you've done anything wrong, and it's not a signal that solids, a sleep-training method, or a different mattress will make it vanish overnight. It's neurological development happening on schedule, showing up as a very disrupted few weeks.",
+            "Most families see things ease within 2-6 weeks as babies get some practice linking sleep cycles - not because the regression itself ends, but because the new skill catches up.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The reframe that helps most',
+        paragraphs: [
+          "This stretch is hard specifically because it's not a malfunction - it's your baby's brain doing something genuinely new, badly, before it does it well. That's true of most developmental leaps; this one just happens to land squarely on your sleep.",
+          "It passes. Not by waiting it out unchanged, but by giving them the conditions to practise the new skill - and by accepting that a few rough weeks here don't undo the good sleep that came before, or the sleep that's coming.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'overtired-vs-undertired',
+    cover: 'c-sleep',
+    label: 'Sleep, honestly',
+    tag: 'Sleep',
+    title: "Overtired vs undertired: how to actually tell the difference",
+    body: "A baby who won't settle could be exhausted, or barely tired at all - and the fixes for each are opposites. Here's how to tell which one you're looking at.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Bedtime is a fight. Again. And the instinct is always the same: they must be overtired, push the next sleep earlier. Except sometimes that makes it worse, because the actual problem was the opposite - they weren't tired enough yet.",
+        "Telling these two apart is one of the more genuinely useful skills in early sleep, mostly because the fixes point in opposite directions.",
+      ],
+      sections: [
+        {
+          heading: 'What overtired usually looks like',
+          bullets: [
+            'A "second wind" - suddenly wired, giggly, or hyperactive right when sleep should be approaching',
+            'Arching away from you, crying hard as soon as they\'re laid down',
+            'Rubbing eyes, yawning, or glassy-eyed alongside the fussing',
+            'Waking in a short amount of time after finally going down, upset, and hard to resettle',
+          ],
+        },
+        {
+          heading: 'What undertired usually looks like',
+          bullets: [
+            'Calm but wide awake at bedtime - chatting, playing, showing no sleepy cues at all',
+            'Taking a long time to fall asleep, but not distressed while doing it',
+            'Waking early from a nap or in the morning, alert and ready to go rather than groggy',
+            'Generally content - the resistance is more "I\'m not ready" than "I\'m falling apart"',
+          ],
+        },
+        {
+          heading: 'Why they get confused so easily',
+          paragraphs: [
+            "Both can look like 'fighting sleep' from the outside, and both can involve crying at bedtime - which is exactly why the instinct to just push bedtime earlier doesn't always land. An overtired baby has flooded their system with stress hormones that make settling harder, not easier. An undertired baby simply hasn't built up enough sleep pressure yet to fall asleep easily.",
+            "The clearest tell is usually what happens in the half hour before the meltdown: a wired, manic energy points to overtired; a chatty, calm alertness points to undertired.",
+          ],
+        },
+        {
+          heading: 'What to actually do about each',
+          bullets: [
+            'Overtired: move the next sleep earlier and shorten the awake window, keep the wind-down extra calm and low-stimulation',
+            'Undertired: extend the awake window slightly, add some active, engaging time beforehand rather than winding down too early',
+            "Either way, small adjustments (10-15 minutes) work better than big swings - age-appropriate awake windows are a good starting reference, not a rulebook",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The trial-and-error part nobody mentions',
+        paragraphs: [
+          "This isn't something you diagnose once and solve forever - awake windows shift as babies grow, so what worked last month may need nudging again this month. Treat it as an ongoing, small experiment rather than a fixed formula.",
+          "If bedtime is a fight, look at the 30 minutes before it rather than the clock. The clues are usually right there.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-six-week-check-what-to-expect',
+    cover: 'c-wellbeing',
+    label: 'Self & restoration',
+    tag: 'Wellbeing',
+    title: "The six-week check: what to expect (and what to actually ask about)",
+    body: "It's ten minutes, mostly about the baby, and easy to walk out of having said 'fine' when you weren't. Here's how to use it properly.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "The six-week postpartum check is often the last dedicated appointment a new mum has for herself before the focus shifts entirely to the baby's schedule of visits. It's worth knowing what it's actually for, because it's easy to sit through it, say 'yeah, going okay' on autopilot, and leave having missed the point.",
+        "This is meant to be about you. Here's how to make sure it actually is.",
+      ],
+      sections: [
+        {
+          heading: "What's usually covered",
+          bullets: [
+            'Physical recovery check - healing from birth, whether vaginal or caesarean, and any stitches or scar tissue',
+            'A general check of blood pressure, weight, and any ongoing symptoms',
+            'A conversation (sometimes brief) about mood and emotional wellbeing',
+            'Contraception options, if and when that becomes relevant to you',
+            "An opportunity to raise anything that's been bothering you physically since birth",
+          ],
+        },
+        {
+          heading: "Why it's easy to underuse this appointment",
+          paragraphs: [
+            "Six weeks in, most parents are running on interrupted sleep and have gotten very good at giving the socially expected answer to how are you. 'Fine' is a fast, low-friction response, and appointments often move quickly, which makes it tempting to default to it rather than actually pause and answer honestly.",
+            "The check is only as useful as what you bring to it. A GP or obstetrician can only respond to what's raised in the room.",
+          ],
+        },
+        {
+          heading: 'Worth actually asking about',
+          bullets: [
+            'Any ongoing pain, numbness, or issues around a scar (perineal or caesarean) - these can take longer than six weeks to fully settle and are worth tracking',
+            'Pelvic floor concerns - leaking, heaviness, or pain, which are common and treatable, not something to just live with',
+            "Your mood, honestly - not just whether you cried recently, but whether you feel like yourself, whether anxiety feels manageable, whether you're finding any moments of enjoyment",
+            "When it's reasonable to return to exercise, and what to ease back into first",
+            "Anything about feeding, sleep-deprivation, or your own body that's been nagging at you since the birth",
+          ],
+        },
+        {
+          heading: 'A note on honesty in the room',
+          paragraphs: [
+            "If you write down your real answer before you walk in - not the polite one - you're far more likely to say it out loud when asked. It sounds simple, but it works, because the moment itself can be disorienting with a baby in the room and a list of the baby's own needs to get through first.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'Before you go',
+        paragraphs: [
+          "This appointment exists because your recovery matters as its own thing, not just as a means to caring for the baby. Use the ten minutes for you - ask the question you've been putting off, describe the thing you've been minimising, and let someone whose job it is to help, actually help.",
+          "If it doesn't feel like enough time, or the answer you get doesn't sit right, you're allowed to book a follow-up. This isn't a one-shot opportunity.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'mum-guilt-where-it-comes-from',
+    cover: 'c-wellbeing',
+    label: 'Self & restoration',
+    tag: 'Wellbeing',
+    title: "Mum guilt: where it actually comes from, and why it's lying to you",
+    body: "That constant low hum of not doing enough, not being enough - even when, by any reasonable measure, you are. Here's what's actually driving it.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "You went back to work and felt guilty for leaving. You stayed home and felt guilty for not contributing financially. You put on the TV so you could shower and felt guilty about the screen time. You didn't put on the TV and felt guilty for being short-tempered by dinner.",
+        "Notice the pattern: the guilt shows up regardless of the choice. That's the first clue it was never really about the choice at all.",
+      ],
+      sections: [
+        {
+          heading: "It's not actually a reaction to failure",
+          paragraphs: [
+            "Genuine guilt is meant to be a signal that you've done something wrong - it points you toward repair. Mum guilt behaves differently: it shows up in response to completely reasonable, often good decisions, which means it isn't functioning as an accurate moral compass. It's functioning as background noise.",
+            "That noise has a source, and it's rarely internal. It's cultural - an enormous, largely unspoken standard of what a 'good mother' does, is available for, and sacrifices, absorbed over decades before you ever had a baby of your own.",
+          ],
+        },
+        {
+          heading: 'Where the standard actually comes from',
+          bullets: [
+            "Decades of media and advertising depicting an endlessly patient, always-present, self-sacrificing mother as the default 'good' version",
+            'A comparison culture, amplified by social media, where you see everyone else\'s curated best moment against your own real, messy ones',
+            'Generational scripts about what mothers are supposed to prioritise, often absorbed long before becoming a parent yourself',
+            'The reality that most of this standard was never achievable by an actual human being with actual limits',
+          ],
+        },
+        {
+          heading: 'A useful test to run it through',
+          paragraphs: [
+            "Next time it shows up, ask: would I judge a friend this harshly for doing the exact same thing? The answer is almost always no. That gap - between the compassion you'd extend to someone else and the harshness you apply to yourself - is the guilt talking, not an accurate account of what happened.",
+            "Another test: is there an alternative decision available that wouldn't have triggered guilt from some direction? Often there isn't, which tells you the guilt was never really evaluating the decision. It was just there, waiting for any decision to land on.",
+          ],
+        },
+        {
+          heading: 'What actually helps',
+          bullets: [
+            'Naming it out loud when it shows up - "this is mum guilt, not a real problem" - which puts a small amount of distance between you and the feeling',
+            'Asking whether the standard you\'re measuring yourself against is one any human could actually meet',
+            'Talking to other parents honestly - guilt tends to lose power the moment you realise how universal it is',
+            "Redirecting the energy toward the version of good enough that's actually sustainable, rather than the version that exists only in theory",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The truth underneath it',
+        paragraphs: [
+          "Mum guilt persists not because you're failing, but because the bar it's measuring you against was never realistic to begin with. It was built out of impossible expectations, and it shows up whether you meet them or not - which is the clearest evidence that it was never really about you.",
+          "You're allowed to make a reasonable decision and feel fine about it. The guilt showing up anyway doesn't make the decision wrong. It just makes the guilt loud.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-baby-book-youll-actually-keep',
+    cover: 'c-memories',
+    label: 'Memory keeping',
+    tag: 'Memories',
+    title: "The baby book you'll actually keep updated (hint: it's not the beautiful one)",
+    body: "The gorgeous linen-bound baby book gets three entries before it stalls in a drawer. Here's why the low-effort version is the one that survives the first year.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere in most nurseries sits a beautiful baby book - hardcover, cream pages, a spot for 'baby's first haircut' - with exactly three entries in it, all from the first fortnight. After that, life happens, and the book quietly closes for good.",
+        "This isn't a failure of intention. It's a mismatch between the format and how memory-keeping actually survives year one.",
+      ],
+      sections: [
+        {
+          heading: 'Why the beautiful version usually stalls',
+          paragraphs: [
+            "A physical baby book requires you to remember it exists, locate a pen, sit down without a baby in your arms, and write in complete, considered sentences - all at a moment when you have none of those things in abundance. It also demands you decide, in the moment, whether something is 'book-worthy,' which adds a layer of curation most exhausted parents don't have bandwidth for.",
+            "The things that actually get captured in the first year are the ones that require the least friction between the moment happening and the moment it's recorded.",
+          ],
+        },
+        {
+          heading: 'What actually gets kept, in practice',
+          bullets: [
+            'A voice memo recorded in the 4 seconds after a first laugh, not written up later from memory',
+            'A quick photo of the growth chart at the MCH visit, not a beautifully copied-out measurement',
+            'A one-line note typed into your phone the moment something happens, expanded (or not) later',
+            'A shared album with your partner where either of you can drop something in without narrating it',
+          ],
+        },
+        {
+          heading: 'A lower-effort system that actually works',
+          paragraphs: [
+            "Rather than one beautiful book, many parents find it easier to have one low-friction capture point - a single app or album - that takes almost no decision-making to use. Capture first, curate later, if you ever get around to it at all. A voice note or photo taken in the moment holds more of the actual memory than a tidy paragraph written three days after the fact anyway.",
+            "If you do want a physical keepsake eventually, it's far easier to build one retrospectively from a year of quick captures than to have kept a polished diary in real time.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'Permission to let the pretty book go',
+        paragraphs: [
+          "The book with three entries is not a record of you failing to document your baby's first year. It's a record of a format that was never going to survive contact with actual newborn life. The memories exist either way - they're just scattered across voice notes, camera rolls, and half-typed notes instead of one linen cover.",
+          "That's not a lesser record. In a lot of ways, it's a truer one.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'things-youre-sure-youll-never-forget',
+    cover: 'c-memories',
+    label: 'Memory keeping',
+    tag: 'Memories',
+    title: "The things you're sure you'll never forget (but will)",
+    body: "The smell of their head, the exact sound of their newborn cry, the weight of them asleep on your chest. You will forget more of it than you think - unless you catch it now.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Right now, certain things feel unforgettable - the particular smell of the top of their head, the exact pitch of their newborn cry, how light they were the first time you held them. It feels impossible that any of it could fade.",
+        "Most of it will fade anyway. Not because you didn't love it enough to hold onto it, but because memory doesn't work that way - and knowing that now is the only real chance you have to catch some of it before it goes.",
+      ],
+      sections: [
+        {
+          heading: 'Why even the vivid stuff fades',
+          paragraphs: [
+            "Memory isn't a recording - it's a reconstruction, rebuilt slightly differently each time you recall it, and it fades fastest for sensory details like smell, sound, and exact physical sensation, which is precisely the category most newborn memories fall into.",
+            "This is why parents of older kids so often say I wish I'd written that down - not because they were careless, but because nobody warns you in the moment that the vividness you're feeling right now has an expiry date.",
+          ],
+        },
+        {
+          heading: 'What tends to go first',
+          bullets: [
+            'The exact sound of their newborn cry, which changes within weeks and is almost impossible to recall accurately later',
+            'The specific weight and feel of them asleep on your chest at 2 weeks versus 2 months',
+            'The little sounds before real words - the specific babble, the way they said a sibling\'s name wrong',
+            'The chaos and texture of an ordinary Tuesday, which gets flattened into "it was a blur" rather than remembered in detail',
+          ],
+        },
+        {
+          heading: 'What actually holds up over time',
+          bullets: [
+            'A voice recording, which captures pitch and sound in a way memory simply cannot replicate',
+            'A photo taken in a genuinely ordinary moment, not just the posed ones',
+            'A quick note typed in the moment, in your own words, rather than reconstructed weeks later',
+            'A specific, small detail rather than a general impression - "smelled like the lavender wash" beats "smelled amazing"',
+          ],
+        },
+        {
+          heading: 'The habit that makes the difference',
+          paragraphs: [
+            "You don't need a system, a schedule, or a beautiful process. You need a 10-second habit: when something strikes you as unforgettable, capture it right then, in whatever form is fastest - a voice memo, a photo, a one-line note. The feeling of certainty that you'll remember it is, ironically, the exact moment memory is least reliable.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'A gentle nudge, not a guilt trip',
+        paragraphs: [
+          "This isn't about capturing everything - that's exhausting and beside the point. It's about catching the handful of things that matter most to you, in the 10 seconds when you still can, rather than trusting a feeling of certainty that won't last as long as you think.",
+          "You won't remember all of it. Nobody does. But the bits you do catch now will be the ones you actually have later.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'tongue-tie-what-to-look-for',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: "Tongue tie: what to look for, and what actually happens next",
+    body: "Painful feeds and a baby who can't seem to get a deep latch, no matter what you try. Here's what tongue tie actually is, and what the assessment and fix involve.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Every feed hurts. Not a little tender - genuinely painful, toe-curling pain, and your nipples look worse each day rather than better. You've tried every latch position a lactation consultant showed you and something still feels stuck.",
+        "This is one of the more common reasons feeding stays painful past the first fortnight, and it has a name, a straightforward assessment, and a fix that's simpler than most parents expect.",
+      ],
+      sections: [
+        {
+          heading: 'What tongue tie actually is',
+          paragraphs: [
+            "Tongue tie (ankyloglossia) happens when the thin strip of tissue under the tongue, the lingual frenulum, is shorter or tighter than usual, restricting how far the tongue can move. Because a deep, effective latch depends on the tongue extending well past the lower gum, a restricted tongue can make it hard for a baby to draw milk efficiently, however good their positioning is.",
+            "It's present from birth and varies widely in severity - some cases barely affect feeding at all, while others make a comfortable latch nearly impossible no matter what you try.",
+          ],
+        },
+        {
+          heading: 'Signs worth getting checked',
+          bullets: [
+            'Persistent nipple pain or damage that doesn\'t improve with repositioning',
+            "A clicking sound during feeds, or milk leaking from the corners of the baby's mouth",
+            'A baby who tires quickly at the breast, feeds very frequently, or seems to fall asleep before finishing',
+            "Slow weight gain despite frequent, seemingly effective feeds",
+            "A tongue that looks heart-shaped when crying, or can't extend past the lower gum",
+          ],
+        },
+        {
+          heading: 'How it gets assessed',
+          paragraphs: [
+            "A lactation consultant, GP, or paediatrician can usually assess tongue mobility with a simple physical check alongside watching a full feed - the feed itself often tells them more than the anatomy alone, since some ties restrict feeding significantly and others barely at all.",
+            "This is why two babies with a similar-looking tie can have very different feeding experiences, and why the decision to treat is based on function, not appearance.",
+          ],
+        },
+        {
+          heading: "What the release procedure actually involves",
+          paragraphs: [
+            "If a release is recommended, the procedure itself (a frenotomy) is typically very quick - often just seconds - using sterile scissors or a laser on the thin tissue, usually with no anaesthetic needed given how few nerve endings are in that area for young babies.",
+            "Most babies can feed immediately afterward, and many parents report an improvement in latch comfort within the first few feeds, though it can take a little time and some stretching exercises for the tongue to build new movement patterns.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'If something feels off',
+        paragraphs: [
+          "Painful feeding is common in the early days, but pain that isn't easing by two to three weeks, despite good positioning, is worth a proper assessment rather than something to push through indefinitely.",
+          "Tongue tie is well understood, straightforward to check for, and - when it is the cause - one of the more fixable reasons feeding has been hard. It's worth ruling in or out early rather than assuming pain is just part of the deal.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'newborn-skin-whats-normal',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: "Newborn skin: the peeling, spots and rashes that are all completely normal",
+    body: "Blotchy cheeks, tiny white bumps, skin that peels like they've been sunbathing. Newborn skin looks alarming and almost none of it is. Here's the field guide.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere in the first week, you notice a rash across their cheeks, or tiny white dots across their nose, or skin peeling off their hands like they've just come back from a beach holiday - and you spiral slightly, because nothing in the birth prep class covered this.",
+        "Newborn skin goes through an enormous amount of change in a very short time, and the vast majority of it is completely ordinary. Here's a quick guide to what's what.",
+      ],
+      sections: [
+        {
+          heading: 'The really common ones',
+          bullets: [
+            'Peeling skin, especially on the hands and feet - very common in the first 1-2 weeks as the outer layer sheds, more noticeable in babies born after their due date',
+            "Milia - tiny white bumps across the nose, chin, or cheeks, caused by trapped skin flakes, which clear on their own within a few weeks without any treatment",
+            "Erythema toxicum - blotchy red patches, sometimes with a small white or yellow centre, that come and go over the first week or two and are entirely harmless",
+            "Baby acne - small red or white bumps, usually on the cheeks, appearing around 2-4 weeks as maternal hormones work their way out of the baby's system",
+            "Cradle cap - flaky, sometimes yellowish patches on the scalp, which respond well to gentle brushing with a soft brush and a bit of baby-safe oil",
+          ],
+        },
+        {
+          heading: 'A little less common, still usually fine',
+          bullets: [
+            "Stork bites or salmon patches - pink marks on the eyelids, forehead, or nape of the neck, which fade over months to a couple of years",
+            "Mongolian spots - flat, bluish-grey patches, most common on the lower back or buttocks, which fade over the first few years and are simply a variation in skin pigmentation",
+            'Heat rash - small red bumps in skin folds or covered areas, usually resolving once the area is cooled and less bundled',
+          ],
+        },
+        {
+          heading: 'What actually warrants a call',
+          bullets: [
+            'A rash accompanied by fever, lethargy, or poor feeding',
+            "Blistering, weeping, or skin that looks infected rather than just irritated",
+            "Yellowing of the skin spreading beyond the face (worth reading alongside a jaundice check)",
+            "Any rash you genuinely can't place, especially if it's spreading quickly or your baby seems unwell with it",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The short version',
+        paragraphs: [
+          "Newborn skin is adjusting to life outside the womb, and most of what shows up in the first few weeks - peeling, spots, blotches - is a normal, temporary part of that adjustment, not a sign of a problem.",
+          "If in doubt, a photo and a quick message to your MCH nurse or GP is a perfectly reasonable way to get peace of mind, no appointment required for most of it.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'oversupply-and-fast-let-down',
+    cover: 'c-feeding',
+    label: 'Feeding, decoded',
+    tag: 'Feeding',
+    title: "Oversupply and fast let-down: when there's too much milk, not too little",
+    body: "A baby who chokes, splutters, and pulls off crying at every feed might not have a latch problem at all - they might be dealing with a flood, not a drought.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Most feeding advice assumes the problem is not enough milk. So when your baby is spluttering, gulping, pulling off mid-feed and crying, or feeding for two minutes and looking done, it's easy to assume something is wrong with your supply in the opposite direction you'd expect.",
+        "Oversupply and a fast, forceful let-down are genuinely common and come with their own specific set of fixes - most of which are the opposite of what you'd do for low supply.",
+      ],
+      sections: [
+        {
+          heading: 'What it tends to look like',
+          bullets: [
+            'Choking, gulping, or coughing at the start of a feed as milk lets down forcefully',
+            'A baby who pulls off crying repeatedly, especially early in a feed',
+            'Green, frothy, or explosive nappies, sometimes alongside a fussy, gassy baby',
+            "A baby who gains weight quickly and seems to prefer shorter, more frequent feeds",
+            'Milk spraying or leaking heavily at let-down, sometimes from both sides',
+          ],
+        },
+        {
+          heading: 'Why it happens',
+          paragraphs: [
+            "Milk supply is largely driven by demand in the early weeks - frequent feeding and pumping signal the body to produce more. If feeds have been very frequent, or if pumping has been added on top of feeding to 'build supply' unnecessarily, the body can end up producing more than the baby needs at any one sitting, which combines with a strong let-down reflex to create a fast, overwhelming flow.",
+            "It's not a flaw or an overreaction from your body - it's simply supply calibrated slightly ahead of demand, which is a much easier problem to adjust than the reverse.",
+          ],
+        },
+        {
+          heading: 'What actually helps',
+          bullets: [
+            'Feeding in a laid-back or reclined position, letting gravity work against the flow rather than with it',
+            'Taking the baby off briefly at the start of a let-down and letting the initial spray subside into a cloth before relatching',
+            'Offering one breast per feed (or per block of a few hours) rather than switching sides every time, so the second breast has time to settle',
+            "Avoiding extra pumping 'just in case' - additional stimulation tends to reinforce the oversupply rather than resolve it",
+            'Burping more frequently mid-feed, since a fast flow often means more air is swallowed along with the milk',
+          ],
+        },
+        {
+          heading: 'When to get support rather than adjusting solo',
+          paragraphs: [
+            "A lactation consultant can help distinguish oversupply from other causes of a fussy, gulping baby, and can guide a gradual reduction in supply safely, since dropping it too fast can risk blocked ducts or mastitis.",
+            "This is a case where professional input is genuinely useful - the fixes are specific enough that guessing can take longer than it needs to.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The reassurance in this one',
+        paragraphs: [
+          "A baby who splutters and pulls off crying isn't rejecting you or the feed - they're dealing with more flow than they can comfortably manage in the moment, which is a solvable, well-understood problem, not a sign that feeding is failing.",
+          "Small adjustments to position and pattern make a real difference here, often faster than most other feeding issues. This one tends to respond quickly once you know what you're actually looking at.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'bottle-refusal-why-it-happens',
+    cover: 'c-feeding',
+    label: 'Feeding, decoded',
+    tag: 'Feeding',
+    title: "Bottle refusal: why it happens, and how to work through it",
+    body: "A baby who happily breastfeeds but screams the second a bottle appears is one of the more stressful feeding curveballs - especially with a return to work looming. Here's what usually helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "You've done everything right - warmed the milk, tried a few different teats, timed it for when they're not overtired - and they still turn their head away, arch their back, or cry the moment the bottle touches their lips. Meanwhile the calendar has a return-to-work date circled, and the pressure is mounting.",
+        "Bottle refusal is common, rarely permanent, and usually has an identifiable reason behind it once you know what to look for.",
+      ],
+      sections: [
+        {
+          heading: 'The usual culprits',
+          bullets: [
+            "Being offered the bottle by the breastfeeding parent - many babies simply refuse when the person they associate with breastfeeding is holding it, even if everything else is right",
+            "Timing - trying it when a baby is already very hungry and frustrated, or not hungry at all, rather than in a calm, moderately-hungry window",
+            "Teat flow that's mismatched to what they're used to - too fast can overwhelm, too slow can frustrate",
+            "Temperature or taste differences, especially with expressed milk that's been frozen, or a switch to formula",
+            "A general preference for the breast that's more about comfort and closeness than the mechanics of feeding",
+          ],
+        },
+        {
+          heading: 'What tends to help',
+          bullets: [
+            'Having someone other than the breastfeeding parent offer the bottle, ideally from another room, at least for the first several attempts',
+            "Trying it during a calm window, not at the peak of hunger or overtiredness",
+            "Experimenting with temperature, position (upright, semi-reclined), and teat shape rather than assuming it's one fixed problem",
+            "Letting the baby explore the teat at their own pace rather than pushing it in - some babies do better holding and mouthing it first",
+            'Trying a cup or spoon of expressed milk as an alternative if the bottle itself is the sticking point',
+          ],
+        },
+        {
+          heading: 'How much time to actually give it',
+          paragraphs: [
+            "If a return to work or a break away is approaching, starting the introduction 2-4 weeks ahead gives enough room for a few different approaches without last-minute panic. A single failed attempt doesn't mean it won't work - most babies who initially refuse do eventually take a bottle, though a small number hold out until someone other than mum is offering it out of genuine hunger.",
+            "It's worth accepting that this can take longer than expected, and that's not a reflection of anything being done wrong.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "If it's still not budging",
+        paragraphs: [
+          "Persistent refusal, especially alongside reduced wet nappies or weight concerns, is worth raising with a GP, paediatrician or lactation consultant rather than continuing to troubleshoot alone - there's a difference between a baby working through a preference and a baby not getting enough intake.",
+          "Most of the time, this resolves with a bit of patience, a change of who's holding the bottle, and a few different approaches tried without pressure. Babies are more adaptable than the panic of week one suggests.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-dummy-what-actually-helps',
+    cover: 'c-sleep',
+    label: 'Sleep, honestly',
+    tag: 'Sleep',
+    title: "The dummy: what actually helps, and when (if ever) to ditch it",
+    body: "Contested at every playgroup, backed by genuine research, and eventually something you'll need an exit plan for. Here's the honest rundown.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Few small pieces of plastic generate as much unsolicited opinion as a dummy. Someone will tell you it ruins teeth, someone else will tell you it saved their sanity, and somewhere in there is what the actual evidence says - which is more reassuring, and more specific, than either extreme.",
+        "Here's what's actually known about dummies: the genuine benefits, the real considerations, and a sane way to think about when to stop.",
+      ],
+      sections: [
+        {
+          heading: "What's actually in its favour",
+          bullets: [
+            "Research has linked dummy use during sleep with a reduced risk of SIDS, which is why sleep guidelines in many countries now recommend offering one at nap and bedtime once breastfeeding is well established",
+            "It gives babies a self-soothing tool that doesn't require a full feed or a parent every time they need to settle",
+            'It can genuinely reduce crying and support settling for many babies, particularly in the newborn stage',
+          ],
+        },
+        {
+          heading: 'The real considerations, not the myths',
+          bullets: [
+            "Introducing a dummy too early, before breastfeeding is well established (commonly cited as around 3-4 weeks), can interfere with latch and supply for some babies - timing matters more than the dummy itself",
+            "Prolonged, all-day use well past infancy is associated with dental and speech development considerations, which is the actual basis for most dentist concerns, not early infant use",
+            "A dummy that falls out repeatedly overnight can become its own sleep disruptor, since a baby who relies on it may wake fully needing it replaced",
+          ],
+        },
+        {
+          heading: 'A sane approach to using one',
+          bullets: [
+            'Wait until breastfeeding is comfortable and established, unless a health professional has advised otherwise for a specific reason',
+            'Offer it at sleep times rather than as a constant, all-day soother, which limits dependence while keeping the safety benefit',
+            "Don't reinsert it obsessively overnight for a baby who's stirring but not fully awake - give a moment to see if they resettle without it first",
+          ],
+        },
+        {
+          heading: 'When and how to actually stop',
+          paragraphs: [
+            "There's no universal deadline, but many parents aim to wind down dummy use somewhere between 6 months and 2 years, often timed around a milestone that gives a natural story - a house move, a birthday, a 'dummy fairy.'",
+            "Gradual approaches (limiting it to sleep only, then to just falling asleep, then removing it once asleep) tend to go more smoothly than a sudden cold-turkey stop, though plenty of families find a clean break works fine too. There's no single right way - only what your particular child tolerates.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The permission slip',
+        paragraphs: [
+          "You don't owe anyone an explanation for using one, and you don't owe anyone an explanation for not. The evidence supports it as a genuinely useful tool with a sensible off-ramp later - not the moral question it sometimes gets treated as at playgroup.",
+          "Use it if it helps. Lose it when it's time. Both of those calls are yours to make.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'nap-transitions-how-to-know',
+    cover: 'c-sleep',
+    label: 'Sleep, honestly',
+    tag: 'Sleep',
+    title: "Nap transitions: how to know when your baby's actually ready to drop one",
+    body: "Fighting a nap that used to be easy doesn't always mean it's time to cut it - sometimes it means the opposite. Here's how to tell a transition from a rough patch.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "For weeks, naps ran like clockwork. Then, seemingly overnight, bedtime for a nap becomes a battle, or a nap that used to run an hour drops to twenty minutes. The instinct is often to assume it's time to drop a nap altogether - but that's not always what's actually going on.",
+        "Nap transitions are real, but they're also one of the most over-diagnosed changes in early sleep. Here's how to tell a genuine transition from a temporary rough patch.",
+      ],
+      sections: [
+        {
+          heading: 'The usual transition points',
+          bullets: [
+            "4 to 3 naps: often somewhere around 5-7 months",
+            "3 to 2 naps: commonly between 6-9 months",
+            "2 to 1 nap: typically 12-18 months, often the trickiest of the transitions",
+            "1 nap to none: usually somewhere between 3-5 years, much later than most parents expect",
+          ],
+        },
+        {
+          heading: "Signs it's a genuine transition",
+          bullets: [
+            'Consistently fighting the same nap (usually the first, or the last) for more than a week or two, not just a rough couple of days',
+            'Taking a long time to fall asleep at that nap despite clear tiredness earlier in the day',
+            'That nap starting to push bedtime later and later, throwing off the whole day\'s rhythm',
+            'The pattern holding steady across a week or more, rather than one-off exceptions around teething, illness, or travel',
+          ],
+        },
+        {
+          heading: "Signs it's probably not a transition (yet)",
+          bullets: [
+            'A rough patch coinciding with a cold, a growth spurt, teething, or a developmental leap - these all temporarily disrupt sleep without meaning anything has permanently changed',
+            'Only one bad day here and there, rather than a sustained pattern',
+            "A baby who's below the typical age range for that particular transition",
+          ],
+        },
+        {
+          heading: 'How to actually make the shift',
+          paragraphs: [
+            "When it is time, most transitions go more smoothly as a gradual shift rather than an abrupt cut - stretching the awake windows around the dropped nap slowly over 1-2 weeks, and expecting a temporarily crankier, more overtired baby while their body adjusts to the new rhythm.",
+            "It's also worth expecting some back-and-forth - a few days of managing fine on the new pattern, then a day where the old nap count would clearly have helped. That's normal during the adjustment window, not a sign you got the timing wrong.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The most useful rule of thumb',
+        paragraphs: [
+          "If the pattern has held for more than two weeks and lines up roughly with the expected age range, it's probably a genuine transition. If it's a few rough days during a cold or a leap, it's probably just a rough patch - hold steady on the current nap count and it usually settles back.",
+          "Either way, it passes. Nap schedules are one of the most fluid parts of the first few years, and needing to adjust them again next month doesn't mean anything went wrong this month.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'relationship-after-baby',
+    cover: 'c-wellbeing',
+    label: 'Self & restoration',
+    tag: 'Wellbeing',
+    title: "The relationship after baby: why it changes, and how to actually look after it",
+    body: "You're both exhausted, both stretched thin, and somehow supposed to keep connecting as partners on top of everything else. Here's why that's harder than anyone warns you, and what genuinely helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere between the feeds and the sleep deprivation and the sheer logistics of keeping a small human alive, you look up and realise you and your partner have barely had a real conversation that wasn't about the baby in weeks. That's not a sign your relationship is in trouble. It's an almost universal part of this particular season.",
+        "Understanding why it happens makes it easier to protect the relationship without adding yet another thing to feel guilty about not doing enough of.",
+      ],
+      sections: [
+        {
+          heading: "Why it shifts so much, so fast",
+          paragraphs: [
+            "A new baby doesn't just add a person to the household - it adds an enormous amount of physical exhaustion, decision fatigue, and logistics, most of which fall unevenly and shift week to week. Research consistently shows relationship satisfaction dips for most couples in the first year after a baby, not because the relationship is weaker, but because the conditions around it are genuinely harder.",
+            "Add to that the loss of spontaneous time together, disrupted sleep affecting patience and emotional regulation for both of you, and often diverging experiences of new parenthood (particularly around recovery, feeding, and identity), and the dip makes a lot of sense.",
+          ],
+        },
+        {
+          heading: 'The friction points worth naming early',
+          bullets: [
+            'An uneven mental load - one partner tracking appointments, supplies, and the baby\'s needs while the other assumes things are covered',
+            "Different tolerances for exhaustion, which can look like one partner 'coping' better when they're simply hitting their limit later",
+            "Resentment building quietly around small, repeated imbalances rather than one big blow-up",
+            "Physical and emotional touch dropping off simultaneously, leaving both partners feeling less connected without either raising it",
+          ],
+        },
+        {
+          heading: 'What actually helps, in this exact season',
+          bullets: [
+            'A short, regular check-in - even five minutes - specifically about how you\'re both doing as a couple, separate from logistics about the baby',
+            'Naming the invisible load out loud rather than expecting it to be noticed - most partners genuinely don\'t see what they\'re not tracking themselves',
+            "Lowering the bar for connection - a cup of tea together while the baby naps counts, it doesn't need to be a date night",
+            'Assuming good intent during this stretch - most conflict here comes from exhaustion and mismatched loads, not from anything deeper going wrong',
+          ],
+        },
+        {
+          heading: "When it's more than tiredness",
+          paragraphs: [
+            "A temporary dip in connection is common and expected. Ongoing contempt, persistent resentment, or a sense that one partner has fully checked out is worth addressing directly, and couples counselling in the first year postpartum is common and useful, not a last resort.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The reassurance in the data',
+        paragraphs: [
+          "Most couples report their relationship satisfaction recovering, often exceeding pre-baby levels, once the most physically demanding stretch eases - usually somewhere in the first two years. The dip is close to universal, not a sign of a specific problem with your particular relationship.",
+          "Protecting the relationship in this season doesn't require date nights and grand gestures. It requires small, regular moments of actually seeing each other, even in five-minute increments, until there's more room for the rest.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'unsolicited-advice-how-to-handle-it',
+    cover: 'c-wellbeing',
+    label: 'Self & restoration',
+    tag: 'Wellbeing',
+    title: "Unsolicited advice: how to handle the opinions nobody asked for",
+    body: "Everyone from the supermarket stranger to your own mother has a view on how you're doing this. Here's why it happens, and a few responses that actually work.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "You've been a parent for six days and already have opinions from a stranger in the supermarket queue about your baby's outfit, your mother-in-law about your feeding choice, and a well-meaning friend about your sleep routine - none of it requested, all of it delivered with total confidence.",
+        "Unsolicited parenting advice is one of the most universally reported frustrations of new parenthood, and there's a reason it's so relentless - understanding that reason makes it a lot easier to let most of it go.",
+      ],
+      sections: [
+        {
+          heading: "Why it's so relentless",
+          paragraphs: [
+            "Parenting is one of the few areas where almost everyone has personal experience, which makes people feel qualified to weigh in even when circumstances, generations, and evidence have moved on considerably since their own experience.",
+            "It's also often well-intentioned rather than critical - many people genuinely believe they're being helpful, or are recreating a moment of connection from their own early parenting days, even when the delivery lands as judgment.",
+          ],
+        },
+        {
+          heading: "The responses that actually work",
+          bullets: [
+            '"That\'s interesting, we\'re doing it this way for now" - acknowledges without inviting debate',
+            '"I\'ll keep that in mind" - a genuinely useful closing line that ends the exchange without conflict',
+            "A simple thank you, said warmly, which surprises people enough that they rarely push further",
+            'Redirecting to the baby - "isn\'t she a good sleeper" - which shifts focus without addressing the advice at all',
+          ],
+        },
+        {
+          heading: 'When it comes from someone close to you',
+          paragraphs: [
+            "Advice from a parent, in-law, or close friend often carries more weight, precisely because the relationship matters and their opinion isn't easy to brush off with a one-liner. A direct, private conversation - \"I know you mean well, but I need to make these calls myself right now\" - tends to land better than deflecting in the moment.",
+            "It's also worth remembering that agreeing to disagree is allowed. You don't need them to concede the advice was wrong. You just need them to stop repeating it.",
+          ],
+        },
+        {
+          heading: 'The filter worth applying',
+          paragraphs: [
+            "Not all advice is unsolicited nonsense - some of it is genuinely useful, especially from people who've been through very similar circumstances recently. The filter isn't who's speaking, it's whether it's relevant to your actual situation, your actual baby, and your actual values. Most of what triggers real frustration fails that filter immediately.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The bit worth holding onto',
+        paragraphs: [
+          "You are allowed to nod, say thanks, and do the complete opposite the second they're out of earshot. Politeness is not agreement, and a pleasant exchange in the supermarket doesn't obligate you to change a single thing about how you're raising your child.",
+          "You know your baby better than the stranger in the queue. That's not arrogance. That's just true.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'writing-letters-to-your-child',
+    cover: 'c-memories',
+    label: 'Memory keeping',
+    tag: 'Memories',
+    title: "Writing letters to your child: a small habit with a big payoff later",
+    body: "A few lines, written every so often, that turn into one of the most treasured things you'll ever hand them. Here's the low-effort version that actually gets done.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere, in the future, your child will be old enough to read something you wrote about them as a baby - and there is almost nothing that lands harder, in the best way, than a parent's own words from a time they can't remember themselves.",
+        "Writing letters to your child sounds like one more thing to add to an already full plate. Done in the lowest-effort way possible, it's actually one of the easiest memory-keeping habits there is.",
+      ],
+      sections: [
+        {
+          heading: "Why it matters more than it seems like it would",
+          paragraphs: [
+            "A letter captures something photos and milestone charts don't: what you were actually thinking and feeling at that exact moment, in your own voice, before hindsight smooths it over. Years later, that voice - unpolished, specific, present-tense - is often more moving to an adult child than any photo could be.",
+            "It also becomes a record for you as much as for them - a way of remembering who you were as a new parent, not just who your baby was as a baby.",
+          ],
+        },
+        {
+          heading: 'The version that actually gets written',
+          bullets: [
+            "Skip the beautiful stationery and the pressure to write something profound - a few honest lines typed into your phone counts completely",
+            'Write on any prompt that\'s easy to remember - a birthday, a hard day, a random Tuesday when something struck you',
+            "Don't wait for something big to happen - some of the most treasured letters are about perfectly ordinary days",
+            'One line is enough on the days you have nothing more. Consistency matters more than length',
+          ],
+        },
+        {
+          heading: 'What to actually write about, when you\'re stuck',
+          bullets: [
+            'What they\'re like right now - their laugh, their current obsession, the thing they do that only they do',
+            'What\'s hard about this season, honestly, not just the highlight reel',
+            "Something you hope for them, or something you're learning about yourself through them",
+            "A specific moment from that day or week, described in detail rather than summarised",
+          ],
+        },
+        {
+          heading: 'Where to actually keep them',
+          paragraphs: [
+            "A shared note on your phone, a simple document, or a dedicated app all work equally well - the format matters far less than whether it's easy enough to actually use. The letters you never write because the system was too precious are worth nothing; the messy, imperfect ones you actually finish are worth everything.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The moment this is really for',
+        paragraphs: [
+          "This isn't really about the letters landing perfectly today. It's about a future moment - a birthday, a wedding, a hard day of their own - when your own words from this exact season become something they didn't know they needed.",
+          "You don't need to write often, or well. You just need to write something, sometimes, in your own real voice. That's the whole thing.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'memories-on-the-hard-days',
+    cover: 'c-memories',
+    label: 'Memory keeping',
+    tag: 'Memories',
+    title: "Memories on the hard days: why the tough moments deserve capturing too",
+    body: "It's easy to reach for the camera on the good days and put it away on the hard ones. Here's why the hard days are worth keeping a record of as well.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "The instinct on a genuinely hard day - the one where the baby won't settle, you haven't showered, and everything feels like too much - is to want the day over, not documented. Memory-keeping tends to happen on the good days, when there's something photogenic to capture, and quietly skip the rest.",
+        "But the hard days are as much a part of the real story as the good ones, and there's a real case for capturing at least some of them too - not for anyone else, but for you.",
+      ],
+      sections: [
+        {
+          heading: 'Why the highlight-reel-only approach backfires later',
+          paragraphs: [
+            "If every kept memory is a good moment, the record you build ends up telling a slightly false story - one that, looking back later, can make early parenthood look easier than it actually was, and can make your own struggle at the time feel less valid in hindsight.",
+            "Capturing some of the hard days, even briefly, creates a truer, more useful record - one that can genuinely help you (or a friend going through it, or even your child one day) understand how hard, and how survivable, that season really was.",
+          ],
+        },
+        {
+          heading: "What this doesn't mean",
+          paragraphs: [
+            "This isn't a suggestion to document every rough moment in detail, or to force reflection during a genuinely difficult day when all you need is to get through it. It's a gentle nudge to occasionally note the hard days too, in whatever low-effort way fits - not to dwell, but to keep the record honest.",
+          ],
+        },
+        {
+          heading: 'Low-effort ways to capture a hard day',
+          bullets: [
+            'A single line, typed later that night: "today was really hard because..." - no elaboration required',
+            'A voice memo talking through the day as a form of processing, which doubles as a record',
+            'A photo of the mess, the unwashed dishes, the exhausted 4pm slump - unglamorous, but true',
+            "Simply noting the date and a word or two - 'hard day, teething' is enough to jog the full memory later",
+          ],
+        },
+        {
+          heading: 'What it gives you later',
+          paragraphs: [
+            "Looking back at a genuinely hard stretch, once it's passed, tends to bring a specific kind of relief - proof that you got through something real, not a vague sense that things were 'a bit tough.' That proof matters, especially in the moments down the track when you doubt whether you're managing as well as you actually are.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'A fuller, truer record',
+        paragraphs: [
+          "The good days deserve capturing, and so do the hard ones - not in equal measure, and not with equal detail, but enough that the record you build reflects what this season actually was, not just its best moments.",
+          "You don't need to feel anything profound about a hard day to jot it down. You just need thirty seconds and the honesty to say it was hard. That's the whole record, and it's worth having.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'newborn-sleep-schedule-week-by-week',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: "Newborn sleep schedule: what's normal week by week (and when it starts to settle)",
+    body: "There's no strict newborn sleep schedule in the first weeks - just wide, normal ranges. Here's what an average newborn sleep pattern actually looks like, week by week.",
+    readMinutes: 7,
+    published: true,
+    content: {
+      hook: [
+        "Search 'newborn sleep schedule' and you'll find charts with tidy blocks of colour, implying your baby should be asleep from 7pm to 7am with two neat naps in between. Reality looks nothing like that in the early weeks, and comparing your baby to the chart is a fast way to feel like you're doing something wrong.",
+        "Here's a more honest week-by-week guide to newborn sleep patterns - what's typical, what's a wide normal range, and roughly when a more predictable schedule actually starts to emerge.",
+      ],
+      sections: [
+        {
+          heading: 'Weeks 1-2: no schedule, and that\'s expected',
+          paragraphs: [
+            "Total sleep in the first fortnight is high - often 16-18 hours across 24 hours - but it comes in short, unpredictable bursts of 2-4 hours, day and night, with no meaningful difference between the two yet. Newborns haven't developed circadian rhythm, the internal body clock that eventually differentiates day from night sleep.",
+            "There is no useful newborn sleep schedule to follow here. Feed-based sleep cycles, not clock time, are the only rhythm that matters right now.",
+          ],
+        },
+        {
+          heading: 'Weeks 3-6: the first hints of pattern',
+          paragraphs: [
+            "Total sleep stays similar, but stretches occasionally lengthen, particularly overnight, as babies' stomachs grow and feeds become more efficient. Some babies start to show a longer stretch of 4-5 hours somewhere in the night, though plenty don't yet - both are within normal range.",
+            "This is also when the evening witching hour tends to peak, which can make early-night sleep look worse even as overnight sleep is quietly starting to improve.",
+          ],
+        },
+        {
+          heading: 'Around 8-12 weeks: circadian rhythm starts to kick in',
+          paragraphs: [
+            "This is usually the first point where a genuine day-night distinction starts to emerge, driven by melatonin production maturing. Naps may start to loosely cluster, and a longer overnight stretch (often 5-6 hours) becomes more common, though still highly variable baby to baby.",
+            "This is a good stage to start light, flexible sleep-time cues - dimming lights in the evening, a simple wind-down routine - to support the rhythm that's beginning to develop, without expecting a rigid schedule yet.",
+          ],
+        },
+        {
+          heading: 'Rough total sleep guide by age',
+          bullets: [
+            'Newborn (0-3 months): around 14-17 hours across 24 hours, in unpredictable chunks',
+            '3-6 months: around 12-15 hours, with naps starting to consolidate into a more visible pattern',
+            'By 6 months: many babies are having 3 naps trending toward 2, with a longer overnight stretch becoming more typical',
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The most useful mindset shift',
+        paragraphs: [
+          "In the newborn stage, following your baby's cues - feed, brief awake window, sleep, repeat - will get you further than trying to force a schedule that their body isn't developmentally ready for yet. The predictable rhythm most sleep charts promise does come, usually somewhere in the 8-16 week range, just later and messier than the charts suggest.",
+          "If sleep still feels chaotic at 6 or 8 weeks, that's not a sign anything's wrong. It's a sign your baby is exactly where most babies are at that age.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'how-to-swaddle-a-baby-safely',
+    cover: 'c-newborn',
+    label: 'The first six weeks',
+    tag: 'Newborn',
+    title: "How to swaddle a baby safely: a step-by-step guide",
+    body: "Learning how to swaddle a baby properly can genuinely improve sleep - but done incorrectly, it carries real risks. Here's the safe method, step by step.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "A good swaddle can be the difference between a baby who startles themselves awake every twenty minutes and one who sleeps a solid stretch. A bad one can be a genuine safety risk. The gap between the two often comes down to a few specific details most people are never taught properly.",
+        "Here's how to swaddle a baby safely, step by step, along with the guidelines that actually matter.",
+      ],
+      sections: [
+        {
+          heading: 'Why swaddling helps',
+          paragraphs: [
+            "Swaddling recreates the snug containment of the womb and contains the Moro (startle) reflex, which otherwise regularly wakes young babies from sleep. Done correctly, it can meaningfully improve both settling and sleep duration in the first few months.",
+          ],
+        },
+        {
+          heading: 'The safe swaddle, step by step',
+          bullets: [
+            'Lay a lightweight, breathable swaddle blanket in a diamond shape, with the top corner folded down',
+            'Place baby on their back, shoulders just below the folded edge',
+            'Bring one arm down by their side (not across the chest) and wrap that side\'s fabric snugly across the body and tucked underneath',
+            'Repeat with the other arm on the opposite side',
+            'Fold the bottom point up and tuck it in, leaving room at the hips for legs to bend up and out - never straight and tightly bound',
+            'Check that you can fit two to three fingers between the swaddle and baby\'s chest - snug, not restrictive',
+          ],
+        },
+        {
+          heading: 'The non-negotiable safety rules',
+          bullets: [
+            "Always place a swaddled baby on their back to sleep, every single time",
+            "Hip room matters - a swaddle that forces straight, tightly bound legs increases the risk of hip dysplasia; look for 'hip-healthy' certified swaddle products if using a wearable version",
+            "Stop swaddling the arms as soon as there are any signs of rolling, generally around 8-12 weeks but varies by baby - a baby who can roll but is swaddled arms-in is at risk of rolling onto their front and being unable to push up",
+            "Never add loose blankets on top of a swaddle, and keep the room at a safe, moderate temperature to avoid overheating",
+            "Check the swaddle isn't loosening and covering the face during sleep",
+          ],
+        },
+        {
+          heading: 'Signs it\'s time to transition out',
+          paragraphs: [
+            "The moment a baby shows any rolling attempt, even one-directional, it's time to stop arm swaddling and move to an arms-out option or a sleep bag, regardless of age. This is the single most important safety cut-off in the whole swaddling process.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The short version',
+        paragraphs: [
+          "A safe swaddle is snug around the chest, loose around the hips, always paired with back sleeping, and retired the moment rolling begins. Get those details right and it's one of the more genuinely useful early sleep tools available.",
+          "If in doubt about technique, ask your midwife or MCH nurse to check your swaddle in person once - it's a five-minute conversation that's worth having.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'breastfeeding-latch-how-to-fix-a-painful-latch',
+    cover: 'c-feeding',
+    label: 'Feeding, decoded',
+    tag: 'Feeding',
+    title: "Breastfeeding latch: how to get a good latch (and fix a painful one)",
+    body: "A good breastfeeding latch shouldn't hurt past the first few seconds. If it does, here's what a proper latch looks like and how to actually fix a bad one.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "You've heard it a dozen times: 'if it hurts, the latch is wrong.' True, but not exactly useful when you're staring down a baby who seems attached fine and it still feels like broken glass every time they feed.",
+        "A good breastfeeding latch has specific, checkable features - not just a vague feeling of rightness. Here's what to actually look for, and how to fix it when it's off.",
+      ],
+      sections: [
+        {
+          heading: 'What a good latch actually looks like',
+          bullets: [
+            'A wide open mouth before latching, not a small, tight one - aim for baby to take a large mouthful of breast, not just the nipple',
+            'More of the areola visible above baby\'s top lip than below their bottom lip - the latch should be asymmetrical, aimed at the lower jaw',
+            "Lips flanged outward, not tucked in or pursed",
+            "Rhythmic, deep jaw movement that reaches the ear, with audible swallowing, not rapid shallow sucking only at the front of the mouth",
+            "A nipple that comes out rounded after a feed, not flattened, creased, or blanched white",
+          ],
+        },
+        {
+          heading: 'The most common latch fix',
+          paragraphs: [
+            "If pain starts immediately and doesn't ease within the first 30-60 seconds, unlatch (a clean finger in the corner of the mouth breaks the seal) and try again rather than pushing through. Repeatedly feeding on a bad latch is what causes the damage that then makes every subsequent feed worse.",
+            "Bring baby to the breast, not the breast to baby - a common error is leaning forward to post the nipple into baby's mouth, which usually produces a shallow, front-of-mouth latch. Instead, hold baby close with their nose level with the nipple, wait for a wide gape, and bring them onto the breast quickly, chin first.",
+          ],
+        },
+        {
+          heading: 'Positions worth trying if it\'s still not working',
+          bullets: [
+            'Laid-back (biological nurturing) position - reclining back with baby tummy-down on your chest, letting gravity and their own instincts help them find the breast',
+            'Rugby/football hold - baby tucked under your arm at your side, useful after a caesarean or for smaller babies who need more head support',
+            "Cross-cradle hold - supporting baby's head with the opposite hand to the feeding breast, which gives more precise control over positioning while learning",
+          ],
+        },
+        {
+          heading: 'When to get hands-on help',
+          paragraphs: [
+            "If pain persists past the first couple of weeks despite trying different positions, or if there's visible nipple damage, cracking, or bleeding, a lactation consultant can watch a full feed and spot what's actually happening - which is often something small and highly fixable that's very hard to diagnose on your own.",
+            "Tongue tie is also worth ruling out if latch pain persists despite good positioning, since it's one of the more common underlying causes.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The reassurance worth holding onto',
+        paragraphs: [
+          "Some tenderness in the very first days, as your nipples adjust, is common. Ongoing, sharp, or worsening pain is not something you have to just push through - it's a specific, fixable problem in the vast majority of cases.",
+          "A good latch is learnable for both of you. It rarely comes perfectly on the first try, and that's not a reflection of anything you're doing wrong.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'formula-feeding-guide-how-to-prepare-bottles-safely',
+    cover: 'c-feeding',
+    label: 'Feeding, decoded',
+    tag: 'Feeding',
+    title: "Formula feeding guide: how to choose a formula and prepare bottles safely",
+    body: "Choosing a formula and getting bottle prep right shouldn't feel this complicated. A clear, judgment-free formula feeding guide for exhausted parents.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "The formula aisle alone is enough to induce decision paralysis - dozens of tins, each claiming to be closest to breastmilk, gentler, or better for some specific concern. Add in bottle prep instructions that seem stricter than a lab protocol, and it's easy to feel like you need a certification just to feed your baby.",
+        "It's simpler than it looks. Here's a clear, practical formula feeding guide covering choosing a formula and preparing bottles safely.",
+      ],
+      sections: [
+        {
+          heading: 'Choosing a formula',
+          paragraphs: [
+            "In Australia, all standard infant formulas sold are regulated to meet the same core nutritional standards, meaning a basic first-stage formula from any major brand is a genuinely adequate, safe choice - the premium positioning of some products reflects marketing more than a meaningful nutritional gap.",
+            "Specialised formulas (lactose-free, anti-reflux, hypoallergenic/hydrolysed for diagnosed allergy) exist for specific medical reasons and are worth discussing with a GP or paediatrician rather than choosing based on general anxiety - most babies do not need a specialised formula.",
+          ],
+        },
+        {
+          heading: 'How to prepare a bottle safely',
+          bullets: [
+            'Boil fresh tap water and let it cool to no less than 70°C before mixing - this temperature is specifically required to kill bacteria that can be present in formula powder',
+            'Always add water to the bottle first, then the correct number of scoops of powder, levelled off (not packed or heaped) with the scoop provided',
+            "Follow the exact ratio on the tin - never add extra scoops to 'make it stronger' or extra water to stretch it further, both of which are unsafe",
+            "Cool the mixed bottle under cold running water or in an ice bath before feeding, and always test the temperature on your wrist",
+            "Prepare bottles fresh for each feed where possible; if made in advance, refrigerate immediately and use within 24 hours",
+          ],
+        },
+        {
+          heading: 'Storage and hygiene basics',
+          bullets: [
+            'Sterilise bottles and teats until at least 12 months (boiling, steam, or cold-water sterilising solutions all work)',
+            'Discard any formula left in the bottle after a feed rather than reheating or reusing it',
+            "Keep an unopened tin in a cool, dry place, and use an opened tin within the timeframe stated on the packaging (commonly around 4 weeks)",
+            "Never microwave a bottle - it heats unevenly and can create dangerous hot spots even when the outside feels fine",
+          ],
+        },
+        {
+          heading: 'A note on mixed and combination feeding',
+          paragraphs: [
+            "Formula and breastmilk can be combined in the same feeding journey without issue - what matters is that each is prepared, stored, and offered according to its own safety guidelines, not that you pick one exclusively.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The bit worth hearing',
+        paragraphs: [
+          "Fed is fed. A safely prepared bottle of formula supports a thriving baby just as well as any other feeding method, and the safety steps above are quick to build into habit within a few days.",
+          "Once the routine clicks, formula prep takes minutes, not the anxiety-inducing process it can feel like on day one.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'baby-sleep-regressions-by-age',
+    cover: 'c-sleep',
+    label: 'Sleep, honestly',
+    tag: 'Sleep',
+    title: "Baby sleep regressions by age: the 4, 8, 12 and 18 month timeline",
+    body: "Sleep regressions tend to cluster around predictable ages. Here's the full baby sleep regression timeline, what drives each one, and what actually helps.",
+    readMinutes: 7,
+    published: true,
+    content: {
+      hook: [
+        "Just when a sleep pattern finally feels settled, it falls apart again - and if you've been through this before, you already suspect it's 'a regression,' even if you can't quite place why they keep happening on a rough schedule of their own.",
+        "Sleep regressions aren't random. Most cluster around specific developmental ages, each driven by a different leap. Here's the full timeline.",
+      ],
+      sections: [
+        {
+          heading: 'The 4-month regression',
+          paragraphs: [
+            "Around 3-5 months, sleep architecture matures into adult-like cycles with lighter and deeper stages, causing more frequent brief wake-ups between cycles. This is considered a permanent shift rather than a passing phase - what improves is your baby's ability to link cycles back together, not the underlying pattern reversing.",
+          ],
+        },
+        {
+          heading: 'The 8-month regression',
+          paragraphs: [
+            "Around 8-10 months, major developmental leaps - crawling, pulling to stand, object permanence, and often separation anxiety - tend to disrupt sleep simultaneously. Babies at this age may practise new physical skills in the cot, and separation anxiety can make settling without a parent present genuinely harder for a stretch.",
+            "This regression is often shorter-lived than the 4-month shift, commonly easing within 2-4 weeks as the new skills consolidate.",
+          ],
+        },
+        {
+          heading: 'The 12-month regression',
+          paragraphs: [
+            "Walking, language explosion, and often the transition toward one nap a day converge around this age. A nap transition attempted too early can look identical to a regression, so it's worth checking whether this is a temporary disruption or a genuine nap-count change (see our guide on nap transitions for the difference).",
+          ],
+        },
+        {
+          heading: 'The 18-month regression',
+          paragraphs: [
+            "Growing independence, stronger opinions, and the beginnings of testing boundaries (including at bedtime) show up around 18 months, alongside continued language development. This one often looks more behavioural - bedtime resistance, calling out, wanting a parent to stay - than the earlier regressions, which were more purely physiological.",
+          ],
+        },
+        {
+          heading: 'What helps across all of them',
+          bullets: [
+            'Keep the routine consistent even when sleep itself is messy - predictability is the anchor during a regression',
+            'Expect a temporary step back and resist the urge to overhaul the whole approach in response to a few rough weeks',
+            "Offer extra reassurance and connection during the day, which can ease clinginess and separation anxiety at bedtime",
+            "Give it time before troubleshooting further - most regressions resolve within 2-6 weeks as the underlying developmental leap settles",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The pattern worth remembering',
+        paragraphs: [
+          "Every regression on this timeline is a sign of development happening on schedule, not a sign that sleep is broken or that something needs fixing long-term. They're temporary responses to genuine leaps forward.",
+          "Ride out the rough stretch with the routine intact, and sleep almost always finds its way back - often to a better place than before, once the new skill has settled in.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'how-to-get-baby-to-sleep-through-the-night',
+    cover: 'c-sleep',
+    label: 'Sleep, honestly',
+    tag: 'Sleep',
+    title: "How to get baby to sleep through the night (and what 'through the night' actually means)",
+    body: "Before chasing a full night's sleep, it helps to know what's actually realistic at each age. Here's an honest breakdown of how to get baby to sleep through the night.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "'Sleeping through the night' is one of the most searched, most misunderstood phrases in early parenting - partly because it means something different at every age, and partly because the marketing version (12 hours, no waking) sets an expectation that isn't realistic for most babies for a long time.",
+        "Here's a more honest look at how to actually get a baby to sleep through the night, and what's realistic to expect along the way.",
+      ],
+      sections: [
+        {
+          heading: "What 'sleeping through the night' actually means, clinically",
+          paragraphs: [
+            "In infant sleep research, 'sleeping through the night' is often defined as a stretch of 5-6 consecutive hours - not a full 11-12 hour night. Many babies reach this shorter definition well before they reach a true all-night stretch, which is why the phrase can be misleading when used loosely.",
+            "A true, consistent full night without any waking often doesn't happen reliably until well into the second year for many children, and plenty of perfectly normal toddlers still wake occasionally beyond that.",
+          ],
+        },
+        {
+          heading: 'What actually supports longer stretches',
+          bullets: [
+            'A consistent bedtime routine that signals sleep is coming - the same few steps, in the same order, most nights',
+            "Full feeds during the day and evening, so hunger is genuinely met before the longest sleep stretch begins",
+            'A dark, cool, quiet sleep environment with white noise if helpful, supporting smoother transitions between sleep cycles',
+            "Age-appropriate awake windows, since both overtired and undertired babies wake more, not less",
+            "Some space to practise resettling independently once a baby is developmentally ready, rather than immediate intervention at every stir",
+          ],
+        },
+        {
+          heading: "What doesn't reliably speed it up",
+          bullets: [
+            "Starting solids early - research doesn't support that solid food improves overnight sleep before a baby is developmentally ready for it",
+            "A 'better' formula or dream feed alone, without addressing routine and environment factors",
+            "Keeping a baby awake longer than their tolerance in the hope they'll 'sleep better from exhaustion' - this usually backfires into more, not less, night waking",
+          ],
+        },
+        {
+          heading: 'When night waking is worth a closer look',
+          paragraphs: [
+            "Frequent waking alongside poor weight gain, snoring or laboured breathing, or a sudden dramatic change from an established pattern is worth raising with a GP or MCH nurse, since these can point to something specific worth checking, separate from typical developmental night waking.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The expectation worth resetting',
+        paragraphs: [
+          "If your baby is having a 5-6 hour stretch, that already meets the clinical bar for 'sleeping through the night' - even if it doesn't feel like it at 2am when the stretch ends and a feed is still needed after.",
+          "Longer, more consistent nights tend to build gradually with routine, environment, and age - not overnight, and rarely on the timeline the ads suggest.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'postnatal-depression-symptoms-and-where-to-get-help',
+    cover: 'c-wellbeing',
+    label: 'Self & restoration',
+    tag: 'Wellbeing',
+    title: "Postnatal depression: symptoms, signs, and where to get help in Australia",
+    body: "Postnatal depression affects around 1 in 5 Australian mums. Here are the real signs to look for, how it differs from the baby blues, and exactly where to get support.",
+    readMinutes: 7,
+    published: true,
+    content: {
+      hook: [
+        "The baby blues get talked about, briefly, in hospital pamphlets. What gets talked about far less is what happens if the low mood doesn't lift after a week or two - and how to tell the difference between an exhausting, hard stretch and something that needs proper support.",
+        "Postnatal depression is common, treatable, and nothing to feel ashamed of. Here are the actual signs, how it differs from the baby blues, and where to get help in Australia.",
+      ],
+      sections: [
+        {
+          heading: 'Baby blues vs postnatal depression',
+          paragraphs: [
+            "The baby blues affect the majority of new mums, typically peaking around day 3-5 and resolving within roughly two weeks, driven by the sharp hormonal shift after birth. Expect some tearfulness, mood swings, and overwhelm during this window.",
+            "Postnatal depression is different in duration and intensity - it persists beyond two weeks, tends to deepen rather than ease, and affects roughly 1 in 5 Australian mothers. It's a recognised medical condition, not a personal failing or a sign of not loving your baby enough.",
+          ],
+        },
+        {
+          heading: 'The signs worth taking seriously',
+          bullets: [
+            'Persistent low mood, sadness, or emptiness lasting most of the day, most days, for more than two weeks',
+            'Loss of interest or pleasure in things that used to feel good, including time with the baby',
+            'Overwhelming anxiety, irritability, or a sense of panic that doesn\'t ease',
+            'Difficulty bonding with your baby, or feeling numb or disconnected from them',
+            'Changes in appetite or sleep beyond what\'s explained by newborn demands',
+            'Intrusive, unwanted thoughts, or thoughts of harming yourself or your baby - these need immediate support and are more common than most people realise, and treatable',
+          ],
+        },
+        {
+          heading: 'It can also affect partners',
+          paragraphs: [
+            "Postnatal depression and anxiety aren't limited to birthing mothers - partners can experience it too, often under-recognised because attention naturally focuses on the mother and baby. The same signs are worth watching for in a partner, and the same support pathways apply.",
+          ],
+        },
+        {
+          heading: 'Where to actually get help in Australia',
+          bullets: [
+            'PANDA (Perinatal Anxiety & Depression Australia) - National Helpline 1300 726 306, for both mums and partners',
+            'Your GP - a mental health care plan can be arranged in a single appointment and provides subsidised access to psychologists',
+            'Your Maternal Child Health nurse - trained to screen for postnatal depression and refer appropriately',
+            'PANDA and Beyond Blue both offer online resources, and Beyond Blue\'s Support Line (1300 22 4636) is available 24/7',
+            'In a crisis, or with thoughts of harming yourself or your baby, call 000 or Lifeline on 13 11 14 immediately',
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The thing worth saying plainly',
+        paragraphs: [
+          "Postnatal depression is not a reflection of how much you love your baby, how capable a parent you are, or how grateful you should feel. It's a medical condition with a genuinely high recovery rate once it's treated - and reaching out for that treatment is one of the strongest things you can do for yourself and your family.",
+          "If any of this sounds familiar, please talk to someone today - your GP, your MCH nurse, or PANDA on 1300 726 306. You don't have to be in crisis to reach out, and you don't have to carry this alone.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'the-mental-load-in-parenting-what-it-is',
+    cover: 'c-wellbeing',
+    label: 'Self & restoration',
+    tag: 'Wellbeing',
+    title: "The mental load in parenting: what it actually is, and how to genuinely share it",
+    body: "The mental load isn't about who does more chores - it's about who's doing the invisible thinking, remembering and managing behind every task. Here's how to name it and share it properly.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "You didn't just book the appointment - you remembered it was due, tracked the right window for it, coordinated the calendar clash, and packed the bag for it. Your partner did the physical task of driving there. On paper, you 'shared' the appointment. In reality, one of you carried almost the entire thing.",
+        "This is the mental load - and it's one of the most under-recognised sources of exhaustion and resentment in modern parenting. Here's what it actually is, and how to genuinely share it rather than just the visible tasks around it.",
+      ],
+      sections: [
+        {
+          heading: "What the mental load actually is",
+          paragraphs: [
+            "The mental load is the invisible cognitive labour of noticing something needs doing, remembering it, planning it, and tracking whether it got done - distinct from the physical labour of actually doing it. It includes anticipating needs before they become urgent (nappies running low, an appointment due, a school form to sign) and holding all of it in your head simultaneously, all the time.",
+            "It's called invisible because it produces no obvious end result to point to - nobody sees the mental load being carried, only the tasks that eventually come out of it, which is exactly why it's so easy for one partner's contribution to go unnoticed.",
+          ],
+        },
+        {
+          heading: 'Why splitting tasks 50/50 doesn\'t fix it',
+          paragraphs: [
+            "A common but incomplete fix is dividing the physical task list evenly. This misses the point if one partner is still the one noticing, remembering, and assigning every task on that list - the physical labour becomes shared while the cognitive labour, which is often more exhausting, stays lopsided.",
+            "Genuine sharing means one partner independently notices, plans, and executes an entire domain (say, all medical appointments, start to finish) without needing to be asked, reminded, or managed through it.",
+          ],
+        },
+        {
+          heading: 'How to actually redistribute it',
+          bullets: [
+            'Assign whole domains, not individual tasks - one partner fully owns "appointments," the other fully owns "meal planning," rather than splitting each list item down the middle',
+            'Make the invisible visible - a shared list or tracker that both partners can see and update removes the need for one person to hold it all in their head and relay it verbally',
+            "Resist the urge to double-check or redo a partner's version of a task - inconsistent standards are part of sharing the load, not a sign it was done wrong",
+            "Revisit the split regularly, since work, energy, and needs shift - what worked at 3 months postpartum may need renegotiating at 9",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The conversation worth having',
+        paragraphs: [
+          "Most resentment around the mental load doesn't come from a partner refusing to help - it comes from one person being asked to notice, remember, and manage a whole household's needs largely alone, while the other genuinely doesn't see how much that involves until it's named out loud.",
+          "Naming it specifically - not 'you don't help enough' but 'I'm the only one tracking X, Y and Z, can you fully own one of these' - tends to shift things faster than any amount of quiet resentment ever could.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'baby-milestones-by-month-first-year-guide',
+    cover: 'c-memories',
+    label: 'Memory keeping',
+    tag: 'Memories',
+    title: "Baby milestones by month: a first year guide (and how to actually keep track)",
+    body: "From the first smile to first steps, here's a realistic guide to baby milestones by month - plus a simple way to actually keep track without the pressure of a perfect baby book.",
+    readMinutes: 7,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere between the sleep deprivation and the day-to-day of keeping a baby alive, the milestones themselves can blur together - was the first real laugh at 8 weeks or 10? Did rolling happen before or after the trip to your parents'?",
+        "Here's a realistic guide to baby milestones by month across the first year, plus a simpler way to actually keep track of them as they happen, rather than trying to reconstruct them later from memory.",
+      ],
+      sections: [
+        {
+          heading: '0-3 months',
+          bullets: [
+            'Social smile (distinct from reflexive newborn smiles) - typically 6-8 weeks',
+            'Lifting head briefly during tummy time - around 6-8 weeks, strengthening through this window',
+            'Following an object or face with their eyes - around 6-10 weeks',
+            'Cooing and early vocal sounds beyond crying - around 8-12 weeks',
+          ],
+        },
+        {
+          heading: '4-6 months',
+          bullets: [
+            'Rolling from tummy to back, then back to tummy - typically 4-6 months, though the order varies by baby',
+            'Reaching for and grasping objects deliberately - around 4-5 months',
+            'Laughing out loud - commonly 3-4 months',
+            'Sitting with support, moving toward sitting unsupported by the end of this window',
+          ],
+        },
+        {
+          heading: '7-9 months',
+          bullets: [
+            'Sitting unsupported - typically 6-8 months',
+            'Crawling (or an alternative like bottom-shuffling) - widely variable, commonly 7-10 months, and some babies skip crawling altogether',
+            'Babbling with repeated syllables ("bababa", "dadada") - around 6-9 months',
+            'Object permanence emerging - understanding that something still exists when out of sight, which is also what drives the separation anxiety common at this age',
+          ],
+        },
+        {
+          heading: '10-12 months',
+          bullets: [
+            'Pulling to stand and cruising along furniture - typically 9-12 months',
+            'First unsupported steps - hugely variable, anywhere from 9-18 months is within normal range',
+            'First recognisable word - commonly around 12 months, though understanding language comes much earlier than speaking it',
+            'Waving, pointing, and other early gestures - around 9-12 months',
+          ],
+        },
+        {
+          heading: 'The most important thing to know about all of these',
+          paragraphs: [
+            "Every range above is exactly that - a wide, normal range, not a deadline. Milestones are also generally more useful viewed as a trend over time than a single date - a baby steadily progressing, even on the later end of every range, is usually doing just fine. Persistent concern is best raised with your MCH nurse or GP, who can look at the full picture rather than one milestone in isolation.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'A simpler way to actually track them',
+        paragraphs: [
+          "Rather than a single beautiful baby book, most parents find it easier to log milestones the moment they happen - a quick note or photo, timestamped automatically - rather than trying to recall exact dates weeks or months later. The date matters less in the moment than simply capturing that it happened at all.",
+          "You'll forget the exact week more often than you'd expect. A quick, low-effort note in the moment is worth more than a perfect memory you're relying on to hold it later.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'first-year-of-baby-photos-how-to-keep-up',
+    cover: 'c-memories',
+    label: 'Memory keeping',
+    tag: 'Memories',
+    title: "Baby's first year photos: how to actually keep up with it (without a fancy camera)",
+    body: "You don't need a monthly milestone card, a professional shoot, or a perfectly curated album. Here's a realistic approach to baby's first year photos that actually survives contact with real life.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "The internet is full of beautifully styled 'baby's first year' photo templates - a milestone card each month, a co-ordinated outfit, a consistent backdrop. Most of them get attempted twice and abandoned by month three, not because you don't care, but because the format itself demands more time and energy than early parenthood has to give.",
+        "Here's a more realistic approach to documenting baby's first year in photos - one that's actually sustainable with a phone, low energy, and no styling budget.",
+      ],
+      sections: [
+        {
+          heading: "Why the styled version usually falls apart",
+          paragraphs: [
+            "Monthly milestone photo templates require remembering the exact date, finding the prop or card, dressing baby in something specific, and taking the photo in decent light, all in the same short window - a lot of coordination for a task that's meant to be joyful, not another deadline.",
+            "The photos that actually get taken, and actually get treasured later, tend to be the low-effort, in-the-moment ones - not the styled ones you had to plan for.",
+          ],
+        },
+        {
+          heading: 'A version that actually survives the year',
+          bullets: [
+            'Pick one simple, repeatable frame - the same chair, the same blanket, the same spot on the couch - so a rough monthly comparison is possible without extra effort',
+            'Take the photo whenever you remember, not on a strict date - a "month four, roughly" photo is worth infinitely more than no photo at all',
+            "Use your phone. Professional-quality isn't the point - a clear, well-lit phone photo captures the moment just as well",
+            'Snap a few candid, ordinary shots regularly, not just posed ones - these often become the most treasured images later, more than any milestone card',
+          ],
+        },
+        {
+          heading: 'Keeping them organised without extra admin',
+          bullets: [
+            'A single dedicated album (shared with your partner) beats scattering photos across multiple apps and camera rolls',
+            "Batch a quick sort every few weeks rather than trying to caption and organise every photo the day it's taken",
+            'Let quantity be high and curation be low for now - editing down to favourites is a task for later, if you ever get to it, not a requirement for capturing the memory now',
+          ],
+        },
+        {
+          heading: 'If you want a proper keepsake later',
+          paragraphs: [
+            "A photo book or printed album is far easier to build after the fact from a large, messy pool of casual photos than it is to maintain in real time as a perfectly curated project. Capture generously now; curate later, if and when you have the time and energy for it.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The permission slip',
+        paragraphs: [
+          "You don't need the styled template, the matching outfits, or a photo every single month on the dot to have a beautiful record of your baby's first year. A phone, a repeatable habit, and a low bar for 'good enough' will get you there.",
+          "The photos that end up mattering most are rarely the perfectly staged ones. They're the ordinary Tuesday ones you almost didn't bother taking.",
         ],
       },
     },

@@ -1018,6 +1018,15 @@ footer{background:var(--wine-deep);color:var(--cream);padding:80px 0 30px;margin
   .nav-caret.open{transform:rotate(180deg)}
   .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:44px}
   .steps,.features-grid,.testimonials-grid,.blog-grid,.founders-grid{grid-template-columns:1fr}
+  .testimonials-grid{gap:16px}
+  .tst-featured{gap:12px;margin:0 auto 36px}
+  .tst-featured-photo{width:96px;height:96px}
+  .tst-featured-quote{font-size:1rem}
+  .tst{padding:22px 20px}
+  .tst p{font-size:0.92rem;margin-bottom:16px}
+  .tst .av{width:38px;height:38px;font-size:0.95rem}
+  .tst .who b{font-size:0.86rem}
+  .tst .who span{font-size:0.78rem}
   .blog-filter-pills{display:none}
   .blog-filter-select{display:block}
   .values-grid{grid-template-columns:repeat(2,1fr)}

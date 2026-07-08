@@ -994,11 +994,11 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
   .top-bar-logo{left:20px}
   .top-bar-text{display:none}
   .top-bar-wordmark{display:none}
-  .nav-wrapper{top:46px}
+  .nav-wrapper{top:46px;padding:18px 0 8px}
   .nav{gap:16px;padding:0 20px}
   .nav-pills{display:none}
   .menu-btn{display:block;width:44px;height:44px;min-width:44px;color:var(--cream)}
-  .nav>.menu-btn{left:20px;right:auto}
+  .nav>.menu-btn{right:20px;left:auto}
   .nav>.logo{left:50%;transform:translate(-50%,-50%)}
   .nav-pills.open{
     display:flex;position:absolute;top:calc(100% + 12px);left:20px;right:20px;

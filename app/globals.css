@@ -198,7 +198,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-toggle{position:relative;display:inline-grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:100px;padding:6px;box-shadow:var(--shadow-sm);margin:0 auto 38px;left:50%;transform:translateX(-50%);min-width:min(440px,90vw);width:auto}
 .pricing-toggle-slider{position:absolute;top:6px;bottom:6px;left:6px;width:calc(50% - 6px);background:var(--wine);border-radius:100px;transition:transform 0.3s cubic-bezier(.4,.0,.2,1);box-shadow:0 4px 12px rgba(125,8,32,0.28);z-index:0}
 .pricing-toggle-slider--annual{transform:translateX(100%)}
-.pricing-toggle-btn{position:relative;z-index:1;background:none;border:none;cursor:pointer;font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--ink);padding:14px 22px;border-radius:100px;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:color 0.25s ease;white-space:nowrap}
+.pricing-toggle-btn{position:relative;z-index:1;background:none;border:none;cursor:pointer;font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--ink);padding:14px 22px;border-radius:100px;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:color 0.25s ease;white-space:nowrap;min-width:0}
 .pricing-toggle-btn:hover{color:var(--wine)}
 .pricing-toggle-btn.is-active{color:#fff}
 .pricing-toggle-btn.is-active:hover{color:#fff}
@@ -244,7 +244,8 @@ em,.em{font-style:italic;color:var(--wine)}
 }
 @media (max-width:560px){
   .pricing-toggle{font-size:0.9rem;padding:4px}
-  .pricing-toggle-btn{padding:12px 16px;font-size:0.85rem}
+  .pricing-toggle-btn{flex-direction:column;gap:4px;padding:10px 10px;font-size:0.8rem;white-space:normal}
+  .pricing-toggle-save{font-size:0.58rem;padding:3px 8px;white-space:nowrap}
   .pricing-section{padding:20px 0 40px}
 }
 
@@ -1018,6 +1019,7 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
   .nav-pills.open .nav-caret{display:inline-block;transition:transform 0.2s ease}
   .nav-caret.open{transform:rotate(180deg)}
   .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:44px}
+  .faq-cats{justify-content:flex-start}
   .steps,.features-grid,.testimonials-grid,.blog-grid,.founders-grid{grid-template-columns:1fr}
   .testimonials-grid{gap:16px}
   .tst-featured{gap:12px;margin:0 auto 36px}

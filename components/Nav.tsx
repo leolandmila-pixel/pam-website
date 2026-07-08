@@ -62,6 +62,15 @@ export default function Nav() {
         >
           Less mental load. Start your free PAM trial today.
         </a>
+        <button
+          className="menu-btn top-bar-menu-btn"
+          aria-label="Menu"
+          onClick={() => { setOpen(v => !v); setSubOpen(false) }}
+        >
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+            <path d="M3 12h18M3 6h18M3 18h18" />
+          </svg>
+        </button>
       </div>
 
       {/* Floating nav pill */}
@@ -107,15 +116,6 @@ export default function Nav() {
               </li>
             ))}
           </ul>
-          <button
-            className="menu-btn"
-            aria-label="Menu"
-            onClick={() => { setOpen(v => !v); setSubOpen(false) }}
-          >
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-              <path d="M3 12h18M3 6h18M3 18h18" />
-            </svg>
-          </button>
         </nav>
       </div>
     </header>

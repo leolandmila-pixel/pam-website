@@ -1,12 +1,16 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Script from 'next/script'
 import { aboutMetadata } from '../metadata'
+import { ashSchema, olySchema } from '../structured-data'
 
 export const metadata: Metadata = aboutMetadata
 
 export default function AboutPage() {
   return (
     <main>
+      <Script id="ash-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ashSchema) }} />
+      <Script id="oly-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(olySchema) }} />
       {/* About header banner */}
       <section className="pricing-hero-banner">
         <Image
@@ -28,9 +32,9 @@ export default function AboutPage() {
           <div className="about-grid">
             <div className="about-story">
               <span className="eyebrow">Our Story</span>
-              <h1 className="display-xl" style={{ fontSize: 'clamp(2.4rem,4.6vw,3.6rem)', margin: '18px 0 22px' }}>
+              <h2 className="display-xl" style={{ fontSize: 'clamp(2.4rem,4.6vw,3.6rem)', margin: '18px 0 22px' }}>
                 <span className="about-name">We&apos;re Ash &amp; Oly</span><br /><em className="about-tagline">Mums, Founders and Best Friends</em>
-              </h1>
+              </h2>
               <p>We both have toddlers: Mila (Ash) and Leo (Oly) and like so many mums, we found ourselves in the thick of it together.</p>
               <p>The love, the chaos, the exhaustion… and the constant mental load no one really prepares you for. Somewhere between the feeds, the naps, the appointments and the endless to-do lists, we kept coming back to the same thought: <em>why are we trying to hold all of this on our own?</em></p>
               <p>We created PAM because we knew other mums were feeling it too. The remembering. The organising. The invisible weight that sits in your mind every single day.</p>
@@ -100,16 +104,18 @@ export default function AboutPage() {
               <div>
                 <h3>Oly</h3>
                 <div className="role">Co-Founder · Mum to Leo</div>
-                <p>&ldquo;Somewhere between feeds, naps and a never-ending mental to-do list, we said: <em>why are we trying to hold all of this on our own?</em>&rdquo;</p>
+                <p>&ldquo;Somewhere between googling &lsquo;is that normal&rsquo; at 2am and drowning in reminder notes, I thought - there has to be a better way.&rdquo;</p>
                 <dl className="founder-qa">
                   <dt>Coffee or sleep?</dt>
-                  <dd>Sleep &amp; lots of coffee - can I say both?</dd>
-                  <dt>How many tabs do you currently have open?</dt>
-                  <dd>Too many.</dd>
-                  <dt>What&apos;s one thing parents never have enough of?</dt>
-                  <dd>Time.</dd>
-                  <dt>Biggest parenting challenge?</dt>
-                  <dd>Remembering everything.</dd>
+                  <dd>Genuinely can&apos;t remember what sleep feels like. Coffee it is. Several.</dd>
+                  <dt>How many browser tabs do you have open right now?</dt>
+                  <dd>At last count, 34. Four of them are the same article I keep meaning to read.</dd>
+                  <dt>What do you wish someone had told you before having a baby?</dt>
+                  <dd>That &lsquo;mum brain&rsquo; is real, relentless, and nobody warns you it starts before the baby even arrives.</dd>
+                  <dt>What&apos;s one thing PAM would have saved you from?</dt>
+                  <dd>Showing up to the maternal health nurse without Leo&apos;s baby book, every time. We don&apos;t talk about it.</dd>
+                  <dt>Biggest parenting plot twist?</dt>
+                  <dd>That the hardest part isn&apos;t the baby stuff - it&apos;s the admin that comes with it.</dd>
                 </dl>
               </div>
             </div>

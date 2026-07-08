@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const baseMetadata: Metadata = {
-  metadataBase: new URL('https://pamapp.com.au'),
+  metadataBase: new URL('https://parentaladminmanager.com'),
   title: {
     default: 'PAM - The mental load, managed.',
     template: '%s | PAM',
@@ -27,7 +27,7 @@ export const baseMetadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_AU',
-    url: 'https://pamapp.com.au',
+    url: 'https://parentaladminmanager.com',
     title: 'PAM - The mental load, managed.',
     description:
       'The assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family.',
@@ -58,19 +58,19 @@ export const baseMetadata: Metadata = {
 
 export const homepageMetadata: Metadata = {
   ...baseMetadata,
-  alternates: { canonical: 'https://pamapp.com.au' },
+  alternates: { canonical: 'https://parentaladminmanager.com' },
 }
 
 export const aboutMetadata: Metadata = {
   title: 'About - Ash, Oly, and the story behind PAM.',
   description:
     "Meet Ash and Oly - two mums of 15-month-olds (Mila and Leo) who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
-  alternates: { canonical: 'https://pamapp.com.au/about' },
+  alternates: { canonical: 'https://parentaladminmanager.com/about' },
   openGraph: {
     ...baseMetadata.openGraph,
     title: 'About PAM - Mums, founders, best friends.',
     description: 'The founders, values and story behind PAM.',
-    url: 'https://pamapp.com.au/about',
+    url: 'https://parentaladminmanager.com/about',
   },
 }
 
@@ -78,12 +78,12 @@ export const storiesMetadata: Metadata = {
   title: 'Real Mums, Real Stories',
   description:
     "The honest, unfiltered bits - real Australian parents sharing what helped, what hurt, and what they wish they'd known.",
-  alternates: { canonical: 'https://pamapp.com.au/stories' },
+  alternates: { canonical: 'https://parentaladminmanager.com/stories' },
   openGraph: {
     ...baseMetadata.openGraph,
     title: 'Real Mums, Real Stories - PAM',
     description: 'No highlight reels. Just real parents, telling it straight.',
-    url: 'https://pamapp.com.au/stories',
+    url: 'https://parentaladminmanager.com/stories',
   },
 }
 
@@ -91,12 +91,12 @@ export const contactMetadata: Metadata = {
   title: 'Contact',
   description:
     "Real humans, real replies. Questions, feedback or a story to share - we read every message.",
-  alternates: { canonical: 'https://pamapp.com.au/contact' },
+  alternates: { canonical: 'https://parentaladminmanager.com/contact' },
   openGraph: {
     ...baseMetadata.openGraph,
     title: 'Contact PAM',
     description: 'Say hello - real humans, real replies.',
-    url: 'https://pamapp.com.au/contact',
+    url: 'https://parentaladminmanager.com/contact',
   },
 }
 
@@ -104,12 +104,12 @@ export const faqMetadata: Metadata = {
   title: 'FAQ',
   description:
     'Everything you might be wondering before you join the PAM founding trial - launch, pricing, privacy, Ask PAM and more.',
-  alternates: { canonical: 'https://pamapp.com.au/faq' },
+  alternates: { canonical: 'https://parentaladminmanager.com/faq' },
   openGraph: {
     ...baseMetadata.openGraph,
     title: 'PAM FAQ',
     description: 'Launch, pricing, privacy and family - answered.',
-    url: 'https://pamapp.com.au/faq',
+    url: 'https://parentaladminmanager.com/faq',
   },
 }
 
@@ -117,38 +117,38 @@ export const checklistMetadata: Metadata = {
   title: 'Smart Checklist',
   description:
     "PAM's Smart Checklist - every appointment, registration, and reminder Australian parents need to remember, pre-loaded and ready.",
-  alternates: { canonical: 'https://pamapp.com.au/features/checklist' },
-  openGraph: { ...baseMetadata.openGraph, title: 'PAM Smart Checklist', url: 'https://pamapp.com.au/features/checklist' },
+  alternates: { canonical: 'https://parentaladminmanager.com/features/smart-checklist' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Smart Checklist', url: 'https://parentaladminmanager.com/features/smart-checklist' },
 }
 
 export const trackerMetadata: Metadata = {
   title: 'Tracker',
   description:
     "PAM's tracker - feeds, sleep, nappies, growth charts and nap predictions in one calm place. Shared with your partner.",
-  alternates: { canonical: 'https://pamapp.com.au/features/tracker' },
-  openGraph: { ...baseMetadata.openGraph, title: 'PAM Tracker', url: 'https://pamapp.com.au/features/tracker' },
+  alternates: { canonical: 'https://parentaladminmanager.com/features/baby-tracker' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Tracker', url: 'https://parentaladminmanager.com/features/baby-tracker' },
 }
 
 export const familyInfoMetadata: Metadata = {
   title: 'Family Hub',
   description:
     "Everything you'd scramble for at 2am - already where it should be. People, records and services for your whole family.",
-  alternates: { canonical: 'https://pamapp.com.au/features/family-info' },
-  openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Hub', url: 'https://pamapp.com.au/features/family-info' },
+  alternates: { canonical: 'https://parentaladminmanager.com/features/family-hub' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Hub', url: 'https://parentaladminmanager.com/features/family-hub' },
 }
 
 export const memoriesMetadata: Metadata = {
   title: 'Memories',
   description:
     "Voice notes, photos and milestones - saved as they happen. The little moments and big firsts, gently gathered into your family's story.",
-  alternates: { canonical: 'https://pamapp.com.au/features/memories' },
-  openGraph: { ...baseMetadata.openGraph, title: 'PAM Memories', url: 'https://pamapp.com.au/features/memories' },
+  alternates: { canonical: 'https://parentaladminmanager.com/features/memories' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Memories', url: 'https://parentaladminmanager.com/features/memories' },
 }
 
 export const pricingMetadata: Metadata = {
   title: 'App Pricing',
   description:
     'Simple, transparent PAM pricing - Single, Couple and Family plans. From $7.99/month with a 14-day free trial.',
-  alternates: { canonical: 'https://pamapp.com.au/features/pricing' },
-  openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://pamapp.com.au/features/pricing' },
+  alternates: { canonical: 'https://parentaladminmanager.com/pricing' },
+  openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://parentaladminmanager.com/pricing' },
 }

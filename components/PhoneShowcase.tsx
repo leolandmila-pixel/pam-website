@@ -11,7 +11,7 @@ const tabs: Tab[] = [
   {
     name: 'Today',
     body: "What's due, what's done, and nothing left to remember - your whole day the moment you open the app.",
-    src: '/phone-home.jpg',
+    src: '/Home Page.png',
     alt: 'PAM Today tab - Welcome back, daily reminder and quick log',
   },
   {
@@ -23,7 +23,7 @@ const tabs: Tab[] = [
   {
     name: 'Tracker',
     body: 'From feeds to growth in one place - daily logs, percentile charts, clear reports, and nap predictions built around your baby.',
-    src: '/phone-tracker.jpg',
+    src: '/Simulator Screenshot - iPhone 17 Pro FRESH - 2026-06-23 at 14.33.37.png',
     alt: 'PAM Tracker tab - daily tracking tiles and summary',
   },
   {
@@ -33,9 +33,15 @@ const tabs: Tab[] = [
     alt: 'PAM Family Info tab - People, Records and Journey',
   },
   {
+    name: 'Local Info',
+    body: 'Trusted services and resources curated for your area - hospitals, MCH centres, GPs, childcare and support, already found.',
+    src: '/Local Info.v2.png',
+    alt: 'PAM Local Info tab - Find local services and support',
+  },
+  {
     name: 'Memories',
     body: 'The little moments and big firsts, saved as they happen.',
-    src: '/phone-memories.jpg',
+    src: '/Memories.v2.png',
     alt: 'PAM Memories tab - Capture, Preserve and Write',
   },
 ]

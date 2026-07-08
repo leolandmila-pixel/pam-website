@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Instrument_Serif, Montserrat } from 'next/font/google'
 import Script from 'next/script'
 import { baseMetadata } from './metadata'
-import { organizationSchema, mobileAppSchema } from './structured-data'
+import { organizationSchema, mobileAppSchema, websiteSchema } from './structured-data'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -36,7 +36,14 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
-export const metadata: Metadata = baseMetadata
+export const metadata: Metadata = {
+  ...baseMetadata,
+  alternates: {
+    types: {
+      'application/rss+xml': 'https://parentaladminmanager.com/feed.xml',
+    },
+  },
+}
 
 export default function RootLayout({
   children,
@@ -47,6 +54,18 @@ export default function RootLayout({
     <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable}`}>
       <body>
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1BMMSSHD1W"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1BMMSSHD1W');
+          `}
+        </Script>
+        <Script
           id="organization-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -55,6 +74,11 @@ export default function RootLayout({
           id="app-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(mobileAppSchema) }}
+        />
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
         <Nav />
         {children}

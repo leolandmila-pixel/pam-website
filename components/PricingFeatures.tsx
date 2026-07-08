@@ -3,17 +3,6 @@ import Image from 'next/image'
 export default function PricingFeatures() {
   return (
     <>
-      <div className="pfeat-intro">
-        <p className="eyebrow">What&apos;s inside PAM</p>
-        <h2>
-          Everything a parent needs, <em>all in one place.</em>
-        </h2>
-        <p className="pfeat-intro-lead">
-          From your baby&apos;s first feed to their first day of school - PAM holds the detail so you can hold the
-          moments.
-        </p>
-      </div>
-
       {/* SECTION 1 - Smart Checklist */}
       <section className="pfeat-section">
         <div className="pfeat-visual pfeat-visual--warm" aria-hidden="true">
@@ -50,7 +39,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--rose" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/phone-tracker.jpg"
+              src="/Simulator Screenshot - iPhone 17 Pro FRESH - 2026-06-23 at 14.33.37.png"
               alt=""
               width={222}
               height={480}
@@ -112,7 +101,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--sage" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/WhatsApp Image 2026-06-18 at 12.25.33 PM.jpeg"
+              src="/Local Info.v2.png"
               alt=""
               width={222}
               height={480}
@@ -126,10 +115,10 @@ export default function PricingFeatures() {
             Local support, <em>already found.</em>
           </h3>
           <p className="pfeat-subhead">
-            Trusted services and resources curated for your area — so you&apos;re never starting from scratch when you need help.
+            Trusted services and resources curated for your area - so you&apos;re never starting from scratch when you need help.
           </p>
           <ul className="pfeat-list">
-            <li>Hospitals, birth centres and maternity wards near you — with after-hours contacts</li>
+            <li>Hospitals, birth centres and maternity wards near you - with after-hours contacts</li>
             <li>MCH centres with booking details and what to expect at each scheduled visit</li>
             <li>GPs and paediatricians in your area who bulk bill or accept new patients</li>
             <li>Childcare centres, family day care and kindergartens with CCS information</li>
@@ -143,7 +132,7 @@ export default function PricingFeatures() {
         <div className="pfeat-visual pfeat-visual--blush" aria-hidden="true">
           <div className="pfeat-phone">
             <Image
-              src="/phone-memories.jpg"
+              src="/Memories.v2.png"
               alt=""
               width={222}
               height={480}

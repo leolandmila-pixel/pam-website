@@ -687,7 +687,7 @@ export const stories: Story[] = [
     content: {
       hook: [
         "For many women, motherhood changes everything. For Melbourne-based beauty content creator Maddie, becoming a mum to her daughter Carmine has been transformative in ways she never expected.",
-        "Nearly 14 months into motherhood, Maddie says she's genuinely loving this chapter of life — and the woman it's helped her become.",
+        "Nearly 14 months into motherhood, Maddie says she's genuinely loving this chapter of life - and the woman it's helped her become.",
         "\"Having Carmy has made me a better daughter, a more understanding sister, and a more supportive friend,\" she shares. \"I feel more self-aware and closer to the woman I've always wanted to be. This has been very unexpected but equally as welcome.\"",
       ],
       sections: [
@@ -696,7 +696,7 @@ export const stories: Story[] = [
           paragraphs: [
             "When asked to describe motherhood in one sentence, Maddie's answer is both simple and profound:",
             "\"Motherhood strips you bare and forces you to relearn what you thought you knew. Love has a new definition now, so does pain, so does connection.\"",
-            "It's a sentiment many mums can relate to — the way motherhood challenges old versions of ourselves and creates space for entirely new perspectives.",
+            "It's a sentiment many mums can relate to - the way motherhood challenges old versions of ourselves and creates space for entirely new perspectives.",
           ],
         },
         {
@@ -753,7 +753,7 @@ export const stories: Story[] = [
         paragraphs: [
           "Every family seems to have a parenting motto, and Maddie's is one that might make a few parents laugh.",
           "\"It's actually 'f*ck around and find out'. I don't actually say it to Carmy, but Matt and I have adopted it as our parenting style.\"",
-          "Honest, funny, and deeply reflective, Maddie's story is a reminder that motherhood doesn't just change your life — it changes the way you see yourself, your body, and the world around you.",
+          "Honest, funny, and deeply reflective, Maddie's story is a reminder that motherhood doesn't just change your life - it changes the way you see yourself, your body, and the world around you.",
           "And sometimes, those changes are the most beautiful surprises of all.",
         ],
       },

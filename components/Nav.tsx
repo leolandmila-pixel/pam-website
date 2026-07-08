@@ -18,13 +18,13 @@ const links: NavLink[] = [
     href: '/#showcase',
     label: 'PAM App',
     children: [
-      { href: '/features/app', label: "What's Inside PAM" },
-      { href: '/features/checklist', label: 'Smart Checklist' },
-      { href: '/features/tracker', label: 'Tracker' },
-      { href: '/features/family-info', label: 'Family Hub' },
+      { href: '/features', label: "What's Inside PAM" },
+      { href: '/features/smart-checklist', label: 'Smart Checklist' },
+      { href: '/features/baby-tracker', label: 'Tracker' },
+      { href: '/features/family-hub', label: 'Family Hub' },
       { href: '/features/local-info', label: 'Local Info' },
       { href: '/features/memories', label: 'Memories' },
-      { href: '/features/pricing', label: 'App Pricing' },
+      { href: '/pricing', label: 'App Pricing' },
     ],
   },
   { href: '/stories', label: 'Real Mums, Real Stories' },
@@ -40,62 +40,84 @@ export default function Nav() {
   const closeAll = () => { setOpen(false); setSubOpen(false) }
 
   return (
-    <div className="nav-wrapper">
-      <nav className="nav">
-        <Link href="/" className="logo" onClick={closeAll}>
-          <Image src="/logo.png" alt="PAM - Parental Admin Manager" width={120} height={34} className="logo-img" priority />
-          <small>Parental Admin Manager</small>
+    <header className="site-header">
+      {/* Top bar: logo left + announcement text */}
+      <div className="top-bar">
+        <Link href="/" className="top-bar-logo" onClick={closeAll}>
+          <Image
+            src="/logo.png"
+            alt="PAM - Parental Admin Manager"
+            width={90}
+            height={26}
+            className="top-bar-logo-img"
+            priority
+          />
+          <span className="top-bar-wordmark">Parental Admin Manager</span>
         </Link>
-        <ul className={`nav-pills${open ? ' open' : ''}`}>
-          {links.map((l) => (
-            <li key={l.label} className={l.children ? 'has-dropdown' : undefined}>
-              <Link
-                href={l.href}
-                className={`nav-pill${pathname === l.href ? ' active' : ''}`}
-                onClick={(e) => {
-                  if (open && l.children) {
-                    e.preventDefault()
-                    setSubOpen(v => !v)
-                  } else {
-                    closeAll()
-                  }
-                }}
-              >
-                {l.label}
-                {l.children && (
-                  <svg className={`nav-caret${open && subOpen ? ' open' : ''}`} viewBox="0 0 12 8" aria-hidden="true">
-                    <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                )}
-              </Link>
-              {l.children && (
-                <ul className={`nav-dropdown${open && subOpen ? ' mobile-open' : ''}`}>
-                  {l.children.map((c) => (
-                    <li key={c.href}>
-                      <Link
-                        href={c.href}
-                        className="nav-dropdown-item"
-                        onClick={closeAll}
-                      >
-                        {c.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
-        <button
-          className="menu-btn"
-          aria-label="Menu"
-          onClick={() => { setOpen(v => !v); setSubOpen(false) }}
+        <a
+          href="https://tally.so/r/q4J1vg"
+          target="_blank"
+          rel="noreferrer"
+          className="top-bar-text"
         >
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path d="M3 12h18M3 6h18M3 18h18" />
-          </svg>
-        </button>
-      </nav>
-    </div>
+          Less mental load. Start your free PAM trial today.
+        </a>
+      </div>
+
+      {/* Floating nav pill */}
+      <div className="nav-wrapper">
+        <nav className="nav">
+          <ul className={`nav-pills${open ? ' open' : ''}`}>
+            {links.map((l) => (
+              <li key={l.label} className={l.children ? 'has-dropdown' : undefined}>
+                <Link
+                  href={l.href}
+                  className={`nav-pill${pathname === l.href ? ' active' : ''}`}
+                  onClick={(e) => {
+                    if (open && l.children) {
+                      e.preventDefault()
+                      setSubOpen(v => !v)
+                    } else {
+                      closeAll()
+                    }
+                  }}
+                >
+                  {l.label}
+                  {l.children && (
+                    <svg className={`nav-caret${open && subOpen ? ' open' : ''}`} viewBox="0 0 12 8" aria-hidden="true">
+                      <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  )}
+                </Link>
+                {l.children && (
+                  <ul className={`nav-dropdown${open && subOpen ? ' mobile-open' : ''}`}>
+                    {l.children.map((c) => (
+                      <li key={c.href}>
+                        <Link
+                          href={c.href}
+                          className="nav-dropdown-item"
+                          onClick={closeAll}
+                        >
+                          {c.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+          <button
+            className="menu-btn"
+            aria-label="Menu"
+            onClick={() => { setOpen(v => !v); setSubOpen(false) }}
+          >
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path d="M3 12h18M3 6h18M3 18h18" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
   )
 }

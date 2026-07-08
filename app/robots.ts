@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/dashboard/', '/api/'],
       },
     ],
-    sitemap: 'https://pam.app/sitemap.xml',
+    sitemap: 'https://parentaladminmanager.com/sitemap.xml',
   }
 }

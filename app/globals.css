@@ -82,7 +82,6 @@ em,.em{font-style:italic;color:var(--wine)}
 .nav>.logo{position:absolute;left:36px;top:50%;transform:translateY(-50%)}
 .nav>.nav-pills{flex-shrink:0}
 .nav>.store-buttons{position:absolute;right:36px;top:50%;transform:translateY(-50%)}
-.nav>.menu-btn{position:absolute;right:36px;top:50%;transform:translateY(-50%)}
 .logo{cursor:pointer;line-height:1;flex-shrink:0}
 .nav .logo{display:flex;align-items:center;gap:11px}
 .logo-img{height:34px;width:auto;display:block;flex-shrink:0}
@@ -997,11 +996,11 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
   .top-bar-logo{left:20px}
   .top-bar-text{display:none}
   .top-bar-wordmark{display:none}
-  .nav-wrapper{top:46px;padding:18px 0 8px}
+  .nav-wrapper{top:46px;padding:8px 0}
   .nav{gap:16px;padding:0 20px}
   .nav-pills{display:none}
   .menu-btn{display:block;width:44px;height:44px;min-width:44px;color:var(--cream)}
-  .nav>.menu-btn{right:20px;left:auto}
+  .top-bar-menu-btn{position:absolute;right:20px;top:50%;transform:translateY(-50%)}
   .nav>.logo{left:50%;transform:translate(-50%,-50%)}
   .nav-pills.open{
     display:flex;position:absolute;top:calc(100% + 12px);left:20px;right:20px;

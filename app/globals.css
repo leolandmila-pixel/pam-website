@@ -131,7 +131,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .nav-dropdown-item:hover{background:rgba(197,160,133,0.28);color:var(--wine)}
 
 /* ============== FEATURE PAGES ============== */
-.feature-hero{padding:60px 0 40px}
+.feature-hero{padding:100px 0 40px}
 .feature-hero-grid{display:grid;grid-template-columns:1.05fr 0.85fr;gap:56px;align-items:center}
 .feature-hero-copy .eyebrow{margin-bottom:18px}
 .feature-hero-title{font-family:var(--montserrat) !important;font-size:clamp(1.5rem,2.4vw,2rem) !important;font-weight:500 !important;line-height:1.25;letter-spacing:-0.01em;margin:6px 0 22px;color:var(--ink)}

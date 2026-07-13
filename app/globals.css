@@ -329,6 +329,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .store-btn:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(44,49,71,0.28)}
 .store-btn svg{width:16px;height:16px;fill:#fff;flex-shrink:0}
 .menu-btn{display:none;background:none;border:none;color:var(--wine);cursor:pointer}
+.nav-pill-arrow{display:none}
 
 section{padding:96px 0}
 
@@ -1013,7 +1014,7 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
   }
   .nav-pills.open .nav-pill.active{background:none;color:var(--ink)}
   .nav-pills.open .nav-pill:hover{background:#faf8f6;color:var(--ink)}
-  .nav-pill-arrow{flex-shrink:0;color:#aaa;transition:transform 0.2s}
+  .nav-pills.open .nav-pill-arrow{display:block;flex-shrink:0;color:#aaa}
   .nav-pills.open .has-dropdown{display:block;border-bottom:1px solid #ede8e3}
   .nav-pills.open .has-dropdown .nav-pill{border-bottom:none}
   .nav-pills.open .nav-dropdown{

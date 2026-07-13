@@ -498,7 +498,7 @@ section{padding:96px 0}
 .values-section .sec-head h2{color:var(--ink)}
 .values-section .sec-head h2 .em{color:var(--tan);font-style:italic}
 .values-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:40px;counter-reset:values}
-.value{counter-increment:values;background:url('/Blue%20Gradient.jpg') center/cover no-repeat #1a3a6b;border:none;border-radius:14px;padding:20px 18px;color:#fff;display:flex;flex-direction:column;gap:0}
+.value{counter-increment:values;background:url('/blue-gradient.jpg') center/cover no-repeat;border:none;border-radius:14px;padding:20px 18px;color:#fff;display:flex;flex-direction:column;gap:0}
 .value::before{content:"0" counter(values);font-family:var(--display);font-style:italic;font-size:0.9rem;color:rgba(255,255,255,0.45);display:block;margin-bottom:12px}
 .value h3{font-family:var(--montserrat);font-weight:700;font-size:0.9rem;line-height:1.25;color:#fff;margin:0 0 5px;letter-spacing:0.01em}
 .value .v-tagline{font-family:var(--display);font-style:italic;font-size:0.8rem;color:var(--cream);margin:0 0 12px;line-height:1.4}

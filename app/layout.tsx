@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Instrument_Serif, Montserrat, Lavishly_Yours } from 'next/font/google'
+import { Inter, Instrument_Serif, Montserrat, Pinyon_Script } from 'next/font/google'
 import Script from 'next/script'
 import { baseMetadata } from './metadata'
 import { organizationSchema, mobileAppSchema, websiteSchema } from './structured-data'
@@ -36,10 +36,10 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
-const lavishlyYours = Lavishly_Yours({
+const pinyonScript = Pinyon_Script({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--font-lavishly-yours',
+  variable: '--font-pinyon-script',
   display: 'swap',
 })
 
@@ -58,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} ${lavishlyYours.variable}`}>
+    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} ${pinyonScript.variable}`}>
       <body>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1BMMSSHD1W"

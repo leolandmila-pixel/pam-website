@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Instrument_Serif, Montserrat, Dancing_Script } from 'next/font/google'
+import { Inter, Instrument_Serif, Montserrat, Lavishly_Yours } from 'next/font/google'
 import Script from 'next/script'
 import { baseMetadata } from './metadata'
 import { organizationSchema, mobileAppSchema, websiteSchema } from './structured-data'
@@ -36,10 +36,10 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
-const dancingScript = Dancing_Script({
+const lavishlyYours = Lavishly_Yours({
   subsets: ['latin'],
-  weight: ['700'],
-  variable: '--font-dancing-script',
+  weight: ['400'],
+  variable: '--font-lavishly-yours',
   display: 'swap',
 })
 
@@ -58,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} ${dancingScript.variable}`}>
+    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} ${lavishlyYours.variable}`}>
       <body>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1BMMSSHD1W"

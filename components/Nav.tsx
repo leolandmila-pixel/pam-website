@@ -64,12 +64,18 @@ export default function Nav() {
         </a>
         <button
           className="menu-btn top-bar-menu-btn"
-          aria-label="Menu"
+          aria-label={open ? 'Close menu' : 'Open menu'}
           onClick={() => { setOpen(v => !v); setSubOpen(false) }}
         >
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path d="M3 12h18M3 6h18M3 18h18" />
-          </svg>
+          {open ? (
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path d="M3 12h18M3 6h18M3 18h18" />
+            </svg>
+          )}
         </button>
       </div>
 
@@ -92,9 +98,13 @@ export default function Nav() {
                   }}
                 >
                   {l.label}
-                  {l.children && (
+                  {l.children ? (
                     <svg className={`nav-caret${open && subOpen ? ' open' : ''}`} viewBox="0 0 12 8" aria-hidden="true">
                       <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  ) : (
+                    <svg className="nav-pill-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                      <path d="M9 18l6-6-6-6" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   )}
                 </Link>
@@ -108,6 +118,9 @@ export default function Nav() {
                           onClick={closeAll}
                         >
                           {c.label}
+                          <svg className="nav-pill-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                            <path d="M9 18l6-6-6-6" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
                         </Link>
                       </li>
                     ))}

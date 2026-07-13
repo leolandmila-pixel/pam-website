@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Instrument_Serif, Montserrat, Pinyon_Script } from 'next/font/google'
+import { Inter, Instrument_Serif, Montserrat } from 'next/font/google'
 import Script from 'next/script'
 import { baseMetadata } from './metadata'
 import { organizationSchema, mobileAppSchema, websiteSchema } from './structured-data'
@@ -36,12 +36,6 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
-const pinyonScript = Pinyon_Script({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-pinyon-script',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   ...baseMetadata,
@@ -58,7 +52,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} ${pinyonScript.variable}`}>
+    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} `}>
       <body>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1BMMSSHD1W"

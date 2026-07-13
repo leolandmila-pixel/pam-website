@@ -117,7 +117,6 @@ export default function AboutPage() {
                   <dt>Biggest parenting plot twist?</dt>
                   <dd>That the hardest part isn&apos;t the baby stuff - it&apos;s the admin that comes with it.</dd>
                 </dl>
-                <span className="founder-signature">Oly</span>
               </div>
             </div>
             <div className="founder">
@@ -140,7 +139,6 @@ export default function AboutPage() {
                   <dt>One word to describe motherhood?</dt>
                   <dd>Beautiful &amp; chaotic (I know that&apos;s two).</dd>
                 </dl>
-                <span className="founder-signature">Ash</span>
               </div>
             </div>
           </div>

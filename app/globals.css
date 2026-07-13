@@ -30,6 +30,7 @@
   --display:var(--font-instrument-serif, 'Instrument Serif'), Georgia, 'Times New Roman', serif;
   --sans:var(--font-inter, 'Inter'), -apple-system, sans-serif;
   --montserrat:var(--font-montserrat, 'Montserrat'), -apple-system, sans-serif;
+  --script:var(--font-dancing-script, 'Dancing Script'), cursive;
   --shadow-sm:0 4px 18px rgba(74,7,19,0.06);
   --shadow-md:0 18px 50px rgba(74,7,19,0.10);
   --shadow-lg:0 40px 90px rgba(74,7,19,0.18);
@@ -515,6 +516,7 @@ section{padding:96px 0}
 .founder-qa{margin-top:18px;display:flex;flex-direction:column;gap:10px}
 .founder-qa dt{font-family:var(--montserrat);font-weight:700;font-size:0.86rem;color:var(--wine);margin:0}
 .founder-qa dd{margin:2px 0 0;font-family:var(--montserrat);font-weight:400;font-style:normal;font-size:0.85rem;color:var(--ink);line-height:1.4}
+.founder-signature{display:block;font-family:var(--script);font-size:2.4rem;color:var(--ink);margin-top:22px;line-height:1}
 
 /* ============== BLOG ============== */
 .blog-note{max-width:640px;margin:0 auto 56px;text-align:center}

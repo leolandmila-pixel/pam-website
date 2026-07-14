@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import Link from 'next/link'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
 import { qaItems } from '@/lib/qa-data'
 import QAList from '@/components/QAList'
 
 export const metadata: Metadata = {
-  title: 'Parent Questions, Answered | PAM',
+  title: 'Parent Questions, Answered',
   description:
-    'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin (MCH, Centrelink, immunisations), development milestones, and the mental load. Written for Australian families.',
+    'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin, development milestones, and the mental load.',
   keywords: [
     'parenting questions australia',
     'newborn questions',
@@ -53,13 +52,11 @@ const stats = [
 export default function QuestionsPage() {
   return (
     <>
-      <Script
-        id="faq-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
-        id="breadcrumb-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />

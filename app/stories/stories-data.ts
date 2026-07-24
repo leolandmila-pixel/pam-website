@@ -1584,6 +1584,8 @@ export const stories: Story[] = [
     body: "That dramatic full-body startle - arms thrown wide, then a cry - has a name, a purpose, and an expiry date. Here's what's actually happening.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "You lay them down, gently, slowly, holding your breath the whole way - and just as their back touches the mattress, both arms fly out to the sides like they're bracing for a fall. Then the cry. Then you pick them back up, certain you've done something wrong.",
@@ -1641,6 +1643,8 @@ export const stories: Story[] = [
     body: "That golden tinge to their skin has a cause, a common timeline, and a clear line for when it needs more than watching. Here's how to tell where you sit on it.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (1).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere around day two or three, a midwife holds your baby up to the window, presses a finger gently into their skin, and says the word jaundice for the first time. It's an alarming word to hear about your two-day-old, mostly because nobody explained it beforehand.",
@@ -1756,6 +1760,8 @@ export const stories: Story[] = [
     body: "A sore red patch, a fever that comes out of nowhere, and a feeling like the flu hit in the space of an hour. Here's how to recognise it early and what genuinely helps.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (2).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "It tends to arrive fast. One feed you're fine, a few hours later there's a hot, tender patch on one breast, and by evening you're shivering under a blanket in July feeling like you've been hit by a truck. That's mastitis, and it's far more common than anyone mentions before it happens to you.",
@@ -1815,6 +1821,8 @@ export const stories: Story[] = [
     body: "One week they're sleeping in decent stretches. The next, they're up every 45 minutes. It's not a phase you wait out - it's a permanent shift in how sleep works.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (3).jpeg',
+    heroImagePosition: 'center 60%',
     content: {
       hook: [
         "You'd found a rhythm. Maybe not perfect, but workable - a few solid stretches, a nap that reliably happened. Then, seemingly overnight, all of it fell apart. Frequent waking, short naps, a baby who seems to fight sleep they clearly need.",
@@ -1872,6 +1880,8 @@ export const stories: Story[] = [
     body: "A baby who won't settle could be exhausted, or barely tired at all - and the fixes for each are opposites. Here's how to tell which one you're looking at.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.02.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Bedtime is a fight. Again. And the instinct is always the same: they must be overtired, push the next sleep earlier. Except sometimes that makes it worse, because the actual problem was the opposite - they weren't tired enough yet.",
@@ -2049,6 +2059,8 @@ export const stories: Story[] = [
     body: "The gorgeous linen-bound baby book gets three entries before it stalls in a drawer. Here's why the low-effort version is the one that survives the first year.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.02 (1).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Somewhere in most nurseries sits a beautiful baby book - hardcover, cream pages, a spot for 'baby's first haircut' - with exactly three entries in it, all from the first fortnight. After that, life happens, and the book quietly closes for good.",
@@ -2324,6 +2336,8 @@ export const stories: Story[] = [
     body: "A baby who happily breastfeeds but screams the second a bottle appears is one of the more stressful feeding curveballs - especially with a return to work looming. Here's what usually helps.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.05 (1).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "You've done everything right - warmed the milk, tried a few different teats, timed it for when they're not overtired - and they still turn their head away, arch their back, or cry the moment the bottle touches their lips. Meanwhile the calendar has a return-to-work date circled, and the pressure is mounting.",
@@ -2376,6 +2390,8 @@ export const stories: Story[] = [
     body: "Contested at every playgroup, backed by genuine research, and eventually something you'll need an exit plan for. Here's the honest rundown.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (1).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Few small pieces of plastic generate as much unsolicited opinion as a dummy. Someone will tell you it ruins teeth, someone else will tell you it saved their sanity, and somewhere in there is what the actual evidence says - which is more reassuring, and more specific, than either extreme.",
@@ -2719,6 +2735,8 @@ export const stories: Story[] = [
     body: "There's no strict newborn sleep schedule in the first weeks - just wide, normal ranges. Here's what an average newborn sleep pattern actually looks like, week by week.",
     readMinutes: 7,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (3).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Search 'newborn sleep schedule' and you'll find charts with tidy blocks of colour, implying your baby should be asleep from 7pm to 7am with two neat naps in between. Reality looks nothing like that in the early weeks, and comparing your baby to the chart is a fast way to feel like you're doing something wrong.",
@@ -2833,6 +2851,8 @@ export const stories: Story[] = [
     body: "A good breastfeeding latch shouldn't hurt past the first few seconds. If it does, here's what a proper latch looks like and how to actually fix a bad one.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.05.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "You've heard it a dozen times: 'if it hurts, the latch is wrong.' True, but not exactly useful when you're staring down a baby who seems attached fine and it still feels like broken glass every time they feed.",
@@ -2947,6 +2967,8 @@ export const stories: Story[] = [
     body: "Sleep regressions tend to cluster around predictable ages. Here's the full baby sleep regression timeline, what drives each one, and what actually helps.",
     readMinutes: 7,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (2).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Just when a sleep pattern finally feels settled, it falls apart again - and if you've been through this before, you already suspect it's 'a regression,' even if you can't quite place why they keep happening on a rough schedule of their own.",
@@ -3006,6 +3028,8 @@ export const stories: Story[] = [
     body: "Before chasing a full night's sleep, it helps to know what's actually realistic at each age. Here's an honest breakdown of how to get baby to sleep through the night.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03.jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "'Sleeping through the night' is one of the most searched, most misunderstood phrases in early parenting - partly because it means something different at every age, and partly because the marketing version (12 hours, no waking) sets an expectation that isn't realistic for most babies for a long time.",

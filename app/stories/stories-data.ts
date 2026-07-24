@@ -2342,7 +2342,7 @@ export const stories: Story[] = [
     body: "A baby who happily breastfeeds but screams the second a bottle appears is one of the more stressful feeding curveballs - especially with a return to work looming. Here's what usually helps.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.05 (1).jpeg',
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.05.24.jpeg',
     heroImagePosition: 'center 30%',
     content: {
       hook: [
@@ -2396,7 +2396,7 @@ export const stories: Story[] = [
     body: "Contested at every playgroup, backed by genuine research, and eventually something you'll need an exit plan for. Here's the honest rundown.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 13.44.58 (1).jpeg',
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.09.32.jpeg',
     heroImagePosition: 'center 35%',
     content: {
       hook: [

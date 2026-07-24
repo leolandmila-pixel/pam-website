@@ -3037,8 +3037,8 @@ export const stories: Story[] = [
     body: "Before chasing a full night's sleep, it helps to know what's actually realistic at each age. Here's an honest breakdown of how to get baby to sleep through the night.",
     readMinutes: 6,
     published: true,
-    heroImage: '/Untitled design (19).png',
-    heroImagePosition: 'center 75%',
+    heroImage: '/Untitled design 21.png',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "'Sleeping through the night' is one of the most searched, most misunderstood phrases in early parenting - partly because it means something different at every age, and partly because the marketing version (12 hours, no waking) sets an expectation that isn't realistic for most babies for a long time.",

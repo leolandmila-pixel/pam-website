@@ -1823,8 +1823,8 @@ export const stories: Story[] = [
     body: "One week they're sleeping in decent stretches. The next, they're up every 45 minutes. It's not a phase you wait out - it's a permanent shift in how sleep works.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (3).jpeg',
-    heroImagePosition: 'center 60%',
+    heroImage: '/3EA45EE2-7392-4C3A-93D0-B4E624605A0E_L0_001-11_5_2026, 10_25_42 am.jpg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "You'd found a rhythm. Maybe not perfect, but workable - a few solid stretches, a nap that reliably happened. Then, seemingly overnight, all of it fell apart. Frequent waking, short naps, a baby who seems to fight sleep they clearly need.",

@@ -1882,8 +1882,8 @@ export const stories: Story[] = [
     body: "A baby who won't settle could be exhausted, or barely tired at all - and the fixes for each are opposites. Here's how to tell which one you're looking at.",
     readMinutes: 5,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.02.jpeg',
-    heroImagePosition: 'center 40%',
+    heroImage: '/EA0B4075-208C-49EB-A11E-DC18327A0D7A_L0_001-29_5_2026, 5_54_56 pm.jpg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Bedtime is a fight. Again. And the instinct is always the same: they must be overtired, push the next sleep earlier. Except sometimes that makes it worse, because the actual problem was the opposite - they weren't tired enough yet.",

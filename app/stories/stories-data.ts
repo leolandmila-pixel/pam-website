@@ -2281,8 +2281,8 @@ export const stories: Story[] = [
     body: "A baby who chokes, splutters, and pulls off crying at every feed might not have a latch problem at all - they might be dealing with a flood, not a drought.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (1).jpeg',
-    heroImagePosition: 'center 35%',
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.47.59.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "Most feeding advice assumes the problem is not enough milk. So when your baby is spluttering, gulping, pulling off mid-feed and crying, or feeding for two minutes and looking done, it's easy to assume something is wrong with your supply in the opposite direction you'd expect.",

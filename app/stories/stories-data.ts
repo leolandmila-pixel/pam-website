@@ -2169,6 +2169,8 @@ export const stories: Story[] = [
     body: "Painful feeds and a baby who can't seem to get a deep latch, no matter what you try. Here's what tongue tie actually is, and what the assessment and fix involve.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05 (2).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Every feed hurts. Not a little tender - genuinely painful, toe-curling pain, and your nipples look worse each day rather than better. You've tried every latch position a lactation consultant showed you and something still feels stuck.",
@@ -2279,6 +2281,8 @@ export const stories: Story[] = [
     body: "A baby who chokes, splutters, and pulls off crying at every feed might not have a latch problem at all - they might be dealing with a flood, not a drought.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (1).jpeg',
+    heroImagePosition: 'center 35%',
     content: {
       hook: [
         "Most feeding advice assumes the problem is not enough milk. So when your baby is spluttering, gulping, pulling off mid-feed and crying, or feeding for two minutes and looking done, it's easy to assume something is wrong with your supply in the opposite direction you'd expect.",
@@ -2392,8 +2396,8 @@ export const stories: Story[] = [
     body: "Contested at every playgroup, backed by genuine research, and eventually something you'll need an exit plan for. Here's the honest rundown.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (1).jpeg',
-    heroImagePosition: 'center 30%',
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.44.58 (1).jpeg',
+    heroImagePosition: 'center 35%',
     content: {
       hook: [
         "Few small pieces of plastic generate as much unsolicited opinion as a dummy. Someone will tell you it ruins teeth, someone else will tell you it saved their sanity, and somewhere in there is what the actual evidence says - which is more reassuring, and more specific, than either extreme.",
@@ -2450,8 +2454,8 @@ export const stories: Story[] = [
     body: "Fighting a nap that used to be easy doesn't always mean it's time to cut it - sometimes it means the opposite. Here's how to tell a transition from a rough patch.",
     readMinutes: 5,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05 (2).jpeg',
-    heroImagePosition: 'center 40%',
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.44.58.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "For weeks, naps ran like clockwork. Then, seemingly overnight, bedtime for a nap becomes a battle, or a nap that used to run an hour drops to twenty minutes. The instinct is often to assume it's time to drop a nap altogether - but that's not always what's actually going on.",

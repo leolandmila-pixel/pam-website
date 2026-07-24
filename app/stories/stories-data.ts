@@ -1762,7 +1762,7 @@ export const stories: Story[] = [
     body: "A sore red patch, a fever that comes out of nowhere, and a feeling like the flu hit in the space of an hour. Here's how to recognise it early and what genuinely helps.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (2).jpeg',
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.55.56.jpeg',
     heroImagePosition: 'center 30%',
     content: {
       hook: [
@@ -2797,6 +2797,8 @@ export const stories: Story[] = [
     body: "Learning how to swaddle a baby properly can genuinely improve sleep - but done incorrectly, it carries real risks. Here's the safe method, step by step.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (2).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "A good swaddle can be the difference between a baby who startles themselves awake every twenty minutes and one who sleeps a solid stretch. A bad one can be a genuine safety risk. The gap between the two often comes down to a few specific details most people are never taught properly.",

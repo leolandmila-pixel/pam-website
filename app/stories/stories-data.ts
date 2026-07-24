@@ -2281,7 +2281,7 @@ export const stories: Story[] = [
     body: "A baby who chokes, splutters, and pulls off crying at every feed might not have a latch problem at all - they might be dealing with a flood, not a drought.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 13.47.59.jpeg',
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.15.40.jpeg',
     heroImagePosition: 'center 50%',
     content: {
       hook: [
@@ -2857,7 +2857,7 @@ export const stories: Story[] = [
     body: "A good breastfeeding latch shouldn't hurt past the first few seconds. If it does, here's what a proper latch looks like and how to actually fix a bad one.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.05.jpeg',
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.47.59.jpeg',
     heroImagePosition: 'center 40%',
     content: {
       hook: [

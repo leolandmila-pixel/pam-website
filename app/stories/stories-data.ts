@@ -2741,7 +2741,7 @@ export const stories: Story[] = [
     body: "There's no strict newborn sleep schedule in the first weeks - just wide, normal ranges. Here's what an average newborn sleep pattern actually looks like, week by week.",
     readMinutes: 7,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (3).jpeg',
+    heroImage: '/Untitled design (18).png',
     heroImagePosition: 'center 40%',
     content: {
       hook: [

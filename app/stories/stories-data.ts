@@ -2975,7 +2975,7 @@ export const stories: Story[] = [
     body: "Sleep regressions tend to cluster around predictable ages. Here's the full baby sleep regression timeline, what drives each one, and what actually helps.",
     readMinutes: 7,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03 (2).jpeg',
+    heroImage: '/Untitled design (20).png',
     heroImagePosition: 'center 40%',
     content: {
       hook: [

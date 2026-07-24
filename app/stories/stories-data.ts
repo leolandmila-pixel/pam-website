@@ -3036,7 +3036,7 @@ export const stories: Story[] = [
     body: "Before chasing a full night's sleep, it helps to know what's actually realistic at each age. Here's an honest breakdown of how to get baby to sleep through the night.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03.jpeg',
+    heroImage: '/Untitled design (19).png',
     heroImagePosition: 'center 75%',
     content: {
       hook: [

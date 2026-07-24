@@ -1458,7 +1458,8 @@ export const stories: Story[] = [
     body: "When did you last do something just for you? Stop and try to answer it. Real self-care for new mums, for the ones who can't remember - and the small voice that says I don't have time for that.",
     readMinutes: 5,
     published: true,
-    heroImage: '/blog-self.jpeg',
+    heroImage: '/Untitled design beach.jpg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Stop for a second and try to answer it.",

@@ -1402,8 +1402,8 @@ export const stories: Story[] = [
     body: "The version of postpartum recovery that gets talked about publicly is heavily edited. Here's the unedited version - from the first week to the stuff nobody tells you.",
     readMinutes: 6,
     published: true,
-    heroImage: '/blog-body-after-birth.jpeg',
-    heroImagePosition: 'center 40%',
+    heroImage: '/Untitled design beach babies.png',
+    heroImagePosition: 'center 60%',
     content: {
       hook: [
         "Somewhere between the birth and the six-week check, you will encounter a version of the postpartum body narrative that involves words like bounce back, glow, and journey. You will look at your body and feel that none of those words apply.",

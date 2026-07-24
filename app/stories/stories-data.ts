@@ -1699,6 +1699,8 @@ export const stories: Story[] = [
     body: "Not every 4-month-old reaching for your dinner is ready for it. The real readiness signs, and why the calendar date matters less than you'd think.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.07 (1).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere around the four-month mark, your baby stares at your toast with an intensity usually reserved for religious experiences, and everyone in a five-metre radius says some version of looks like someone's ready for solids.",
@@ -1928,6 +1930,8 @@ export const stories: Story[] = [
     body: "It's ten minutes, mostly about the baby, and easy to walk out of having said 'fine' when you weren't. Here's how to use it properly.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.43 (2).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "The six-week postpartum check is often the last dedicated appointment a new mum has for herself before the focus shifts entirely to the baby's schedule of visits. It's worth knowing what it's actually for, because it's easy to sit through it, say 'yeah, going okay' on autopilot, and leave having missed the point.",
@@ -2093,6 +2097,8 @@ export const stories: Story[] = [
     body: "The smell of their head, the exact sound of their newborn cry, the weight of them asleep on your chest. You will forget more of it than you think - unless you catch it now.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06 (3).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Right now, certain things feel unforgettable - the particular smell of the top of their head, the exact pitch of their newborn cry, how light they were the first time you held them. It feels impossible that any of it could fade.",
@@ -2205,6 +2211,8 @@ export const stories: Story[] = [
     body: "Blotchy cheeks, tiny white bumps, skin that peels like they've been sunbathing. Newborn skin looks alarming and almost none of it is. Here's the field guide.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06 (1).jpeg',
+    heroImagePosition: 'center 60%',
     content: {
       hook: [
         "Somewhere in the first week, you notice a rash across their cheeks, or tiny white dots across their nose, or skin peeling off their hands like they've just come back from a beach holiday - and you spiral slightly, because nothing in the birth prep class covered this.",
@@ -2424,6 +2432,8 @@ export const stories: Story[] = [
     body: "Fighting a nap that used to be easy doesn't always mean it's time to cut it - sometimes it means the opposite. Here's how to tell a transition from a rough patch.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05 (2).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "For weeks, naps ran like clockwork. Then, seemingly overnight, bedtime for a nap becomes a battle, or a nap that used to run an hour drops to twenty minutes. The instinct is often to assume it's time to drop a nap altogether - but that's not always what's actually going on.",
@@ -2482,6 +2492,8 @@ export const stories: Story[] = [
     body: "You're both exhausted, both stretched thin, and somehow supposed to keep connecting as partners on top of everything else. Here's why that's harder than anyone warns you, and what genuinely helps.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05 (1).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Somewhere between the feeds and the sleep deprivation and the sheer logistics of keeping a small human alive, you look up and realise you and your partner have barely had a real conversation that wasn't about the baby in weeks. That's not a sign your relationship is in trouble. It's an almost universal part of this particular season.",
@@ -2538,6 +2550,8 @@ export const stories: Story[] = [
     body: "Everyone from the supermarket stranger to your own mother has a view on how you're doing this. Here's why it happens, and a few responses that actually work.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.44 (1).jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "You've been a parent for six days and already have opinions from a stranger in the supermarket queue about your baby's outfit, your mother-in-law about your feeding choice, and a well-meaning friend about your sleep routine - none of it requested, all of it delivered with total confidence.",
@@ -2592,6 +2606,8 @@ export const stories: Story[] = [
     body: "A few lines, written every so often, that turn into one of the most treasured things you'll ever hand them. Here's the low-effort version that actually gets done.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06 (2).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Somewhere, in the future, your child will be old enough to read something you wrote about them as a baby - and there is almost nothing that lands harder, in the best way, than a parent's own words from a time they can't remember themselves.",
@@ -2648,6 +2664,8 @@ export const stories: Story[] = [
     body: "It's easy to reach for the camera on the good days and put it away on the hard ones. Here's why the hard days are worth keeping a record of as well.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.43 (1).jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "The instinct on a genuinely hard day - the one where the baby won't settle, you haven't showered, and everything feels like too much - is to want the day over, not documented. Memory-keeping tends to happen on the good days, when there's something photogenic to capture, and quietly skip the rest.",
@@ -2755,6 +2773,8 @@ export const stories: Story[] = [
     body: "Learning how to swaddle a baby properly can genuinely improve sleep - but done incorrectly, it carries real risks. Here's the safe method, step by step.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.44 (2).jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "A good swaddle can be the difference between a baby who startles themselves awake every twenty minutes and one who sleeps a solid stretch. A bad one can be a genuine safety risk. The gap between the two often comes down to a few specific details most people are never taught properly.",
@@ -3222,6 +3242,8 @@ export const stories: Story[] = [
     body: "You don't need a monthly milestone card, a professional shoot, or a perfectly curated album. Here's a realistic approach to baby's first year photos that actually survives contact with real life.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.07 (2).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "The internet is full of beautifully styled 'baby's first year' photo templates - a milestone card each month, a co-ordinated outfit, a consistent backdrop. Most of them get attempted twice and abandoned by month three, not because you don't care, but because the format itself demands more time and energy than early parenthood has to give.",

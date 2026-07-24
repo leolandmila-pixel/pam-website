@@ -2797,7 +2797,7 @@ export const stories: Story[] = [
     body: "Learning how to swaddle a baby properly can genuinely improve sleep - but done incorrectly, it carries real risks. Here's the safe method, step by step.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (2).jpeg',
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.19.55.jpeg',
     heroImagePosition: 'center 40%',
     content: {
       hook: [
@@ -2916,8 +2916,8 @@ export const stories: Story[] = [
     body: "Choosing a formula and getting bottle prep right shouldn't feel this complicated. A clear, judgment-free formula feeding guide for exhausted parents.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04 (1).jpeg',
-    heroImagePosition: 'center 50%',
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.19.55 (1).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "The formula aisle alone is enough to induce decision paralysis - dozens of tins, each claiming to be closest to breastmilk, gentler, or better for some specific concern. Add in bottle prep instructions that seem stricter than a lab protocol, and it's easy to feel like you need a certification just to feed your baby.",

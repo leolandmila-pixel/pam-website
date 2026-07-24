@@ -2514,8 +2514,8 @@ export const stories: Story[] = [
     body: "You're both exhausted, both stretched thin, and somehow supposed to keep connecting as partners on top of everything else. Here's why that's harder than anyone warns you, and what genuinely helps.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05 (1).jpeg',
-    heroImagePosition: 'center 30%',
+    heroImage: '/Untitled design josh ash.png',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere between the feeds and the sleep deprivation and the sheer logistics of keeping a small human alive, you look up and realise you and your partner have barely had a real conversation that wasn't about the baby in weeks. That's not a sign your relationship is in trouble. It's an almost universal part of this particular season.",

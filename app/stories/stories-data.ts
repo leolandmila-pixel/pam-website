@@ -1519,7 +1519,6 @@ export const stories: Story[] = [
     published: true,
     heroImage: '/Untitled design pram.png',
     heroImagePosition: 'center 45%',
-    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "There's a particular kind of dread that arrives the night before an MCH appointment. You find yourself trying to remember how many wet nappies there were yesterday, whether that constitutes 'enough,' and whether you're supposed to have a system for tracking any of this.",
@@ -1589,7 +1588,6 @@ export const stories: Story[] = [
     published: true,
     heroImage: '/Untitled design baby1.png',
     heroImagePosition: 'center 45%',
-    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "You lay them down, gently, slowly, holding your breath the whole way - and just as their back touches the mattress, both arms fly out to the sides like they're bracing for a fall. Then the cry. Then you pick them back up, certain you've done something wrong.",
@@ -1946,7 +1944,6 @@ export const stories: Story[] = [
     published: true,
     heroImage: '/Untitled design ash mila.png',
     heroImagePosition: 'center 30%',
-    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "The six-week postpartum check is often the last dedicated appointment a new mum has for herself before the focus shifts entirely to the baby's schedule of visits. It's worth knowing what it's actually for, because it's easy to sit through it, say 'yeah, going okay' on autopilot, and leave having missed the point.",
@@ -2007,7 +2004,6 @@ export const stories: Story[] = [
     published: true,
     heroImage: '/Untitled design 25.png',
     heroImagePosition: 'center 45%',
-    heroImagePosition: 'center 25%',
     content: {
       hook: [
         "You went back to work and felt guilty for leaving. You stayed home and felt guilty for not contributing financially. You put on the TV so you could shower and felt guilty about the screen time. You didn't put on the TV and felt guilty for being short-tempered by dinner.",

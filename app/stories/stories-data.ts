@@ -1587,7 +1587,8 @@ export const stories: Story[] = [
     body: "That dramatic full-body startle - arms thrown wide, then a cry - has a name, a purpose, and an expiry date. Here's what's actually happening.",
     readMinutes: 5,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.04.jpeg',
+    heroImage: '/Untitled design baby1.png',
+    heroImagePosition: 'center 45%',
     heroImagePosition: 'center 50%',
     content: {
       hook: [

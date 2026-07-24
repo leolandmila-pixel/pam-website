@@ -1942,7 +1942,8 @@ export const stories: Story[] = [
     body: "It's ten minutes, mostly about the baby, and easy to walk out of having said 'fine' when you weren't. Here's how to use it properly.",
     readMinutes: 5,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.43 (2).jpeg',
+    heroImage: '/Untitled design ash mila.png',
+    heroImagePosition: 'center 30%',
     heroImagePosition: 'center 30%',
     content: {
       hook: [
@@ -2002,7 +2003,8 @@ export const stories: Story[] = [
     body: "That constant low hum of not doing enough, not being enough - even when, by any reasonable measure, you are. Here's what's actually driving it.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.43.jpeg',
+    heroImage: '/Untitled design 25.png',
+    heroImagePosition: 'center 45%',
     heroImagePosition: 'center 25%',
     content: {
       hook: [

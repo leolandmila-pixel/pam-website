@@ -901,6 +901,7 @@ export const stories: Story[] = [
     readMinutes: 5,
     published: true,
     heroImage: '/blog-growth-spurt.jpeg',
+    heroImagePosition: 'center 70%',
     content: {
       hook: [
         "Around six weeks, just when you've started to feel like you might be getting the hang of things, your baby will seemingly forget everything they learned and demand to be fed constantly, sleep terribly, and cry with a conviction that suggests something is very wrong.",
@@ -1127,6 +1128,7 @@ export const stories: Story[] = [
     readMinutes: 5,
     published: true,
     heroImage: '/blog-sleep-advice.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         'It is the most given piece of advice to new parents. It is delivered by midwives, mothers-in-law, friends, strangers at the supermarket. It is meant kindly. It is almost completely useless.',
@@ -2060,7 +2062,7 @@ export const stories: Story[] = [
     readMinutes: 5,
     published: true,
     heroImage: '/WhatsApp Image 2026-07-24 at 11.34.02 (1).jpeg',
-    heroImagePosition: 'center 30%',
+    heroImagePosition: 'center 65%',
     content: {
       hook: [
         "Somewhere in most nurseries sits a beautiful baby book - hardcover, cream pages, a spot for 'baby's first haircut' - with exactly three entries in it, all from the first fortnight. After that, life happens, and the book quietly closes for good.",
@@ -3027,7 +3029,7 @@ export const stories: Story[] = [
     readMinutes: 6,
     published: true,
     heroImage: '/WhatsApp Image 2026-07-24 at 11.34.03.jpeg',
-    heroImagePosition: 'center 30%',
+    heroImagePosition: 'center 75%',
     content: {
       hook: [
         "'Sleeping through the night' is one of the most searched, most misunderstood phrases in early parenting - partly because it means something different at every age, and partly because the marketing version (12 hours, no waking) sets an expectation that isn't realistic for most babies for a long time.",

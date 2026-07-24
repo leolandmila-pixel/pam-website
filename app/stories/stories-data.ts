@@ -1515,6 +1515,8 @@ export const stories: Story[] = [
     body: "The Maternal Child Health checks can feel like a pop quiz you didn't study for. Here's what they're really checking, and why the weigh-in is the least interesting part.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06.jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "There's a particular kind of dread that arrives the night before an MCH appointment. You find yourself trying to remember how many wet nappies there were yesterday, whether that constitutes 'enough,' and whether you're supposed to have a system for tracking any of this.",
@@ -1984,6 +1986,8 @@ export const stories: Story[] = [
     body: "That constant low hum of not doing enough, not being enough - even when, by any reasonable measure, you are. Here's what's actually driving it.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.43.jpeg',
+    heroImagePosition: 'center 25%',
     content: {
       hook: [
         "You went back to work and felt guilty for leaving. You stayed home and felt guilty for not contributing financially. You put on the TV so you could shower and felt guilty about the screen time. You didn't put on the TV and felt guilty for being short-tempered by dinner.",
@@ -3038,6 +3042,8 @@ export const stories: Story[] = [
     body: "Postnatal depression affects around 1 in 5 Australian mums. Here are the real signs to look for, how it differs from the baby blues, and exactly where to get support.",
     readMinutes: 7,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.44.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "The baby blues get talked about, briefly, in hospital pamphlets. What gets talked about far less is what happens if the low mood doesn't lift after a week or two - and how to tell the difference between an exhausting, hard stretch and something that needs proper support.",
@@ -3097,6 +3103,8 @@ export const stories: Story[] = [
     body: "The mental load isn't about who does more chores - it's about who's doing the invisible thinking, remembering and managing behind every task. Here's how to name it and share it properly.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05.jpeg',
+    heroImagePosition: 'center 20%',
     content: {
       hook: [
         "You didn't just book the appointment - you remembered it was due, tracked the right window for it, coordinated the calendar clash, and packed the bag for it. Your partner did the physical task of driving there. On paper, you 'shared' the appointment. In reality, one of you carried almost the entire thing.",
@@ -3145,6 +3153,8 @@ export const stories: Story[] = [
     body: "From the first smile to first steps, here's a realistic guide to baby milestones by month - plus a simple way to actually keep track without the pressure of a perfect baby book.",
     readMinutes: 7,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.07.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere between the sleep deprivation and the day-to-day of keeping a baby alive, the milestones themselves can blur together - was the first real laugh at 8 weeks or 10? Did rolling happen before or after the trip to your parents'?",

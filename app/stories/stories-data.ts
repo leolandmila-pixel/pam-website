@@ -1517,7 +1517,8 @@ export const stories: Story[] = [
     body: "The Maternal Child Health checks can feel like a pop quiz you didn't study for. Here's what they're really checking, and why the weigh-in is the least interesting part.",
     readMinutes: 6,
     published: true,
-    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06.jpeg',
+    heroImage: '/Untitled design pram.png',
+    heroImagePosition: 'center 45%',
     heroImagePosition: 'center 30%',
     content: {
       hook: [

@@ -14,7 +14,7 @@ export default function PrivacyPage() {
           <h1 style={{ fontFamily: 'var(--display)', fontWeight: 400, fontSize: 'clamp(2.4rem,5vw,3.6rem)', lineHeight: 1.1, margin: '18px 0 10px' }}>
             Privacy Policy
           </h1>
-          <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem', marginBottom: 0 }}>Last updated: June 2026</p>
+          <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem', marginBottom: 0 }}>Last updated: July 2026</p>
         </div>
       </section>
 
@@ -23,24 +23,26 @@ export default function PrivacyPage() {
 
           <div className="privacy-section">
             <h2>Our Commitment to Your Privacy</h2>
-            <p>PAM (Parental Admin Manager) is committed to protecting the privacy of every family that uses our platform. This Privacy Policy explains what information we collect, how we use it, and the choices you have. By using PAM, you agree to the practices described here.</p>
+            <p>PAM (Parental Admin Manager) is committed to protecting the privacy of every family that uses our platform. This Privacy Policy explains what information we collect, how we use it, and the choices you have. PAM is currently offered only to residents of Australia, and this Privacy Policy is written on that basis. By using PAM, you agree to the practices described here.</p>
           </div>
 
           <div className="privacy-section">
             <h2>Who We Are</h2>
-            <p>PAM is an Australian app designed to help parents manage and oversee their children&apos;s digital activity. References to &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;PAM&rdquo; in this policy mean the PAM team.</p>
+            <p>PAM (Parental Admin Manager) is an Australian app that helps parents organise and manage family administrative tasks, including school and appointment reminders, family calendars, child profiles, notes and family content, and — where enabled — location features for linked family devices. References to &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;PAM&rdquo; in this policy mean the PAM team.</p>
             <p>For privacy-related enquiries, contact us at: <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></p>
           </div>
 
           <div className="privacy-section">
             <h2>What Information We Collect</h2>
-            <p>We collect the following types of information:</p>
 
             <h3>Account Information</h3>
             <p>When you create an account, we collect your name, email address, and a password. If you choose to add a profile photo, that image is also stored.</p>
 
             <h3>Child Profiles</h3>
             <p>To provide our core features, you may create profiles for your children. This may include a first name or nickname, age or date of birth, and activity or usage data generated through the app.</p>
+
+            <h3>Family Content</h3>
+            <p>Where you use PAM to store photos, notes, journal entries, or other family &ldquo;memories&rdquo;, we collect and store that content on your behalf so that it can be displayed back to you within the app.</p>
 
             <h3>Device Information</h3>
             <p>We may collect information about the devices connected to your PAM account, including device type, operating system version, and a unique device identifier.</p>
@@ -49,7 +51,7 @@ export default function PrivacyPage() {
             <p>Where you enable location features, we may collect approximate or precise location information from linked devices. You can withdraw this permission at any time through your device settings or within the app.</p>
 
             <h3>Billing and Payment Information</h3>
-            <p>When you subscribe to PAM, we collect billing details necessary to process your monthly subscription. This includes your name, billing address, and payment method details. Payment transactions are processed by a third-party payment provider and we do not store your full card details on our systems.</p>
+            <p>When you subscribe to PAM, we collect billing details necessary to process your subscription. This includes your name, billing address, and payment method details. Payment transactions are processed by a third-party payment provider (for example, Apple, Google Play, or a payment processor such as Stripe, depending on how you subscribe) and we do not store your full card details on our systems.</p>
 
             <h3>Usage Data</h3>
             <p>We collect information about how you use PAM, such as features accessed, session duration, and in-app interactions, to help us improve the product.</p>
@@ -61,7 +63,8 @@ export default function PrivacyPage() {
             <ul>
               <li>Provide, operate, and maintain the PAM app and its features</li>
               <li>Set up and manage family accounts and child profiles</li>
-              <li>Process and manage your monthly subscription and payments</li>
+              <li>Store and display family content you choose to add, such as photos and notes</li>
+              <li>Process and manage your subscription and payments</li>
               <li>Send you billing confirmations, renewal reminders, and receipts</li>
               <li>Enable location and activity monitoring features you have turned on</li>
               <li>Send you important service notifications, security alerts, and support messages</li>
@@ -78,6 +81,9 @@ export default function PrivacyPage() {
 
             <h3>Service Providers</h3>
             <p>We work with trusted third-party providers (such as cloud hosting, analytics, and payment processing services) who process data on our behalf. These providers are contractually required to handle data securely and only as directed by us.</p>
+
+            <h3>Overseas Disclosure</h3>
+            <p>Some of our service providers — including cloud hosting, payment processing, and analytics providers — may store or process personal information on servers located outside Australia, including in the United States or other countries in which those providers operate. Where this occurs, we take reasonable steps to ensure the overseas recipient handles your information in a manner consistent with the Australian Privacy Principles, including through contractual protections.</p>
 
             <h3>Legal Requirements</h3>
             <p>We may disclose information where required by law, court order, or a government authority in Australia.</p>
@@ -96,13 +102,13 @@ export default function PrivacyPage() {
 
           <div className="privacy-section">
             <h2>Subscription and Billing</h2>
-            <p>PAM is offered on a monthly subscription basis. Your subscription will automatically renew each month unless cancelled before the renewal date. You can manage or cancel your subscription at any time through your account settings.</p>
+            <p>PAM is offered on a subscription basis and will automatically renew at the end of each billing period unless cancelled before the renewal date. You can manage or cancel your subscription at any time through your account settings or the relevant app store.</p>
             <p>Refunds are handled in accordance with our Refund Policy and your rights under the Australian Consumer Law. For billing queries, contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a>.</p>
           </div>
 
           <div className="privacy-section">
             <h2>Data Storage and Security</h2>
-            <p>Your data is stored on secure servers located in Australia. We use industry-standard security measures including encryption in transit and at rest, access controls, and regular security reviews.</p>
+            <p>Your personal information is primarily stored on secure servers located in Australia. As noted above, certain service providers we rely on (such as payment processing and analytics) may store or process data overseas. We use industry-standard security measures including encryption in transit and at rest, access controls, and regular security reviews.</p>
             <p>While we take every reasonable precaution, no method of data transmission or storage is 100% secure. We encourage you to use a strong, unique password and to contact us immediately if you suspect any unauthorised access to your account.</p>
           </div>
 
@@ -130,6 +136,11 @@ export default function PrivacyPage() {
           </div>
 
           <div className="privacy-section">
+            <h2>Where PAM Operates</h2>
+            <p>PAM is currently offered only to users located in Australia. If we expand to other countries in future, we will update this Privacy Policy to reflect any additional rights or obligations that apply to users in those countries.</p>
+          </div>
+
+          <div className="privacy-section">
             <h2>Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. When we do, we will revise the &ldquo;last updated&rdquo; date at the top of this page and, where changes are material, notify you via email or an in-app notice. We encourage you to review this policy periodically.</p>
           </div>
@@ -141,8 +152,7 @@ export default function PrivacyPage() {
 
           <div className="privacy-section">
             <h2>Contact Us</h2>
-            <p>For any privacy-related questions:</p>
-            <p>Email: <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></p>
+            <p>For any privacy-related questions, email <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a>.</p>
           </div>
 
         </div>

@@ -61,9 +61,9 @@ export default function TermsPage() {
               <div className="terms-pricing-card terms-pricing-card--annual">
                 <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>Annual <span className="terms-savings-badge" style={{ margin: 0 }}>Save 2 months</span></h3>
                 <ul>
-                  <li><span>Single</span><span>$143.88/yr</span></li>
-                  <li><span>Two</span><span>$239.88/yr</span></li>
-                  <li><span>Family</span><span>$287.88/yr</span></li>
+                  <li><span>Single</span><span>$144.99/yr</span></li>
+                  <li><span>Two</span><span>$239.99/yr</span></li>
+                  <li><span>Family</span><span>$289.99/yr</span></li>
                 </ul>
               </div>
             </div>

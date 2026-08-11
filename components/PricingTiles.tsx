@@ -17,8 +17,8 @@ const tiers: Tier[] = [
   {
     name: 'Single',
     monthly: '$14.99',
-    yearly: '$11.99',
-    yearlyTotal: '$143.88 billed annually',
+    yearly: '$12.08',
+    yearlyTotal: '$144.99 billed annually',
     tagline: 'For one parent, getting it together.',
     summaryFeature: 'One parent account',
     features: [
@@ -31,8 +31,8 @@ const tiers: Tier[] = [
   {
     name: 'Couple',
     monthly: '$24.99',
-    yearly: '$19.99',
-    yearlyTotal: '$239.88 billed annually',
+    yearly: '$20.00',
+    yearlyTotal: '$239.99 billed annually',
     tagline: 'For two parents sharing the load.',
     popular: true,
     summaryFeature: 'Two parent accounts, fully shared',
@@ -47,8 +47,8 @@ const tiers: Tier[] = [
   {
     name: 'Family',
     monthly: '$29.99',
-    yearly: '$23.99',
-    yearlyTotal: '$287.88 billed annually',
+    yearly: '$24.17',
+    yearlyTotal: '$289.99 billed annually',
     tagline: 'For the whole family, growing together.',
     summaryFeature: 'Unlimited child profiles',
     features: [

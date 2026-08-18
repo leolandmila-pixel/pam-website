@@ -524,7 +524,7 @@ section{padding:96px 0}
 .blog-filter-pills{display:flex;gap:8px;flex-wrap:wrap}
 .blog-filter-pill{font-family:var(--montserrat);font-size:0.82rem;font-weight:500;padding:8px 20px;border-radius:100px;border:1.5px solid #e2dcd8;background:transparent;color:var(--ink-soft);cursor:pointer;transition:all 0.2s ease;letter-spacing:0.01em}
 .blog-filter-pill:hover{border-color:var(--wine);color:var(--wine)}
-.blog-filter-pill--active{background:var(--wine);border-color:var(--wine);color:#fff}
+.blog-filter-pill--active,.blog-filter-pill--active:hover{background:var(--wine);border-color:var(--wine);color:#fff}
 .blog-filter-select{display:none;width:100%;border:1.5px solid var(--line);background:#fff;border-radius:13px;padding:11px 16px;font-family:var(--sans);font-size:0.95rem;color:var(--ink);outline:none}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
 .story{background:var(--card);border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(74,7,19,0.07);transition:transform 0.32s ease,box-shadow 0.32s ease;cursor:pointer;display:flex;flex-direction:column;flex:1}
@@ -548,6 +548,7 @@ section{padding:96px 0}
 .c-community{background:linear-gradient(140deg,#C5A085,#9A1E37)}
 .c-feeding{background:linear-gradient(150deg,#B06E72,#6D0015)}
 .c-sleep{background:linear-gradient(150deg,#8E1633,#6D0015)}
+.c-toddler{background:linear-gradient(150deg,#31364A,#6D0015)}
 
 .share-cta{text-align:center;margin-top:84px;padding:70px 40px;background:transparent}
 .share-cta h2{font-size:clamp(2.4rem,5vw,3.6rem);margin-bottom:18px}

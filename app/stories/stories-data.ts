@@ -3323,6 +3323,136 @@ export const stories: Story[] = [
       },
     },
   },
+  {
+    slug: 'why-your-toddler-is-losing-it',
+    cover: 'c-toddler',
+    label: 'Toddler behaviour',
+    tag: 'Toddler Behaviour & Emotions',
+    title: "Why your toddler is losing it (and why that's actually normal)",
+    body: "A full-body meltdown over putting shoes on isn't bad behaviour - it's a bad fit between a big feeling and a brain that can't yet manage it. Here's what's actually happening, and what helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "It's 5:47pm. You've asked your toddler to put their shoes on for the third time. This time, it's not a \"no\" - it's a full-body collapse onto the kitchen floor, complete with a sound you're fairly sure only toddlers and smoke alarms can make.",
+        "If you've been there, you're not doing anything wrong. You're parenting a toddler.",
+      ],
+      sections: [
+        {
+          heading: "It's not bad behaviour. It's a bad fit.",
+          paragraphs: [
+            "Between about 1 and 4 years old, the part of the brain responsible for logic, patience and \"just calming down\" (the prefrontal cortex) is barely under construction. Meanwhile, the emotional part of the brain is fully online and running the show. Your toddler isn't choosing to be difficult. Their brain genuinely cannot regulate big feelings the way yours can.",
+            "Add in limited language (they can feel far more than they can say), a fierce new drive for independence, and a world where almost every decision is made for them, and tantrums start to make a lot more sense. It's less \"manipulation\" and more \"system overload.\"",
+          ],
+        },
+        {
+          heading: "What's actually happening in a tantrum",
+          bullets: [
+            "The upstairs brain goes offline - this is the yelling, kicking, throwing stage. Logic doesn't work here; you cannot reason a toddler out of a meltdown any more than you could reason yourself out of a fire alarm going off in your ear",
+            "The comedown - once the initial wave passes, they often become clingy, teary, or want a cuddle. This is when connection actually lands",
+          ],
+        },
+        {
+          heading: 'Skip, for now',
+          bullets: [
+            'Long explanations mid-meltdown ("we don\'t hit because...")',
+            'Bargaining or bribing to stop the crying',
+            'Matching their volume',
+          ],
+        },
+        {
+          heading: 'Try instead',
+          bullets: [
+            'Name it, briefly - "You\'re really mad you can\'t have another biscuit." One sentence. Save the discussion for later',
+            'Stay boringly calm - your steadiness is the co-regulation their brain is borrowing until it can do it alone',
+            'Offer safety, not solutions - sometimes just sitting nearby (not lecturing) is enough',
+            'Save the debrief for after - once they\'re calm, a simple "that was a big feeling, hey" helps them build the vocabulary for next time',
+          ],
+        },
+        {
+          heading: 'The bit nobody tells you',
+          paragraphs: [
+            'Tantrums usually peak around age 2 to 3 and taper off as language and self-regulation develop, but "taper off" doesn\'t mean disappear overnight, and it doesn\'t mean you\'re failing if they\'re still happening at 4. Some kids are simply more intense feelers than others, and that\'s temperament, not a parenting report card.',
+            "It's also worth saying: the parent's exhaustion in these moments is real and valid too. Managing a meltdown while mentally running through school pickup, what's for dinner, and whether you replied to that email is its own kind of load, and it's the kind that rarely gets talked about but is very real for the person holding it all together.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The takeaway',
+        paragraphs: [
+          "A tantrum isn't a discipline failure, yours or theirs. It's a small human with a big feeling and not yet enough tools to manage it. Your calm presence, more than any perfect script, is what teaches them that big emotions are survivable.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-sarah',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Sarah',
+    body: "Model, content creator, coach and event host, and mum of two navigating two very different seasons at once. Sarah on miscarriage, self-talk, and turning a side hustle into her full-time gig.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Meet Sarah Viliamu. She's a mum of two - her son is 5, her daughter is 7 months - with an incredibly supportive husband she's been with for over 13 years. Between her two children, Sarah went through two miscarriages, which she chose to share publicly, believing it's something that needs to be spoken about more often.",
+        "She's also currently navigating two very different seasons of motherhood at once - one child in prep, the other all things baby life - while turning what was a side hustle into her full-time gig as a model, content creator, coach and event host, after being made redundant just before going on maternity leave in December.",
+        "Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: 'Describe motherhood in one sentence.',
+          paragraphs: [
+            "Motherhood is the hardest and most amazing experience all wrapped in one big beautiful hug.",
+          ],
+        },
+        {
+          heading: 'Your work is all about self-love and confidence. How has becoming a mum changed the way you speak to yourself?',
+          paragraphs: [
+            "In all honesty it's something I try to work on every day, the negative self talk can easily creep in but ultimately I try to remind myself that my children are watching and listening to how I speak to myself, and that not only do I deserve self compassion and kindness, but my children deserve to grow up in a household where that is modelled.",
+          ],
+        },
+        {
+          heading: 'What is something about motherhood that no one could have prepared you for?',
+          paragraphs: [
+            "Even though you know motherhood is 24/7, I don't think you quite conceptualise how literal the 24/7 is, and just how huge the extra mental load is.",
+          ],
+        },
+        {
+          heading: 'What does support look like for you in this season of life?',
+          paragraphs: [
+            "My husband is a huge support for me, especially as I'm breastfeeding - he does anything he can to reduce my mental load and make life that bit easier for me. Also asking for help when I need it, whether that's from family or a friend.",
+          ],
+        },
+        {
+          heading: "You've built a community around empowering women. Has becoming a mum changed what empowerment means to you?",
+          paragraphs: [
+            "I'd say if anything it's amplified my mission and messages of empowerment. Becoming a mum has solidified my why behind encouraging all people to step into their confidence and empowerment.",
+          ],
+        },
+        {
+          heading: 'If you could go back and give advice to yourself as a first-time mum, what would it be?',
+          paragraphs: [
+            "Your baby doesn't need a perfect mum, a happy mum is much more important.",
+          ],
+        },
+        {
+          heading: 'When life feels overwhelming, what helps you come back to yourself as Sarah - not just mum, business owner or partner?',
+          paragraphs: [
+            "I often use the words \"zoom out\" and find it helps take me out of the overwhelm and look at the big picture. Gratitude and journaling are also key practices in my life.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Sarah.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
 ]
 
 export function getStoryBySlug(slug: string): Story | undefined {

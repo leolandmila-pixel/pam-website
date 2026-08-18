@@ -4,21 +4,21 @@ import { useState } from 'react'
 
 type Tier = {
   name: string
-  monthly: string
-  yearly: string
-  yearlyTotal: string
+  monthly: string         // e.g. '$14.99' — big price on Monthly toggle
+  yearlyTotal: string     // e.g. '$144.99' — big price on Annual toggle (paid once/year)
+  yearlyPerMonth: string  // e.g. '$12.08' — per-month equivalent, shown as subtitle for comparison
   tagline: string
   popular?: boolean
-  summaryFeature: string   // single key feature shown in collapsed pill
+  summaryFeature: string  // single key feature shown in collapsed pill
   features: string[]
 }
 
 const tiers: Tier[] = [
   {
     name: 'Single',
-    monthly: '$7.99',
-    yearly: '$6.39',
-    yearlyTotal: '$76.68 billed annually',
+    monthly: '$14.99',
+    yearlyTotal: '$144.99',
+    yearlyPerMonth: '$12.08',
     tagline: 'For one parent, getting it together.',
     summaryFeature: 'One parent account',
     features: [
@@ -30,9 +30,9 @@ const tiers: Tier[] = [
   },
   {
     name: 'Couple',
-    monthly: '$12.99',
-    yearly: '$10.39',
-    yearlyTotal: '$124.68 billed annually',
+    monthly: '$24.99',
+    yearlyTotal: '$239.99',
+    yearlyPerMonth: '$20.00',
     tagline: 'For two parents sharing the load.',
     popular: true,
     summaryFeature: 'Two parent accounts, fully shared',
@@ -46,9 +46,9 @@ const tiers: Tier[] = [
   },
   {
     name: 'Family',
-    monthly: '$19.99',
-    yearly: '$15.99',
-    yearlyTotal: '$191.88 billed annually',
+    monthly: '$29.99',
+    yearlyTotal: '$289.99',
+    yearlyPerMonth: '$24.17',
     tagline: 'For the whole family, growing together.',
     summaryFeature: 'Unlimited child profiles',
     features: [
@@ -96,7 +96,7 @@ export default function PricingTiles() {
         {tiers.map((t) => {
           const isOpen = expanded === t.name
           const priceLabel = isAnnual
-            ? `${t.yearly}/month billed annually`
+            ? `Just ${t.yearlyPerMonth}/month equivalent`
             : `${t.monthly} billed monthly`
 
           return (
@@ -116,8 +116,8 @@ export default function PricingTiles() {
                 <div className="pricing-tile-header-left">
                   <div className="pricing-tile-name">{t.name}</div>
                   <div className="pricing-tile-price">
-                    <span className="pricing-amount">{isAnnual ? t.yearly : t.monthly}</span>
-                    <span className="pricing-period">/month</span>
+                    <span className="pricing-amount">{isAnnual ? t.yearlyTotal : t.monthly}</span>
+                    <span className="pricing-period">{isAnnual ? '/year' : '/month'}</span>
                   </div>
                 </div>
                 <svg className="pricing-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -157,8 +157,8 @@ export default function PricingTiles() {
                   </ul>
                   <div className="pricing-yearly-note">
                     {isAnnual
-                      ? <span>{t.yearlyTotal}</span>
-                      : <span>or <b>{t.yearly}/month</b> billed annually - save 20%</span>
+                      ? <span><b>{t.yearlyTotal}</b> billed once per year (works out to {t.yearlyPerMonth}/month)</span>
+                      : <span>or <b>{t.yearlyTotal}/year</b> — save ~20% vs monthly</span>
                     }
                   </div>
                 </div>

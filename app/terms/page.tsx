@@ -14,7 +14,7 @@ export default function TermsPage() {
           <h1 style={{ fontFamily: 'var(--display)', fontWeight: 400, fontSize: 'clamp(2.4rem,5vw,3.6rem)', lineHeight: 1.1, margin: '18px 0 10px' }}>
             Terms &amp; Conditions
           </h1>
-          <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem', marginBottom: 0 }}>Last updated: June 2026</p>
+          <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem', marginBottom: 0 }}>Last updated: July 2026</p>
         </div>
       </section>
 
@@ -30,6 +30,7 @@ export default function TermsPage() {
           <div className="privacy-section">
             <h2>1. Who Can Use PAM</h2>
             <p>You must be at least 18 years of age to create a PAM account. By registering, you confirm that you are a parent or legal guardian and that you are using PAM on behalf of your family.</p>
+            <p>PAM is currently offered only to residents of Australia. By creating an account, you confirm that you are ordinarily resident in Australia.</p>
             <p>PAM is not intended for direct use by children. Child profiles within the app are created and managed by the account holder only.</p>
           </div>
 
@@ -39,7 +40,7 @@ export default function TermsPage() {
             <ul className="terms-check-list">
               <li>Provide accurate, current, and complete information</li>
               <li>Keep your login credentials secure and confidential</li>
-              <li><span>Notify us immediately if you suspect any unauthorised access to your account - contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></span></li>
+              <li><span>Notify us immediately if you suspect any unauthorised access to your account — contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></span></li>
               <li>Take responsibility for all activity that occurs under your account</li>
             </ul>
             <p style={{ marginTop: '1rem' }}>PAM reserves the right to suspend or terminate accounts where false or misleading information has been provided.</p>
@@ -52,23 +53,23 @@ export default function TermsPage() {
               <div className="terms-pricing-card">
                 <h3>Monthly</h3>
                 <ul>
-                  <li><span>Single</span><span>$7.99/mo</span></li>
-                  <li><span>Two</span><span>$12.99/mo</span></li>
-                  <li><span>Family</span><span>$24.99/mo</span></li>
+                  <li><span>Single</span><span>$14.99/mo</span></li>
+                  <li><span>Two</span><span>$24.99/mo</span></li>
+                  <li><span>Family</span><span>$29.99/mo</span></li>
                 </ul>
               </div>
               <div className="terms-pricing-card terms-pricing-card--annual">
                 <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>Annual <span className="terms-savings-badge" style={{ margin: 0 }}>Save 2 months</span></h3>
                 <ul>
-                  <li><span>Single</span><span>$79.90/yr</span></li>
-                  <li><span>Two</span><span>$129.90/yr</span></li>
-                  <li><span>Family</span><span>$249.90/yr</span></li>
+                  <li><span>Single</span><span>$144.99/yr</span></li>
+                  <li><span>Two</span><span>$239.99/yr</span></li>
+                  <li><span>Family</span><span>$289.99/yr</span></li>
                 </ul>
               </div>
             </div>
             <div className="terms-note">All prices are in Australian dollars and inclusive of any applicable taxes.</div>
             <p style={{ marginTop: '1.25rem' }}>Your subscription begins at the end of your free trial period (if applicable) or immediately upon purchase. Monthly subscriptions are billed in advance at the start of each billing cycle. Annual subscriptions are billed in full at the start of the subscription year.</p>
-            <p>Subscriptions automatically renew unless cancelled before the renewal date. You will not receive a separate reminder before each renewal - it is your responsibility to cancel if you no longer wish to continue.</p>
+            <p>Subscriptions automatically renew unless cancelled before the renewal date. You will not receive a separate reminder before each renewal — it is your responsibility to cancel if you no longer wish to continue.</p>
           </div>
 
           <div className="privacy-section">
@@ -80,12 +81,12 @@ export default function TermsPage() {
 
           <div className="privacy-section">
             <h2>5. Cancellation</h2>
-            <p>You may cancel your subscription at any time through your account settings or through the App Store on your device.</p>
+            <p>You may cancel your subscription at any time through your account settings or through the app store you used to download PAM (Apple App Store or Google Play, as applicable).</p>
             <h3>Monthly plans</h3>
             <p>Cancellation takes effect at the end of the current billing period. You will retain access to PAM until that date and will not be charged again.</p>
             <h3>Annual plans</h3>
             <p>Cancellation takes effect at the end of the current annual period. No refund is issued for unused months remaining in the year. You will retain full access until the annual period expires.</p>
-            <div className="terms-note">Deleting the PAM app from your device does not cancel your subscription. You must cancel through your account settings or the App Store.</div>
+            <div className="terms-note">Deleting the PAM app from your device does not cancel your subscription. You must cancel through your account settings or the relevant app store.</div>
           </div>
 
           <div className="privacy-section">
@@ -97,7 +98,7 @@ export default function TermsPage() {
               <li>You were charged in error</li>
             </ul>
             <p style={{ marginTop: '1rem' }}>To request a refund under these circumstances, contact us at <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a> within 14 days of the charge. We will assess each request on a case-by-case basis.</p>
-            <p>If your subscription was purchased through the Apple App Store, refunds are managed by Apple. You can submit a refund request at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer" className="privacy-link">reportaproblem.apple.com</a>. PAM has no control over Apple&apos;s refund decisions.</p>
+            <p>If your subscription was purchased through the Apple App Store, refunds are managed by Apple and can be requested at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer" className="privacy-link">reportaproblem.apple.com</a>. If your subscription was purchased through Google Play, refunds are managed by Google in accordance with the Google Play refund policy. PAM has no control over the relevant platform&apos;s refund decisions.</p>
             <div className="terms-note">Nothing in these Terms limits your rights under the Australian Consumer Law.</div>
           </div>
 
@@ -182,7 +183,12 @@ export default function TermsPage() {
           </div>
 
           <div className="privacy-section">
-            <h2>17. Governing Law</h2>
+            <h2>17. Service Availability</h2>
+            <p>PAM is currently offered only to users located in Australia. We may expand availability to other countries in the future. If we do, we will update these Terms and our Privacy Policy before making the service available in additional jurisdictions.</p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>18. Governing Law</h2>
             <p>These Terms are governed by the laws of the State of Victoria, Australia. Any disputes arising out of or in connection with these Terms will be subject to the exclusive jurisdiction of the courts of Victoria.</p>
           </div>
 

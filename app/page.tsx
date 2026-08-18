@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import { homepageMetadata } from './metadata'
 import PhoneShowcase from '@/components/PhoneShowcase'
 import ChaosQuiz from '@/components/ChaosQuiz'
@@ -157,55 +156,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============== TESTIMONIALS ============== */}
-      <section>
-        <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">The PAM experience</span>
-            <h2>In their <span className="em">own words.</span></h2>
-          </div>
-
-          {/* Featured testimonial - swap photo + copy when a real one is ready */}
-          <div className="tst-featured">
-            <div className="tst-featured-photo">
-              <Image src="/testimonial-1.jpg" alt="Chloe" width={148} height={148} style={{ objectFit: 'cover', objectPosition: 'center 20%', width: '100%', height: '100%' }} />
-            </div>
-            <div className="stars">★★★★★</div>
-            <p className="tst-featured-quote">&ldquo;The newborn weeks are a blur and I genuinely don&apos;t know how I would have kept track of everything without PAM. The six-week check, the immunisations, who to call, what to bring - it was all just there. I wasn&apos;t dropping balls, I was actually present. That felt like a gift.&rdquo;</p>
-            <div className="tst-featured-who">
-              <b>Chloe</b>
-              <span>Mum of one · VIC</span>
-            </div>
-          </div>
-
-          <div className="testimonials-grid">
-            <div className="tst">
-              <div className="stars">★★★★★</div>
-              <p>&ldquo;I used to keep everything in my head and a dozen open tabs. PAM gave me my evenings back.&rdquo;</p>
-              <div className="who">
-                <div className="av" style={{ background: 'var(--wine)' }}>E</div>
-                <div><b>Emma</b><span>Mum of two · VIC</span></div>
-              </div>
-            </div>
-            <div className="tst">
-              <div className="stars">★★★★★</div>
-              <p>&ldquo;The checklist told me exactly what to do in those first foggy weeks. I didn&apos;t miss a single appointment.&rdquo;</p>
-              <div className="who">
-                <div className="av" style={{ background: 'var(--navy)' }}>J</div>
-                <div><b>Jess</b><span>First-time mum · NSW</span></div>
-              </div>
-            </div>
-            <div className="tst">
-              <div className="stars">★★★★★</div>
-              <p>&ldquo;It feels less like an app and more like a friend who&apos;s three steps ahead of me.&rdquo;</p>
-              <div className="who">
-                <div className="av" style={{ background: 'var(--tan)' }}>L</div>
-                <div><b>Liv</b><span>Mum of three · QLD</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
     </main>
   )

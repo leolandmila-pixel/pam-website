@@ -50,7 +50,6 @@ export default async function StoryPage({
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 20 }}>
         <div className="container" style={{ maxWidth: 760 }}>
-          <Link href="/stories" className="story-back">← All stories</Link>
           {story.heroImage ? (
             <div className="story-cover-photo">
               <Image
@@ -70,6 +69,7 @@ export default async function StoryPage({
               <b>{story.label}</b>
             </div>
           )}
+          <Link href="/stories" className="story-back">← All stories</Link>
           <div className="story-meta">
             <span className="tag">{story.tag}</span>
             <span className="dot">·</span>

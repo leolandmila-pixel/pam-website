@@ -901,6 +901,7 @@ export const stories: Story[] = [
     readMinutes: 5,
     published: true,
     heroImage: '/blog-growth-spurt.jpeg',
+    heroImagePosition: 'center 70%',
     content: {
       hook: [
         "Around six weeks, just when you've started to feel like you might be getting the hang of things, your baby will seemingly forget everything they learned and demand to be fed constantly, sleep terribly, and cry with a conviction that suggests something is very wrong.",
@@ -1127,6 +1128,7 @@ export const stories: Story[] = [
     readMinutes: 5,
     published: true,
     heroImage: '/blog-sleep-advice.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         'It is the most given piece of advice to new parents. It is delivered by midwives, mothers-in-law, friends, strangers at the supermarket. It is meant kindly. It is almost completely useless.',
@@ -1400,8 +1402,8 @@ export const stories: Story[] = [
     body: "The version of postpartum recovery that gets talked about publicly is heavily edited. Here's the unedited version - from the first week to the stuff nobody tells you.",
     readMinutes: 6,
     published: true,
-    heroImage: '/blog-body-after-birth.jpeg',
-    heroImagePosition: 'center 40%',
+    heroImage: '/Untitled design beach babies.png',
+    heroImagePosition: 'center 60%',
     content: {
       hook: [
         "Somewhere between the birth and the six-week check, you will encounter a version of the postpartum body narrative that involves words like bounce back, glow, and journey. You will look at your body and feel that none of those words apply.",
@@ -1456,7 +1458,8 @@ export const stories: Story[] = [
     body: "When did you last do something just for you? Stop and try to answer it. Real self-care for new mums, for the ones who can't remember - and the small voice that says I don't have time for that.",
     readMinutes: 5,
     published: true,
-    heroImage: '/blog-self.jpeg',
+    heroImage: '/Untitled design beach.jpg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Stop for a second and try to answer it.",
@@ -1515,6 +1518,8 @@ export const stories: Story[] = [
     body: "The Maternal Child Health checks can feel like a pop quiz you didn't study for. Here's what they're really checking, and why the weigh-in is the least interesting part.",
     readMinutes: 6,
     published: true,
+    heroImage: '/Untitled design pram.png',
+    heroImagePosition: 'center 45%',
     content: {
       hook: [
         "There's a particular kind of dread that arrives the night before an MCH appointment. You find yourself trying to remember how many wet nappies there were yesterday, whether that constitutes 'enough,' and whether you're supposed to have a system for tracking any of this.",
@@ -1582,6 +1587,8 @@ export const stories: Story[] = [
     body: "That dramatic full-body startle - arms thrown wide, then a cry - has a name, a purpose, and an expiry date. Here's what's actually happening.",
     readMinutes: 5,
     published: true,
+    heroImage: '/Untitled design baby1.png',
+    heroImagePosition: 'center 45%',
     content: {
       hook: [
         "You lay them down, gently, slowly, holding your breath the whole way - and just as their back touches the mattress, both arms fly out to the sides like they're bracing for a fall. Then the cry. Then you pick them back up, certain you've done something wrong.",
@@ -1639,6 +1646,8 @@ export const stories: Story[] = [
     body: "That golden tinge to their skin has a cause, a common timeline, and a clear line for when it needs more than watching. Here's how to tell where you sit on it.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.48.00.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere around day two or three, a midwife holds your baby up to the window, presses a finger gently into their skin, and says the word jaundice for the first time. It's an alarming word to hear about your two-day-old, mostly because nobody explained it beforehand.",
@@ -1697,6 +1706,8 @@ export const stories: Story[] = [
     body: "Not every 4-month-old reaching for your dinner is ready for it. The real readiness signs, and why the calendar date matters less than you'd think.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.07 (1).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere around the four-month mark, your baby stares at your toast with an intensity usually reserved for religious experiences, and everyone in a five-metre radius says some version of looks like someone's ready for solids.",
@@ -1752,6 +1763,8 @@ export const stories: Story[] = [
     body: "A sore red patch, a fever that comes out of nowhere, and a feeling like the flu hit in the space of an hour. Here's how to recognise it early and what genuinely helps.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.55.56.jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "It tends to arrive fast. One feed you're fine, a few hours later there's a hot, tender patch on one breast, and by evening you're shivering under a blanket in July feeling like you've been hit by a truck. That's mastitis, and it's far more common than anyone mentions before it happens to you.",
@@ -1811,6 +1824,8 @@ export const stories: Story[] = [
     body: "One week they're sleeping in decent stretches. The next, they're up every 45 minutes. It's not a phase you wait out - it's a permanent shift in how sleep works.",
     readMinutes: 6,
     published: true,
+    heroImage: '/3EA45EE2-7392-4C3A-93D0-B4E624605A0E_L0_001-11_5_2026, 10_25_42 am.jpg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "You'd found a rhythm. Maybe not perfect, but workable - a few solid stretches, a nap that reliably happened. Then, seemingly overnight, all of it fell apart. Frequent waking, short naps, a baby who seems to fight sleep they clearly need.",
@@ -1868,6 +1883,8 @@ export const stories: Story[] = [
     body: "A baby who won't settle could be exhausted, or barely tired at all - and the fixes for each are opposites. Here's how to tell which one you're looking at.",
     readMinutes: 5,
     published: true,
+    heroImage: '/EA0B4075-208C-49EB-A11E-DC18327A0D7A_L0_001-29_5_2026, 5_54_56 pm.jpg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Bedtime is a fight. Again. And the instinct is always the same: they must be overtired, push the next sleep earlier. Except sometimes that makes it worse, because the actual problem was the opposite - they weren't tired enough yet.",
@@ -1926,6 +1943,8 @@ export const stories: Story[] = [
     body: "It's ten minutes, mostly about the baby, and easy to walk out of having said 'fine' when you weren't. Here's how to use it properly.",
     readMinutes: 5,
     published: true,
+    heroImage: '/Untitled design ash mila.png',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "The six-week postpartum check is often the last dedicated appointment a new mum has for herself before the focus shifts entirely to the baby's schedule of visits. It's worth knowing what it's actually for, because it's easy to sit through it, say 'yeah, going okay' on autopilot, and leave having missed the point.",
@@ -1984,6 +2003,8 @@ export const stories: Story[] = [
     body: "That constant low hum of not doing enough, not being enough - even when, by any reasonable measure, you are. Here's what's actually driving it.",
     readMinutes: 6,
     published: true,
+    heroImage: '/Untitled design 25.png',
+    heroImagePosition: 'center 45%',
     content: {
       hook: [
         "You went back to work and felt guilty for leaving. You stayed home and felt guilty for not contributing financially. You put on the TV so you could shower and felt guilty about the screen time. You didn't put on the TV and felt guilty for being short-tempered by dinner.",
@@ -2041,6 +2062,8 @@ export const stories: Story[] = [
     body: "The gorgeous linen-bound baby book gets three entries before it stalls in a drawer. Here's why the low-effort version is the one that survives the first year.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.34.02 (1).jpeg',
+    heroImagePosition: 'center 65%',
     content: {
       hook: [
         "Somewhere in most nurseries sits a beautiful baby book - hardcover, cream pages, a spot for 'baby's first haircut' - with exactly three entries in it, all from the first fortnight. After that, life happens, and the book quietly closes for good.",
@@ -2089,6 +2112,8 @@ export const stories: Story[] = [
     body: "The smell of their head, the exact sound of their newborn cry, the weight of them asleep on your chest. You will forget more of it than you think - unless you catch it now.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06 (3).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Right now, certain things feel unforgettable - the particular smell of the top of their head, the exact pitch of their newborn cry, how light they were the first time you held them. It feels impossible that any of it could fade.",
@@ -2145,6 +2170,8 @@ export const stories: Story[] = [
     body: "Painful feeds and a baby who can't seem to get a deep latch, no matter what you try. Here's what tongue tie actually is, and what the assessment and fix involve.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05 (2).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Every feed hurts. Not a little tender - genuinely painful, toe-curling pain, and your nipples look worse each day rather than better. You've tried every latch position a lactation consultant showed you and something still feels stuck.",
@@ -2201,6 +2228,8 @@ export const stories: Story[] = [
     body: "Blotchy cheeks, tiny white bumps, skin that peels like they've been sunbathing. Newborn skin looks alarming and almost none of it is. Here's the field guide.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06 (1).jpeg',
+    heroImagePosition: 'center 60%',
     content: {
       hook: [
         "Somewhere in the first week, you notice a rash across their cheeks, or tiny white dots across their nose, or skin peeling off their hands like they've just come back from a beach holiday - and you spiral slightly, because nothing in the birth prep class covered this.",
@@ -2253,6 +2282,8 @@ export const stories: Story[] = [
     body: "A baby who chokes, splutters, and pulls off crying at every feed might not have a latch problem at all - they might be dealing with a flood, not a drought.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.15.40.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "Most feeding advice assumes the problem is not enough milk. So when your baby is spluttering, gulping, pulling off mid-feed and crying, or feeding for two minutes and looking done, it's easy to assume something is wrong with your supply in the opposite direction you'd expect.",
@@ -2312,6 +2343,8 @@ export const stories: Story[] = [
     body: "A baby who happily breastfeeds but screams the second a bottle appears is one of the more stressful feeding curveballs - especially with a return to work looming. Here's what usually helps.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.05.24.jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "You've done everything right - warmed the milk, tried a few different teats, timed it for when they're not overtired - and they still turn their head away, arch their back, or cry the moment the bottle touches their lips. Meanwhile the calendar has a return-to-work date circled, and the pressure is mounting.",
@@ -2364,6 +2397,8 @@ export const stories: Story[] = [
     body: "Contested at every playgroup, backed by genuine research, and eventually something you'll need an exit plan for. Here's the honest rundown.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.09.32.jpeg',
+    heroImagePosition: 'center 35%',
     content: {
       hook: [
         "Few small pieces of plastic generate as much unsolicited opinion as a dummy. Someone will tell you it ruins teeth, someone else will tell you it saved their sanity, and somewhere in there is what the actual evidence says - which is more reassuring, and more specific, than either extreme.",
@@ -2420,6 +2455,8 @@ export const stories: Story[] = [
     body: "Fighting a nap that used to be easy doesn't always mean it's time to cut it - sometimes it means the opposite. Here's how to tell a transition from a rough patch.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.44.58.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "For weeks, naps ran like clockwork. Then, seemingly overnight, bedtime for a nap becomes a battle, or a nap that used to run an hour drops to twenty minutes. The instinct is often to assume it's time to drop a nap altogether - but that's not always what's actually going on.",
@@ -2478,6 +2515,8 @@ export const stories: Story[] = [
     body: "You're both exhausted, both stretched thin, and somehow supposed to keep connecting as partners on top of everything else. Here's why that's harder than anyone warns you, and what genuinely helps.",
     readMinutes: 6,
     published: true,
+    heroImage: '/Untitled design josh ash.png',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere between the feeds and the sleep deprivation and the sheer logistics of keeping a small human alive, you look up and realise you and your partner have barely had a real conversation that wasn't about the baby in weeks. That's not a sign your relationship is in trouble. It's an almost universal part of this particular season.",
@@ -2534,6 +2573,8 @@ export const stories: Story[] = [
     body: "Everyone from the supermarket stranger to your own mother has a view on how you're doing this. Here's why it happens, and a few responses that actually work.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.44 (1).jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "You've been a parent for six days and already have opinions from a stranger in the supermarket queue about your baby's outfit, your mother-in-law about your feeding choice, and a well-meaning friend about your sleep routine - none of it requested, all of it delivered with total confidence.",
@@ -2588,6 +2629,8 @@ export const stories: Story[] = [
     body: "A few lines, written every so often, that turn into one of the most treasured things you'll ever hand them. Here's the low-effort version that actually gets done.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.06 (2).jpeg',
+    heroImagePosition: 'center 30%',
     content: {
       hook: [
         "Somewhere, in the future, your child will be old enough to read something you wrote about them as a baby - and there is almost nothing that lands harder, in the best way, than a parent's own words from a time they can't remember themselves.",
@@ -2644,6 +2687,8 @@ export const stories: Story[] = [
     body: "It's easy to reach for the camera on the good days and put it away on the hard ones. Here's why the hard days are worth keeping a record of as well.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.43 (1).jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "The instinct on a genuinely hard day - the one where the baby won't settle, you haven't showered, and everything feels like too much - is to want the day over, not documented. Memory-keeping tends to happen on the good days, when there's something photogenic to capture, and quietly skip the rest.",
@@ -2697,6 +2742,8 @@ export const stories: Story[] = [
     body: "There's no strict newborn sleep schedule in the first weeks - just wide, normal ranges. Here's what an average newborn sleep pattern actually looks like, week by week.",
     readMinutes: 7,
     published: true,
+    heroImage: '/Untitled design (18).png',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Search 'newborn sleep schedule' and you'll find charts with tidy blocks of colour, implying your baby should be asleep from 7pm to 7am with two neat naps in between. Reality looks nothing like that in the early weeks, and comparing your baby to the chart is a fast way to feel like you're doing something wrong.",
@@ -2751,6 +2798,8 @@ export const stories: Story[] = [
     body: "Learning how to swaddle a baby properly can genuinely improve sleep - but done incorrectly, it carries real risks. Here's the safe method, step by step.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.19.55.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "A good swaddle can be the difference between a baby who startles themselves awake every twenty minutes and one who sleeps a solid stretch. A bad one can be a genuine safety risk. The gap between the two often comes down to a few specific details most people are never taught properly.",
@@ -2809,6 +2858,8 @@ export const stories: Story[] = [
     body: "A good breastfeeding latch shouldn't hurt past the first few seconds. If it does, here's what a proper latch looks like and how to actually fix a bad one.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 13.47.59.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "You've heard it a dozen times: 'if it hurts, the latch is wrong.' True, but not exactly useful when you're staring down a baby who seems attached fine and it still feels like broken glass every time they feed.",
@@ -2866,6 +2917,8 @@ export const stories: Story[] = [
     body: "Choosing a formula and getting bottle prep right shouldn't feel this complicated. A clear, judgment-free formula feeding guide for exhausted parents.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 14.19.55 (1).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "The formula aisle alone is enough to induce decision paralysis - dozens of tins, each claiming to be closest to breastmilk, gentler, or better for some specific concern. Add in bottle prep instructions that seem stricter than a lab protocol, and it's easy to feel like you need a certification just to feed your baby.",
@@ -2923,6 +2976,8 @@ export const stories: Story[] = [
     body: "Sleep regressions tend to cluster around predictable ages. Here's the full baby sleep regression timeline, what drives each one, and what actually helps.",
     readMinutes: 7,
     published: true,
+    heroImage: '/Untitled design (20).png',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Just when a sleep pattern finally feels settled, it falls apart again - and if you've been through this before, you already suspect it's 'a regression,' even if you can't quite place why they keep happening on a rough schedule of their own.",
@@ -2982,6 +3037,8 @@ export const stories: Story[] = [
     body: "Before chasing a full night's sleep, it helps to know what's actually realistic at each age. Here's an honest breakdown of how to get baby to sleep through the night.",
     readMinutes: 6,
     published: true,
+    heroImage: '/Untitled design 21.png',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "'Sleeping through the night' is one of the most searched, most misunderstood phrases in early parenting - partly because it means something different at every age, and partly because the marketing version (12 hours, no waking) sets an expectation that isn't realistic for most babies for a long time.",
@@ -3038,6 +3095,8 @@ export const stories: Story[] = [
     body: "Postnatal depression affects around 1 in 5 Australian mums. Here are the real signs to look for, how it differs from the baby blues, and exactly where to get support.",
     readMinutes: 7,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.11.44.jpeg',
+    heroImagePosition: 'center 50%',
     content: {
       hook: [
         "The baby blues get talked about, briefly, in hospital pamphlets. What gets talked about far less is what happens if the low mood doesn't lift after a week or two - and how to tell the difference between an exhausting, hard stretch and something that needs proper support.",
@@ -3097,6 +3156,8 @@ export const stories: Story[] = [
     body: "The mental load isn't about who does more chores - it's about who's doing the invisible thinking, remembering and managing behind every task. Here's how to name it and share it properly.",
     readMinutes: 6,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.05.jpeg',
+    heroImagePosition: 'center 20%',
     content: {
       hook: [
         "You didn't just book the appointment - you remembered it was due, tracked the right window for it, coordinated the calendar clash, and packed the bag for it. Your partner did the physical task of driving there. On paper, you 'shared' the appointment. In reality, one of you carried almost the entire thing.",
@@ -3145,6 +3206,8 @@ export const stories: Story[] = [
     body: "From the first smile to first steps, here's a realistic guide to baby milestones by month - plus a simple way to actually keep track without the pressure of a perfect baby book.",
     readMinutes: 7,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.07.jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "Somewhere between the sleep deprivation and the day-to-day of keeping a baby alive, the milestones themselves can blur together - was the first real laugh at 8 weeks or 10? Did rolling happen before or after the trip to your parents'?",
@@ -3212,6 +3275,8 @@ export const stories: Story[] = [
     body: "You don't need a monthly milestone card, a professional shoot, or a perfectly curated album. Here's a realistic approach to baby's first year photos that actually survives contact with real life.",
     readMinutes: 5,
     published: true,
+    heroImage: '/WhatsApp Image 2026-07-24 at 11.10.07 (2).jpeg',
+    heroImagePosition: 'center 40%',
     content: {
       hook: [
         "The internet is full of beautifully styled 'baby's first year' photo templates - a milestone card each month, a co-ordinated outfit, a consistent backdrop. Most of them get attempted twice and abandoned by month three, not because you don't care, but because the format itself demands more time and energy than early parenthood has to give.",
@@ -3254,6 +3319,136 @@ export const stories: Story[] = [
         paragraphs: [
           "You don't need the styled template, the matching outfits, or a photo every single month on the dot to have a beautiful record of your baby's first year. A phone, a repeatable habit, and a low bar for 'good enough' will get you there.",
           "The photos that end up mattering most are rarely the perfectly staged ones. They're the ordinary Tuesday ones you almost didn't bother taking.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'why-your-toddler-is-losing-it',
+    cover: 'c-toddler',
+    label: 'Toddler behaviour',
+    tag: 'Toddler Behaviour & Emotions',
+    title: "Why your toddler is losing it (and why that's actually normal)",
+    body: "A full-body meltdown over putting shoes on isn't bad behaviour - it's a bad fit between a big feeling and a brain that can't yet manage it. Here's what's actually happening, and what helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "It's 5:47pm. You've asked your toddler to put their shoes on for the third time. This time, it's not a \"no\" - it's a full-body collapse onto the kitchen floor, complete with a sound you're fairly sure only toddlers and smoke alarms can make.",
+        "If you've been there, you're not doing anything wrong. You're parenting a toddler.",
+      ],
+      sections: [
+        {
+          heading: "It's not bad behaviour. It's a bad fit.",
+          paragraphs: [
+            "Between about 1 and 4 years old, the part of the brain responsible for logic, patience and \"just calming down\" (the prefrontal cortex) is barely under construction. Meanwhile, the emotional part of the brain is fully online and running the show. Your toddler isn't choosing to be difficult. Their brain genuinely cannot regulate big feelings the way yours can.",
+            "Add in limited language (they can feel far more than they can say), a fierce new drive for independence, and a world where almost every decision is made for them, and tantrums start to make a lot more sense. It's less \"manipulation\" and more \"system overload.\"",
+          ],
+        },
+        {
+          heading: "What's actually happening in a tantrum",
+          bullets: [
+            "The upstairs brain goes offline - this is the yelling, kicking, throwing stage. Logic doesn't work here; you cannot reason a toddler out of a meltdown any more than you could reason yourself out of a fire alarm going off in your ear",
+            "The comedown - once the initial wave passes, they often become clingy, teary, or want a cuddle. This is when connection actually lands",
+          ],
+        },
+        {
+          heading: 'Skip, for now',
+          bullets: [
+            'Long explanations mid-meltdown ("we don\'t hit because...")',
+            'Bargaining or bribing to stop the crying',
+            'Matching their volume',
+          ],
+        },
+        {
+          heading: 'Try instead',
+          bullets: [
+            'Name it, briefly - "You\'re really mad you can\'t have another biscuit." One sentence. Save the discussion for later',
+            'Stay boringly calm - your steadiness is the co-regulation their brain is borrowing until it can do it alone',
+            'Offer safety, not solutions - sometimes just sitting nearby (not lecturing) is enough',
+            'Save the debrief for after - once they\'re calm, a simple "that was a big feeling, hey" helps them build the vocabulary for next time',
+          ],
+        },
+        {
+          heading: 'The bit nobody tells you',
+          paragraphs: [
+            'Tantrums usually peak around age 2 to 3 and taper off as language and self-regulation develop, but "taper off" doesn\'t mean disappear overnight, and it doesn\'t mean you\'re failing if they\'re still happening at 4. Some kids are simply more intense feelers than others, and that\'s temperament, not a parenting report card.',
+            "It's also worth saying: the parent's exhaustion in these moments is real and valid too. Managing a meltdown while mentally running through school pickup, what's for dinner, and whether you replied to that email is its own kind of load, and it's the kind that rarely gets talked about but is very real for the person holding it all together.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The takeaway',
+        paragraphs: [
+          "A tantrum isn't a discipline failure, yours or theirs. It's a small human with a big feeling and not yet enough tools to manage it. Your calm presence, more than any perfect script, is what teaches them that big emotions are survivable.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-sarah',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Sarah',
+    body: "Model, content creator, coach and event host, and mum of two navigating two very different seasons at once. Sarah on miscarriage, self-talk, and turning a side hustle into her full-time gig.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Meet Sarah Viliamu. She's a mum of two - her son is 5, her daughter is 7 months - with an incredibly supportive husband she's been with for over 13 years. Between her two children, Sarah went through two miscarriages, which she chose to share publicly, believing it's something that needs to be spoken about more often.",
+        "She's also currently navigating two very different seasons of motherhood at once - one child in prep, the other all things baby life - while turning what was a side hustle into her full-time gig as a model, content creator, coach and event host, after being made redundant just before going on maternity leave in December.",
+        "Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: 'Describe motherhood in one sentence.',
+          paragraphs: [
+            "Motherhood is the hardest and most amazing experience all wrapped in one big beautiful hug.",
+          ],
+        },
+        {
+          heading: 'Your work is all about self-love and confidence. How has becoming a mum changed the way you speak to yourself?',
+          paragraphs: [
+            "In all honesty it's something I try to work on every day, the negative self talk can easily creep in but ultimately I try to remind myself that my children are watching and listening to how I speak to myself, and that not only do I deserve self compassion and kindness, but my children deserve to grow up in a household where that is modelled.",
+          ],
+        },
+        {
+          heading: 'What is something about motherhood that no one could have prepared you for?',
+          paragraphs: [
+            "Even though you know motherhood is 24/7, I don't think you quite conceptualise how literal the 24/7 is, and just how huge the extra mental load is.",
+          ],
+        },
+        {
+          heading: 'What does support look like for you in this season of life?',
+          paragraphs: [
+            "My husband is a huge support for me, especially as I'm breastfeeding - he does anything he can to reduce my mental load and make life that bit easier for me. Also asking for help when I need it, whether that's from family or a friend.",
+          ],
+        },
+        {
+          heading: "You've built a community around empowering women. Has becoming a mum changed what empowerment means to you?",
+          paragraphs: [
+            "I'd say if anything it's amplified my mission and messages of empowerment. Becoming a mum has solidified my why behind encouraging all people to step into their confidence and empowerment.",
+          ],
+        },
+        {
+          heading: 'If you could go back and give advice to yourself as a first-time mum, what would it be?',
+          paragraphs: [
+            "Your baby doesn't need a perfect mum, a happy mum is much more important.",
+          ],
+        },
+        {
+          heading: 'When life feels overwhelming, what helps you come back to yourself as Sarah - not just mum, business owner or partner?',
+          paragraphs: [
+            "I often use the words \"zoom out\" and find it helps take me out of the overwhelm and look at the big picture. Gratitude and journaling are also key practices in my life.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Sarah.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
         ],
       },
     },

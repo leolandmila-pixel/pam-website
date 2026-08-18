@@ -36,6 +36,7 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
+
 export const metadata: Metadata = {
   ...baseMetadata,
   alternates: {
@@ -51,7 +52,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable}`}>
+    <html lang="en-AU" className={`${inter.variable} ${instrumentSerif.variable} ${montserrat.variable} `}>
       <body>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1BMMSSHD1W"

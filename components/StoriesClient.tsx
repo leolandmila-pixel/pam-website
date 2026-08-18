@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { stories } from '@/app/stories/stories-data'
 
-const CATEGORIES = ['All', 'Newborn', 'Sleep', 'Wellbeing', 'Memories', 'Feeding', 'Community']
+const CATEGORIES = ['All', 'Newborn', 'Sleep', 'Wellbeing', 'Memories', 'Feeding', 'Toddler Behaviour & Emotions', 'Community']
 
 export default function StoriesClient() {
   const [activeCategory, setActiveCategory] = useState('All')

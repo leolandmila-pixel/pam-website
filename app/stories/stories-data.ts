@@ -3453,6 +3453,73 @@ export const stories: Story[] = [
       },
     },
   },
+  {
+    slug: 'real-mums-real-stories-tilly',
+    cover: 'c-community',
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Tilly',
+    body: "Mum to six-month-old West, a surprise after being told she wouldn't have children. Tilly on the honest side of motherhood, letting go of perfect, and why the laundry never actually ends.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Meet Tilly. She's a 26-year-old mum to a six-month-old boy, West - a surprise after being told she wouldn't have children due to 72 cysts on her ovaries. Motherhood came as a shock to her, and she's found it as hard as it is rewarding.",
+        "Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: 'Describe motherhood in one sentence.',
+          paragraphs: [
+            "Motherhood is equal parts exhausting and extraordinary.",
+          ],
+        },
+        {
+          heading: "What's one thing motherhood taught you about yourself?",
+          paragraphs: [
+            "Motherhood taught me to slow down. Living with ADHD, I was always onto the next thing, but my son has taught me to be present and appreciate the little moments.",
+          ],
+        },
+        {
+          heading: "You've always been refreshingly honest about motherhood. Why is it important to you to share the real side of parenting?",
+          paragraphs: [
+            "I think I share the honest side of motherhood because it's what I needed when I was in the thick of it. Those first six weeks with West were really hard, and when I looked online it felt like everyone else was loving every second while I was just trying to get through the day. I want other mums to know it's okay if it doesn't feel magical all the time. You can love your baby more than anything and still find motherhood incredibly hard. If sharing the reality helps even one mum feel less alone, then it's worth it.",
+          ],
+        },
+        {
+          heading: 'If you could give one piece of advice to a new mum, what would it be?',
+          paragraphs: [
+            "The days really are long, but the years are short. When you're in the middle of the sleepless nights and the hard days, it can feel like it's never going to end. But every stage passes so quickly, and before you know it, you'll find yourself missing the version of them you couldn't wait to grow out of. Hang in there. It does get easier, every new phase brings something even more rewarding, and one day you'll look back and wish you could hold that tiny version of them just one more time.",
+          ],
+        },
+        {
+          heading: 'Have you ever felt pressure to be a "perfect mum"? How do you navigate that?',
+          paragraphs: [
+            "Absolutely. I think social media made me feel like I had to have it all together. Then I realised every mum is finding it hard in some way. Some people are just more open about it than others. Once I understood that motherhood is challenging for everyone, I stopped chasing perfection and started focusing on just being the best mum I could be. That mindset has been so much healthier for me.",
+          ],
+        },
+        {
+          heading: 'If your child could thank you for one thing in the future, what would you hope it would be?',
+          paragraphs: [
+            "I hope one day he thanks me for working so hard to give him a life full of opportunities and experiences. He's only six months old and he's already been to three countries. I grew up travelling the world and living in different places, and those experiences shaped who I am. I hope I can give him that same gift. More than anything, I hope he looks back and knows that every late night, every sacrifice, and every hour I worked was because I wanted him to have a life full of adventure, perspective, and possibility.",
+          ],
+        },
+        {
+          heading: "What's one parenting task you find yourself constantly trying to stay on top of?",
+          paragraphs: [
+            "The washing, without a doubt. I swear I can never get to a point where the laundry basket is empty, the clothes are folded, and everything is actually put away at the same time. It feels like the second I finish one load, there's already another one waiting for me.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Tilly.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
 ]
 
 export function getStoryBySlug(slug: string): Story | undefined {

@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-col">
-            <h4>Explore</h4>
+            <h2>Explore</h2>
             <ul>
               <li><Link href="/">Home</Link></li>
               <li><Link href="/about">About</Link></li>
@@ -41,7 +41,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Features</h4>
+            <h2>Features</h2>
             <ul>
               <li><Link href="/#showcase">Smart Lists</Link></li>
               <li><Link href="/#showcase">Daily Tracker</Link></li>
@@ -50,7 +50,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Support</h4>
+            <h2>Support</h2>
             <ul>
               <li><Link href="/contact">Contact</Link></li>
               <li><Link href="/faq">Help &amp; FAQ</Link></li>

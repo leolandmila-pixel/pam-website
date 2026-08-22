@@ -56,7 +56,7 @@ export default function StoriesClient() {
               )}
               <div className="body">
                 <span className="tag">{s.tag}</span>
-                <h3>{s.title}</h3>
+                <h2>{s.title}</h2>
                 <p>{s.body}</p>
                 <span className="read">
                   {s.published ? 'Read story →' : 'Coming soon'}

@@ -3,11 +3,11 @@ import { Metadata } from 'next'
 export const baseMetadata: Metadata = {
   metadataBase: new URL('https://parentaladminmanager.com'),
   title: {
-    default: 'PAM - The mental load, managed.',
+    default: 'PAM - The Mental Load, Managed for Australian Families',
     template: '%s | PAM',
   },
   description:
-    'PAM (Parental Admin Manager) - the assistant every parent deserves. Smart checklists, a gentle tracker, memories and family info, all in one simple app.',
+    'PAM (Parental Admin Manager) - the Australian parenting app for smart checklists, a gentle tracker, memories and family info, all in one simple place.',
   keywords: [
     'parenting app',
     'Australian parents',
@@ -28,17 +28,17 @@ export const baseMetadata: Metadata = {
     type: 'website',
     locale: 'en_AU',
     url: 'https://parentaladminmanager.com',
-    title: 'PAM - The mental load, managed.',
+    title: 'PAM - The Mental Load, Managed for Australian Families',
     description:
-      'The assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family.',
+      'The Australian parenting app built for the appointments, checklists, milestones and quiet moments that make up a family.',
     siteName: 'PAM',
     images: [
-      { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM - The mental load, managed.' },
+      { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM - The Mental Load, Managed for Australian Families' },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PAM - The mental load, managed.',
+    title: 'PAM - The Mental Load, Managed for Australian Families',
     description: 'The assistant every parent deserves. Built in Australia by two mums.',
     images: ['/og-image.png'],
     creator: '@pam.app',

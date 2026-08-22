@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import Link from 'next/link'
 import { buildFaqSchema } from '../../structured-data'
 
 export const metadata: Metadata = {
-  title: 'Local Info | Parental Admin Manager',
+  title: 'Local Info',
   description: 'Local services, resources and guides relevant to your family and where you live - hospitals, playgroups, early childhood services and more, all in one place.',
+  alternates: { canonical: 'https://parentaladminmanager.com/features/local-info' },
 }
 
 const faqSchema = buildFaqSchema([
@@ -18,7 +18,7 @@ const faqSchema = buildFaqSchema([
 export default function LocalInfoFeaturePage() {
   return (
     <>
-      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
       <section className="hero feature-hero">
         <div className="container">

@@ -7,7 +7,7 @@ export const baseMetadata: Metadata = {
     template: '%s | PAM',
   },
   description:
-    'PAM (Parental Admin Manager) - the assistant every parent deserves. Smart checklists, a gentle tracker, memories, family info and Ask PAM, all in one beautifully simple app.',
+    'PAM (Parental Admin Manager) - the assistant every parent deserves. Smart checklists, a gentle tracker, memories and family info, all in one simple app.',
   keywords: [
     'parenting app',
     'Australian parents',
@@ -64,7 +64,7 @@ export const homepageMetadata: Metadata = {
 export const aboutMetadata: Metadata = {
   title: 'About - Ash, Oly, and the story behind PAM.',
   description:
-    "Meet Ash and Oly - two mums of 15-month-olds (Mila and Leo) who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
+    "Meet Ash and Oly - two mums of 15-month-olds who built PAM because they were holding too much in their heads. The story, values and people behind PAM.",
   alternates: { canonical: 'https://parentaladminmanager.com/about' },
   openGraph: {
     ...baseMetadata.openGraph,

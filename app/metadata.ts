@@ -3,11 +3,11 @@ import { Metadata } from 'next'
 export const baseMetadata: Metadata = {
   metadataBase: new URL('https://parentaladminmanager.com'),
   title: {
-    default: 'PAM - The mental load, managed.',
+    default: 'PAM - The Mental Load, Managed for Australian Families',
     template: '%s | PAM',
   },
   description:
-    'PAM (Parental Admin Manager) - the assistant every parent deserves. Smart checklists, a gentle tracker, memories and family info, all in one simple app.',
+    'PAM (Parental Admin Manager) - the Australian parenting app for smart checklists, a gentle tracker, memories and family info, all in one simple place.',
   keywords: [
     'parenting app',
     'Australian parents',
@@ -28,17 +28,17 @@ export const baseMetadata: Metadata = {
     type: 'website',
     locale: 'en_AU',
     url: 'https://parentaladminmanager.com',
-    title: 'PAM - The mental load, managed.',
+    title: 'PAM - The Mental Load, Managed for Australian Families',
     description:
-      'The assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family.',
+      'The Australian parenting app built for the appointments, checklists, milestones and quiet moments that make up a family.',
     siteName: 'PAM',
     images: [
-      { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM - The mental load, managed.' },
+      { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM - The Mental Load, Managed for Australian Families' },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PAM - The mental load, managed.',
+    title: 'PAM - The Mental Load, Managed for Australian Families',
     description: 'The assistant every parent deserves. Built in Australia by two mums.',
     images: ['/og-image.png'],
     creator: '@pam.app',
@@ -75,7 +75,7 @@ export const aboutMetadata: Metadata = {
 }
 
 export const storiesMetadata: Metadata = {
-  title: 'Real Mums, Real Stories',
+  title: 'Real Mums, Real Stories - Australian Parents',
   description:
     "The honest, unfiltered bits - real Australian parents sharing what helped, what hurt, and what they wish they'd known.",
   alternates: { canonical: 'https://parentaladminmanager.com/stories' },
@@ -88,9 +88,9 @@ export const storiesMetadata: Metadata = {
 }
 
 export const contactMetadata: Metadata = {
-  title: 'Contact',
+  title: 'Contact PAM - Get in Touch',
   description:
-    "Real humans, real replies. Questions, feedback or a story to share - we read every message.",
+    "Real humans, real replies - questions, feedback or a story to share, we read and respond to every message from Australian parents using PAM.",
   alternates: { canonical: 'https://parentaladminmanager.com/contact' },
   openGraph: {
     ...baseMetadata.openGraph,
@@ -101,9 +101,9 @@ export const contactMetadata: Metadata = {
 }
 
 export const faqMetadata: Metadata = {
-  title: 'FAQ',
+  title: 'FAQ - Launch, Pricing & Privacy Answered',
   description:
-    'Everything you might be wondering before you join the PAM founding trial - launch, pricing, privacy, Ask PAM and more.',
+    'Everything you might be wondering before you join the PAM founding trial - launch timing, pricing, privacy, Ask PAM and family sharing, all answered.',
   alternates: { canonical: 'https://parentaladminmanager.com/faq' },
   openGraph: {
     ...baseMetadata.openGraph,
@@ -114,41 +114,41 @@ export const faqMetadata: Metadata = {
 }
 
 export const checklistMetadata: Metadata = {
-  title: 'Smart Checklist',
+  title: 'Smart Checklist for Australian Parents',
   description:
-    "PAM's Smart Checklist - every appointment, registration, and reminder Australian parents need to remember, pre-loaded and ready.",
+    "Every MCH appointment, immunisation and government registration Australian parents need to remember, pre-loaded with reminders so nothing gets missed.",
   alternates: { canonical: 'https://parentaladminmanager.com/features/smart-checklist' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Smart Checklist', url: 'https://parentaladminmanager.com/features/smart-checklist' },
 }
 
 export const trackerMetadata: Metadata = {
-  title: 'Tracker',
+  title: 'Baby Tracker - Feeds, Sleep & Nappies',
   description:
-    "PAM's tracker - feeds, sleep, nappies, growth charts and nap predictions in one calm place. Shared with your partner.",
+    "Log feeds, sleep, nappies and growth in seconds. PAM shows you your own baby's pattern, with nap predictions and growth charts shared with your partner.",
   alternates: { canonical: 'https://parentaladminmanager.com/features/baby-tracker' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Tracker', url: 'https://parentaladminmanager.com/features/baby-tracker' },
 }
 
 export const familyInfoMetadata: Metadata = {
-  title: 'Family Hub',
+  title: 'Family Hub - People, Records & Services',
   description:
-    "Everything you'd scramble for at 2am - already where it should be. People, records and services for your whole family.",
+    "Everything you'd scramble for at 2am, already where it should be - people, medical records and local services for your whole family, all in one hub.",
   alternates: { canonical: 'https://parentaladminmanager.com/features/family-hub' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Family Hub', url: 'https://parentaladminmanager.com/features/family-hub' },
 }
 
 export const memoriesMetadata: Metadata = {
-  title: 'Memories',
+  title: 'Memories - Photos, Voice Notes & Milestones',
   description:
-    "Voice notes, photos and milestones - saved as they happen. The little moments and big firsts, gently gathered into your family's story.",
+    "Voice notes, photos and milestones saved as they happen - the little moments and big firsts, gently gathered into your family's story, all in one app.",
   alternates: { canonical: 'https://parentaladminmanager.com/features/memories' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Memories', url: 'https://parentaladminmanager.com/features/memories' },
 }
 
 export const pricingMetadata: Metadata = {
-  title: 'App Pricing',
+  title: 'PAM Pricing - Plans From $7.99/Month',
   description:
-    'Simple, transparent PAM pricing - Single, Couple and Family plans. From $7.99/month with a 14-day free trial.',
+    'Simple, transparent PAM pricing - Single, Couple and Family plans from $7.99/month, all with a 14-day free trial. No lock-in contracts, cancel anytime.',
   alternates: { canonical: 'https://parentaladminmanager.com/pricing' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://parentaladminmanager.com/pricing' },
 }

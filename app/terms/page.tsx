@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions',
-  description: 'The Terms and Conditions governing your use of the PAM app and parentaladminmanager.com website.',
+  title: 'Terms & Conditions for Using PAM',
+  description: 'The Terms and Conditions governing your use of the PAM app and parentaladminmanager.com website, including subscriptions, trials and data handling.',
   alternates: { canonical: 'https://parentaladminmanager.com/terms' },
 }
 

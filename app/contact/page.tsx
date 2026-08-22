@@ -37,7 +37,7 @@ export default function ContactPage() {
               </div>
             </div>
             <div className="contact-card-form-wrap">
-              <h3 className="contact-card-form-h">Send us a message</h3>
+              <h2 className="contact-card-form-h">Send us a message</h2>
               <Suspense fallback={<div className="contact-form-skeleton" />}>
                 <ContactForm />
               </Suspense>

@@ -18,9 +18,9 @@ export default function PricingFeatures() {
         </div>
         <div className="pfeat-copy">
           <p className="eyebrow">Stay organised</p>
-          <h3>
+          <h2>
             Nothing falls through the <em>cracks.</em>
-          </h3>
+          </h2>
           <p className="pfeat-subhead">
             Every important date, appointment and reminder - already there when you need it.
           </p>
@@ -49,9 +49,9 @@ export default function PricingFeatures() {
         </div>
         <div className="pfeat-copy">
           <p className="eyebrow">Track everything</p>
-          <h3>
+          <h2>
             Every feed, sleep and <em>moment</em> logged.
-          </h3>
+          </h2>
           <p className="pfeat-subhead">
             The early days are a blur. PAM keeps the detail so you don&apos;t have to hold it all in your head.
           </p>
@@ -80,9 +80,9 @@ export default function PricingFeatures() {
         </div>
         <div className="pfeat-copy">
           <p className="eyebrow">Know your family</p>
-          <h3>
+          <h2>
             Everything you need, <em>right when</em> you need it.
-          </h3>
+          </h2>
           <p className="pfeat-subhead">
             From your GP&apos;s number to your baby&apos;s birth weight - it&apos;s all here, organised and easy to find.
           </p>
@@ -111,9 +111,9 @@ export default function PricingFeatures() {
         </div>
         <div className="pfeat-copy">
           <p className="eyebrow">Know your area</p>
-          <h3>
+          <h2>
             Local support, <em>already found.</em>
-          </h3>
+          </h2>
           <p className="pfeat-subhead">
             Trusted services and resources curated for your area - so you&apos;re never starting from scratch when you need help.
           </p>
@@ -142,9 +142,9 @@ export default function PricingFeatures() {
         </div>
         <div className="pfeat-copy">
           <p className="eyebrow">Capture the moments</p>
-          <h3>
+          <h2>
             The story of your growing <em>family.</em>
-          </h3>
+          </h2>
           <p className="pfeat-subhead">
             They grow so fast. PAM gives you a beautiful place to save, treasure and revisit every chapter.
           </p>

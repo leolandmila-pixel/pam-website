@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import Link from 'next/link'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
 
 export const metadata: Metadata = {
-  title: "What is the Mental Load? The Complete Guide for Parents | PAM",
+  title: 'What is the Mental Load? A Guide for Parents',
   description:
-    "The mental load is the invisible cognitive work of managing a family - planning, remembering, and coordinating everything so nothing falls through the cracks. Here's what it is, why it matters, and how to share it.",
+    'The mental load is the invisible cognitive work of managing a family - planning, remembering and coordinating so nothing falls through the cracks.',
   keywords: [
     'mental load',
     'mental load parenting',
@@ -114,9 +113,9 @@ const articleSchema = {
 export default function MentalLoadPage() {
   return (
     <main>
-      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
-      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       {/* Hero */}
       <section className="hero" style={{ paddingTop: 48, paddingBottom: 24 }}>

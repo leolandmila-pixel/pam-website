@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Script from 'next/script'
 import { aboutMetadata } from '../metadata'
 import { ashSchema, olySchema } from '../structured-data'
 
@@ -9,8 +8,8 @@ export const metadata: Metadata = aboutMetadata
 export default function AboutPage() {
   return (
     <main>
-      <Script id="ash-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ashSchema) }} />
-      <Script id="oly-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(olySchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ashSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(olySchema) }} />
       {/* About header banner */}
       <section className="pricing-hero-banner">
         <Image

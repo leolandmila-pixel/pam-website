@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import Image from 'next/image'
 import Link from 'next/link'
 import { memoriesMetadata } from '../../metadata'
@@ -18,7 +17,7 @@ const faqSchema = buildFaqSchema([
 export default function MemoriesFeaturePage() {
   return (
     <>
-      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
       <section className="hero feature-hero">
         <div className="container">

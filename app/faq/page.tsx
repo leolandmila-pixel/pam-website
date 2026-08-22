@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import { faqMetadata } from '../metadata'
 import { buildFaqSchema } from '../structured-data'
 import { faqItems } from '@/lib/faq-data'
@@ -12,8 +11,7 @@ const faqSchemaData = buildFaqSchema(faqItems.map((item) => ({ q: item.q, a: ite
 export default function FaqPage() {
   return (
     <main>
-      <Script
-        id="faq-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaData) }}
       />

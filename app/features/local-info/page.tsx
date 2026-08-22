@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { buildFaqSchema } from '../../structured-data'
 
 export const metadata: Metadata = {
-  title: 'Local Info',
+  title: 'Local Info - Services Near You',
   description: 'Local services, resources and guides relevant to your family and where you live - hospitals, playgroups, early childhood services and more, all in one place.',
   alternates: { canonical: 'https://parentaladminmanager.com/features/local-info' },
 }

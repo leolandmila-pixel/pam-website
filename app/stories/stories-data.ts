@@ -3388,6 +3388,9 @@ export const stories: Story[] = [
   {
     slug: 'real-mums-real-stories-sarah',
     cover: 'c-community',
+    heroImage: '/Edited with Labbet App.jpg',
+    heroImagePosition: 'center 50%',
+    heroImageGrayscale: true,
     label: 'Real Mums, Real Stories',
     tag: 'Community',
     title: 'Real Mums, Real Stories: Sarah',
@@ -3456,6 +3459,9 @@ export const stories: Story[] = [
   {
     slug: 'real-mums-real-stories-tilly',
     cover: 'c-community',
+    heroImage: '/IMG_0121.jpg',
+    heroImagePosition: 'center 20%',
+    heroImageGrayscale: true,
     label: 'Real Mums, Real Stories',
     tag: 'Community',
     title: 'Real Mums, Real Stories: Tilly',
@@ -3513,6 +3519,77 @@ export const stories: Story[] = [
       ],
       closing: {
         heading: 'We see you, Tilly.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-taylor',
+    cover: 'c-community',
+    heroImage: '/8341ED89-3F0D-4D15-A985-81E74E9F9FA4.jpg',
+    heroImagePosition: 'center 22%',
+    heroImageGrayscale: true,
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Taylor',
+    body: "First-time mum and consulting agency owner, on why motherhood didn't shrink her ambition - it gave it more meaning. Taylor on identity, instinct, and letting go of mum guilt.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Meet Taylor. She's a first-time mum who's spent the past four years building a consulting agency - Type A, ambitious, and passionate about financial literacy, building wealth, and creating a life with real freedom and choice.",
+        "Motherhood has been the biggest and best shift in her life so far - she's loving figuring out this new version of it, staying present with her baby boy while still building something she loves. Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: "You've spent years building a business around independence and ambition. Did becoming a mum challenge your identity in ways you weren't expecting?",
+          paragraphs: [
+            "It's almost challenged me in the opposite way to what I expected. Becoming a mum has felt so right, and I've honestly never felt more like myself. I have a whole new sense of purpose, I love and appreciate my body in a completely different way after growing a life, and there's so much more meaning behind everything I do.",
+            "I used to think motherhood and ambition would take away from each other, but I've found the opposite. Motherhood has given me even more purpose in my business, made me value operating efficiently and intentionally, and at the same time, I get to be this tiny person's entire world. I feel more me than ever.",
+          ],
+        },
+        {
+          heading: 'What has surprised you most about yourself since becoming a mum?',
+          paragraphs: [
+            "Probably how instinctual it all feels, and how deeply connected you are to your baby. You really do learn them in a way no one else can - what they need, what different cries mean, when something feels off. I've surprised myself with how much I trust that instinct and connection.",
+          ],
+        },
+        {
+          heading: "What's something about birth that nobody could have prepared you for?",
+          paragraphs: [
+            "How much the right support people matter. Birth is such a vulnerable experience, full of unknowns, and there's a point where you really have to surrender and lean on the people you love. I don't think anything could have prepared me for how much I would need and value having people around me who made me feel safe, supported and advocated for.",
+          ],
+        },
+        {
+          heading: 'Can you tell us about the day you met your baby? What do you remember most vividly?',
+          paragraphs: [
+            "After a 28-hour labour, my first thought was honestly \"thank f**k you're finally out\" hahaha. But the feeling of having your baby put on your chest for the first time is genuinely euphoric. In that moment, all the pain felt completely worth it. I would do it 100 times over just to experience that feeling again.",
+          ],
+        },
+        {
+          heading: 'Most Googled question at 2am?',
+          paragraphs: [
+            "Probably a ChatGPT question asking why a certain routine worked one day and he's fussy and crying the next lol.",
+          ],
+        },
+        {
+          heading: "For ambitious women who worry they'll lose themselves in motherhood, what would you say to them today?",
+          paragraphs: [
+            "You don't have to choose between being an incredible mum and still wanting more for yourself. I genuinely thought motherhood might make me less ambitious or take away parts of who I was, but it's done the opposite. I've never felt more like myself, more purposeful or more motivated to build a life I'm proud of. Motherhood doesn't have to make your world smaller - it can give everything you're building even more meaning.",
+          ],
+        },
+        {
+          heading: "Have you experienced mum guilt already? If so, what does that look like for you?",
+          paragraphs: [
+            "Honestly, no. I know that anything I do for myself allows me to pour into him even more. Taking care of myself, working, training or having time away doesn't take away from me being his mum - it allows me to show up as the best version of myself for him.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Taylor.',
         paragraphs: [
           "Thank you for sharing your story with us.",
           "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",

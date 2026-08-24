@@ -145,6 +145,84 @@ export const memoriesMetadata: Metadata = {
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Memories', url: 'https://parentaladminmanager.com/features/memories' },
 }
 
+export const calculatorsMetadata: Metadata = {
+  title: 'Baby Calculators',
+  description:
+    'Free calculators for Australian parents - due date, wake windows, growth percentile, childcare costs and Parental Leave Pay.',
+  alternates: { canonical: 'https://parentaladminmanager.com/calculators' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'PAM Baby Calculators',
+    description: 'Due date, wake windows, growth, childcare cost and parental leave calculators, free to use.',
+    url: 'https://parentaladminmanager.com/calculators',
+  },
+}
+
+export const dueDateCalculatorMetadata: Metadata = {
+  title: 'Due Date Calculator',
+  description:
+    "Free due date calculator for Australian parents - estimate baby's due date from the first day of your last period.",
+  alternates: { canonical: 'https://parentaladminmanager.com/calculators/due-date' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'PAM Due Date Calculator',
+    description: "Estimate baby's due date in seconds.",
+    url: 'https://parentaladminmanager.com/calculators/due-date',
+  },
+}
+
+export const wakeWindowCalculatorMetadata: Metadata = {
+  title: 'Wake Window Calculator',
+  description:
+    "Free wake window calculator for Australian parents - find baby's age-appropriate wake window, with suggested nap times for today.",
+  alternates: { canonical: 'https://parentaladminmanager.com/calculators/wake-windows' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'PAM Wake Window Calculator',
+    description: "Find baby's age-appropriate wake window in seconds.",
+    url: 'https://parentaladminmanager.com/calculators/wake-windows',
+  },
+}
+
+export const growthPercentileCalculatorMetadata: Metadata = {
+  title: 'Growth Percentile Calculator',
+  description:
+    "Free child growth percentile calculator - a quick estimate of where baby's weight or length sits for their age, based on WHO growth standards.",
+  alternates: { canonical: 'https://parentaladminmanager.com/calculators/growth-percentile' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'PAM Growth Percentile Calculator',
+    description: "Estimate baby's growth percentile in seconds.",
+    url: 'https://parentaladminmanager.com/calculators/growth-percentile',
+  },
+}
+
+export const childcareCostCalculatorMetadata: Metadata = {
+  title: 'Childcare Cost Calculator Australia',
+  description:
+    'Free childcare cost calculator for Australian families - estimate your Child Care Subsidy (CCS) rate and weekly out-of-pocket cost.',
+  alternates: { canonical: 'https://parentaladminmanager.com/calculators/childcare-cost' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'PAM Childcare Cost Calculator',
+    description: 'Estimate your Child Care Subsidy and out-of-pocket cost.',
+    url: 'https://parentaladminmanager.com/calculators/childcare-cost',
+  },
+}
+
+export const parentalLeaveCalculatorMetadata: Metadata = {
+  title: 'Parental Leave Calculator Australia',
+  description:
+    'Free parental leave calculator for Australian families - estimate your Government Parental Leave Pay, split between both parents.',
+  alternates: { canonical: 'https://parentaladminmanager.com/calculators/parental-leave' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'PAM Parental Leave Calculator',
+    description: 'Estimate your Parental Leave Pay in seconds.',
+    url: 'https://parentaladminmanager.com/calculators/parental-leave',
+  },
+}
+
 export const pricingMetadata: Metadata = {
   title: 'App Pricing',
   description:

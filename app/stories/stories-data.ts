@@ -3323,6 +3323,280 @@ export const stories: Story[] = [
       },
     },
   },
+  {
+    slug: 'why-your-toddler-is-losing-it',
+    cover: 'c-toddler',
+    label: 'Toddler behaviour',
+    tag: 'Toddler Behaviour & Emotions',
+    title: "Why your toddler is losing it (and why that's actually normal)",
+    body: "A full-body meltdown over putting shoes on isn't bad behaviour - it's a bad fit between a big feeling and a brain that can't yet manage it. Here's what's actually happening, and what helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "It's 5:47pm. You've asked your toddler to put their shoes on for the third time. This time, it's not a \"no\" - it's a full-body collapse onto the kitchen floor, complete with a sound you're fairly sure only toddlers and smoke alarms can make.",
+        "If you've been there, you're not doing anything wrong. You're parenting a toddler.",
+      ],
+      sections: [
+        {
+          heading: "It's not bad behaviour. It's a bad fit.",
+          paragraphs: [
+            "Between about 1 and 4 years old, the part of the brain responsible for logic, patience and \"just calming down\" (the prefrontal cortex) is barely under construction. Meanwhile, the emotional part of the brain is fully online and running the show. Your toddler isn't choosing to be difficult. Their brain genuinely cannot regulate big feelings the way yours can.",
+            "Add in limited language (they can feel far more than they can say), a fierce new drive for independence, and a world where almost every decision is made for them, and tantrums start to make a lot more sense. It's less \"manipulation\" and more \"system overload.\"",
+          ],
+        },
+        {
+          heading: "What's actually happening in a tantrum",
+          bullets: [
+            "The upstairs brain goes offline - this is the yelling, kicking, throwing stage. Logic doesn't work here; you cannot reason a toddler out of a meltdown any more than you could reason yourself out of a fire alarm going off in your ear",
+            "The comedown - once the initial wave passes, they often become clingy, teary, or want a cuddle. This is when connection actually lands",
+          ],
+        },
+        {
+          heading: 'Skip, for now',
+          bullets: [
+            'Long explanations mid-meltdown ("we don\'t hit because...")',
+            'Bargaining or bribing to stop the crying',
+            'Matching their volume',
+          ],
+        },
+        {
+          heading: 'Try instead',
+          bullets: [
+            'Name it, briefly - "You\'re really mad you can\'t have another biscuit." One sentence. Save the discussion for later',
+            'Stay boringly calm - your steadiness is the co-regulation their brain is borrowing until it can do it alone',
+            'Offer safety, not solutions - sometimes just sitting nearby (not lecturing) is enough',
+            'Save the debrief for after - once they\'re calm, a simple "that was a big feeling, hey" helps them build the vocabulary for next time',
+          ],
+        },
+        {
+          heading: 'The bit nobody tells you',
+          paragraphs: [
+            'Tantrums usually peak around age 2 to 3 and taper off as language and self-regulation develop, but "taper off" doesn\'t mean disappear overnight, and it doesn\'t mean you\'re failing if they\'re still happening at 4. Some kids are simply more intense feelers than others, and that\'s temperament, not a parenting report card.',
+            "It's also worth saying: the parent's exhaustion in these moments is real and valid too. Managing a meltdown while mentally running through school pickup, what's for dinner, and whether you replied to that email is its own kind of load, and it's the kind that rarely gets talked about but is very real for the person holding it all together.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'The takeaway',
+        paragraphs: [
+          "A tantrum isn't a discipline failure, yours or theirs. It's a small human with a big feeling and not yet enough tools to manage it. Your calm presence, more than any perfect script, is what teaches them that big emotions are survivable.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-sarah',
+    cover: 'c-community',
+    heroImage: '/Edited with Labbet App.jpg',
+    heroImagePosition: 'center 50%',
+    heroImageGrayscale: true,
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Sarah',
+    body: "Model, content creator, coach and event host, and mum of two navigating two very different seasons at once. Sarah on miscarriage, self-talk, and turning a side hustle into her full-time gig.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Meet Sarah Viliamu. She's a mum of two - her son is 5, her daughter is 7 months - with an incredibly supportive husband she's been with for over 13 years. Between her two children, Sarah went through two miscarriages, which she chose to share publicly, believing it's something that needs to be spoken about more often.",
+        "She's also currently navigating two very different seasons of motherhood at once - one child in prep, the other all things baby life - while turning what was a side hustle into her full-time gig as a model, content creator, coach and event host, after being made redundant just before going on maternity leave in December.",
+        "Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: 'Describe motherhood in one sentence.',
+          paragraphs: [
+            "Motherhood is the hardest and most amazing experience all wrapped in one big beautiful hug.",
+          ],
+        },
+        {
+          heading: 'Your work is all about self-love and confidence. How has becoming a mum changed the way you speak to yourself?',
+          paragraphs: [
+            "In all honesty it's something I try to work on every day, the negative self talk can easily creep in but ultimately I try to remind myself that my children are watching and listening to how I speak to myself, and that not only do I deserve self compassion and kindness, but my children deserve to grow up in a household where that is modelled.",
+          ],
+        },
+        {
+          heading: 'What is something about motherhood that no one could have prepared you for?',
+          paragraphs: [
+            "Even though you know motherhood is 24/7, I don't think you quite conceptualise how literal the 24/7 is, and just how huge the extra mental load is.",
+          ],
+        },
+        {
+          heading: 'What does support look like for you in this season of life?',
+          paragraphs: [
+            "My husband is a huge support for me, especially as I'm breastfeeding - he does anything he can to reduce my mental load and make life that bit easier for me. Also asking for help when I need it, whether that's from family or a friend.",
+          ],
+        },
+        {
+          heading: "You've built a community around empowering women. Has becoming a mum changed what empowerment means to you?",
+          paragraphs: [
+            "I'd say if anything it's amplified my mission and messages of empowerment. Becoming a mum has solidified my why behind encouraging all people to step into their confidence and empowerment.",
+          ],
+        },
+        {
+          heading: 'If you could go back and give advice to yourself as a first-time mum, what would it be?',
+          paragraphs: [
+            "Your baby doesn't need a perfect mum, a happy mum is much more important.",
+          ],
+        },
+        {
+          heading: 'When life feels overwhelming, what helps you come back to yourself as Sarah - not just mum, business owner or partner?',
+          paragraphs: [
+            "I often use the words \"zoom out\" and find it helps take me out of the overwhelm and look at the big picture. Gratitude and journaling are also key practices in my life.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Sarah.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-tilly',
+    cover: 'c-community',
+    heroImage: '/IMG_0121.jpg',
+    heroImagePosition: 'center 20%',
+    heroImageGrayscale: true,
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Tilly',
+    body: "Mum to six-month-old West, a surprise after being told she wouldn't have children. Tilly on the honest side of motherhood, letting go of perfect, and why the laundry never actually ends.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Meet Tilly. She's a 26-year-old mum to a six-month-old boy, West - a surprise after being told she wouldn't have children due to 72 cysts on her ovaries. Motherhood came as a shock to her, and she's found it as hard as it is rewarding.",
+        "Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: 'Describe motherhood in one sentence.',
+          paragraphs: [
+            "Motherhood is equal parts exhausting and extraordinary.",
+          ],
+        },
+        {
+          heading: "What's one thing motherhood taught you about yourself?",
+          paragraphs: [
+            "Motherhood taught me to slow down. Living with ADHD, I was always onto the next thing, but my son has taught me to be present and appreciate the little moments.",
+          ],
+        },
+        {
+          heading: "You've always been refreshingly honest about motherhood. Why is it important to you to share the real side of parenting?",
+          paragraphs: [
+            "I think I share the honest side of motherhood because it's what I needed when I was in the thick of it. Those first six weeks with West were really hard, and when I looked online it felt like everyone else was loving every second while I was just trying to get through the day. I want other mums to know it's okay if it doesn't feel magical all the time. You can love your baby more than anything and still find motherhood incredibly hard. If sharing the reality helps even one mum feel less alone, then it's worth it.",
+          ],
+        },
+        {
+          heading: 'If you could give one piece of advice to a new mum, what would it be?',
+          paragraphs: [
+            "The days really are long, but the years are short. When you're in the middle of the sleepless nights and the hard days, it can feel like it's never going to end. But every stage passes so quickly, and before you know it, you'll find yourself missing the version of them you couldn't wait to grow out of. Hang in there. It does get easier, every new phase brings something even more rewarding, and one day you'll look back and wish you could hold that tiny version of them just one more time.",
+          ],
+        },
+        {
+          heading: 'Have you ever felt pressure to be a "perfect mum"? How do you navigate that?',
+          paragraphs: [
+            "Absolutely. I think social media made me feel like I had to have it all together. Then I realised every mum is finding it hard in some way. Some people are just more open about it than others. Once I understood that motherhood is challenging for everyone, I stopped chasing perfection and started focusing on just being the best mum I could be. That mindset has been so much healthier for me.",
+          ],
+        },
+        {
+          heading: 'If your child could thank you for one thing in the future, what would you hope it would be?',
+          paragraphs: [
+            "I hope one day he thanks me for working so hard to give him a life full of opportunities and experiences. He's only six months old and he's already been to three countries. I grew up travelling the world and living in different places, and those experiences shaped who I am. I hope I can give him that same gift. More than anything, I hope he looks back and knows that every late night, every sacrifice, and every hour I worked was because I wanted him to have a life full of adventure, perspective, and possibility.",
+          ],
+        },
+        {
+          heading: "What's one parenting task you find yourself constantly trying to stay on top of?",
+          paragraphs: [
+            "The washing, without a doubt. I swear I can never get to a point where the laundry basket is empty, the clothes are folded, and everything is actually put away at the same time. It feels like the second I finish one load, there's already another one waiting for me.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Tilly.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'real-mums-real-stories-taylor',
+    cover: 'c-community',
+    heroImage: '/8341ED89-3F0D-4D15-A985-81E74E9F9FA4.jpg',
+    heroImagePosition: 'center 22%',
+    heroImageGrayscale: true,
+    label: 'Real Mums, Real Stories',
+    tag: 'Community',
+    title: 'Real Mums, Real Stories: Taylor',
+    body: "First-time mum and consulting agency owner, on why motherhood didn't shrink her ambition - it gave it more meaning. Taylor on identity, instinct, and letting go of mum guilt.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Meet Taylor. She's a first-time mum who's spent the past four years building a consulting agency - Type A, ambitious, and passionate about financial literacy, building wealth, and creating a life with real freedom and choice.",
+        "Motherhood has been the biggest and best shift in her life so far - she's loving figuring out this new version of it, staying present with her baby boy while still building something she loves. Here's what she had to say.",
+      ],
+      sections: [
+        {
+          heading: "You've spent years building a business around independence and ambition. Did becoming a mum challenge your identity in ways you weren't expecting?",
+          paragraphs: [
+            "It's almost challenged me in the opposite way to what I expected. Becoming a mum has felt so right, and I've honestly never felt more like myself. I have a whole new sense of purpose, I love and appreciate my body in a completely different way after growing a life, and there's so much more meaning behind everything I do.",
+            "I used to think motherhood and ambition would take away from each other, but I've found the opposite. Motherhood has given me even more purpose in my business, made me value operating efficiently and intentionally, and at the same time, I get to be this tiny person's entire world. I feel more me than ever.",
+          ],
+        },
+        {
+          heading: 'What has surprised you most about yourself since becoming a mum?',
+          paragraphs: [
+            "Probably how instinctual it all feels, and how deeply connected you are to your baby. You really do learn them in a way no one else can - what they need, what different cries mean, when something feels off. I've surprised myself with how much I trust that instinct and connection.",
+          ],
+        },
+        {
+          heading: "What's something about birth that nobody could have prepared you for?",
+          paragraphs: [
+            "How much the right support people matter. Birth is such a vulnerable experience, full of unknowns, and there's a point where you really have to surrender and lean on the people you love. I don't think anything could have prepared me for how much I would need and value having people around me who made me feel safe, supported and advocated for.",
+          ],
+        },
+        {
+          heading: 'Can you tell us about the day you met your baby? What do you remember most vividly?',
+          paragraphs: [
+            "After a 28-hour labour, my first thought was honestly \"thank f**k you're finally out\" hahaha. But the feeling of having your baby put on your chest for the first time is genuinely euphoric. In that moment, all the pain felt completely worth it. I would do it 100 times over just to experience that feeling again.",
+          ],
+        },
+        {
+          heading: 'Most Googled question at 2am?',
+          paragraphs: [
+            "Probably a ChatGPT question asking why a certain routine worked one day and he's fussy and crying the next lol.",
+          ],
+        },
+        {
+          heading: "For ambitious women who worry they'll lose themselves in motherhood, what would you say to them today?",
+          paragraphs: [
+            "You don't have to choose between being an incredible mum and still wanting more for yourself. I genuinely thought motherhood might make me less ambitious or take away parts of who I was, but it's done the opposite. I've never felt more like myself, more purposeful or more motivated to build a life I'm proud of. Motherhood doesn't have to make your world smaller - it can give everything you're building even more meaning.",
+          ],
+        },
+        {
+          heading: "Have you experienced mum guilt already? If so, what does that look like for you?",
+          paragraphs: [
+            "Honestly, no. I know that anything I do for myself allows me to pour into him even more. Taking care of myself, working, training or having time away doesn't take away from me being his mum - it allows me to show up as the best version of myself for him.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'We see you, Taylor.',
+        paragraphs: [
+          "Thank you for sharing your story with us.",
+          "Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
+        ],
+      },
+    },
+  },
 ]
 
 export function getStoryBySlug(slug: string): Story | undefined {

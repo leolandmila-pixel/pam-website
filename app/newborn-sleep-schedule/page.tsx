@@ -127,7 +127,7 @@ export default function NewbornSleepSchedulePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       {/* Hero */}
-      <section className="hero" style={{ paddingTop: 48, paddingBottom: 24 }}>
+      <section className="hero" style={{ paddingTop: 108, paddingBottom: 24 }}>
         <div className="container">
           <nav className="ml-breadcrumb" aria-label="Breadcrumb">
             <Link href="/">Home</Link>

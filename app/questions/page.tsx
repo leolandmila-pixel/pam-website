@@ -39,7 +39,7 @@ export default function QuestionsPage() {
 
       <main>
         {/* Hero */}
-        <section className="hero" style={{ paddingTop: 48, paddingBottom: 0 }}>
+        <section className="hero" style={{ paddingTop: 108, paddingBottom: 0 }}>
           <div className="container">
             <nav className="ml-breadcrumb" aria-label="Breadcrumb">
               <Link href="/">Home</Link>

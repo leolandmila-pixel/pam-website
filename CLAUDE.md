@@ -8,18 +8,22 @@
 - `main` — production only, auto-deploys to live site via Netlify
 
 ### Rules
-- Never commit or push directly to `main`
-- Never open a PR directly to `main` (only `dev` → `main` PRs are allowed)
 - All feature branches must be created from `dev`
-- All PRs must pass CI checks (build + lint) before merging
+- Feature branches merge into `dev` via a normal PR (CI must pass: build + lint)
+- `dev` → `main` does **not** go through a GitHub PR — merge `dev` into `main` locally and push directly to both remotes (see below). This was a deliberate change from the original PR-gated flow once repo access was sorted out; there is no CI gate on this step, so run `npm run build` locally before pushing to `main`.
+- There's a dedicated worktree for `main` at `C:/Users/ashle/pam-main-worktree` (a second checkout of this same repo) — `main` can't be checked out in this primary working directory while that worktree has it checked out, so do the `dev` → `main` merge from there.
 
-### Standard PR flow
+### Standard flow
 1. Branch from `dev`: `git checkout -b feat/my-feature dev`
-2. Make changes, commit, push
-3. Open PR → `dev`
-4. CI checks pass → merge to `dev`
-5. When ready to go live → open PR from `dev` → `main`
-6. CI checks pass → merge → Netlify auto-deploys
+2. Make changes, commit, push, open PR → `dev`, CI passes, merge
+3. When ready to go live:
+   ```bash
+   cd C:/Users/ashle/pam-main-worktree
+   git fetch origin && git merge origin/main --ff-only
+   git merge origin/dev --no-ff -m "Merge dev into main: <summary>"
+   npm run build   # must pass before pushing
+   git push origin main && git push personal main
+   ```
 
 ## Dual Remote — Always Push to Both
 
@@ -35,6 +39,8 @@ git push origin dev && git push personal dev
 ```
 
 Netlify only watches the `personal` remote — if you only push to `origin`, the live site will not update.
+
+`dev` has drifted between the two remotes before (PRs into `dev` only update `origin` unless you also run `git push personal dev`) — check `git log personal/dev..origin/dev` occasionally and push `dev` to `personal` too if it's behind, so a future `dev` → `main` merge isn't accidentally missing work.
 
 ## Build
 

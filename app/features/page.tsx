@@ -3,8 +3,9 @@ import Image from 'next/image'
 import PricingFeatures from '@/components/PricingFeatures'
 
 export const metadata: Metadata = {
-  title: "What's Inside PAM | Parental Admin Manager",
-  description: "Everything a parent needs, all in one place. Smart Checklist, Tracker, Family Hub and Memories.",
+  title: "What's Inside PAM: Checklist, Tracker & Family Hub",
+  description: "Everything a parent needs in one place - Smart Checklist, Tracker, Family Hub and Memories, built to lighten the mental load for Australian families.",
+  alternates: { canonical: 'https://parentaladminmanager.com/features' },
 }
 
 export default function AppFeaturesPage() {

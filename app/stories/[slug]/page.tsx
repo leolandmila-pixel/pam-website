@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import Script from 'next/script'
 import { notFound } from 'next/navigation'
 import { stories, getStoryBySlug } from '../stories-data'
 import { buildArticleSchema } from '@/app/structured-data'
+import { truncateAtWord } from '@/lib/utils'
 
 export function generateStaticParams() {
   return stories.map((s) => ({ slug: s.slug }))
@@ -18,12 +18,18 @@ export async function generateMetadata({
   const { slug } = await params
   const story = getStoryBySlug(slug)
   if (!story) return { title: 'Story not found' }
+  const title = truncateAtWord(story.title, 54)
+  const description = truncateAtWord(story.body, 155)
   return {
-    title: `${story.title} | PAM`,
-    description: story.body,
+    title,
+    description,
+    alternates: {
+      canonical: `https://parentaladminmanager.com/stories/${slug}`,
+    },
     openGraph: {
-      title: story.title,
-      description: story.body,
+      title,
+      description,
+      url: `https://parentaladminmanager.com/stories/${slug}`,
       type: 'article',
     },
   }
@@ -47,7 +53,7 @@ export default async function StoryPage({
 
   return (
     <main>
-      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <section className="hero" style={{ paddingTop: 40, paddingBottom: 20 }}>
         <div className="container" style={{ maxWidth: 760 }}>
           {story.heroImage ? (

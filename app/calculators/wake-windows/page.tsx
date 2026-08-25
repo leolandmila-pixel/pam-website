@@ -31,7 +31,7 @@ export default function WakeWindowCalculatorPage() {
             <p>Find baby&apos;s age-appropriate wake window, plus a suggested run of times for today.</p>
             <p>
               Want the fuller picture from birth to 12 weeks?{' '}
-              <Link href="/stories/newborn-sleep-schedule-week-by-week">Read the newborn sleep schedule week by week</Link>.
+              <Link href="/newborn-sleep-schedule">Read the newborn sleep schedule week by week</Link>.
             </p>
           </div>
         </div>

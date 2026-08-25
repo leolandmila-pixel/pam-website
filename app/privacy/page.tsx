@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | PAM',
-  description: 'How PAM collects, uses, and protects your family\'s information.',
+  title: 'Privacy Policy - How PAM Protects Your Data',
+  description: 'How PAM collects, uses and protects your family\'s information across the app and website, in plain English - not buried in legal jargon.',
+  alternates: { canonical: 'https://parentaladminmanager.com/privacy' },
 }
 
 export default function PrivacyPage() {

@@ -1,36 +1,12 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import Link from 'next/link'
+import { questionsMetadata } from '../metadata'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
 import { qaItems } from '@/lib/qa-data'
 import QAList from '@/components/QAList'
 
-export const metadata: Metadata = {
-  title: 'Parent Questions, Answered | PAM',
-  description:
-    'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin (MCH, Centrelink, immunisations), development milestones, and the mental load. Written for Australian families.',
-  keywords: [
-    'parenting questions australia',
-    'newborn questions',
-    'baby sleep questions',
-    'MCH visit questions',
-    'breastfeeding questions australia',
-    'centrelink newborn payment',
-    'baby development milestones',
-    'mental load parenting',
-    'new mum questions',
-    'parenting advice australia',
-  ],
-  openGraph: {
-    title: 'Parent Questions, Answered | PAM',
-    description:
-      'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin, development, and the mental load.',
-    url: 'https://parentaladminmanager.com/questions',
-  },
-  alternates: {
-    canonical: 'https://parentaladminmanager.com/questions',
-  },
-}
+export const metadata: Metadata = questionsMetadata
 
 const faqSchema = buildFaqSchema(
   qaItems.map((item) => ({

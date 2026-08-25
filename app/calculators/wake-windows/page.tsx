@@ -29,6 +29,10 @@ export default function WakeWindowCalculatorPage() {
             <span className="eyebrow">Sleep</span>
             <h1>How long can baby <span className="em">be awake?</span></h1>
             <p>Find baby&apos;s age-appropriate wake window, plus a suggested run of times for today.</p>
+            <p>
+              Want the fuller picture from birth to 12 weeks?{' '}
+              <Link href="/stories/newborn-sleep-schedule-week-by-week">Read the newborn sleep schedule week by week</Link>.
+            </p>
           </div>
         </div>
       </section>

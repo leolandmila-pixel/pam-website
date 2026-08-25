@@ -27,6 +27,7 @@ export type Story = {
   heroImagePosition?: string
   heroImageGrayscale?: boolean
   content?: StoryContent
+  relatedTool?: { label: string; description: string; href: string }
 }
 
 export const stories: Story[] = [
@@ -2736,47 +2737,164 @@ export const stories: Story[] = [
   {
     slug: 'newborn-sleep-schedule-week-by-week',
     cover: 'c-newborn',
-    label: 'The first six weeks',
+    label: 'The first twelve weeks',
     tag: 'Newborn',
-    title: "Newborn sleep schedule: what's normal week by week (and when it starts to settle)",
-    body: "There's no strict newborn sleep schedule in the first weeks - just wide, normal ranges. Here's what an average newborn sleep pattern actually looks like, week by week.",
-    readMinutes: 7,
+    title: "Newborn sleep schedule week by week: what's normal from 1 to 12 weeks old",
+    body: "A week-by-week newborn sleep schedule and chart - what's actually normal from 1 to 12 weeks old, when patterns start to settle, and how it lines up with age-appropriate wake windows.",
+    readMinutes: 9,
     published: true,
     heroImage: '/Untitled design (18).png',
     heroImagePosition: 'center 40%',
+    relatedTool: {
+      label: 'Wake Window Calculator',
+      description: "Get baby's exact age-appropriate wake window for today, not just a weekly range.",
+      href: '/calculators/wake-windows',
+    },
     content: {
       hook: [
         "Search 'newborn sleep schedule' and you'll find charts with tidy blocks of colour, implying your baby should be asleep from 7pm to 7am with two neat naps in between. Reality looks nothing like that in the early weeks, and comparing your baby to the chart is a fast way to feel like you're doing something wrong.",
-        "Here's a more honest week-by-week guide to newborn sleep patterns - what's typical, what's a wide normal range, and roughly when a more predictable schedule actually starts to emerge.",
+        "Here's a more honest week-by-week guide to newborn sleep - from week one through twelve - what's typical, what's a wide normal range, and roughly when a more predictable schedule actually starts to emerge.",
       ],
       sections: [
         {
-          heading: 'Weeks 1-2: no schedule, and that\'s expected',
+          heading: '1 week old sleep schedule',
           paragraphs: [
-            "Total sleep in the first fortnight is high - often 16-18 hours across 24 hours - but it comes in short, unpredictable bursts of 2-4 hours, day and night, with no meaningful difference between the two yet. Newborns haven't developed circadian rhythm, the internal body clock that eventually differentiates day from night sleep.",
-            "There is no useful newborn sleep schedule to follow here. Feed-based sleep cycles, not clock time, are the only rhythm that matters right now.",
+            "At one week old, there's no real schedule yet - and there isn't meant to be. Sleep and feeds are tightly linked, and your baby's body hasn't developed the internal clock that will eventually create day-night structure.",
           ],
-        },
-        {
-          heading: 'Weeks 3-6: the first hints of pattern',
-          paragraphs: [
-            "Total sleep stays similar, but stretches occasionally lengthen, particularly overnight, as babies' stomachs grow and feeds become more efficient. Some babies start to show a longer stretch of 4-5 hours somewhere in the night, though plenty don't yet - both are within normal range.",
-            "This is also when the evening witching hour tends to peak, which can make early-night sleep look worse even as overnight sleep is quietly starting to improve.",
-          ],
-        },
-        {
-          heading: 'Around 8-12 weeks: circadian rhythm starts to kick in',
-          paragraphs: [
-            "This is usually the first point where a genuine day-night distinction starts to emerge, driven by melatonin production maturing. Naps may start to loosely cluster, and a longer overnight stretch (often 5-6 hours) becomes more common, though still highly variable baby to baby.",
-            "This is a good stage to start light, flexible sleep-time cues - dimming lights in the evening, a simple wind-down routine - to support the rhythm that's beginning to develop, without expecting a rigid schedule yet.",
-          ],
-        },
-        {
-          heading: 'Rough total sleep guide by age',
           bullets: [
-            'Newborn (0-3 months): around 14-17 hours across 24 hours, in unpredictable chunks',
-            '3-6 months: around 12-15 hours, with naps starting to consolidate into a more visible pattern',
-            'By 6 months: many babies are having 3 naps trending toward 2, with a longer overnight stretch becoming more typical',
+            'Total sleep: 16-18 hours across 24 hours',
+            'Longest stretch: 1-3 hours, day or night',
+            'Pattern: feed, brief wake, sleep, repeat - no clock-time structure yet',
+          ],
+        },
+        {
+          heading: '2 week old sleep schedule',
+          paragraphs: [
+            "Total sleep is similar to week one, but you may notice slightly longer clusters here and there. Evening cluster feeding often ramps up around now, which can look like unsettled sleep but is a normal, temporary feeding pattern rather than a sleep problem.",
+          ],
+          bullets: [
+            'Total sleep: 15-17 hours',
+            'Longest stretch: 2-4 hours',
+            'Watch for: evening cluster feeding, not a sleep issue',
+          ],
+        },
+        {
+          heading: '3 week old sleep schedule',
+          paragraphs: [
+            'Sleep itself hasn\'t changed much, but this is often when the evening "witching hour" - a stretch of fussiness and hard-to-settle crying, usually late afternoon or evening - starts to appear for the first time.',
+          ],
+          bullets: [
+            'Total sleep: 15-16 hours',
+            'Longest stretch: 3-4 hours',
+            'New this week: evening fussiness often starts to emerge',
+          ],
+        },
+        {
+          heading: '4 week old sleep schedule',
+          paragraphs: [
+            "Some babies show their first 4-5 hour stretch around now, usually overnight - plenty of others don't yet, and both are completely normal. A growth spurt is also common around three to four weeks, which can temporarily unsettle sleep just as it seems to be improving.",
+          ],
+          bullets: [
+            'Total sleep: 14-16 hours',
+            'Longest stretch: 3-5 hours',
+            'Common this week: a short growth spurt',
+          ],
+        },
+        {
+          heading: '5 week old sleep schedule',
+          paragraphs: [
+            'Naps are still unpredictable in number and length - anywhere from four to six a day is normal. The evening witching hour tends to be at or near its peak around weeks five and six.',
+          ],
+          bullets: [
+            'Total sleep: 14-16 hours',
+            'Naps: 4-6, variable length',
+            'Peaking around now: evening fussiness',
+          ],
+        },
+        {
+          heading: '6 week old sleep schedule',
+          paragraphs: [
+            "The classic six-week growth spurt often lands right about now, and it's one of the more noticeable ones - a sudden jump in feeding and a temporary dip in sleep. It's a spurt, not a regression, and it usually settles within a few days.",
+          ],
+          bullets: [
+            'Total sleep: 14-15 hours',
+            'Longest stretch: 4-5 hours',
+            'Common this week: the six-week growth spurt',
+          ],
+        },
+        {
+          heading: '7 week old sleep schedule',
+          paragraphs: [
+            "Awake windows - how long baby can comfortably stay awake between sleeps - start to stretch out a little from here. It's worth checking these against age-appropriate ranges rather than the clock, since overtiredness at this age often shows up as more crying, not less.",
+          ],
+          bullets: [
+            'Total sleep: 14-15 hours',
+            'Naps: 4-5, first faint clustering by late morning',
+            'Worth checking: age-appropriate wake windows',
+          ],
+        },
+        {
+          heading: '8 week old sleep schedule',
+          paragraphs: [
+            'Around eight weeks, melatonin production starts maturing, which is usually the first real hint of a day-night distinction developing. This is a good stage to introduce light, consistent evening cues - dimmer lights, a simple wind-down - without expecting a rigid routine yet.',
+          ],
+          bullets: [
+            'Total sleep: 14-15 hours',
+            'Longest stretch: 5-6 hours for some babies',
+            'Developing now: early circadian rhythm',
+          ],
+        },
+        {
+          heading: '9 week old sleep schedule',
+          paragraphs: [
+            "Naps may start loosely grouping into a longer morning nap and a longer afternoon nap, though short, frequent naps are still well within normal range too.",
+          ],
+          bullets: [
+            'Total sleep: 13-15 hours',
+            'Longest stretch: 5-6 hours',
+            'Naps: starting to loosely cluster for some babies',
+          ],
+        },
+        {
+          heading: '10 week old sleep schedule',
+          paragraphs: [
+            'Evening wind-down routines tend to start actually "working" from around now, in the sense that baby can recognise and settle to the cues, even if sleep itself is still far from a fixed schedule.',
+          ],
+          bullets: [
+            'Total sleep: 13-15 hours',
+            'Longest stretch: 5-7 hours',
+            'Worth trying: a short, consistent bedtime routine',
+          ],
+        },
+        {
+          heading: '11 week old sleep schedule',
+          paragraphs: [
+            "Many babies are trending toward three to four naps a day with a more visible daily rhythm, though the range of what's normal is still wide - some babies settle into a pattern earlier, others later.",
+          ],
+          bullets: [
+            'Total sleep: 13-15 hours',
+            'Naps: often 3-4, more visible rhythm',
+            'Still varies widely baby to baby',
+          ],
+        },
+        {
+          heading: '12 week old sleep schedule',
+          paragraphs: [
+            "By twelve weeks, some babies have a genuinely longer overnight stretch of six to eight hours; others are still waking every three to four hours, and both remain within normal range. This is roughly when a more predictable schedule starts to feel achievable for many families - though if it doesn't yet, that's not a sign of a problem, just a wider timeline than the charts suggest.",
+          ],
+          bullets: [
+            'Total sleep: 13-15 hours',
+            'Longest stretch: 3-8 hours, depending on the baby',
+            'Ahead: some babies reach the four-month sleep regression from here',
+          ],
+        },
+        {
+          heading: 'Newborn sleep chart: quick reference',
+          bullets: [
+            'Weeks 1-2: 16-18 hrs total, 1-3 hr stretches, no day-night pattern yet',
+            'Weeks 3-6: 14-16 hrs total, 3-5 hr stretches, witching hour common',
+            'Weeks 7-9: 14-15 hrs total, 5-6 hr stretches, circadian rhythm emerging',
+            'Weeks 10-12: 13-15 hrs total, up to 6-8 hr stretches, rhythm more visible',
           ],
         },
       ],

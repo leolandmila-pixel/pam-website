@@ -1,34 +1,10 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import Link from 'next/link'
+import { mentalLoadMetadata } from '../metadata'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
 
-export const metadata: Metadata = {
-  title: "What is the Mental Load? The Complete Guide for Parents | PAM",
-  description:
-    "The mental load is the invisible cognitive work of managing a family - planning, remembering, and coordinating everything so nothing falls through the cracks. Here's what it is, why it matters, and how to share it.",
-  keywords: [
-    'mental load',
-    'mental load parenting',
-    'mental load mum',
-    'invisible labour',
-    'cognitive load parenting',
-    'sharing the mental load',
-    'mental load partner',
-    'mental load australia',
-    'parenting overwhelm',
-    'mum burnout',
-  ],
-  openGraph: {
-    title: 'What is the Mental Load? The Complete Guide for Parents',
-    description:
-      'The mental load is the invisible cognitive work of managing a family. Here is what it is, why it disproportionately affects mums, and how to genuinely share it.',
-    url: 'https://parentaladminmanager.com/mental-load',
-  },
-  alternates: {
-    canonical: 'https://parentaladminmanager.com/mental-load',
-  },
-}
+export const metadata: Metadata = mentalLoadMetadata
 
 const faqItems = [
   {

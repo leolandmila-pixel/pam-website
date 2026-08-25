@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const baseMetadata: Metadata = {
   metadataBase: new URL('https://parentaladminmanager.com'),
   title: {
-    default: 'PAM - The mental load, managed.',
+    default: 'PAM Australia - The mental load, managed.',
     template: '%s | PAM',
   },
   description:
@@ -28,9 +28,9 @@ export const baseMetadata: Metadata = {
     type: 'website',
     locale: 'en_AU',
     url: 'https://parentaladminmanager.com',
-    title: 'PAM - The mental load, managed.',
+    title: 'PAM Australia - The mental load, managed.',
     description:
-      'The assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family.',
+      'The assistant every Australian parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family.',
     siteName: 'PAM',
     images: [
       { url: '/og-image.png', width: 1200, height: 630, alt: 'PAM - The mental load, managed.' },
@@ -38,7 +38,7 @@ export const baseMetadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PAM - The mental load, managed.',
+    title: 'PAM Australia - The mental load, managed.',
     description: 'The assistant every parent deserves. Built in Australia by two mums.',
     images: ['/og-image.png'],
     creator: '@pam.app',
@@ -101,15 +101,67 @@ export const contactMetadata: Metadata = {
 }
 
 export const faqMetadata: Metadata = {
-  title: 'FAQ',
+  title: { absolute: 'FAQ | PAM Australia' },
   description:
     'Everything you might be wondering before you join the PAM founding trial - launch, pricing, privacy, Ask PAM and more.',
   alternates: { canonical: 'https://parentaladminmanager.com/faq' },
   openGraph: {
     ...baseMetadata.openGraph,
-    title: 'PAM FAQ',
+    title: 'PAM Australia FAQ',
     description: 'Launch, pricing, privacy and family - answered.',
     url: 'https://parentaladminmanager.com/faq',
+  },
+}
+
+export const questionsMetadata: Metadata = {
+  title: 'Parent Questions, Answered | PAM',
+  description:
+    'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin (MCH, Centrelink, immunisations), development milestones, and the mental load. Written for Australian families.',
+  keywords: [
+    'parenting questions australia',
+    'newborn questions',
+    'baby sleep questions',
+    'MCH visit questions',
+    'breastfeeding questions australia',
+    'centrelink newborn payment',
+    'baby development milestones',
+    'mental load parenting',
+    'new mum questions',
+    'parenting advice australia',
+  ],
+  alternates: { canonical: 'https://parentaladminmanager.com/questions' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'Parent Questions, Answered | PAM',
+    description:
+      'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin, development, and the mental load.',
+    url: 'https://parentaladminmanager.com/questions',
+  },
+}
+
+export const mentalLoadMetadata: Metadata = {
+  title: 'What is the Mental Load? The Complete Guide for Parents | PAM',
+  description:
+    "The mental load is the invisible cognitive work of managing a family - planning, remembering, and coordinating everything so nothing falls through the cracks. Here's what it is, why it matters, and how to share it.",
+  keywords: [
+    'mental load',
+    'mental load parenting',
+    'mental load mum',
+    'invisible labour',
+    'cognitive load parenting',
+    'sharing the mental load',
+    'mental load partner',
+    'mental load australia',
+    'parenting overwhelm',
+    'mum burnout',
+  ],
+  alternates: { canonical: 'https://parentaladminmanager.com/mental-load' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'What is the Mental Load? The Complete Guide for Parents',
+    description:
+      'The mental load is the invisible cognitive work of managing a family. Here is what it is, why it disproportionately affects mums, and how to genuinely share it.',
+    url: 'https://parentaladminmanager.com/mental-load',
   },
 }
 

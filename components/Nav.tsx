@@ -28,6 +28,7 @@ const links: NavLink[] = [
     ],
   },
   { href: '/stories', label: 'Real Mums, Real Stories' },
+  { href: '/calculators', label: 'Calculators' },
   { href: '/contact', label: 'Contact' },
   { href: '/faq', label: 'FAQ' },
 ]

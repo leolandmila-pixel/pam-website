@@ -27,6 +27,7 @@ export type Story = {
   heroImagePosition?: string
   heroImageGrayscale?: boolean
   content?: StoryContent
+  relatedTool?: { label: string; description: string; href: string }
 }
 
 export const stories: Story[] = [
@@ -2744,6 +2745,11 @@ export const stories: Story[] = [
     published: true,
     heroImage: '/Untitled design (18).png',
     heroImagePosition: 'center 40%',
+    relatedTool: {
+      label: 'full week-by-week sleep guide',
+      description: 'Total sleep, wake windows and feeds for every stage from 1 to 12 weeks, plus an FAQ on the questions that come up most.',
+      href: '/newborn-sleep-schedule',
+    },
     content: {
       hook: [
         "Search 'newborn sleep schedule' and you'll find charts with tidy blocks of colour, implying your baby should be asleep from 7pm to 7am with two neat naps in between. Reality looks nothing like that in the early weeks, and comparing your baby to the chart is a fast way to feel like you're doing something wrong.",
@@ -2785,6 +2791,7 @@ export const stories: Story[] = [
         paragraphs: [
           "In the newborn stage, following your baby's cues - feed, brief awake window, sleep, repeat - will get you further than trying to force a schedule that their body isn't developmentally ready for yet. The predictable rhythm most sleep charts promise does come, usually somewhere in the 8-16 week range, just later and messier than the charts suggest.",
           "If sleep still feels chaotic at 6 or 8 weeks, that's not a sign anything's wrong. It's a sign your baby is exactly where most babies are at that age.",
+          "Want the fuller breakdown - exact stats for every stage from 1 to 12 weeks, plus the questions that come up most? See the full guide below.",
         ],
       },
     },

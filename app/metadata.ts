@@ -101,15 +101,67 @@ export const contactMetadata: Metadata = {
 }
 
 export const faqMetadata: Metadata = {
-  title: 'FAQ - Launch, Pricing & Privacy Answered',
+  title: { absolute: 'FAQ - Launch, Pricing & Privacy Answered | PAM Australia' },
   description:
     'Everything you might be wondering before you join the PAM founding trial - launch timing, pricing, privacy, Ask PAM and family sharing, all answered.',
   alternates: { canonical: 'https://parentaladminmanager.com/faq' },
   openGraph: {
     ...baseMetadata.openGraph,
-    title: 'PAM FAQ',
+    title: 'PAM Australia FAQ',
     description: 'Launch, pricing, privacy and family - answered.',
     url: 'https://parentaladminmanager.com/faq',
+  },
+}
+
+export const questionsMetadata: Metadata = {
+  title: 'Parent Questions, Answered',
+  description:
+    'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin, development milestones, and the mental load.',
+  keywords: [
+    'parenting questions australia',
+    'newborn questions',
+    'baby sleep questions',
+    'MCH visit questions',
+    'breastfeeding questions australia',
+    'centrelink newborn payment',
+    'baby development milestones',
+    'mental load parenting',
+    'new mum questions',
+    'parenting advice australia',
+  ],
+  alternates: { canonical: 'https://parentaladminmanager.com/questions' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'Parent Questions, Answered',
+    description:
+      'Real answers to the questions parents ask - newborn care, baby sleep, feeding, Australian admin, development, and the mental load.',
+    url: 'https://parentaladminmanager.com/questions',
+  },
+}
+
+export const mentalLoadMetadata: Metadata = {
+  title: 'What is the Mental Load? A Guide for Parents',
+  description:
+    'The mental load is the invisible cognitive work of managing a family - planning, remembering and coordinating so nothing falls through the cracks.',
+  keywords: [
+    'mental load',
+    'mental load parenting',
+    'mental load mum',
+    'invisible labour',
+    'cognitive load parenting',
+    'sharing the mental load',
+    'mental load partner',
+    'mental load australia',
+    'parenting overwhelm',
+    'mum burnout',
+  ],
+  alternates: { canonical: 'https://parentaladminmanager.com/mental-load' },
+  openGraph: {
+    ...baseMetadata.openGraph,
+    title: 'What is the Mental Load? A Guide for Parents',
+    description:
+      'The mental load is the invisible cognitive work of managing a family. Here is what it is, why it disproportionately affects mums, and how to genuinely share it.',
+    url: 'https://parentaladminmanager.com/mental-load',
   },
 }
 

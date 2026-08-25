@@ -114,6 +114,13 @@ export default async function StoryPage({
                 </div>
               ))}
 
+              {story.relatedTool && (
+                <Link href={story.relatedTool.href} className="story-callout" style={{ display: 'block', textDecoration: 'none', marginBottom: 38 }}>
+                  <h4>Try the {story.relatedTool.label} →</h4>
+                  <p>{story.relatedTool.description}</p>
+                </Link>
+              )}
+
               <div className="story-closing">
                 {story.content.closing.heading && (
                   <h2>{story.content.closing.heading}</h2>

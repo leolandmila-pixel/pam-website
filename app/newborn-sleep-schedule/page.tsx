@@ -170,7 +170,7 @@ export default function NewbornSleepSchedulePage() {
           <p>Weight gain is the clearest signal - more useful than any chart. If your baby is feeding well and gaining weight at their scheduled checks, their sleep pattern is very likely fine, even if it doesn&apos;t match a chart like this one. Every baby&apos;s weight and growth is tracked at MCH visits in the first year, which are pre-loaded in PAM&apos;s Smart Checklist so you always know when the next one falls.</p>
 
           <h2>Overtired vs undertired: the wake-window balance</h2>
-          <p>When a baby fights sleep despite seeming tired, it&apos;s almost always one of two things: overtired (awake too long - cortisol and adrenaline make it harder to settle) or undertired (not awake long enough to build sleep pressure). The lever for both is the same: age-appropriate wake windows, listed stage by stage above. For the full breakdown of signs and how to tell which one you&apos;re dealing with, see <Link href="/questions">our answer on overtired vs undertired babies</Link>.</p>
+          <p>When a baby fights sleep despite seeming tired, it&apos;s almost always one of two things: overtired (awake too long - cortisol and adrenaline make it harder to settle) or undertired (not awake long enough to build sleep pressure). The lever for both is the same: age-appropriate wake windows, listed stage by stage above. For the full breakdown of signs and how to tell which one you&apos;re dealing with, see <Link href="/questions">our answer on overtired vs undertired babies</Link>, or use the <Link href="/calculators/wake-windows">Wake Window Calculator</Link> to get today&apos;s exact window for baby&apos;s age.</p>
 
           <div className="ml-cta-block">
             <p>Log feeds, sleep and wake times as they happen - PAM shows you your own baby&apos;s pattern, not a generic chart.</p>
@@ -195,6 +195,7 @@ export default function NewbornSleepSchedulePage() {
           <div className="ml-further">
             <h2>Related reading</h2>
             <ul className="ml-list">
+              <li><Link href="/calculators/wake-windows">Wake Window Calculator - baby&apos;s exact age-appropriate window, today</Link></li>
               <li><Link href="/questions">Parent Questions, Answered - wake windows, sleep regressions, safe sleep and more</Link></li>
               <li><Link href="/mental-load">What is the mental load? A guide for parents</Link></li>
               <li><Link href="/features/baby-tracker">PAM Baby Tracker - feeds, sleep and nappies, shared in real time</Link></li>

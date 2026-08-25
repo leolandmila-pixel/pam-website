@@ -29,6 +29,16 @@ const links: NavLink[] = [
   },
   { href: '/stories', label: 'Real Mums, Real Stories' },
   { href: '/calculators', label: 'Calculators' },
+  {
+    href: '/questions',
+    label: 'Guides',
+    children: [
+      { href: '/questions', label: 'Parent Questions, Answered' },
+      { href: '/mental-load', label: 'What Is the Mental Load?' },
+      { href: '/newborn-sleep-schedule', label: 'Newborn Sleep Schedule' },
+      { href: '/newborn-admin-checklist', label: 'Newborn Admin Checklist' },
+    ],
+  },
   { href: '/contact', label: 'Contact' },
   { href: '/faq', label: 'FAQ' },
 ]

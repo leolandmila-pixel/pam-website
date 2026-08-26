@@ -420,9 +420,10 @@ section{padding:96px 0}
 
 /* ============== SECTION HEAD ============== */
 .sec-head{max-width:620px;margin:0 auto 60px;text-align:center}
-.sec-head h2{font-size:clamp(2.1rem,4vw,3rem);margin:16px 0 16px}
+.sec-head h1,.sec-head h2{font-size:clamp(2.1rem,4vw,3rem);margin:16px 0 16px}
 .sec-head p{color:var(--ink-soft);font-size:1.05rem}
 .sec-head.left{margin:0 0 50px;text-align:left}
+.sec-head.calc-hero{max-width:600px}
 .sec-head .eyebrow::before{display:none}
 
 /* ============== STEPS ============== */

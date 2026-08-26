@@ -25,7 +25,7 @@ export default function WakeWindowCalculatorPage() {
             <span aria-hidden="true"> / </span>
             <span>Wake Window Calculator</span>
           </nav>
-          <div className="sec-head">
+          <div className="sec-head calc-hero">
             <span className="eyebrow">Sleep</span>
             <h1>How long can baby <span className="em">be awake?</span></h1>
             <p>Find baby&apos;s age-appropriate wake window, plus a suggested run of times for today.</p>

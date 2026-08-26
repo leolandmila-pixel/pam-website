@@ -25,7 +25,7 @@ export default function ParentalLeaveCalculatorPage() {
             <span aria-hidden="true"> / </span>
             <span>Parental Leave Calculator</span>
           </nav>
-          <div className="sec-head">
+          <div className="sec-head calc-hero">
             <span className="eyebrow">Parental leave</span>
             <h1>How much Parental Leave Pay <span className="em">will you get?</span></h1>
             <p>Estimate your Government Parental Leave Pay, split between you and your partner.</p>

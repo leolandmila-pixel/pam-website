@@ -25,7 +25,7 @@ export default function GrowthPercentileCalculatorPage() {
             <span aria-hidden="true"> / </span>
             <span>Growth Percentile Calculator</span>
           </nav>
-          <div className="sec-head">
+          <div className="sec-head calc-hero">
             <span className="eyebrow">Growth</span>
             <h1>How does baby <span className="em">compare?</span></h1>
             <p>A quick estimate of where baby&apos;s weight or length sits, based on WHO growth standard medians.</p>

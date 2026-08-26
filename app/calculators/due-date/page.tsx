@@ -25,7 +25,7 @@ export default function DueDateCalculatorPage() {
             <span aria-hidden="true"> / </span>
             <span>Due Date Calculator</span>
           </nav>
-          <div className="sec-head">
+          <div className="sec-head calc-hero">
             <span className="eyebrow">Pregnancy</span>
             <h1>When&apos;s baby <span className="em">due?</span></h1>
             <p>Based on the first day of your last period (a standard 280-day estimate).</p>

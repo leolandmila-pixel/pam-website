@@ -25,7 +25,7 @@ export default function ChildcareCostCalculatorPage() {
             <span aria-hidden="true"> / </span>
             <span>Childcare Cost Calculator</span>
           </nav>
-          <div className="sec-head">
+          <div className="sec-head calc-hero">
             <span className="eyebrow">Childcare</span>
             <h1>What will childcare <span className="em">actually cost?</span></h1>
             <p>Estimate your Child Care Subsidy and weekly out-of-pocket cost, including the 3-day guarantee.</p>

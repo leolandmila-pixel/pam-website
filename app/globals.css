@@ -1175,17 +1175,17 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
 }
 
 /* ============== Q&A PAGE ============== */
-.qa-stats{display:flex;margin:36px 0 0;padding:32px 0;border-top:1px solid rgba(109,0,20,0.1)}
+.qa-stats{display:flex;justify-content:center;margin:36px 0 0;padding:32px 0;border-top:1px solid rgba(109,0,20,0.1)}
 .qa-stat{display:flex;flex-direction:column;gap:6px;padding:0 36px;border-left:1px solid rgba(109,0,20,0.12)}
 .qa-stat:first-child{padding-left:0;border-left:none}
 .qa-stat-n{font-family:var(--display);font-size:2.2rem;font-weight:400;color:var(--wine);line-height:1}
 .qa-stat-label{font-size:0.72rem;color:var(--ink-faint);letter-spacing:0.09em;font-weight:600;text-transform:uppercase}
-.qa-cats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+.qa-cats{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:14px}
 .qa-cat{display:inline-flex;align-items:center;padding:10px 20px;border-radius:100px;border:1.5px solid rgba(109,0,20,0.18);background:transparent;font-family:var(--sans);font-size:0.84rem;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all 0.18s ease;white-space:nowrap}
 .qa-cat:hover{border-color:var(--wine);color:var(--wine)}
 .qa-cat.active{background:var(--wine);border-color:var(--wine);color:#fff}
-.qa-count{font-size:0.8rem;color:var(--ink-faint);margin-bottom:20px;font-weight:500}
-.qa-list{display:flex;flex-direction:column}
+.qa-count{max-width:780px;margin:0 auto 20px;font-size:0.8rem;color:var(--ink-faint);font-weight:500}
+.qa-list{display:flex;flex-direction:column;max-width:780px;margin:0 auto}
 .qa-item{border-bottom:1px solid rgba(109,0,20,0.1)}
 .qa-item:first-child{border-top:1px solid rgba(109,0,20,0.1)}
 .qa-q{width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 0;background:none;border:none;cursor:pointer;text-align:left;font-family:var(--sans);font-size:1rem;font-weight:600;color:var(--ink);line-height:1.45;transition:color 0.15s}

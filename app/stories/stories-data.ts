@@ -3604,6 +3604,486 @@ export const stories: Story[] = [
       },
     },
   },
+  {
+    slug: 'reflux-vs-colic-whats-the-difference',
+    cover: 'c-newborn',
+    label: 'Reflux vs colic',
+    tag: 'Newborn',
+    title: 'Reflux or colic? How to tell the difference',
+    body: "Both cause a lot of crying, and it's genuinely hard to tell them apart in the moment. Here's what actually separates reflux from colic - and what helps with each.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Somewhere around week three or four, the crying ramps up, and every article you read seems to describe either colic or reflux - sometimes both, sometimes neither, always slightly differently. It's one of the most common questions in the newborn stage, and one of the hardest to self-diagnose.",
+        "They're different things, they're managed differently, and there is a fairly reliable way to tell them apart - even if only a GP can properly confirm which one you're dealing with.",
+      ],
+      sections: [
+        {
+          heading: 'What colic actually is',
+          paragraphs: [
+            "Colic isn't a diagnosis so much as a description: intense, hard-to-settle crying in an otherwise healthy, well-fed baby, often described by the \"rule of threes\" - more than three hours a day, more than three days a week, for at least three weeks. It usually starts around two to three weeks and tends to peak around six weeks.",
+          ],
+          bullets: [
+            'Crying often clusters in the late afternoon or evening',
+            "Baby's body may look tense - fists clenched, legs pulled up, back arched",
+            'Between episodes, baby feeds and settles normally',
+            'No single proven cause - it usually resolves on its own by 3-4 months',
+          ],
+        },
+        {
+          heading: 'What reflux actually is',
+          paragraphs: [
+            "Reflux happens when stomach contents come back up the oesophagus, which can be uncomfortable enough to cause real distress - sometimes with visible spit-up, sometimes \"silent\" with no obvious mess at all.",
+          ],
+          bullets: [
+            'Fussiness or crying during or shortly after feeds, not just in the evening',
+            'Frequent spit-up, hiccups, or wet burps (though silent reflux shows none of this)',
+            'Arching away from the bottle or breast mid-feed',
+            'Discomfort lying flat, especially soon after eating',
+            'Usually starts around 2-4 weeks and tends to ease by 12 months as the digestive system matures',
+          ],
+        },
+        {
+          heading: 'The clearest tell',
+          paragraphs: [
+            "Timing is the most useful clue. Colic crying tends to cluster at a predictable time of day regardless of feeding, while reflux crying tends to track with feeds - during, just after, or when laid flat. Neither is a home diagnosis, but this is usually the first question a GP or child health nurse will ask.",
+          ],
+        },
+        {
+          heading: 'What actually helps',
+          bullets: [
+            'For reflux: smaller, more frequent feeds; holding upright for 20-30 minutes after feeding; keeping burps unhurried mid-feed',
+            "For colic: white noise, gentle motion, a warm bath, and - honestly - accepting that some evenings are just going to be loud",
+            'For both: a change of scene (even five minutes on the balcony) can reset an unsettled baby, and you',
+          ],
+          paragraphs: [
+            "See a GP or your Maternal and Child Health nurse if crying is inconsolable for long stretches, baby isn't gaining weight, there's forceful (projectile) vomiting, blood in vomit or nappies, or you're finding it hard to cope - that last one counts as a real reason on its own.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "You're not doing anything wrong",
+        paragraphs: [
+          "Both colic and reflux are common, both are exhausting, and neither is caused by anything you did or didn't do. The evenings that feel unmanageable now are genuinely temporary - most colic resolves by 4 months, most reflux by 12.",
+          "If you're keeping track of feeds and settling patterns to describe to a GP, that record is useful - it's exactly the kind of detail that's easy to remember in the moment and impossible to recall accurately a week later.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'teething-signs-timeline-what-helps',
+    cover: 'c-newborn',
+    label: 'Teething',
+    tag: 'Newborn',
+    title: 'Teething: the real signs, the real timeline, and what actually helps',
+    body: 'First teeth can arrive anywhere from 4 to 12 months, and the symptoms are more disputed than you\'d think. Here\'s what\'s genuinely teething, what isn\'t, and what actually helps.',
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Teething gets blamed for almost everything in the second half of the first year - fevers, diarrhoea, sleep regressions, sudden clinginess. Some of that reputation is deserved. A lot of it isn't.",
+        "Here's what teething actually causes, roughly when to expect it, and what helps versus what's just folklore.",
+      ],
+      sections: [
+        {
+          heading: 'The real timeline',
+          bullets: [
+            'Most babies get their first tooth between 6 and 10 months, though anywhere from 4 to 12 months is normal',
+            'Bottom front teeth (central incisors) usually arrive first',
+            'By around 12 months, most babies have 4-8 teeth',
+            "The full set of 20 baby teeth typically isn't complete until closer to age 2-3",
+          ],
+          paragraphs: [
+            "A baby with no teeth at 10 months and a baby with four teeth at 8 months are both completely normal - the range is wide, and it doesn't predict anything about later dental health.",
+          ],
+        },
+        {
+          heading: 'What teething actually causes',
+          bullets: [
+            'Drooling, and lots of it',
+            'Gnawing and chewing on everything within reach',
+            'Swollen, tender gums - sometimes with a visible bruised-looking bump before the tooth breaks through',
+            'Mild irritability, particularly in the day or two before a tooth emerges',
+            'A slightly raised temperature (under 38°C) - genuine fever is not a teething symptom',
+          ],
+        },
+        {
+          heading: "What it probably isn't causing",
+          paragraphs: [
+            "Despite the reputation, current paediatric guidance is that teething does not cause high fever, diarrhoea, vomiting, or a bad cough. Babies are teething for months at a time, and also catching ordinary illnesses at the same time - the two get blamed on each other constantly. If your baby has a temperature over 38°C or is genuinely unwell, treat it as an illness and see a GP, not as \"just teeth\".",
+          ],
+        },
+        {
+          heading: 'What actually helps',
+          bullets: [
+            'A chilled (not frozen) teething ring or washcloth to chew on',
+            'Firm, gentle gum massage with a clean finger',
+            "Age-appropriate pain relief (paracetamol or ibuprofen) if they're genuinely uncomfortable - check dosing with your pharmacist or GP",
+            'Teething gels are generally not recommended by Australian guidelines - many contain ingredients not considered necessary or fully safe for infants',
+          ],
+        },
+      ],
+      closing: {
+        heading: 'It passes tooth by tooth',
+        paragraphs: [
+          "Teething is genuinely one of the more drawn-out parts of the first two years, but it comes in waves - a rough few days around each new tooth, then a return to normal until the next one. It's not a constant state, even when it feels that way.",
+          "If you're tracking symptoms to work out whether it's teeth or something else, the pattern (comes and goes, worse right before a tooth appears, no real fever) is the most useful clue you have.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'starting-daycare-separation-anxiety',
+    cover: 'c-wellbeing',
+    label: 'Starting child care',
+    tag: 'Wellbeing',
+    title: 'Starting daycare: the separation anxiety nobody warns you is yours too',
+    body: "Everyone prepares you for how your baby might handle the first day of daycare. Almost nobody prepares you for how you'll handle it.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "There's a lot of advice about helping a baby settle into child care - and it's good advice. There's a lot less about the parent standing in the car park, listening to crying through a closed door, wondering if this is a terrible idea.",
+        "Both halves of this are real, and both get easier faster than it feels like they will in week one.",
+      ],
+      sections: [
+        {
+          heading: 'Why your baby might struggle (and when they might not)',
+          paragraphs: [
+            "Separation anxiety is a genuine developmental stage, not a sign anything's wrong. Babies under about 6 months are often completely unbothered by new carers, because that stranger-awareness hasn't developed yet. It's babies starting care between roughly 8 and 18 months who tend to find it hardest - which, awkwardly, is exactly when most Australian parents are returning to work.",
+          ],
+          bullets: [
+            'Clinginess or crying at drop-off, even if they were calm minutes before',
+            'Settling within 10-20 minutes of you leaving is extremely common - educators see this daily',
+            'A rough patch in week one that eases noticeably by week two or three',
+          ],
+        },
+        {
+          heading: 'What actually helps the transition',
+          bullets: [
+            'A few short settling visits before the real first day, if the centre offers them',
+            "A consistent, calm goodbye - the same words, a hug, then go. Sneaking out feels kinder in the moment but tends to make the next drop-off harder",
+            'A familiar comfort item from home, if the centre allows it',
+            "Arriving with enough time that drop-off isn't rushed - rushed goodbyes are harder for everyone",
+          ],
+        },
+        {
+          heading: 'The part that catches parents off guard',
+          paragraphs: [
+            "Nobody quite prepares you for how it feels to hand your baby to someone else and walk away, especially the first few times. Guilt, relief, grief, and something close to jealousy can all show up in the same ten minutes, and that combination is completely normal, not a sign you've made the wrong call.",
+            "It's also common to feel worse than your baby does. Most educators will tell you the same thing: crying usually stops within minutes of the parent being out of sight. The hard part is almost always harder for you than for them.",
+          ],
+        },
+        {
+          heading: "When it's worth flagging with the centre",
+          paragraphs: [
+            "A tough first week or two is expected. If your child is still deeply distressed at every drop-off after several weeks, isn't settling at all during the day, or seems different at home in a way that worries you, it's worth a proper conversation with your educators - they'll have seen the pattern before and can tell you whether it's within normal range.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "You're allowed to grieve this transition too",
+        paragraphs: [
+          "Starting child care is a genuine milestone, and like most milestones in this stage, it comes with something being gained and something being let go of. Feeling both at once isn't a contradiction.",
+          "The car-park cry is real, it's common, and by pickup - most days - it's already forgotten by the person you were crying about.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'sibling-jealousy-preparing-your-toddler-for-a-new-baby',
+    cover: 'c-wellbeing',
+    label: 'Second time around',
+    tag: 'Wellbeing',
+    title: 'Second baby, first toddler: getting ready for sibling jealousy',
+    body: "Sibling jealousy after a new baby arrives is close to universal, not a sign your toddler is struggling more than most. Here's what's normal, and what actually helps.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Everyone prepares for a second baby's sleep, feeds, and admin. Fewer people prepare for the toddler who suddenly can't stand the sight of the baby - or, just as often, the toddler who seems fine for weeks and then falls apart out of nowhere.",
+        "Both reactions are normal, and there's a fair bit that genuinely helps.",
+      ],
+      sections: [
+        {
+          heading: 'Why it happens',
+          paragraphs: [
+            "A new baby is, from a toddler's perspective, a permanent stranger who has moved in and is getting most of your attention. Research on sibling adjustment consistently finds that challenging behaviour and emotional regulation both get harder in the weeks after a new baby arrives, often peaking around the two-month mark - not the first week, which catches a lot of parents off guard.",
+          ],
+          bullets: [
+            'Regression - toileting accidents, wanting a bottle or dummy again, baby talk',
+            'Increased clinginess, or the opposite: sudden defiance and testing limits',
+            '"Sending the baby back" comments - upsetting to hear, very normal to say',
+            'A delayed reaction - some toddlers seem completely fine until weeks in',
+          ],
+        },
+        {
+          heading: 'Before the baby arrives',
+          bullets: [
+            "Involve them in the practical stuff - choosing an outfit, helping set up the room - so it feels like their event too",
+            'Talk about specific changes honestly ("the baby will need a lot of feeding at first") rather than only the exciting parts',
+            "If a room or routine is changing because of the baby, make that shift a few weeks early so it isn't tied directly to the baby's arrival in their mind",
+          ],
+        },
+        {
+          heading: 'In the early weeks',
+          bullets: [
+            "Give them a real job - passing nappies, choosing a toy for the baby, being your \"helper\" - rather than just asking them to be patient",
+            'Protect small pockets of one-on-one time, even 10 undistracted minutes, especially right after a feed when you have a free hand',
+            '"It\'s hard sharing Mum, isn\'t it" lands better than "be nice to your sister" - name the feeling without judgement',
+            'Lower the bar everywhere else for a while - this is not the season for a big push on manners or the last stubborn nap',
+          ],
+        },
+        {
+          heading: 'When to expect it to ease',
+          paragraphs: [
+            "For most families, the sharpest edge softens within a couple of months, though it's rarely linear - a good fortnight followed by a rough week is normal, not a step backward. Genuine security in the parent relationship, not the toddler being naturally easygoing, is what predicts an easier adjustment - so the reassurance and one-on-one time matter more than getting the logistics perfect.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "It's not a competition they're going to lose",
+        paragraphs: [
+          "A toddler who's struggling with a new sibling isn't broken and isn't a bad omen for their future relationship - it's one of the most universal reactions in parenting, and one of the ones that improves fastest with a bit of deliberate attention now.",
+          "The two of them being closest of friends in a year or two doesn't erase how hard this particular stretch can be. Both things are true at once.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'c-section-recovery-what-nobody-tells-you',
+    cover: 'c-wellbeing',
+    label: 'C-section recovery',
+    tag: 'Wellbeing',
+    title: 'C-section recovery: what nobody quite tells you',
+    body: 'A caesarean is major abdominal surgery, recovered from while caring for a newborn - and the practical reality of that combination rarely gets spelled out in advance.',
+    readMinutes: 7,
+    published: true,
+    content: {
+      hook: [
+        "A caesarean gets talked about as an alternative way to give birth, which is true, but it undersells what it actually is: major abdominal surgery, recovered from on almost no sleep while caring for a newborn. The physical reality of that combination deserves more airtime than it usually gets.",
+        "Here's what recovery actually tends to look like, and what genuinely helps.",
+      ],
+      sections: [
+        {
+          heading: 'The first week',
+          bullets: [
+            "Getting in and out of bed, standing up straight, and laughing or coughing will all be genuinely painful at first - that's expected, not a sign of a complication",
+            'The catheter usually comes out within a day; walking, even a short shuffle, is encouraged early to reduce clot risk',
+            'Pain relief is there to be used properly, not endured through - staying ahead of the pain makes moving (and feeding) much easier',
+            'Swelling, numbness, or odd tingling around the scar is common and usually settles over weeks to months',
+          ],
+        },
+        {
+          heading: "The 6-week mark isn't a finish line",
+          paragraphs: [
+            "Six weeks is roughly when the incision itself is healed and most activity restrictions lift - but full internal healing, including the abdominal muscles and the deeper layers under the scar, genuinely takes longer, often several months. Feeling wiped out or twinge-y well past six weeks doesn't mean something's wrong.",
+          ],
+          bullets: [
+            "Avoid heavy lifting (more than baby's weight) and driving until cleared by your obstetrician, typically 4-6 weeks",
+            'Scar numbness or tightness can persist for months and often continues to improve for up to a year or more',
+            'Core and pelvic floor strength genuinely benefit from guided rehab, not just time',
+          ],
+        },
+        {
+          heading: "The pelvic floor question people don't expect",
+          paragraphs: [
+            "A common misconception is that a caesarean means no pelvic floor concerns - but pregnancy itself, not just labour, affects the pelvic floor, and abdominal surgery adds its own layer of muscle disruption. A women's health physiotherapist (Medicare rebates are available with a GP referral through a chronic disease management plan) can properly assess this rather than leaving it to guesswork.",
+          ],
+        },
+        {
+          heading: 'What actually helps week to week',
+          bullets: [
+            'A pillow held firmly against the incision when coughing, laughing, or standing up - it genuinely reduces the sting',
+            "High-waisted, soft clothing that doesn't sit on the scar line",
+            "Setting up a \"base camp\" - nappies, water, snacks, feeding supplies - so you're not repeatedly standing up in the first weeks",
+            'Accepting help with anything that involves lifting or bending, longer than feels necessary',
+          ],
+        },
+      ],
+      closing: {
+        heading: 'However your baby arrived, your body did something enormous',
+        paragraphs: [
+          "Caesarean recovery is frequently talked about like a technicality compared to vaginal birth, when it's genuinely major surgery layered on top of new parenthood. Giving yourself the same recovery expectations you'd give any other surgery - because that's what it is - isn't indulgent, it's accurate.",
+          "If something feels wrong rather than just uncomfortable - increasing redness, fever, the wound opening, or pain that's getting worse rather than better - contact your GP or hospital promptly rather than waiting it out.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'baby-led-weaning-vs-purees-and-the-2026-allergy-guidelines',
+    cover: 'c-feeding',
+    label: 'Starting solids',
+    tag: 'Feeding',
+    title: "Baby-led weaning vs purées - and what the 2026 allergy guidelines actually say",
+    body: 'Both approaches to starting solids work. The bigger update most parents have missed is Australia\'s 2026 guidance on introducing allergens early.',
+    readMinutes: 7,
+    published: true,
+    content: {
+      hook: [
+        "The baby-led weaning versus purées debate gets a lot of airtime, as if choosing wrong could set your baby back somehow. It can't - both are well-supported ways to start solids. The genuinely important update is a quieter one: Australia's allergy guidelines around introducing common allergens changed, and a lot of parents are working from outdated advice.",
+        "Here's both, in plain terms.",
+      ],
+      sections: [
+        {
+          heading: 'Baby-led weaning vs purées: the actual difference',
+          paragraphs: [
+            "Purées start with smooth, spoon-fed food and gradually add texture. Baby-led weaning skips purées and offers soft, graspable finger foods from the start, letting baby feed themselves. Most Australian guidance, including from child health services, doesn't favour one over the other - a combination of both is common and completely fine.",
+          ],
+          bullets: [
+            'Purées: easier to control quantity, often less mess, useful if starting a little earlier in the readiness window',
+            "Baby-led weaning: builds fine motor and chewing skills early, follows baby's own appetite cues, more mess",
+            'Readiness matters more than method - sitting well with head control, reaching for food, and losing the tongue-thrust reflex, usually around 6 months',
+          ],
+        },
+        {
+          heading: 'The 2026 update most parents have missed',
+          paragraphs: [
+            "Australasian Society of Clinical Immunology and Allergy (ASCIA) guidelines now recommend not delaying the introduction of common allergenic foods past 12 months, and once a food has been tolerated, keeping it in the regular rotation - at least once a week - rather than a one-off taste.",
+          ],
+          bullets: [
+            "The eight common allergens: egg, peanut, tree nuts, cow's milk, wheat, soy, sesame, and fish",
+            'Start around 6 months, alongside other solids, not before 4 months',
+            'Introduce one new allergen at a time, ideally earlier in the day, so you can watch for any reaction',
+            "Once tolerated, keep offering it regularly - it's the ongoing exposure, not just the first taste, that matters for prevention",
+          ],
+        },
+        {
+          heading: 'How this fits either method',
+          paragraphs: [
+            "Allergen introduction slots naturally into both approaches - smooth peanut butter thinned into a purée, or spread thinly on toast fingers for baby-led weaning; well-cooked egg mashed in, or offered as a soft strip. The food matters more than the method.",
+          ],
+        },
+        {
+          heading: "If your baby's higher risk",
+          paragraphs: [
+            "Babies with severe eczema or an existing food allergy are considered higher risk for food allergy, and ASCIA recommends speaking with your GP or an allergy specialist before introducing peanut or egg, rather than starting at home first.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "There's no single \"right\" way to start",
+        paragraphs: [
+          "Purées, baby-led weaning, or a mix of both all lead to the same place eventually. The genuinely useful thing to get right isn't the method - it's not putting off the common allergens the way earlier advice used to recommend.",
+          "If you're unsure where to start, your GP or Maternal and Child Health nurse can talk through your baby's specific readiness and any allergy risk factors before you dive in.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'postpartum-hair-loss-why-it-happens',
+    cover: 'c-wellbeing',
+    label: 'Postpartum hair loss',
+    tag: 'Wellbeing',
+    title: 'Postpartum hair loss: why it happens, and when it stops',
+    body: "Somewhere around three or four months postpartum, a lot of mums start finding handfuls of hair in the shower drain. It's almost always normal - here's why.",
+    readMinutes: 5,
+    published: true,
+    content: {
+      hook: [
+        "Nobody quite prepares you for the first time you pull a literal clump of hair out of the shower drain, months after the baby, when you assumed the big physical changes were behind you.",
+        "It's extremely common, it has a name, and there's a fairly predictable timeline attached to it.",
+      ],
+      sections: [
+        {
+          heading: 'Why it happens',
+          paragraphs: [
+            "During pregnancy, rising hormones extend the growth phase of hair, so less falls out than usual - which is why a lot of mums notice thicker, fuller hair while pregnant. After birth, hormone levels drop sharply, and all that hair that was \"held onto\" enters the shedding phase at once. The medical term is telogen effluvium, and it affects up to 90% of new mums to some degree.",
+          ],
+          bullets: [
+            'Usually starts around 2-4 months postpartum',
+            'Peaks around 3-4 months',
+            'Most mums see visible regrowth by 6-12 months, often with a fringe of shorter "baby hairs" growing back in first',
+          ],
+        },
+        {
+          heading: 'What actually helps',
+          bullets: [
+            "A gentle, volumising shampoo - it won't stop shedding, but can make hair feel less flat while it's happening",
+            "A softer brush and looser styles reduce breakage on hair that's already more fragile",
+            'Iron and vitamin levels are worth mentioning at a postpartum check if shedding feels unusually heavy - genuine deficiency can compound normal postpartum shedding',
+            'A trim can make regrowth less noticeable in the short term, if the wispy new-growth "halo" is bothering you',
+          ],
+        },
+        {
+          heading: "When it's worth checking with a GP",
+          paragraphs: [
+            "Ordinary postpartum shedding tapers off within a year. If hair loss is still heavy well past 12 months, or you notice actual bald patches rather than general thinning, that's worth a GP conversation - it's less common, but other causes (thyroid changes are a frequent one postpartum) are worth ruling out.",
+          ],
+        },
+      ],
+      closing: {
+        heading: 'It grows back - genuinely',
+        paragraphs: [
+          "This is one of the more dramatic-looking postpartum changes and also one of the most reliably temporary. The handfuls in the drain are hair your body held onto during pregnancy, all catching up at once - not hair you're losing for good.",
+          "If it's happening around the same time as everything else in the fourth trimester, it can feel like one more thing - but out of everything on that list, this is one of the ones that fully resolves on its own.",
+        ],
+      },
+    },
+  },
+  {
+    slug: 'pelvic-floor-recovery-after-birth',
+    cover: 'c-wellbeing',
+    label: 'Pelvic floor recovery',
+    tag: 'Wellbeing',
+    title: 'Pelvic floor recovery after birth: what actually helps (vaginal birth or caesarean)',
+    body: "Pregnancy itself affects the pelvic floor, not just labour - which means every mum's recovery is worth taking seriously, regardless of how baby arrived.",
+    readMinutes: 6,
+    published: true,
+    content: {
+      hook: [
+        "Pelvic floor advice tends to get handed out as an afterthought - a pamphlet at the six-week check, a vague instruction to \"do your exercises\". It deserves more than that, for every mum, not only after a vaginal birth.",
+        "Here's what's actually going on, and what genuinely helps.",
+      ],
+      sections: [
+        {
+          heading: "It's not just about labour",
+          paragraphs: [
+            "The pelvic floor is a sling of muscles supporting the bladder, bowel and uterus, and it's under real strain throughout pregnancy - not only during birth. That means caesarean birth reduces some risks but doesn't remove pelvic floor concerns entirely; nine months of pregnancy affects those muscles regardless of how the baby is born.",
+          ],
+          bullets: [
+            'Leaking urine when coughing, sneezing, laughing, or exercising (stress incontinence)',
+            'A heavy, dragging feeling, especially by the end of the day',
+            'Reduced sensation or persistent lower back pain',
+            'Some symptoms only show up months later, once regular activity resumes',
+          ],
+        },
+        {
+          heading: 'What early recovery actually involves',
+          paragraphs: [
+            "Very gentle pelvic floor engagement can usually start within the first days postpartum - not a hard \"squeeze and hold\" program, but reconnecting with the muscles. Getting the technique right matters more than doing a lot of repetitions incorrectly, which is where a lot of self-directed programs go wrong.",
+          ],
+          bullets: [
+            'A referral to a women\'s health physiotherapist is available through a GP, often with a Medicare rebate under a chronic disease management plan',
+            "A proper assessment can tell you whether your pelvic floor needs strengthening, needs to relax, or both - which is genuinely hard to judge yourself",
+            'Most guidance recommends avoiding high-impact exercise (running, jumping) until cleared, typically from around 3 months, sometimes later',
+          ],
+        },
+        {
+          heading: 'Common misconceptions',
+          bullets: [
+            '"I had a caesarean so I don\'t need to worry about it" - pregnancy itself is the bigger factor, not just the birth method',
+            '"Leaking a little is just normal after having a baby" - common, yes; something to just live with, no, it\'s very treatable',
+            '"Kegels fix everything" - some people actually need to relax an overly tight pelvic floor, not strengthen it further, which is why a proper assessment matters more than generic advice',
+          ],
+        },
+        {
+          heading: 'When to get it checked',
+          paragraphs: [
+            "Any leaking, heaviness, or pain is worth raising at your six-week check rather than waiting to see if it resolves on its own - and if it wasn't raised then, it's not too late to ask for a referral later. This is genuinely common, genuinely treatable, and genuinely under-discussed.",
+          ],
+        },
+      ],
+      closing: {
+        heading: "This one's easy to deprioritise - and worth not skipping",
+        paragraphs: [
+          "Between the baby's appointments and your own recovery, the pelvic floor is often the thing that quietly slides down the list. It's worth moving back up - not because something's necessarily wrong, but because a proper assessment early on tends to be far more effective than trying to fix a problem years down the track.",
+          "If you're already tracking your own recovery milestones alongside baby's, this is one worth adding to the list.",
+        ],
+      },
+    },
+  },
 ]
 
 export function getStoryBySlug(slug: string): Story | undefined {

@@ -3612,6 +3612,9 @@ export const stories: Story[] = [
     title: 'Reflux or colic? How to tell the difference',
     body: "Both cause a lot of crying, and it's genuinely hard to tell them apart in the moment. Here's what actually separates reflux from colic - and what helps with each.",
     readMinutes: 6,
+    heroImage: '/IMG_5123.jpg',
+    heroImagePosition: 'center 40%',
+    heroImageGrayscale: true,
     published: true,
     content: {
       hook: [

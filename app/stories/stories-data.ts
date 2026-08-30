@@ -3682,6 +3682,9 @@ export const stories: Story[] = [
     title: 'Teething: the real signs, the real timeline, and what actually helps',
     body: 'First teeth can arrive anywhere from 4 to 12 months, and the symptoms are more disputed than you\'d think. Here\'s what\'s genuinely teething, what isn\'t, and what actually helps.',
     readMinutes: 6,
+    heroImage: '/IMG_0559.jpg',
+    heroImagePosition: 'center 40%',
+    heroImageGrayscale: true,
     published: true,
     content: {
       hook: [

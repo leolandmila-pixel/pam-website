@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { mentalLoadMetadata } from '../metadata'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
+import TopicAccordion from '@/components/TopicAccordion'
 
 export const metadata: Metadata = mentalLoadMetadata
 
@@ -43,6 +44,71 @@ const faqItems = [
     a: "The first year with a newborn is when the mental load reaches its peak. Parents are managing: feeding schedules (how long since the last feed, which breast, how many mls); sleep tracking (when did they last sleep, for how long, what is the next wake window); developmental milestones (what should they be doing this month, have we seen their GP); Australian admin (birth registration within 60 days, Medicare enrolment, MCH visit schedule, immunisation program); and family logistics - all simultaneously, on severe sleep deprivation. PAM's Smart Checklist is pre-loaded with the Australian first-year milestone schedule specifically because this is when parents most need the cognitive support.",
   },
 ]
+
+const topics = [
+  {
+    heading: 'What does the mental load look like?',
+    body: (
+      <>
+        <p>The mental load includes everything you do <em>before</em> a task is done:</p>
+        <ul className="ml-list">
+          <li>Knowing the next immunisation is due and booking the appointment</li>
+          <li>Tracking what foods the baby has tried and watching for reactions</li>
+          <li>Noticing the nappies are running low and adding them to the shopping list</li>
+          <li>Remembering the 6-week MCH visit and knowing what they will check</li>
+          <li>Keeping the baby&apos;s health record up to date after each appointment</li>
+          <li>Knowing the last feed time, the last sleep, and the next wake window - simultaneously</li>
+          <li>Managing the emotional needs of every family member</li>
+          <li>Holding the big picture of your family&apos;s health, schedule, finances, and wellbeing</li>
+        </ul>
+        <p>It is the difference between <em>doing</em> a task and being the person who <em>notices</em> the task needs doing, plans how to do it, and monitors whether it got done.</p>
+      </>
+    ),
+  },
+  {
+    heading: 'Why does it fall on mothers?',
+    body: (
+      <>
+        <p>The mental load is not equally distributed. A 2019 study in the journal <em>Sex Roles</em> found that mothers spent significantly more time on cognitive household labour than fathers regardless of employment status. The <strong>Australian Bureau of Statistics</strong> consistently finds that women perform more unpaid domestic and care work than men - and that this gap widens significantly after a first baby is born.</p>
+        <p>This is not typically about willingness. It is about assumption. Mothers are often assumed to be the &quot;default parent&quot; who holds the family&apos;s information and coordinates everything - and this assumption operates so quietly that many families do not notice it until one parent reaches breaking point.</p>
+        <blockquote className="ml-quote">
+          <p>&quot;We built PAM because we were both carrying the entire load ourselves - the tracking, the appointments, the admin, the memories - and our partners simply didn&apos;t have visibility into any of it. The problem wasn&apos;t that they didn&apos;t want to help. The problem was they couldn&apos;t see what needed doing.&quot;</p>
+          <cite>- Ashley &amp; Olympia, Co-founders of PAM</cite>
+        </blockquote>
+      </>
+    ),
+  },
+  {
+    heading: 'How to actually share the mental load',
+    body: (
+      <>
+        <p>Sharing the mental load does not mean asking your partner to complete tasks you assign them. That is still you carrying the load - you are just outsourcing the execution while retaining all the planning and tracking yourself.</p>
+        <p>True load sharing means your partner takes <em>ownership</em> of entire domains - they notice, plan, and execute without being prompted. This requires:</p>
+        <ul className="ml-list">
+          <li><strong>Shared visibility</strong> - both parents see the same information in real time</li>
+          <li><strong>Domain ownership</strong> - each parent owns specific areas entirely, not just helps with them</li>
+          <li><strong>Externalised systems</strong> - information lives somewhere outside one person&apos;s head</li>
+          <li><strong>Mutual agreement</strong> - an explicit conversation about who holds what, revisited as things change</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    heading: 'Can technology help?',
+    body: (
+      <>
+        <p>Yes - but only when it creates <em>shared</em> visibility, not just better personal organisation. An app that only one parent uses can actually increase the load, because you still have to brief your partner on everything in it.</p>
+        <p>The tools that genuinely help are shared: both parents see the same tracker, the same checklist, the same calendar, in real time. When your partner can see the baby&apos;s last feed, the next MCH visit, and the outstanding tasks without asking you - that is when the mental load starts to lift.</p>
+        <p><strong>PAM (Parental Admin Manager)</strong> is an Australian app built specifically for this. It gives both parents real-time access to everything: a shared daily tracker for feeds, sleep, and nappies; smart checklists pre-loaded with Australian milestones (MCH visits, immunisation schedule, Centrelink admin, birth registration); family health information storage; and memory keeping. Both parents use it simultaneously from their own devices - so the information no longer lives in one person&apos;s head.</p>
+      </>
+    ),
+  },
+]
+
+const faqAccordionItems = faqItems.map((item) => ({
+  heading: item.q,
+  body: <p>{item.a}</p>,
+}))
 
 const breadcrumb = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://parentaladminmanager.com' },
@@ -124,50 +190,7 @@ export default function MentalLoadPage() {
 
           <p>The term was popularised by French cartoonist Emma in her 2017 comic <em>"You Should've Asked"</em>, which went viral globally and gave language to something millions of women had experienced but struggled to articulate. Research from the <strong>University of Melbourne</strong> and multiple international studies has since confirmed that mothers carry a disproportionate share of cognitive household labour - even in households where physical chores are shared equally.</p>
 
-          <h2>What does the mental load look like?</h2>
-          <p>The mental load includes everything you do <em>before</em> a task is done:</p>
-
-          <ul className="ml-list">
-            <li>Knowing the next immunisation is due and booking the appointment</li>
-            <li>Tracking what foods the baby has tried and watching for reactions</li>
-            <li>Noticing the nappies are running low and adding them to the shopping list</li>
-            <li>Remembering the 6-week MCH visit and knowing what they will check</li>
-            <li>Keeping the baby's health record up to date after each appointment</li>
-            <li>Knowing the last feed time, the last sleep, and the next wake window - simultaneously</li>
-            <li>Managing the emotional needs of every family member</li>
-            <li>Holding the big picture of your family's health, schedule, finances, and wellbeing</li>
-          </ul>
-
-          <p>It is the difference between <em>doing</em> a task and being the person who <em>notices</em> the task needs doing, plans how to do it, and monitors whether it got done.</p>
-
-          <h2>Why does it fall on mothers?</h2>
-          <p>The mental load is not equally distributed. A 2019 study in the journal <em>Sex Roles</em> found that mothers spent significantly more time on cognitive household labour than fathers regardless of employment status. The <strong>Australian Bureau of Statistics</strong> consistently finds that women perform more unpaid domestic and care work than men - and that this gap widens significantly after a first baby is born.</p>
-
-          <p>This is not typically about willingness. It is about assumption. Mothers are often assumed to be the "default parent" who holds the family's information and coordinates everything - and this assumption operates so quietly that many families do not notice it until one parent reaches breaking point.</p>
-
-          <blockquote className="ml-quote">
-            <p>"We built PAM because we were both carrying the entire load ourselves - the tracking, the appointments, the admin, the memories - and our partners simply didn't have visibility into any of it. The problem wasn't that they didn't want to help. The problem was they couldn't see what needed doing."</p>
-            <cite>- Ashley &amp; Olympia, Co-founders of PAM</cite>
-          </blockquote>
-
-          <h2>How to actually share the mental load</h2>
-          <p>Sharing the mental load does not mean asking your partner to complete tasks you assign them. That is still you carrying the load - you are just outsourcing the execution while retaining all the planning and tracking yourself.</p>
-
-          <p>True load sharing means your partner takes <em>ownership</em> of entire domains - they notice, plan, and execute without being prompted. This requires:</p>
-
-          <ul className="ml-list">
-            <li><strong>Shared visibility</strong> - both parents see the same information in real time</li>
-            <li><strong>Domain ownership</strong> - each parent owns specific areas entirely, not just helps with them</li>
-            <li><strong>Externalised systems</strong> - information lives somewhere outside one person's head</li>
-            <li><strong>Mutual agreement</strong> - an explicit conversation about who holds what, revisited as things change</li>
-          </ul>
-
-          <h2>Can technology help?</h2>
-          <p>Yes - but only when it creates <em>shared</em> visibility, not just better personal organisation. An app that only one parent uses can actually increase the load, because you still have to brief your partner on everything in it.</p>
-
-          <p>The tools that genuinely help are shared: both parents see the same tracker, the same checklist, the same calendar, in real time. When your partner can see the baby's last feed, the next MCH visit, and the outstanding tasks without asking you - that is when the mental load starts to lift.</p>
-
-          <p><strong>PAM (Parental Admin Manager)</strong> is an Australian app built specifically for this. It gives both parents real-time access to everything: a shared daily tracker for feeds, sleep, and nappies; smart checklists pre-loaded with Australian milestones (MCH visits, immunisation schedule, Centrelink admin, birth registration); family health information storage; and memory keeping. Both parents use it simultaneously from their own devices - so the information no longer lives in one person's head.</p>
+          <TopicAccordion items={topics} level="h2" />
 
           <div className="ml-cta-block">
             <p>Start your free 14-day trial - no credit card needed.</p>
@@ -180,14 +203,7 @@ export default function MentalLoadPage() {
           </div>
 
           <h2>Frequently asked questions</h2>
-          <div className="ml-faq">
-            {faqItems.map((item) => (
-              <div key={item.q} className="ml-faq-item">
-                <h3>{item.q}</h3>
-                <p>{item.a}</p>
-              </div>
-            ))}
-          </div>
+          <TopicAccordion items={faqAccordionItems} level="h3" />
 
           <div className="ml-further">
             <h2>Related reading</h2>

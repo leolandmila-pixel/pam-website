@@ -3,14 +3,14 @@
 import { useState } from 'react'
 import { qaItems } from '@/lib/qa-data'
 
-const cats: { key: string; label: string; emoji: string }[] = [
-  { key: 'all', label: 'All questions', emoji: '' },
-  { key: 'newborn', label: 'The newborn stage', emoji: '👶' },
-  { key: 'sleep', label: 'Baby sleep', emoji: '🌙' },
-  { key: 'feeding', label: 'Feeding', emoji: '🍼' },
-  { key: 'development', label: 'Development', emoji: '🌱' },
-  { key: 'australia', label: 'Australian admin', emoji: '🦘' },
-  { key: 'mental-load', label: 'Mental load', emoji: '🧠' },
+const cats: { key: string; label: string }[] = [
+  { key: 'all', label: 'All questions' },
+  { key: 'newborn', label: 'The newborn stage' },
+  { key: 'sleep', label: 'Baby sleep' },
+  { key: 'feeding', label: 'Feeding' },
+  { key: 'development', label: 'Development' },
+  { key: 'australia', label: 'Australian admin' },
+  { key: 'mental-load', label: 'Mental load' },
 ]
 
 export default function QAList() {
@@ -32,7 +32,6 @@ export default function QAList() {
               setOpenIdx(null)
             }}
           >
-            {c.emoji && <span className="qa-cat-emoji">{c.emoji}</span>}
             {c.label}
           </button>
         ))}

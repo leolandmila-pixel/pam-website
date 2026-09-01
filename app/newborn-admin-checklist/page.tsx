@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
+import TopicAccordion from '@/components/TopicAccordion'
 
 export const metadata: Metadata = {
   title: 'Newborn Admin Checklist for Australian Parents',
@@ -150,27 +151,22 @@ export default function NewbornAdminChecklistPage() {
       </section>
 
       <section className="ml-section">
-        <div className="container ml-prose">
+        <div className="container ml-prose" style={{ maxWidth: 980 }}>
           <div className="ml-definition-block">
             <p className="ml-definition">
               None of these steps are optional, and several depend on each other - you can&apos;t claim some Centrelink payments without a Medicare number, and you can&apos;t get a Medicare number without birth registration. This is the order that avoids getting stuck.
             </p>
           </div>
 
-          <h2>The six steps, at a glance</h2>
-          <ul className="ml-list">
-            {steps.map((s) => (
-              <li key={s.title}><strong>{s.when}:</strong> {s.title}</li>
-            ))}
-          </ul>
-
-          {steps.map((s) => (
-            <div key={s.title}>
-              <h2>{s.title}</h2>
-              <p className="ml-lead" style={{ fontSize: '1rem', marginBottom: 8 }}>{s.when}</p>
-              <p>{s.body}</p>
-            </div>
-          ))}
+          <h2>The six steps, in order</h2>
+          <TopicAccordion
+            layout="grid"
+            items={steps.map((s) => ({
+              heading: s.title,
+              meta: s.when,
+              body: <p>{s.body}</p>,
+            }))}
+          />
 
           <h2>Keeping track of it all</h2>
           <p>Every step above is time-sensitive, and most of them arrive in the same exhausting first weeks as feeding, sleep and recovery. PAM&apos;s Smart Checklist pre-loads all of it - birth registration, Medicare, Centrelink deadlines, MCH visits and immunisations - so nothing depends on remembering it while running on no sleep.</p>

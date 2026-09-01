@@ -146,7 +146,7 @@ export default function NewbornSleepSchedulePage() {
       </section>
 
       <section className="ml-section">
-        <div className="container ml-prose">
+        <div className="container ml-prose" style={{ maxWidth: 980 }}>
           <div className="ml-definition-block">
             <p className="ml-definition">
               There is no single &ldquo;normal&rdquo; newborn sleep schedule. In the first weeks, sleep is driven by hunger and tiredness, not the clock - your baby hasn&apos;t developed circadian rhythms yet. What follows is a week-by-week guide to what usually changes, and what to watch instead of the clock.

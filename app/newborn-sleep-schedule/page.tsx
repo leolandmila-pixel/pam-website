@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildFaqSchema, buildBreadcrumbSchema } from '../structured-data'
+import TopicAccordion from '@/components/TopicAccordion'
 
 export const metadata: Metadata = {
   title: 'Newborn Sleep Schedule by Week: 0-12 Weeks',
@@ -145,26 +146,22 @@ export default function NewbornSleepSchedulePage() {
       </section>
 
       <section className="ml-section">
-        <div className="container ml-prose">
+        <div className="container ml-prose" style={{ maxWidth: 980 }}>
           <div className="ml-definition-block">
             <p className="ml-definition">
               There is no single &ldquo;normal&rdquo; newborn sleep schedule. In the first weeks, sleep is driven by hunger and tiredness, not the clock - your baby hasn&apos;t developed circadian rhythms yet. What follows is a week-by-week guide to what usually changes, and what to watch instead of the clock.
             </p>
           </div>
 
-          <h2>Newborn sleep by week: quick reference</h2>
-          <ul className="ml-list">
-            {stages.map((s) => (
-              <li key={s.range}><strong>{s.range}:</strong> {s.stats}</li>
-            ))}
-          </ul>
-
-          {stages.map((s) => (
-            <div key={s.range}>
-              <h2>{s.range}: what to expect</h2>
-              <p>{s.body}</p>
-            </div>
-          ))}
+          <h2>Newborn sleep by week</h2>
+          <TopicAccordion
+            layout="grid"
+            items={stages.map((s) => ({
+              heading: `${s.range}: what to expect`,
+              meta: s.stats,
+              body: <p>{s.body}</p>,
+            }))}
+          />
 
           <h2>How to tell if your baby&apos;s sleep is on track</h2>
           <p>Weight gain is the clearest signal - more useful than any chart. If your baby is feeding well and gaining weight at their scheduled checks, their sleep pattern is very likely fine, even if it doesn&apos;t match a chart like this one. Every baby&apos;s weight and growth is tracked at MCH visits in the first year, which are pre-loaded in PAM&apos;s Smart Checklist so you always know when the next one falls.</p>

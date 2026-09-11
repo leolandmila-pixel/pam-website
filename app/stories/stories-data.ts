@@ -3333,6 +3333,9 @@ export const stories: Story[] = [
   {
     slug: 'why-your-toddler-is-losing-it',
     cover: 'c-toddler',
+    heroImage: '/D19C127A-34E9-4B20-A253-BF5A7A28C346_L0_001-23_6_2026, 12_40_43 pm.jpg',
+    heroImagePosition: 'center 40%',
+    heroImageGrayscale: true,
     label: 'Toddler behaviour',
     tag: 'Toddler Behaviour & Emotions',
     title: "Why your toddler is losing it (and why that's actually normal)",

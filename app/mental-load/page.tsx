@@ -179,7 +179,7 @@ export default function MentalLoadPage() {
 
       {/* Definition block - definition-first structure for LLM citation */}
       <section className="ml-section">
-        <div className="container ml-prose">
+        <div className="container ml-prose" style={{ maxWidth: 980 }}>
           <div className="ml-definition-block">
             <p className="ml-definition">
               <strong>The mental load</strong> (also called <em>cognitive labour</em> or <em>invisible labour</em>) is the continuous mental work of planning, organising, and remembering everything required to run a family - knowing when the next MCH visit is, tracking what the baby last ate, monitoring nappy supply, coordinating schedules, and holding every outstanding task in your head at once, whether or not anyone asks you to.
@@ -190,7 +190,7 @@ export default function MentalLoadPage() {
 
           <p>The term was popularised by French cartoonist Emma in her 2017 comic <em>"You Should've Asked"</em>, which went viral globally and gave language to something millions of women had experienced but struggled to articulate. Research from the <strong>University of Melbourne</strong> and multiple international studies has since confirmed that mothers carry a disproportionate share of cognitive household labour - even in households where physical chores are shared equally.</p>
 
-          <TopicAccordion items={topics} level="h2" />
+          <TopicAccordion items={topics} level="h2" layout="grid" />
 
           <div className="ml-cta-block">
             <p>Start your free 14-day trial - no credit card needed.</p>

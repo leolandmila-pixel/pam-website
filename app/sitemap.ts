@@ -23,6 +23,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/newborn-sleep-schedule`, lastModified: now, changeFrequency: 'monthly', priority: 0.95 },
     { url: `${baseUrl}/newborn-admin-checklist`, lastModified: now, changeFrequency: 'monthly', priority: 0.95 },
     { url: `${baseUrl}/blog/newborn-admin-checklist-australia`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/blog/mental-load-first-year-baby`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/blog/4-month-sleep-regression-australia`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/stories`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/features`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },

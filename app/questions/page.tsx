@@ -85,12 +85,12 @@ export default function QuestionsPage() {
               Smart checklists pre-loaded with Australian milestones. A shared baby tracker both parents can use in real time. Family health info, memories, and mental load - managed.
             </p>
             <a
-              href="https://tally.so/r/q4J1vg"
+              href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
               target="_blank"
               rel="noreferrer"
               className="quiz-cta feature-cta"
             >
-              Get early access
+              Start your free PAM trial
               <span className="arrow">
                 <svg viewBox="0 0 24 24">
                   <path d="M5 12h14M13 6l6 6-6 6" />

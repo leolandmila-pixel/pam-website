@@ -43,8 +43,8 @@ export default function ChildcareCostCalculatorPage() {
         <div className="container calc-cta-wrap">
           <div className="ml-cta-block">
             <p>Want the rest of the mental load handled too? PAM tracks all of this and more, shared with your partner in real time.</p>
-            <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta">
-              Get early access to PAM
+            <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="quiz-cta">
+              Start your free PAM trial
               <span className="arrow">
                 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </span>

@@ -66,12 +66,27 @@ export default function Nav() {
           <span className="top-bar-wordmark">Parental Admin Manager</span>
         </Link>
         <a
-          href="https://tally.so/r/q4J1vg"
+          href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
           target="_blank"
           rel="noreferrer"
           className="top-bar-text"
         >
           Less mental load. Start your free PAM trial today.
+        </a>
+        <a
+          href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
+          target="_blank"
+          rel="noreferrer"
+          className="appstore-badge"
+          aria-label="Download PAM on the App Store"
+        >
+          <svg width="20" height="24" viewBox="0 0 814 1000" fill="#fff" aria-hidden="true">
+            <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 440.8 0 300.3 0 167.8c0-139.1 91.5-212.7 181.5-212.7 72.6 0 132.1 46.3 171.7 46.3 37.8 0 106.6-52.5 188.8-52.5 30.6 0 108.2 9.7 164 72.6zm-362.4-182.4c-10.9-50.2 17.2-100.1 52.5-130.4 39.8-34.4 98.7-55.3 153.5-55.3 4.5 51.8-15.9 99.9-53.7 135.3-35.7 33.1-93.4 59.8-152.3 50.4z" />
+          </svg>
+          <span className="appstore-badge-text">
+            <span className="appstore-badge-sub">Download on the</span>
+            <span className="appstore-badge-main">App Store</span>
+          </span>
         </a>
         <button
           className="menu-btn top-bar-menu-btn"

@@ -30,8 +30,8 @@ export default function LocalInfoFeaturePage() {
                 Trusted services, resources and guides curated for your area. From hospitals and maternal health to
                 childcare and parenting support, all in one place, relevant to where you live.
               </p>
-              <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
-                Get early access
+              <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
+                Start your free PAM trial
                 <span className="arrow">
                   <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </span>

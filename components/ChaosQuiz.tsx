@@ -125,8 +125,8 @@ export default function ChaosQuiz() {
                 <p className="quiz-result-tagline">{result.tagline}</p>
                 <p className="quiz-result-body">{result.body}</p>
                 <div className="quiz-result-actions">
-                  <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta">
-                    Get early access
+                  <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="quiz-cta">
+                    Start your free PAM trial
                     <span className="arrow">
                       <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                     </span>

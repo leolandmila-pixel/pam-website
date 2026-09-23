@@ -34,8 +34,8 @@ export default function HomePage() {
               PAM is the assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what <span style={{whiteSpace:'nowrap'}}>matters most.</span>
             </p>
             <div className="hero-signup" id="founding">
-              <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="hero-signup-pill">
-                Pre-sign up is open - Join Waitlist Now
+              <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="hero-signup-pill">
+                Start your free PAM trial
               </a>
             </div>
           </div>

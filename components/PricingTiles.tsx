@@ -166,7 +166,7 @@ export default function PricingTiles() {
 
               {/* CTA always visible */}
               <a
-                href="https://tally.so/r/q4J1vg"
+                href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
                 target="_blank"
                 rel="noreferrer"
                 className="pricing-cta"

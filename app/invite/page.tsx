@@ -140,7 +140,7 @@ export default function InvitePage() {
                 marginBottom: 10,
               }}
             >
-              Coming soon
+              Now on the App Store
             </div>
             <p
               style={{
@@ -150,10 +150,10 @@ export default function InvitePage() {
                 color: 'var(--ink)',
               }}
             >
-              PAM is finalising review with Apple and will be on the App Store shortly. We&apos;ll email you as soon as it&apos;s live so you can install and accept your invitation.
+              PAM is live on the App Store. Tap below to download, then sign up or sign in with the email your invitation was sent to and you&apos;ll be added to the family.
             </p>
             <a
-              href="https://apps.apple.com/au/app/pam-parental-admin-manager"
+              href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -168,7 +168,7 @@ export default function InvitePage() {
                 borderRadius: 28,
               }}
             >
-              Open in the App Store
+              Download PAM
             </a>
           </div>
 

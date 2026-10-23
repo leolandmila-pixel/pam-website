@@ -52,6 +52,22 @@ export default function DeleteAccountPage() {
             </p>
           </div>
 
+          <div className="privacy-section" id="delete-data">
+            <h2>Delete some of your data without closing your account</h2>
+            <p>
+              You do not have to delete your whole account to remove your data. Most content can be
+              deleted from within the app while keeping your account open &mdash; for example, deleting
+              individual photos, videos, voice notes, documents, milestones, contacts or a child profile
+              from the relevant screen.
+            </p>
+            <p>
+              If you would like us to delete a specific set of your data for you, email{' '}
+              <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a>{' '}
+              from the email address linked to your account, describing what you would like removed. We will
+              verify your identity and action the request within 30 days.
+            </p>
+          </div>
+
           <div className="privacy-section">
             <h2>What is deleted</h2>
             <p>When your account is deleted, we remove the personal information associated with it, including:</p>

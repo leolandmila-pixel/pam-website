@@ -241,7 +241,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-features li{display:flex;align-items:flex-start;gap:12px;font-family:var(--sans);font-size:0.95rem;line-height:1.45;color:var(--ink)}
 .pricing-features li svg{flex-shrink:0;margin-top:1px;color:var(--wine)}
 .pricing-cta{display:inline-flex;justify-content:center;align-items:center;background:var(--navy);color:#fff;padding:13px 28px;border-radius:100px;font-family:var(--montserrat);font-weight:700;font-size:0.9rem;text-align:center;transition:background 0.2s ease;margin-top:22px}
-.pricing-tile--static .pricing-cta{margin-top:auto;width:100%;padding:11px 24px;font-size:0.88rem}
+.pricing-tile--static .pricing-cta{margin-top:auto;align-self:flex-start;padding:11px 28px;font-size:0.88rem}
 .pricing-cta:hover{background:var(--wine)}
 .pricing-tile--popular .pricing-cta{background:var(--wine)}
 .pricing-tile--popular .pricing-cta:hover{background:var(--wine-deep)}

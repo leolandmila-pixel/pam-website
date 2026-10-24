@@ -8,7 +8,7 @@ export const metadata: Metadata = contactMetadata
 export default function ContactPage() {
   return (
     <main>
-      <section className="hero" style={{ paddingTop: 40, paddingBottom: 80 }}>
+      <section className="hero" style={{ paddingTop: 100, paddingBottom: 80 }}>
         <div className="container">
           <div className="contact-card">
             <div className="contact-card-info">

@@ -414,7 +414,7 @@ section{padding:96px 0}
 }
 .feature-card-title{
   font-family:var(--montserrat);font-weight:700;font-size:1.2rem;line-height:1.25;
-  margin:22px 0 8px;color:var(--wine);letter-spacing:-0.111em
+  margin:22px 0 8px;color:var(--wine);letter-spacing:0.01em
 }
 .feature-card-body{font-size:0.95rem;color:var(--ink);line-height:1.55}
 

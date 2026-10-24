@@ -17,7 +17,44 @@ export default function HomePage() {
   return (
     <main>
       {/* ============== HERO ============== */}
-      <section className="hero-split">
+      <section className="hero hero-video">
+        <video
+          className="hero-bg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/hero-poster.jpg"
+        >
+          <source src="/hero.mp4" type="video/mp4" />
+        </video>
+        <div className="hero-overlay" />
+        <div className="container">
+          <div className="hero-copy hero-copy-center">
+            <h1 className="display-xl">
+              <span className="word">The</span>{' '}
+              <span className="word">mental</span>{' '}
+              <span className="word">load,</span>{' '}
+              <span className="word"><strong>managed.</strong></span>
+            </h1>
+            <p className="hero-sub">
+              PAM is the assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what <span style={{whiteSpace:'nowrap'}}>matters most.</span>
+            </p>
+            <div className="hero-signup" id="founding">
+              <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="hero-signup-pill">
+                Start your free PAM trial
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#hero-split" className="scroll-down" aria-label="Scroll to next section">
+          Scroll down
+        </a>
+      </section>
+
+      {/* ============== HERO SPLIT ============== */}
+      <section className="hero-split" id="hero-split">
         <div className="container">
           <div className="hero-split-inner">
             <div className="hero-split-copy">

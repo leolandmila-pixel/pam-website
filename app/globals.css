@@ -223,7 +223,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-tile-name{font-family:var(--montserrat);font-weight:700;font-size:0.82rem;color:var(--wine);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:10px}
 .pricing-tile-price{display:flex;align-items:baseline;gap:3px}
 .pricing-amount{font-family:var(--display);font-size:3rem;line-height:1;color:var(--ink);font-weight:400}
-.pricing-period{font-family:var(--display);font-size:3rem;color:var(--ink-faint);font-weight:400;line-height:1}
+.pricing-period{font-family:var(--display);font-size:3rem;color:var(--ink);font-weight:400;line-height:1}
 .pricing-chevron{flex-shrink:0;color:var(--ink-soft);transition:transform 0.35s ease}
 .pricing-tile--open .pricing-chevron{transform:rotate(180deg)}
 /* Summary bullets - collapsed state */
@@ -234,7 +234,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-tile--open .pricing-tile-body{grid-template-rows:1fr}
 .pricing-tile-body-inner{overflow:hidden}
 .pricing-divider{height:1px;background:var(--line);margin:24px 0}
-.pricing-yearly-note{font-family:var(--sans);font-size:0.84rem;color:var(--ink-soft);margin-top:18px;line-height:1.5}
+.pricing-yearly-note{font-family:var(--sans);font-size:0.84rem;color:var(--ink-soft);line-height:1.5;padding-left:26px}
 .pricing-yearly-note b{font-weight:700;color:var(--wine)}
 .pricing-tagline{font-family:var(--montserrat);font-style:italic;font-size:0.92rem;color:var(--wine);margin-bottom:20px;line-height:1.4}
 .pricing-features{list-style:none;display:flex;flex-direction:column;gap:14px;margin-bottom:6px}

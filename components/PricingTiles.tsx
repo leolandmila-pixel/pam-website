@@ -117,14 +117,13 @@ export default function PricingTiles() {
                 </svg>
                 14-day free trial · cancel anytime
               </li>
+              <li className="pricing-yearly-note">
+                {isAnnual
+                  ? <><b>{t.yearlyTotal}</b> billed once per year (works out to {t.yearlyPerMonth}/month)</>
+                  : <>or <b>{t.yearlyTotal}/year</b> — save ~20% vs monthly</>
+                }
+              </li>
             </ul>
-
-            <div className="pricing-yearly-note">
-              {isAnnual
-                ? <span><b>{t.yearlyTotal}</b> billed once per year (works out to {t.yearlyPerMonth}/month)</span>
-                : <span>or <b>{t.yearlyTotal}/year</b> — save ~20% vs monthly</span>
-              }
-            </div>
 
             <a
               href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"

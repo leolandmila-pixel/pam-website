@@ -108,6 +108,22 @@ export default function PricingTiles() {
             <div className="pricing-divider" />
             <p className="pricing-tagline">{t.tagline}</p>
 
+            <ul className="pricing-billing-points">
+              {isAnnual ? (
+                <>
+                  <li>{t.yearlyPerMonth}/month · billed as {t.yearlyTotal}/year</li>
+                  <li>Save ~20% vs monthly</li>
+                </>
+              ) : (
+                <>
+                  <li>{t.monthly} billed monthly</li>
+                  <li>14-day free trial · cancel anytime</li>
+                </>
+              )}
+            </ul>
+
+            <p className="pricing-includes-label">Everything included:</p>
+
             <ul className="pricing-features">
               {t.features.map((f) => (
                 <li key={f}>
@@ -117,18 +133,6 @@ export default function PricingTiles() {
                   {f}
                 </li>
               ))}
-              <li>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-                  <path d="M2.5 7L5.5 10L11.5 4" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                14-day free trial · cancel anytime
-              </li>
-              <li className="pricing-yearly-note">
-                {isAnnual
-                  ? <><b>{t.yearlyTotal}</b> billed once per year (works out to {t.yearlyPerMonth}/month)</>
-                  : <>or <b>{t.yearlyTotal}/year</b> - save ~20% vs monthly</>
-                }
-              </li>
             </ul>
 
             <a

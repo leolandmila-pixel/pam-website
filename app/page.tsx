@@ -58,7 +58,7 @@ export default function HomePage() {
           <div className="hero-split-inner">
             <div className="hero-split-copy">
               <span className="eyebrow">It starts with PAM.</span>
-              <h1 className="hero-split-h1">Try PAM free<br />for 14 days.</h1>
+              <h1 className="hero-split-h1">Try PAM <em>free</em><br />for 14 <em>days.</em></h1>
               <p className="hero-split-sub">The admin, milestones and memories of family life, finally out of your head.</p>
               <ul className="hero-checklist">
                 <li><CheckIcon />A Smart Checklist that knows what&apos;s due, and lets you hand tasks to your partner</li>

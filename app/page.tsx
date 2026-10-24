@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { homepageMetadata } from './metadata'
-import PhoneShowcase from '@/components/PhoneShowcase'
 import ChaosQuiz from '@/components/ChaosQuiz'
 
 export const metadata: Metadata = homepageMetadata
@@ -99,18 +98,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ============== PHONE SHOWCASE ============== */}
-      <section className="showcase" id="showcase">
-        <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">A look inside</span>
-            <h2>Parenting, <em>made effortless.</em></h2>
-          </div>
-          <PhoneShowcase />
-        </div>
-      </section>
-
 
       {/* ============== LIFE WITH PAM ============== */}
       <section className="lifewith">

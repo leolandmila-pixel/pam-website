@@ -108,12 +108,13 @@ export default function PricingTiles() {
             <div className="pricing-divider" />
             <p className="pricing-tagline">{t.tagline}</p>
 
+            {isAnnual && (
+              <span className="pricing-save-badge">Save ~20% vs monthly</span>
+            )}
+
             <ul className="pricing-billing-points">
               {isAnnual ? (
-                <>
-                  <li>{t.yearlyPerMonth}/month · billed as {t.yearlyTotal}/year</li>
-                  <li>Save ~20% vs monthly</li>
-                </>
+                <li>{t.yearlyPerMonth}/month · billed as {t.yearlyTotal}/year</li>
               ) : (
                 <>
                   <li>{t.monthly} billed monthly</li>

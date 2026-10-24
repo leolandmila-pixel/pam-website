@@ -1,48 +1,66 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { homepageMetadata } from './metadata'
 import PhoneShowcase from '@/components/PhoneShowcase'
 import ChaosQuiz from '@/components/ChaosQuiz'
 
 export const metadata: Metadata = homepageMetadata
 
+const CheckIcon = () => (
+  <svg className="hero-check-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+    <circle cx="9" cy="9" r="9" fill="var(--wine)" />
+    <path d="M4.5 9.5L7.5 12.5L13.5 6.5" stroke="#fff" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+)
+
 export default function HomePage() {
   return (
     <main>
       {/* ============== HERO ============== */}
-      <section className="hero hero-video">
-        <video
-          className="hero-bg"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="/hero-poster.jpg"
-        >
-          <source src="/hero.mp4" type="video/mp4" />
-        </video>
-        <div className="hero-overlay" />
+      <section className="hero-split">
         <div className="container">
-          <div className="hero-copy hero-copy-center">
-            <h1 className="display-xl">
-              <span className="word">The</span>{' '}
-              <span className="word">mental</span>{' '}
-              <span className="word">load,</span>{' '}
-              <span className="word"><strong>managed.</strong></span>
-            </h1>
-            <p className="hero-sub">
-              PAM is the assistant every parent deserves - built for the appointments, checklists, milestones and quiet moments that make up a family. So you have more space for what <span style={{whiteSpace:'nowrap'}}>matters most.</span>
-            </p>
-            <div className="hero-signup" id="founding">
-              <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="hero-signup-pill">
-                Start your free PAM trial
+          <div className="hero-split-inner">
+            <div className="hero-split-copy">
+              <span className="eyebrow">It starts with PAM.</span>
+              <h1 className="hero-split-h1">Try PAM free<br />for 14 days.</h1>
+              <p className="hero-split-sub">The admin, milestones and memories of family life, finally out of your head.</p>
+              <ul className="hero-checklist">
+                <li><CheckIcon />A Smart Checklist that knows what&apos;s due, and lets you hand tasks to your partner</li>
+                <li><CheckIcon />Track feeds, sleep and nappies in one tap, for you and your partner</li>
+                <li><CheckIcon />Nap predictions so you can actually plan your day</li>
+                <li><CheckIcon />Voice Command: hold, talk, done. PAM turns it into a task or record</li>
+                <li><CheckIcon />A baby book that builds itself, with milestones, photos, letters and voice notes</li>
+                <li><CheckIcon />Australian guides for every stage, tailored to your state</li>
+              </ul>
+              <a
+                href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
+                target="_blank"
+                rel="noreferrer"
+                className="appstore-badge hero-appstore-badge"
+                aria-label="Download PAM on the App Store"
+              >
+                <svg width="18" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
+                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                </svg>
+                <span className="appstore-badge-text">
+                  <span className="appstore-badge-sub">Download on the</span>
+                  <span className="appstore-badge-main">App Store</span>
+                </span>
               </a>
+            </div>
+            <div className="hero-phones">
+              <div className="hero-phone hero-phone--left">
+                <Image src="/phone-tracker.jpg" alt="PAM Nap Predictions" width={158} height={342} style={{width:'100%',height:'auto'}} />
+              </div>
+              <div className="hero-phone hero-phone--center">
+                <Image src="/phone-checklist.jpg" alt="PAM Smart Checklist" width={188} height={407} style={{width:'100%',height:'auto'}} priority />
+              </div>
+              <div className="hero-phone hero-phone--right">
+                <Image src="/phone-home.jpg" alt="PAM Voice Command" width={158} height={342} style={{width:'100%',height:'auto'}} />
+              </div>
             </div>
           </div>
         </div>
-        <a href="#showcase" className="scroll-down" aria-label="Scroll to next section">
-          Scroll down
-        </a>
       </section>
 
       {/* ============== PHONE SHOWCASE ============== */}

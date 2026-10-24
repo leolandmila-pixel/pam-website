@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "You've been invited to PAM",
-  description: 'Accept your family invitation to PAM (Parental Admin Manager) — download the app and sign in to join.',
+  description: 'Accept your family invitation to PAM (Parental Admin Manager) - download the app and sign in to join.',
   alternates: { canonical: 'https://parentaladminmanager.com/invite' },
   robots: { index: false, follow: false },
 }
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 // Landing page that the "Accept Invitation" button in the invitation
 // email points to. Once the app has an Associated Domains entitlement
 // with `applinks:parentaladminmanager.com`, this URL becomes a
-// Universal Link — iOS users with PAM installed will open straight
+// Universal Link - iOS users with PAM installed will open straight
 // into the app. Everyone else lands here with clear next steps.
 export default function InvitePage() {
   return (
@@ -183,7 +183,7 @@ export default function InvitePage() {
               lineHeight: 1.6,
             }}
           >
-            Already have PAM installed? Open the app on the device where you&apos;re signed in — invitations appear automatically the first time you sign in with the invited email address.
+            Already have PAM installed? Open the app on the device where you&apos;re signed in - invitations appear automatically the first time you sign in with the invited email address.
           </p>
 
           <p

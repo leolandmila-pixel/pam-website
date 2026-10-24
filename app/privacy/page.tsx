@@ -29,7 +29,7 @@ export default function PrivacyPage() {
 
           <div className="privacy-section">
             <h2>Who We Are</h2>
-            <p>PAM (Parental Admin Manager) is an Australian app that helps parents organise and manage family administrative tasks, including school and appointment reminders, family calendars, child profiles, notes and family content, and — where enabled — location features for linked family devices. References to &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;PAM&rdquo; in this policy mean the PAM team.</p>
+            <p>PAM (Parental Admin Manager) is an Australian app that helps parents organise and manage family administrative tasks, including school and appointment reminders, family calendars, child profiles, notes and family content, and - where enabled - location features for linked family devices. References to &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;PAM&rdquo; in this policy mean the PAM team.</p>
             <p>For privacy-related enquiries, contact us at: <a href="mailto:hello@parentaladminmanager.com" className="privacy-link">hello@parentaladminmanager.com</a></p>
           </div>
 
@@ -84,7 +84,7 @@ export default function PrivacyPage() {
             <p>We work with trusted third-party providers (such as cloud hosting, analytics, and payment processing services) who process data on our behalf. These providers are contractually required to handle data securely and only as directed by us.</p>
 
             <h3>Overseas Disclosure</h3>
-            <p>Some of our service providers — including cloud hosting, payment processing, and analytics providers — may store or process personal information on servers located outside Australia, including in the United States or other countries in which those providers operate. Where this occurs, we take reasonable steps to ensure the overseas recipient handles your information in a manner consistent with the Australian Privacy Principles, including through contractual protections.</p>
+            <p>Some of our service providers - including cloud hosting, payment processing, and analytics providers - may store or process personal information on servers located outside Australia, including in the United States or other countries in which those providers operate. Where this occurs, we take reasonable steps to ensure the overseas recipient handles your information in a manner consistent with the Australian Privacy Principles, including through contractual protections.</p>
 
             <h3>Legal Requirements</h3>
             <p>We may disclose information where required by law, court order, or a government authority in Australia.</p>

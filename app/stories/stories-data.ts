@@ -615,7 +615,7 @@ export const stories: Story[] = [
         {
           heading: 'Tell us about yourself.',
           paragraphs: [
-            "I'm a founder, brand builder, and mum to my 16 month old boy, Sevi. I'm a big fan of the outdoors, the ocean, and surfing, which is why my little family — my partner Paddy, myself, and Sevi — live down on the Mornington Peninsula in Victoria.",
+            "I'm a founder, brand builder, and mum to my 16 month old boy, Sevi. I'm a big fan of the outdoors, the ocean, and surfing, which is why my little family - my partner Paddy, myself, and Sevi - live down on the Mornington Peninsula in Victoria.",
             "I'm in a bit of a transitional period of my life. In the last year I've become a mum and then had to shut down a business I spent six years building. It's been a really challenging time, but it was made a lot easier by Sevi's huge smile and his obsession with cuddles at the end of a tough day. Now that I'm out the other side, I'm learning that failures are a necessity. They're an opportunity for growth. The best is yet to come.",
             "As the oldest of seven, I always knew I wanted to be a mum. But having Sevi has blown my world right open. It's given me an incredible perspective shift. Life is so much more beautiful with him in it. I feel incredibly lucky.",
           ],
@@ -774,7 +774,7 @@ export const stories: Story[] = [
     heroImageGrayscale: true,
     content: {
       hook: [
-        "Meet Marian. She's a Spanish expat who has called Melbourne home for the past decade, sharing her life with her partner Dan and their son Lucas — a very cheeky 16-month-old who is, in her words, the light of their lives.",
+        "Meet Marian. She's a Spanish expat who has called Melbourne home for the past decade, sharing her life with her partner Dan and their son Lucas - a very cheeky 16-month-old who is, in her words, the light of their lives.",
         "\"I am enjoying motherhood, but I definitely underestimated what it takes to raise a child,\" she says. \"I believe that parenthood is something you don't truly understand until you're experiencing it firsthand.\" Having recently returned to paid work, she's now navigating the particular challenge of balancing it all.",
         "Lucas arrived early, and fast. Here, Marian takes us back to the moment it began.",
       ],
@@ -782,30 +782,30 @@ export const stories: Story[] = [
         {
           heading: 'A slow start, then everything at once',
           paragraphs: [
-            "At 33.5 weeks, Marian experienced PPROM — preterm premature rupture of membranes — and was hospitalised, told that labour could begin at any moment. For four days, nothing happened.",
+            "At 33.5 weeks, Marian experienced PPROM - preterm premature rupture of membranes - and was hospitalised, told that labour could begin at any moment. For four days, nothing happened.",
             "\"Right at 34 weeks, I started feeling some 'sensations,'\" she remembers. \"Out of boredom, I asked my partner to start noting how often and for how long these sensations occurred.\" A pattern emerged. The sensations were mild, but something in her recognised what was starting. She arranged for a TENS machine to be delivered that afternoon, bracing herself for what she assumed would be a long labour.",
           ],
         },
         {
           heading: 'The birth plan that met reality',
           paragraphs: [
-            "Marian hadn't written a formal birth plan, but she'd done the reading — books, podcasts, other women's stories — hoping to labour unmedicated for as long as she could and deliver vaginally.",
-            "\"I gave birth interstate, away from home, which meant that some little things I was planning — like preparing my hospital bag, or adding personal touches to the birth suite, such as lighting and music — went out the window.\" Preparation, it turned out, meant something looser than she'd imagined.",
+            "Marian hadn't written a formal birth plan, but she'd done the reading - books, podcasts, other women's stories - hoping to labour unmedicated for as long as she could and deliver vaginally.",
+            "\"I gave birth interstate, away from home, which meant that some little things I was planning - like preparing my hospital bag, or adding personal touches to the birth suite, such as lighting and music - went out the window.\" Preparation, it turned out, meant something looser than she'd imagined.",
           ],
         },
         {
           heading: 'From barely dilated to pushing in three hours',
           paragraphs: [
-            "Marian was moved to the birth suite not because labour was progressing, but because Lucas was showing signs of fetal bradycardia — a slow heart rate — and needed continuous monitoring. She wasn't yet dilated and hadn't begun contractions, but was confined to the bed regardless.",
-            "\"All I wanted was to stand up and move around.\" She was given Panadol and codeine, and the doctors, cautious, told her not to get her hopes up — this could still be a long way off, and she might be sent back to the ward.",
-            "\"Things escalated very quickly. The initial sensations turned into intense, painful contractions in no time. I remember closing my eyes and holding onto the bed rails.\" The urge to push arrived, and a senior midwife checked her cervix — completely closed just two hours before. Marian was ready to ask for an epidural, certain she was in for the long haul.",
-            "\"The midwife said she could see the baby's head, and that the next contraction would be the moment to push. I could not believe it — everything happened in less than three hours.\" One detail stayed with her: the uncontrollable shaking in her legs, a surge of adrenaline she hadn't expected.",
+            "Marian was moved to the birth suite not because labour was progressing, but because Lucas was showing signs of fetal bradycardia - a slow heart rate - and needed continuous monitoring. She wasn't yet dilated and hadn't begun contractions, but was confined to the bed regardless.",
+            "\"All I wanted was to stand up and move around.\" She was given Panadol and codeine, and the doctors, cautious, told her not to get her hopes up - this could still be a long way off, and she might be sent back to the ward.",
+            "\"Things escalated very quickly. The initial sensations turned into intense, painful contractions in no time. I remember closing my eyes and holding onto the bed rails.\" The urge to push arrived, and a senior midwife checked her cervix - completely closed just two hours before. Marian was ready to ask for an epidural, certain she was in for the long haul.",
+            "\"The midwife said she could see the baby's head, and that the next contraction would be the moment to push. I could not believe it - everything happened in less than three hours.\" One detail stayed with her: the uncontrollable shaking in her legs, a surge of adrenaline she hadn't expected.",
           ],
         },
         {
           heading: 'The towel on her forehead',
           paragraphs: [
-            "Throughout it all, Marian had her partner and the midwives beside her, and she felt supported and safe. Dan's job was to keep her cool with a wet hand towel — a task he took seriously.",
+            "Throughout it all, Marian had her partner and the midwives beside her, and she felt supported and safe. Dan's job was to keep her cool with a wet hand towel - a task he took seriously.",
             "\"In fact, in our first family photo, I still had the towel stuck to my forehead, haha.\" Everything moved so fast, she says, that there was no time for any of the techniques they'd practised in their birth prep course. It didn't matter. What they had was enough.",
           ],
         },
@@ -827,7 +827,7 @@ export const stories: Story[] = [
       closing: {
         heading: 'For anyone nervous about their own birth',
         paragraphs: [
-          "\"That is a fair and normal feeling — just create space for it, the same way you feel excited. I recommend listening to other people's birth stories and keeping an open mind around how things will pan out. Trust your body, and trust the healthcare professionals supporting you through it.\"",
+          "\"That is a fair and normal feeling - just create space for it, the same way you feel excited. I recommend listening to other people's birth stories and keeping an open mind around how things will pan out. Trust your body, and trust the healthcare professionals supporting you through it.\"",
           "Thank you for sharing your story, Marian. Real Mums, Real Stories is a PAM Journal series celebrating the honest, unfiltered experiences of mums navigating this wild, beautiful season of life.",
         ],
       },

@@ -210,11 +210,11 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-toggle-btn:not(.is-active) .pricing-toggle-save{background:var(--wine);color:#fff}
 .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start;max-width:1200px;margin:0 auto}
 .pricing-grid--static{align-items:stretch;gap:28px}
-.pricing-tile{position:relative;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px 24px;box-shadow:var(--shadow-sm);cursor:pointer;transition:box-shadow 0.25s ease,border-color 0.25s ease;outline:none}
+.pricing-tile{position:relative;background:var(--card);border:none;border-radius:20px;padding:22px 24px;box-shadow:var(--shadow-sm);cursor:pointer;transition:box-shadow 0.25s ease;outline:none}
 .pricing-tile--static{cursor:default;display:flex;flex-direction:column;padding:48px 40px;border-radius:24px}
 .pricing-tile:focus-visible{box-shadow:0 0 0 3px rgba(125,8,32,0.25)}
 .pricing-tile:hover{box-shadow:var(--shadow-md)}
-.pricing-tile--popular{border:2px solid var(--wine);background:linear-gradient(160deg,#FFF0F1 0%,#fff 55%)}
+.pricing-tile--popular{border:2px solid #c9a84c;background:linear-gradient(160deg,#FFF0F1 0%,#fff 55%)}
 .pricing-tile--open{box-shadow:var(--shadow-md)}
 .pricing-badge{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:#f9efbd;color:var(--wine);border:1.5px solid var(--wine);font-family:var(--montserrat);font-weight:700;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;padding:5px 18px;border-radius:100px;white-space:nowrap}
 /* Header - always visible */

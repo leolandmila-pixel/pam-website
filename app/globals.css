@@ -208,22 +208,22 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-toggle-btn.is-active:hover{color:#fff}
 .pricing-toggle-save{background:rgba(255,255,255,0.25);color:inherit;font-family:var(--montserrat);font-weight:700;font-size:0.66rem;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border-radius:100px}
 .pricing-toggle-btn:not(.is-active) .pricing-toggle-save{background:var(--wine);color:#fff}
-.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start;max-width:1100px;margin:0 auto}
-.pricing-grid--static{align-items:stretch}
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start;max-width:1200px;margin:0 auto}
+.pricing-grid--static{align-items:stretch;gap:28px}
 .pricing-tile{position:relative;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px 24px;box-shadow:var(--shadow-sm);cursor:pointer;transition:box-shadow 0.25s ease,border-color 0.25s ease;outline:none}
-.pricing-tile--static{cursor:default;display:flex;flex-direction:column}
+.pricing-tile--static{cursor:default;display:flex;flex-direction:column;padding:48px 40px;border-radius:24px}
 .pricing-tile:focus-visible{box-shadow:0 0 0 3px rgba(125,8,32,0.25)}
 .pricing-tile:hover{box-shadow:var(--shadow-md)}
-.pricing-tile--popular{border:1.5px solid var(--wine);background:linear-gradient(160deg,#FDF6F0 0%,#fff 70%)}
+.pricing-tile--popular{border:2px solid var(--wine);background:linear-gradient(160deg,#FFF0F1 0%,#fff 55%)}
 .pricing-tile--open{box-shadow:var(--shadow-md)}
-.pricing-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:#f9efbd;color:var(--wine);font-family:var(--montserrat);font-weight:700;font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;padding:5px 14px;border-radius:100px;white-space:nowrap}
+.pricing-badge{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:#f9efbd;color:var(--wine);border:1.5px solid var(--wine);font-family:var(--montserrat);font-weight:700;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;padding:5px 18px;border-radius:100px;white-space:nowrap}
 /* Header - always visible */
 .pricing-tile-header{display:flex;align-items:center;gap:12px;user-select:none}
 .pricing-tile-header-left{flex:1}
-.pricing-tile-name{font-family:var(--montserrat);font-weight:700;font-size:0.78rem;color:var(--wine);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px}
+.pricing-tile-name{font-family:var(--montserrat);font-weight:700;font-size:0.82rem;color:var(--wine);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:10px}
 .pricing-tile-price{display:flex;align-items:baseline;gap:3px}
-.pricing-amount{font-family:var(--display);font-size:2.2rem;line-height:1;color:var(--ink);font-weight:400}
-.pricing-period{font-family:var(--display);font-size:2.2rem;color:var(--ink-faint);font-weight:400;line-height:1}
+.pricing-amount{font-family:var(--display);font-size:3rem;line-height:1;color:var(--ink);font-weight:400}
+.pricing-period{font-family:var(--display);font-size:3rem;color:var(--ink-faint);font-weight:400;line-height:1}
 .pricing-chevron{flex-shrink:0;color:var(--ink-soft);transition:transform 0.35s ease}
 .pricing-tile--open .pricing-chevron{transform:rotate(180deg)}
 /* Summary bullets - collapsed state */
@@ -233,21 +233,23 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-tile-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows 0.35s ease}
 .pricing-tile--open .pricing-tile-body{grid-template-rows:1fr}
 .pricing-tile-body-inner{overflow:hidden}
-.pricing-divider{height:1px;background:var(--line);margin:18px 0}
-.pricing-yearly-note{font-family:var(--sans);font-size:0.8rem;color:var(--ink-soft);margin-top:14px;line-height:1.5}
+.pricing-divider{height:1px;background:var(--line);margin:24px 0}
+.pricing-yearly-note{font-family:var(--sans);font-size:0.84rem;color:var(--ink-soft);margin-top:18px;line-height:1.5}
 .pricing-yearly-note b{font-weight:700;color:var(--wine)}
-.pricing-tagline{font-family:var(--montserrat);font-style:italic;font-size:0.88rem;color:var(--wine);margin-bottom:16px;line-height:1.4}
-.pricing-features{list-style:none;display:flex;flex-direction:column;gap:9px;margin-bottom:6px}
-.pricing-features li{display:flex;align-items:flex-start;gap:10px;font-family:var(--sans);font-size:0.875rem;line-height:1.45;color:var(--ink)}
+.pricing-tagline{font-family:var(--montserrat);font-style:italic;font-size:0.92rem;color:var(--wine);margin-bottom:20px;line-height:1.4}
+.pricing-features{list-style:none;display:flex;flex-direction:column;gap:14px;margin-bottom:6px}
+.pricing-features li{display:flex;align-items:flex-start;gap:12px;font-family:var(--sans);font-size:0.95rem;line-height:1.45;color:var(--ink)}
 .pricing-features li svg{flex-shrink:0;margin-top:1px;color:var(--wine)}
 .pricing-cta{display:inline-flex;justify-content:center;align-items:center;background:var(--navy);color:#fff;padding:13px 28px;border-radius:100px;font-family:var(--montserrat);font-weight:700;font-size:0.9rem;text-align:center;transition:background 0.2s ease;margin-top:22px}
-.pricing-tile--static .pricing-cta{margin-top:auto}
+.pricing-tile--static .pricing-cta{margin-top:auto;width:100%;padding:16px 28px;font-size:1rem}
 .pricing-cta:hover{background:var(--wine)}
 .pricing-tile--popular .pricing-cta{background:var(--wine)}
 .pricing-tile--popular .pricing-cta:hover{background:var(--wine-deep)}
 .pricing-fineprint{font-family:var(--sans);font-size:0.84rem;color:var(--ink-faint);text-align:center;margin-top:32px;max-width:600px;margin-left:auto;margin-right:auto}
 @media (max-width:980px){
   .pricing-grid{grid-template-columns:1fr;max-width:420px}
+  .pricing-tile--static{padding:36px 30px}
+  .pricing-amount,.pricing-period{font-size:2.4rem}
 }
 @media (max-width:560px){
   .pricing-toggle{font-size:0.9rem;padding:4px}

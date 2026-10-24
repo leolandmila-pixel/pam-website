@@ -86,7 +86,7 @@ export default function HomePage() {
             </div>
             <div className="hero-phones">
               <div className="hero-phone hero-phone--left">
-                <Image src="/phone-tracker.jpg" alt="PAM Nap Predictions" width={158} height={342} style={{width:'100%',height:'auto'}} />
+                <Image src="/phone-nap.jpg" alt="PAM Nap Predictions" width={158} height={342} style={{width:'100%',height:'auto'}} />
               </div>
               <div className="hero-phone hero-phone--center">
                 <Image src="/phone-checklist.jpg" alt="PAM Smart Checklist" width={188} height={407} style={{width:'100%',height:'auto'}} priority />

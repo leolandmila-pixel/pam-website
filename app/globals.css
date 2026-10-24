@@ -240,7 +240,7 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-yearly-note{font-family:var(--sans);font-size:0.84rem;color:var(--ink-soft);line-height:1.5;padding-left:26px}
 .pricing-yearly-note b{font-weight:700;color:var(--wine)}
 .pricing-tagline{font-family:var(--montserrat);font-style:italic;font-size:0.92rem;color:var(--wine);margin-bottom:16px;line-height:1.4}
-.pricing-save-badge{display:inline-block;align-self:flex-start;background:var(--wine);color:#fff;font-family:var(--montserrat);font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:14px;white-space:nowrap}
+.pricing-save-badge{align-self:flex-start;background:var(--wine);color:#fff;font-family:var(--montserrat);font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:5px 14px;border-radius:100px;margin-top:10px;margin-bottom:0;white-space:nowrap}
 .pricing-billing-points{list-style:disc;padding-left:18px;margin:0 0 20px;display:flex;flex-direction:column;gap:6px}
 .pricing-billing-points li{font-family:var(--sans);font-size:0.88rem;color:var(--ink-soft);line-height:1.4}
 .pricing-includes-label{font-family:var(--sans);font-weight:700;font-size:0.82rem;color:var(--ink);margin:0 0 12px;letter-spacing:0.01em}

@@ -93,7 +93,7 @@ export default function HomePage() {
                 <Image src="/phone-checklist.jpg" alt="PAM Smart Checklist" width={188} height={407} style={{width:'100%',height:'auto'}} priority />
               </div>
               <div className="hero-phone hero-phone--right">
-                <Image src="/phone-home.jpg" alt="PAM Voice Command" width={158} height={342} style={{width:'100%',height:'auto'}} />
+                <Image src="/phone-voice.jpg" alt="PAM Voice Command" width={158} height={342} style={{width:'100%',height:'auto'}} />
               </div>
             </div>
           </div>

@@ -63,6 +63,12 @@ export default function PricingTiles() {
 
   return (
     <>
+      <div className="pricing-section-head">
+        <span className="eyebrow">App Plans</span>
+        <h2>Find the plan that fits your family.</h2>
+        <p className="pricing-section-sub">Single, Couple or Family. Try any of them free for 14 days.</p>
+      </div>
+
       <div className="pricing-toggle" role="tablist" aria-label="Billing period">
         <span className={`pricing-toggle-slider${isAnnual ? ' pricing-toggle-slider--annual' : ''}`} />
         <button

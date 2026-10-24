@@ -199,7 +199,10 @@ em,.em{font-style:italic;color:var(--wine)}
 .pricing-hero-heading em{color:#fff;font-style:italic}
 .pricing-hero-sub{font-family:var(--montserrat);font-size:1rem;color:#fff;letter-spacing:0.02em}
 .pricing-section{padding:30px 0 60px}
-.pricing-toggle{position:relative;display:inline-grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:100px;padding:6px;box-shadow:var(--shadow-sm);margin:0 auto 38px;left:50%;transform:translateX(-50%);min-width:min(440px,90vw);width:auto}
+.pricing-section-head{text-align:center;margin-bottom:44px}
+.pricing-section-head h2{font-family:var(--display);font-weight:400;font-size:clamp(2rem,4vw,3rem);line-height:1.15;color:var(--ink);margin:12px 0 16px}
+.pricing-section-sub{font-family:var(--sans);font-size:1rem;color:var(--ink-soft);line-height:1.6;max-width:480px;margin:0 auto}
+.pricing-toggle{position:relative;display:inline-grid;grid-template-columns:1fr 1fr;background:#fff;border:none;border-radius:100px;padding:6px;box-shadow:var(--shadow-sm);margin:0 auto 38px;left:50%;transform:translateX(-50%);min-width:min(440px,90vw);width:auto}
 .pricing-toggle-slider{position:absolute;top:6px;bottom:6px;left:6px;width:calc(50% - 6px);background:var(--wine);border-radius:100px;transition:transform 0.3s cubic-bezier(.4,.0,.2,1);box-shadow:0 4px 12px rgba(125,8,32,0.28);z-index:0}
 .pricing-toggle-slider--annual{transform:translateX(100%)}
 .pricing-toggle-btn{position:relative;z-index:1;background:none;border:none;cursor:pointer;font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--ink);padding:14px 22px;border-radius:100px;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:color 0.25s ease;white-space:nowrap;min-width:0}

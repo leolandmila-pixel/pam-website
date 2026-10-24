@@ -980,7 +980,7 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
 .hero-video .floating-cta:hover{box-shadow:0 24px 54px rgba(197,160,133,0.6)}
 .hero-video .eyebrow{color:#F3D4D6}
 .hero-video .display-xl{color:#FFFBF8;text-shadow:0 2px 34px rgba(20,2,8,0.5),0 1px 4px rgba(20,2,8,0.4)}
-.hero-video .display-xl strong{color:var(--navy);text-shadow:0 1px 18px rgba(255,251,248,0.6),0 0 2px rgba(255,251,248,0.7)}
+.hero-video .display-xl strong{color:#f9efbd;text-shadow:3px 3px 0 var(--wine),5px 5px 16px rgba(109,0,21,0.45)}
 .hero-video .hero-sub{color:rgba(255,251,248,0.94);text-shadow:0 1px 20px rgba(20,2,8,0.55)}
 .hero-signup{margin-top:36px;display:flex;flex-direction:column;align-items:center}
 .hero-signup-pill{display:inline-flex;align-items:center;justify-content:center;background:var(--cream);color:var(--wine);padding:12px 24px;border-radius:100px;font-family:var(--sans);font-weight:600;font-size:0.88rem;letter-spacing:0.01em;box-shadow:0 18px 40px rgba(125,8,32,0.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);text-decoration:none;cursor:pointer;transition:box-shadow 0.3s ease,transform 0.2s ease}

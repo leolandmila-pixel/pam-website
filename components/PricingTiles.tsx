@@ -65,7 +65,7 @@ export default function PricingTiles() {
     <>
       <div className="pricing-section-head">
         <span className="eyebrow">App Plans</span>
-        <h2>Find the plan that fits your family.</h2>
+        <h2>Made for your village.</h2>
         <p className="pricing-section-sub">Single, Couple or Family. Try any of them free for 14 days.</p>
       </div>
 

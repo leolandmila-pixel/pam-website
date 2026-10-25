@@ -65,7 +65,7 @@ const OPTIONS = [
       tagline: 'PAM brings it all together so your brain can finally let go.',
       body: 'Appointments, checklists, trackers, memories, family info - all in one app, built for the way parenting actually works. No more juggling twelve tabs.',
       gradient: 'linear-gradient(140deg,#F1DBDC,#C5A085 50%,#6D0015)',
-      phone: '/phone-home.jpg',
+      phone: '/Home Page.jpeg',
       phoneAlt: 'PAM home dashboard screen',
     },
   },

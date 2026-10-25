@@ -39,8 +39,8 @@ const OPTIONS = [
       tagline: 'PAM tracks your child\'s journey so you don\'t have to hold it all in your head.',
       body: 'From the first smile to the first steps, log and celebrate every milestone without the admin overwhelm. It\'s all there when you want to look back.',
       gradient: 'linear-gradient(140deg,#C5A085,#8B3A50 60%,#6D0015)',
-      phone: '/phone-family.jpg',
-      phoneAlt: 'PAM family tracker screen',
+      phone: '/Family Hub.jpeg',
+      phoneAlt: 'PAM Family Hub screen',
     },
   },
   {

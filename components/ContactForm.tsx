@@ -12,6 +12,8 @@ const topics = [
   'Something else',
 ]
 
+const CONTACT_EMAIL = 'hello@parentaladminmanager.com'
+
 export default function ContactForm() {
   const params = useSearchParams()
   const defaultTopic = params.get('topic') === 'story' ? 'Share my story' : 'General question'
@@ -21,26 +23,23 @@ export default function ContactForm() {
   const [topic, setTopic] = useState(defaultTopic)
   const [message, setMessage] = useState('')
   const [note, setNote] = useState('')
-  const [submitting, setSubmitting] = useState(false)
-
-  async function submit(e: React.FormEvent) {
+  // There is no contact backend yet, so this form does NOT send anything itself.
+  // It opens the visitor's own email app with the message pre-filled, addressed
+  // to CONTACT_EMAIL, and says so plainly. (Previously it faked a success.)
+  function submit(e: React.FormEvent) {
     e.preventDefault()
     if (!name || !email || email.indexOf('@') < 1) {
-      setNote("Please add your name and a valid email and we'll get right back to you.")
+      setNote("Please add your name and a valid email so we can reply.")
       return
     }
-    setSubmitting(true)
-    try {
-      // TODO: wire to Ortto / n8n / email backend
-      await new Promise((r) => setTimeout(r, 400))
-      const greet = name
-      setName('')
-      setEmail('')
-      setMessage('')
-      setNote(`Thank you ${greet} - your message is on its way. We'll reply soon.`)
-    } finally {
-      setSubmitting(false)
-    }
+    const subject = `${topic} - from ${name}`
+    const body = `${message}\n\n- ${name} (${email})`
+    window.location.href =
+      `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    setNote(
+      `Your email app should now open with your message ready to send - press Send there to reach us. ` +
+        `Nothing opened? Email us directly at ${CONTACT_EMAIL}.`,
+    )
   }
 
   return (
@@ -67,9 +66,13 @@ export default function ContactForm() {
         <label htmlFor="cMsg">Message</label>
         <textarea id="cMsg" placeholder="Tell us what's on your mind..." value={message} onChange={(e) => setMessage(e.target.value)} />
       </div>
-      <button type="submit" className="send-btn" disabled={submitting}>
-        {submitting ? 'Sending…' : 'Send message'}
+      <button type="submit" className="send-btn">
+        Open in my email app
       </button>
+      <p style={{ marginTop: 12, fontSize: 14 }}>
+        This form doesn&apos;t send messages itself - it opens your email app so you can send it to{' '}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+      </p>
       {note && <p className="presignup-note" style={{ marginTop: 16, color: 'var(--wine)' }}>{note}</p>}
     </form>
   )

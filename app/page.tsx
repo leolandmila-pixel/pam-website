@@ -61,7 +61,7 @@ export default function HomePage() {
               <h1 className="hero-split-h1">Try PAM <em>free</em><br />for 14 <em>days.</em></h1>
               <p className="hero-split-sub">The admin, milestones and memories of family life, finally out of your head.</p>
               <ul className="hero-checklist">
-                <li><CheckIcon />A Smart Checklist that knows what&apos;s due, and lets you hand tasks to your partner</li>
+                <li><CheckIcon />A Smart Checklist that knows what&apos;s due, and lets you delegate tasks to your partner or a carer</li>
                 <li><CheckIcon />Track feeds, sleep and nappies in one tap, for you and your partner</li>
                 <li><CheckIcon />Nap predictions so you can actually plan your day</li>
                 <li><CheckIcon />Voice Command: hold, talk, done. PAM turns it into a task or record</li>

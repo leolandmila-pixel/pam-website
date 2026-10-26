@@ -5,6 +5,7 @@ import { baseMetadata } from './metadata'
 import { organizationSchema, mobileAppSchema, websiteSchema } from './structured-data'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import NewsletterSignup from '@/components/NewsletterSignup'
 import './globals.css'
 
 export const viewport: Viewport = {
@@ -80,6 +81,7 @@ export default function RootLayout({
         />
         <Nav />
         {children}
+        <NewsletterSignup />
         <Footer />
       </body>
     </html>

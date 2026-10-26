@@ -78,11 +78,13 @@ export async function POST(req: NextRequest) {
   } catch {
     return NextResponse.json({ error: 'Invalid request' }, { status: 400 })
   }
-  const { email: rawEmail, website, t } = (body ?? {}) as {
+  const { email: rawEmail, firstName: rawFirstName, website, t } = (body ?? {}) as {
     email?: unknown
+    firstName?: unknown
     website?: unknown // honeypot: hidden field, humans leave it empty
     t?: unknown // ms timestamp of when the form was rendered
   }
+  const firstName = typeof rawFirstName === 'string' ? rawFirstName.trim().slice(0, 80) : ''
 
   // 1. Honeypot.
   if (typeof website === 'string' && website.trim() !== '') return silentOk()
@@ -131,6 +133,7 @@ export async function POST(req: NextRequest) {
       email,
       listIds: [BREVO_LIST_ID],
       updateEnabled: true,
+      ...(firstName ? { attributes: { FIRSTNAME: firstName } } : {}),
     }),
   })
 

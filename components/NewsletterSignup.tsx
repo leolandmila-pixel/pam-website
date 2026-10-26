@@ -41,7 +41,7 @@ export default function NewsletterSignup() {
           <div className="newsletter-copy">
             <span className="eyebrow">Stay in the loop</span>
             <h2 className="newsletter-heading">
-              The PAM edit, <em>straight to your inbox.</em>
+              The PAM edit, <em>straight</em> to your <em>inbox.</em>
             </h2>
             <p className="newsletter-sub">
               Parenting tips, app updates and expert-backed Australian guides - without the overwhelm.

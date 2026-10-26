@@ -62,7 +62,7 @@ export default function HomePage() {
               <p className="hero-split-sub">The admin, milestones and memories of family life, finally out of your head.</p>
               <ul className="hero-checklist">
                 <li><CheckIcon />A Smart Checklist that knows what&apos;s due, and lets you delegate tasks to your partner or a carer</li>
-                <li><CheckIcon />Track feeds, sleep and nappies in one tap, for you and your partner</li>
+                <li><CheckIcon />Track feeds, sleep and nappies in one tap</li>
                 <li><CheckIcon />Nap predictions so you can actually plan your day</li>
                 <li><CheckIcon />Voice Command: hold, talk, done. PAM turns it into a task or record</li>
                 <li><CheckIcon />A baby book that builds itself, with milestones, photos, letters and voice notes</li>

@@ -96,7 +96,7 @@ export default function NewsletterSignup() {
               >
                 {status === 'loading' ? 'Subscribing…' : 'Subscribe'}
               </button>
-              <p className="newsletter-privacy">No spam. Unsubscribe any time.</p>
+              <p className="newsletter-privacy">By signing up, you agree to receive marketing emails. View our <a href="/privacy">privacy policy</a> and <a href="/terms">terms of service</a> for more info.</p>
             </form>
           )}
         </div>

@@ -734,6 +734,8 @@ section{padding:96px 0}
 .newsletter-btn:disabled{opacity:0.6;cursor:not-allowed;transform:none}
 .newsletter-error{font-size:0.84rem;color:#c0392b;margin:0 0 12px}
 .newsletter-privacy{font-size:0.78rem;color:var(--ink-faint);margin:0}
+.newsletter-privacy a{color:var(--ink-soft);text-decoration:underline}
+.newsletter-privacy a:hover{color:var(--wine)}
 .newsletter-success{display:flex;align-items:center;gap:12px;padding:20px 24px;background:rgba(109,0,21,0.06);border-radius:12px}
 .newsletter-success p{font-family:var(--sans);font-size:0.95rem;color:var(--ink);margin:0}
 @media(max-width:820px){

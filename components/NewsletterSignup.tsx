@@ -44,7 +44,7 @@ export default function NewsletterSignup() {
               The PAM edit, <em>straight to your inbox.</em>
             </h2>
             <p className="newsletter-sub">
-              Parenting tips, app updates and expert-backed Australian guides — without the overwhelm.
+              Parenting tips, app updates and expert-backed Australian guides - without the overwhelm.
             </p>
           </div>
 

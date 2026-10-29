@@ -174,9 +174,9 @@ export const checklistMetadata: Metadata = {
 }
 
 export const trackerMetadata: Metadata = {
-  title: 'Baby Tracker - Feeds, Sleep & Nappies',
+  title: 'Baby Tracker App Australia - Log Feeds, Sleep & Nappies | PAM',
   description:
-    "Log feeds, sleep, nappies and growth in seconds. PAM shows you your own baby's pattern, with nap predictions and growth charts shared with your partner.",
+    "Track feeds, sleep and nappies in seconds and share with your partner in real time. PAM predicts your baby's next nap and plots growth against Australian MCH percentile charts.",
   alternates: { canonical: 'https://parentaladminmanager.com/features/baby-tracker' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Tracker', url: 'https://parentaladminmanager.com/features/baby-tracker' },
 }
@@ -276,9 +276,9 @@ export const parentalLeaveCalculatorMetadata: Metadata = {
 }
 
 export const pricingMetadata: Metadata = {
-  title: 'PAM Pricing - Plans From $7.99/Month',
+  title: 'PAM Pricing - Plans From $14.99/Month',
   description:
-    'Simple, transparent PAM pricing - Single, Couple and Family plans from $7.99/month, all with a 14-day free trial. No lock-in contracts, cancel anytime.',
+    'Simple, transparent PAM pricing - Single, Couple and Family plans from $14.99/month, all with a 14-day free trial. No lock-in contracts, cancel anytime.',
   alternates: { canonical: 'https://parentaladminmanager.com/pricing' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://parentaladminmanager.com/pricing' },
 }

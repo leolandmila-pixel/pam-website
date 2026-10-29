@@ -1,2 +1,20 @@
 [build]
   command = "npm run build"
+
+[[redirects]]
+  from = "http://www.parentaladminmanager.com/*"
+  to = "https://parentaladminmanager.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://parentaladminmanager.com/*"
+  to = "https://parentaladminmanager.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.parentaladminmanager.com/*"
+  to = "https://parentaladminmanager.com/:splat"
+  status = 301
+  force = true

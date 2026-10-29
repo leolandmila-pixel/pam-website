@@ -163,6 +163,30 @@ export default function NewbornSleepSchedulePage() {
             }))}
           />
 
+          <h2>Sleep by specific age: weeks 6 to 12</h2>
+          <p>For parents searching for a specific week, here is what to expect at each stage.</p>
+
+          <h3>6 week old sleep schedule</h3>
+          <p>At 6 weeks, total sleep is around 14-16 hours across 24 hours. Wake windows are typically 45-75 minutes. The witching-hour cluster feeding that peaked at weeks 3-5 usually begins to ease around now. Some babies show the first hint of a slightly longer overnight stretch (3-4 hours), but many still wake every 2 hours - both are normal.</p>
+
+          <h3>7 week old sleep schedule</h3>
+          <p>Wake windows are stretching toward 60-75 minutes at 7 weeks. Day/night confusion - common in the first weeks - is usually starting to resolve. You may notice baby is slightly more alert and engaged during wake periods, and slightly easier to settle for naps when you catch the window.</p>
+
+          <h3>8 week old sleep schedule</h3>
+          <p>By 8 weeks, a loose pattern often becomes visible - not a rigid schedule, but a recognisable rhythm. Most 8-week-olds take 4-5 naps across the day. The social smile is usually well established by now, which can make settling harder (everything is interesting). Keep wake windows at 60-75 minutes to avoid overtiredness.</p>
+
+          <h3>9 week old sleep schedule</h3>
+          <p>At 9 weeks, wake windows are typically 60-90 minutes. Naps may be starting to consolidate slightly - some babies at this age start showing two or three more substantial naps rather than five short ones, though this varies widely. Night sleep often shows a longer first stretch of 3-5 hours.</p>
+
+          <h3>10 week old sleep schedule</h3>
+          <p>A 10-week-old typically needs 14-16 hours of total sleep, with wake windows of 75-90 minutes. Most 10-week-olds take 4 naps across the day. If you're still seeing 5+ short naps, that's also within the normal range - nap consolidation is highly individual at this age. The key signal that sleep is on track is weight gain at MCH visits, not adherence to a chart.</p>
+
+          <h3>11 week old sleep schedule</h3>
+          <p>At 11 weeks, wake windows typically sit at 75-90 minutes. Total sleep remains around 14-15 hours. Some babies at this age start dropping to 3-4 naps as wake windows lengthen. Night sleep may show a first stretch of 4-6 hours, followed by a feed and a further 2-3 hour stretch - though two or more night wakes is still very common and normal.</p>
+
+          <h3>12 week old sleep schedule</h3>
+          <p>By 12 weeks, most babies take 3-4 naps across the day, with wake windows of 80-100 minutes. Total sleep is around 14 hours. The 4-month sleep regression - which typically occurs between 3.5 and 5 months - is approaching; many parents notice disrupted sleep around this time even before the official regression. See the FAQ below for what to expect.</p>
+
           <h2>How to tell if your baby&apos;s sleep is on track</h2>
           <p>Weight gain is the clearest signal - more useful than any chart. If your baby is feeding well and gaining weight at their scheduled checks, their sleep pattern is very likely fine, even if it doesn&apos;t match a chart like this one. Every baby&apos;s weight and growth is tracked at MCH visits in the first year, which are pre-loaded in PAM&apos;s Smart Checklist so you always know when the next one falls.</p>
 

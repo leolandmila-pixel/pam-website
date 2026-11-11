@@ -61,10 +61,15 @@ export default function RootLayout({
         />
         <Script id="ga4" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1BMMSSHD1W');
+            // Family invite links carry a secret token in the URL. Never start
+            // GA on /invite, so the token can't reach page_location, link_url
+            // or the next page's referrer.
+            if (!/^\/invite(\/|$)/.test(window.location.pathname)) {
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function(){dataLayer.push(arguments);};
+              gtag('js', new Date());
+              gtag('config', 'G-1BMMSSHD1W');
+            }
           `}
         </Script>
         <script

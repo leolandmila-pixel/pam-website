@@ -64,7 +64,8 @@ export default function RootLayout({
             // Family invite links carry a secret token in the URL. Never start
             // GA on /invite, so the token can't reach page_location, link_url
             // or the next page's referrer.
-            if (!/^\/invite(\/|$)/.test(window.location.pathname)) {
+            var path = window.location.pathname;
+            if (path.indexOf('/invite') !== 0) {
               window.dataLayer = window.dataLayer || [];
               window.gtag = function(){dataLayer.push(arguments);};
               gtag('js', new Date());

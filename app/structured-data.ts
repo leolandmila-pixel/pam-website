@@ -77,7 +77,7 @@ export const mobileAppSchema = {
     'Smart checklist pre-loaded with Australian MCH visits and immunisation schedule',
     'Shared daily baby tracker for feeds, sleep, nappies and measurements',
     'Real-time partner sharing - both parents see everything',
-    'Family health information storage: doctors, medications, allergies, vaccination history',
+    'Family health information storage: doctors, medications, allergies, immunisation history',
     'Baby milestone tracking from newborn to school age',
     'Memory keeping: photos, voice notes, milestone moments',
     'Centrelink and Australian birth registration admin reminders',

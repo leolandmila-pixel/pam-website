@@ -35,7 +35,7 @@ const faqItems = [
   },
   {
     q: 'What is the first thing I should do after registering the birth?',
-    a: "Enrol your baby in Medicare next - you'll need the birth registration reference number to do it, and your baby's Medicare number is required for bulk-billed GP visits, MCH referrals, and recording vaccinations in the Australian Immunisation Register.",
+    a: "Enrol your baby in Medicare next - you'll need the birth registration reference number to do it, and your baby's Medicare number is required for bulk-billed GP visits, MCH referrals, and recording immunisations in the Australian Immunisation Register.",
   },
   {
     q: 'How long do I have to claim Centrelink payments for a newborn?',
@@ -121,7 +121,7 @@ const steps = [
   {
     when: 'From 6 weeks',
     title: 'Start the immunisation schedule',
-    body: "Australia's National Immunisation Program covers vaccinations at 6 weeks, 4 months, 6 months, 12 months and 18 months, all free for eligible children. Your GP or vaccination provider updates the Australian Immunisation Register automatically after each dose - bring your Blue Book (or your state's equivalent Personal Health Record) to every appointment.",
+    body: "Australia's National Immunisation Program covers immunisations at 6 weeks, 4 months, 6 months, 12 months and 18 months, all free for eligible children. Your GP or immunisation provider updates the Australian Immunisation Register automatically after each dose - bring your Blue Book (or your state's equivalent Personal Health Record) to every appointment.",
   },
 ]
 

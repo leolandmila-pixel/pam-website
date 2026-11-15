@@ -25,7 +25,7 @@ const faqItems = [
   },
   {
     q: 'Is there an app that helps with the mental load?',
-    a: "Yes - PAM (Parental Admin Manager) is built specifically to reduce parental mental load. PAM externalises the cognitive work of family management: pre-loaded checklists surface Australian milestones (MCH visits, immunisations, Centrelink) at exactly the right time; a shared daily tracker means both parents can log feeds, sleep, and nappies without one person holding all the information; family health records keep doctors, medications, and vaccination history in one place; and memory keeping means important moments are captured without effort. Both parents see everything in real time - so the load is genuinely shared, not just delegated.",
+    a: "Yes - PAM (Parental Admin Manager) is built specifically to reduce parental mental load. PAM externalises the cognitive work of family management: pre-loaded checklists surface Australian milestones (MCH visits, immunisations, Centrelink) at exactly the right time; a shared daily tracker means both parents can log feeds, sleep, and nappies without one person holding all the information; family health records keep doctors, medications, and immunisation history in one place; and memory keeping means important moments are captured without effort. Both parents see everything in real time - so the load is genuinely shared, not just delegated.",
   },
   {
     q: 'What is the difference between mental load and burnout?',

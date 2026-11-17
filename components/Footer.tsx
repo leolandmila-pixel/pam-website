@@ -52,6 +52,8 @@ export default function Footer() {
           <div className="footer-col">
             <h2>Support</h2>
             <ul>
+              <li><Link href="/gift">Gift PAM</Link></li>
+              <li><Link href="/redeem">Redeem a gift</Link></li>
               <li><Link href="/contact">Contact</Link></li>
               <li><Link href="/faq">Help &amp; FAQ</Link></li>
               <li><Link href="/privacy">Privacy</Link></li>

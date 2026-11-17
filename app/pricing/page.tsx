@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { pricingMetadata } from '../metadata'
 import Image from 'next/image'
+import Link from 'next/link'
 import PricingTiles from '@/components/PricingTiles'
 
 export const metadata: Metadata = pricingMetadata
@@ -30,7 +31,10 @@ export default function PricingPage() {
         <div className="container">
           <PricingTiles />
           <p className="pricing-fineprint">
-            Prices in AUD. Includes GST. 14-day free trial on every plan. Cancel anytime in the app - no questions asked.
+            Prices in AUD, including any GST charged by the App Store or Google Play. 14-day free trial on every plan. Cancel anytime in the app - no questions asked.
+          </p>
+          <p className="pricing-gift">
+            Buying for someone else? <Link href="/gift">Give PAM as a gift →</Link>
           </p>
         </div>
       </section>

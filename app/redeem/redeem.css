@@ -1,0 +1,22 @@
+/* /redeem page styles (kept out of globals.css). */
+.redeem-code input{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;letter-spacing:2px;text-transform:uppercase}
+.redeem-done{text-align:center}
+.redeem-intro{font-size:1rem;color:var(--ink);margin:0 0 26px;text-align:center}
+.redeem-source{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:start}
+.redeem-mock{border-radius:12px;padding:12px 14px;text-align:center;margin-top:26px}
+.redeem-mock small{display:block;font-size:0.68rem;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--wine);margin-bottom:4px}
+.redeem-mock b{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;font-size:0.85rem;letter-spacing:0.5px;white-space:nowrap;color:var(--ink)}
+.redeem-mock-email{border:2px dashed var(--wine);background:#fff}
+.redeem-mock-app{background:var(--blush-soft);border:1px solid var(--line)}
+.redeem-mock-app small{text-transform:none;letter-spacing:0;font-weight:600}
+.redeem-ok{display:block;margin-top:6px;font-size:0.85rem;font-weight:600;color:#2E7D4F}
+.redeem-bad{display:block;margin-top:6px;font-size:0.85rem;font-weight:600;color:var(--wine)}
+.redeem-code input[aria-invalid="true"]{border-color:var(--wine)}
+.redeem-link{background:none;border:0;padding:0;color:var(--wine);font:inherit;font-weight:600;text-decoration:underline;cursor:pointer}
+.redeem-chip{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;border:2px dashed var(--wine);background:#fff;border-radius:12px;padding:14px 18px}
+.redeem-chip-code{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;font-weight:700;letter-spacing:1.5px;color:var(--ink)}
+.redeem-chip .redeem-ok{margin:0}
+.redeem-new{font-size:0.88rem;line-height:1.5;color:var(--navy);background:var(--card-cream);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:4px 0 0}
+@media (max-width:640px){.redeem-source{grid-template-columns:1fr;gap:0}.redeem-mock{margin-top:0;margin-bottom:12px}}
+.redeem-warn{text-align:left;margin:20px 0 0;line-height:1.5}
+.redeem-done h2{font-family:var(--display);font-weight:400;font-size:2rem;color:var(--wine);margin:0 0 12px}

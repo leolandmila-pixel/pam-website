@@ -6,7 +6,7 @@ const contentSecurityPolicy = `
   style-src 'self' 'unsafe-inline';
   img-src 'self' data: https:;
   font-src 'self' data:;
-  connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com;
+  connect-src 'self' https://us-central1-parent-admin-manager.cloudfunctions.net${process.env.NODE_ENV === 'development' ? ' http://127.0.0.1:5001' : ''} https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com;
   frame-ancestors 'self';
   base-uri 'self';
   form-action 'self';

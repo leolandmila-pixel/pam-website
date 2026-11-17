@@ -86,7 +86,7 @@ export const faqItems: FaqItem[] = [
   {
     cat: 'features',
     q: "Can I store my baby's medical information in PAM?",
-    a: "Yes. The Family & Kids Info section stores your baby's GP and specialist information, vaccination history, medications, allergies, and notes from healthcare appointments. Everything in one place so you're never searching for it in a waiting room.",
+    a: "Yes. The Family & Kids Info section stores your baby's GP and specialist information, immunisation history, medications, allergies, and notes from healthcare appointments. Everything in one place so you're never searching for it in a waiting room.",
   },
 
   // ── Pricing ───────────────────────────────────────────────────────────────────

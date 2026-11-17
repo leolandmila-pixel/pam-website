@@ -282,3 +282,24 @@ export const pricingMetadata: Metadata = {
   alternates: { canonical: 'https://parentaladminmanager.com/pricing' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://parentaladminmanager.com/pricing' },
 }
+
+// Gift cards: kept out of search until launch.
+export const giftMetadata: Metadata = {
+  title: 'Gift PAM',
+  description:
+    'Give a mum or dad 3, 6 or 12 months of PAM, the Australian parenting app that carries the mental load. Delivered by email, starts when they redeem.',
+  alternates: { canonical: '/gift' },
+  robots: { index: false, follow: false },
+}
+
+export const redeemMetadata: Metadata = {
+  title: 'Redeem a PAM gift',
+  description: 'Got a PAM gift code? Redeem it here to unlock your PAM plan.',
+  alternates: { canonical: '/redeem' },
+  robots: { index: false, follow: false },
+}
+
+export const giftThanksMetadata: Metadata = {
+  title: 'Thanks for your gift',
+  robots: { index: false, follow: false },
+}

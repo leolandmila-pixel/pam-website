@@ -60,7 +60,7 @@ const title: React.CSSProperties = {
 
 const body: React.CSSProperties = {
   margin: 0,
-  fontSize: '1rem',
+  fontSize: '0.92rem',
   lineHeight: 1.55,
   color: 'var(--ink)',
 }
@@ -117,7 +117,7 @@ export default function InviteSteps() {
               PAM lives on your phone, so your invite needs to open there. Point your phone&apos;s camera at
               this code and tap the link. Then follow the steps below on your phone.
             </p>
-            <p style={{ ...body, marginTop: 10, fontSize: '0.9rem', color: 'var(--ink-soft, #555)' }}>
+            <p style={{ ...body, marginTop: 10, fontSize: '0.82rem', color: 'var(--ink-soft, #555)' }}>
               Or open this email on your phone and tap <strong>Accept invitation</strong> there.
             </p>
           </div>
@@ -158,7 +158,7 @@ export default function InviteSteps() {
               >
                 Open my invite in PAM
               </a>
-              <p style={{ ...body, marginTop: 10, fontSize: '0.9rem', color: 'var(--ink-soft, #555)' }}>
+              <p style={{ ...body, marginTop: 10, fontSize: '0.82rem', color: 'var(--ink-soft, #555)' }}>
                 Nothing happened? Install or update PAM (step 1) and tap the button again. Or open PAM,
                 tap <strong>Been invited to a family? Join here</strong>, and sign up with the email this
                 invitation was sent to.

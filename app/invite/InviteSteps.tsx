@@ -128,7 +128,9 @@ export default function InviteSteps() {
         <div>
           <h2 style={title}>Download PAM</h2>
           <p style={body}>
-            Get PAM on the phone you&apos;ll use it on. Already have it? Go straight to step 2.
+            Get PAM on the phone you&apos;ll use it on.
+            <br />
+            Already have it? Go straight to step 2.
           </p>
           <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" style={button(false)}>
             Download on the App Store
@@ -173,8 +175,9 @@ export default function InviteSteps() {
         <div>
           <h2 style={title}>You&apos;re in</h2>
           <p style={body}>
-            PAM welcomes you to the family, and the children and everything shared with you appear straight
-            away.
+            PAM welcomes you to the family.
+            <br />
+            The children and everything shared with you appear straight away.
           </p>
         </div>
       </div>

@@ -1,11 +1,21 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import QRCode from 'qrcode'
 
 const APP_STORE_URL = 'https://apps.apple.com/au/app/parental-admin-manager/id6780860987'
 
 // Only ids/tokens of the shape the server issues ever reach the pam:// link.
 const SAFE = /^[A-Za-z0-9_-]{1,128}$/
+
+// Desktop browsers can't open the app, so the invite link has to get to
+// the phone. iPadOS reports itself as a Mac, hence the touch check.
+function isDesktop(): boolean {
+  const ua = navigator.userAgent
+  if (/iPhone|iPad|iPod|Android/i.test(ua)) return false
+  if (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1) return false
+  return true
+}
 
 function readInviteLink(): string | null {
   const q = new URLSearchParams(window.location.search)
@@ -72,12 +82,47 @@ const button = (primary: boolean): React.CSSProperties => ({
 export default function InviteSteps() {
   // null until mounted; false = old email without a link token.
   const [inviteLink, setInviteLink] = useState<string | null | false>(null)
+  // QR of this page's https URL (not pam://): scanning it on a phone opens
+  // this page there, which can open the app or send them to the App Store.
+  const [qr, setQr] = useState<string | null>(null)
   useEffect(() => {
-    setInviteLink(readInviteLink() ?? false)
+    const link = readInviteLink()
+    setInviteLink(link ?? false)
+    if (link && isDesktop()) {
+      QRCode.toDataURL(window.location.href, {
+        margin: 1,
+        width: 220,
+        color: { dark: '#5C0F1B', light: '#FFFFFF' },
+      })
+        .then(setQr)
+        .catch(() => setQr(null))
+    }
   }, [])
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+      {qr && (
+        <div style={{ ...card, alignItems: 'center', flexWrap: 'wrap' }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={qr}
+            width={180}
+            height={180}
+            alt="QR code that opens your PAM invite on your phone"
+            style={{ borderRadius: 8, flex: '0 0 auto' }}
+          />
+          <div style={{ flex: '1 1 240px' }}>
+            <h2 style={title}>Joining on your phone?</h2>
+            <p style={body}>
+              PAM lives on your phone, so your invite needs to open there. Point your phone&apos;s camera at
+              this code and tap the link. Then follow the steps below on your phone.
+            </p>
+            <p style={{ ...body, marginTop: 10, fontSize: '0.9rem', color: 'var(--ink-soft, #555)' }}>
+              Or open this email on your phone and tap <strong>Accept invitation</strong> there.
+            </p>
+          </div>
+        </div>
+      )}
       <div style={card}>
         <div style={num} aria-hidden="true">1</div>
         <div>

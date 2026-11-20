@@ -66,7 +66,7 @@ export default function PricingTiles() {
       <div className="pricing-section-head">
         <span className="eyebrow">App Plans</span>
         <h2>Made for your village.</h2>
-        <p className="pricing-section-sub">Single, Couple or Family. Try any of them free for 14 days.</p>
+        <p className="pricing-section-sub">Start for free, upgrade when you're ready.</p>
       </div>
 
       <div className="pricing-toggle" role="tablist" aria-label="Billing period">
@@ -118,7 +118,7 @@ export default function PricingTiles() {
               ) : (
                 <>
                   <li>{t.monthly} billed monthly</li>
-                  <li>14-day free trial · cancel anytime</li>
+                  <li>Free plan available · cancel anytime</li>
                 </>
               )}
             </ul>
@@ -142,7 +142,7 @@ export default function PricingTiles() {
               rel="noreferrer"
               className="pricing-cta"
             >
-              Start free trial
+              Get started free
             </a>
           </div>
         ))}

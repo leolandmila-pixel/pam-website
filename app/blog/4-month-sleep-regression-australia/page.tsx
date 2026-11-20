@@ -151,7 +151,7 @@ export default function FourMonthSleepRegressionBlogPage() {
           <div className="ml-cta-block">
             <p>PAM tracks sleep, feeds, and nappy changes so you can spot patterns and stop trying to hold it all in your head.</p>
             <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta">
-              Start your free 14-day trial
+              Get PAM free
               <span className="arrow">
                 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </span>

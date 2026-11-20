@@ -35,10 +35,10 @@ export default function AppFeaturesPage() {
         <div className="container" style={{ textAlign: 'center' }}>
           <h2>PAM is now on the <span className="em">App Store.</span></h2>
           <p className="feature-prose" style={{ margin: '14px auto 28px', maxWidth: 540 }}>
-            Start your free 14-day trial today - no commitment needed.
+            Start for free today - no credit card needed.
           </p>
           <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="quiz-cta feature-cta">
-            Start your free PAM trial
+            Get PAM free
             <span className="arrow">
               <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </span>

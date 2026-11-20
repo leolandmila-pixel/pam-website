@@ -103,7 +103,7 @@ export const contactMetadata: Metadata = {
 export const faqMetadata: Metadata = {
   title: { absolute: 'FAQ - Launch, Pricing & Privacy Answered | PAM Australia' },
   description:
-    'Everything you might be wondering before you join the PAM founding trial - launch timing, pricing, privacy, Ask PAM and family sharing, all answered.',
+    'Everything you might be wondering before you join PAM - pricing, privacy, Ask PAM and family sharing, all answered.',
   alternates: { canonical: 'https://parentaladminmanager.com/faq' },
   openGraph: {
     ...baseMetadata.openGraph,
@@ -278,7 +278,7 @@ export const parentalLeaveCalculatorMetadata: Metadata = {
 export const pricingMetadata: Metadata = {
   title: 'PAM Pricing - Plans From $14.99/Month',
   description:
-    'Simple, transparent PAM pricing - Single, Couple and Family plans from $14.99/month, all with a 14-day free trial. No lock-in contracts, cancel anytime.',
+    'Simple, transparent PAM pricing - Free plan plus Single, Couple and Family plans from $14.99/month. No lock-in contracts, cancel anytime.',
   alternates: { canonical: 'https://parentaladminmanager.com/pricing' },
   openGraph: { ...baseMetadata.openGraph, title: 'PAM Pricing', url: 'https://parentaladminmanager.com/pricing' },
 }

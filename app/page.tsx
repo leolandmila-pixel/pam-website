@@ -42,7 +42,7 @@ export default function HomePage() {
             </p>
             <div className="hero-signup" id="founding">
               <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="hero-signup-pill">
-                Start your free PAM trial
+                Get PAM free
               </a>
             </div>
           </div>

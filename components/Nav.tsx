@@ -71,7 +71,7 @@ export default function Nav() {
           rel="noreferrer"
           className="top-bar-text"
         >
-          Less mental load. Start your free PAM trial today.
+          Less mental load. Get PAM free today.
         </a>
         <a
           href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"

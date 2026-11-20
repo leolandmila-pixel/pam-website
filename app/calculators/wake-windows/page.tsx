@@ -48,7 +48,7 @@ export default function WakeWindowCalculatorPage() {
           <div className="ml-cta-block">
             <p>Want the rest of the mental load handled too? PAM tracks all of this and more, shared with your partner in real time.</p>
             <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="quiz-cta">
-              Start your free PAM trial
+              Get PAM free
               <span className="arrow">
                 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </span>

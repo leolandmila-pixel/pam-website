@@ -81,7 +81,7 @@ export const mobileAppSchema = {
     'Baby milestone tracking from newborn to school age',
     'Memory keeping: photos, voice notes, milestone moments',
     'Centrelink and Australian birth registration admin reminders',
-    '14-day free trial, no credit card required',
+    'Free plan available, no credit card required',
   ],
   url: 'https://parentaladminmanager.com',
   publisher: organizationSchema,

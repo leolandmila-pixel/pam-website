@@ -193,9 +193,9 @@ export default function MentalLoadPage() {
           <TopicAccordion items={topics} level="h2" layout="grid" />
 
           <div className="ml-cta-block">
-            <p>Start your free 14-day trial - no credit card needed.</p>
+            <p>Get PAM free - no credit card needed.</p>
             <a href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987" target="_blank" rel="noreferrer" className="quiz-cta">
-              Start your free PAM trial
+              Get PAM free
               <span className="arrow">
                 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </span>

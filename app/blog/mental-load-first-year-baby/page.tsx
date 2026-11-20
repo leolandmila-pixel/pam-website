@@ -147,7 +147,7 @@ export default function MentalLoadFirstYearBlogPage() {
           <div className="ml-cta-block">
             <p>PAM holds the appointments, the checklists, the reminders, and the milestones - so the mental load has somewhere to live that is not inside your head.</p>
             <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta">
-              Start your free 14-day trial
+              Get PAM free
               <span className="arrow">
                 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </span>

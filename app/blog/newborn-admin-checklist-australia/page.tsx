@@ -159,7 +159,7 @@ export default function NewbornAdminChecklistAustraliaBlogPage() {
           <div className="ml-cta-block">
             <p>Ready to hand the admin off to someone else? PAM has every Australian newborn milestone pre-loaded and ready to go.</p>
             <a href="https://tally.so/r/q4J1vg" target="_blank" rel="noreferrer" className="quiz-cta">
-              Start your free 14-day trial
+              Get PAM free
               <span className="arrow">
                 <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </span>

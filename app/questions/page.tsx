@@ -90,7 +90,7 @@ export default function QuestionsPage() {
               rel="noreferrer"
               className="quiz-cta feature-cta"
             >
-              Start your free PAM trial
+              Get PAM free
               <span className="arrow">
                 <svg viewBox="0 0 24 24">
                   <path d="M5 12h14M13 6l6 6-6 6" />
@@ -98,7 +98,7 @@ export default function QuestionsPage() {
               </span>
             </a>
             <p style={{ marginTop: 14, fontSize: '0.82rem', color: 'var(--ink-faint)' }}>
-              14-day free trial · No credit card needed · Australian-built
+              Free plan available · No credit card needed · Australian-built
             </p>
           </div>
         </section>

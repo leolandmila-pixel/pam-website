@@ -147,6 +147,43 @@ export default function PricingTiles() {
           </div>
         ))}
       </div>
+
+      {/* Free tier */}
+      <div className="pricing-free-tile">
+        <div className="pricing-free-left">
+          <div className="pricing-free-label">Free</div>
+          <div className="pricing-free-price">$0</div>
+          <p className="pricing-free-tagline">The essentials, free forever.</p>
+          <a
+            href="https://apps.apple.com/au/app/parental-admin-manager/id6780860987"
+            target="_blank"
+            rel="noreferrer"
+            className="pricing-free-cta"
+          >
+            Get PAM free
+          </a>
+        </div>
+        <div className="pricing-free-right">
+          <p className="pricing-free-includes">What&apos;s included:</p>
+          <ul className="pricing-free-features">
+            {[
+              'One child profile',
+              'Smart Checklist & reminders',
+              'Daily tracking: feeds, sleep & nappies',
+              'Voice assistant',
+              'Up to 20 memories',
+              'Family Hub contacts & Kids Info Health',
+            ].map((f) => (
+              <li key={f}>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M2.5 7L5.5 10L11.5 4" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                {f}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </>
   )
 }

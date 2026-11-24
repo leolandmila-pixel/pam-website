@@ -1,20 +1,9 @@
 import type { Metadata } from 'next'
 import { giftMetadata } from '../metadata'
 import GiftForm from '@/components/GiftForm'
+import BowSvg from '@/components/BowSvg'
 
 export const metadata: Metadata = giftMetadata
-
-const BowSvg = ({ className, style }: { className?: string; style?: React.CSSProperties }) => (
-  <svg viewBox="0 0 60 72" fill="currentColor" className={className} style={style} aria-hidden="true">
-    <path d="M30 28 C27 20 18 11 12 14 C8 17 9 24 14 26 C19 28.5 27 28 30 28Z" />
-    <path d="M30 28 C28 23 22 16 19 18 C17 19.5 18 23 21 24 C24 25.5 28 27 30 28Z" opacity={0.45} />
-    <path d="M30 28 C33 20 42 11 48 14 C52 17 51 24 46 26 C41 28.5 33 28 30 28Z" />
-    <path d="M30 28 C32 23 38 16 41 18 C43 19.5 42 23 39 24 C36 25.5 32 27 30 28Z" opacity={0.45} />
-    <ellipse cx="30" cy="28.5" rx="3.5" ry="4" />
-    <path d="M27 32 C25 44 23.5 56 23 70 L26.5 70 C26.5 56 28 44 30 32Z" />
-    <path d="M30 32 C32 44 33.5 56 34 70 L37.5 70 C37.5 56 36 44 33 32Z" />
-  </svg>
-)
 
 function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string; opacity?: number }) {
   return (

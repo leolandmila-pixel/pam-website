@@ -1337,7 +1337,7 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
 }
 
 /* ============== GIFT CARDS — CONCEPT C FESTIVE ============== */
-.gift2-hero{background:#F2C8D4;padding:110px max(24px,env(safe-area-inset-left,0px)) 70px;text-align:center;position:relative;overflow:hidden}
+.gift2-hero{background:#F9E0EA;padding:110px max(24px,env(safe-area-inset-left,0px)) 70px;text-align:center;position:relative;overflow:hidden}
 .gift2-corner{position:absolute;color:rgba(109,0,21,0.2);pointer-events:none}
 .gift2-corner-tl{top:20px;left:20px;width:64px;transform:scaleX(-1)}
 .gift2-corner-tr{top:20px;right:20px;width:64px}
@@ -1351,7 +1351,7 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
 .gift2-sub{font-size:1rem;color:#5A2535;line-height:1.72;max-width:38em;margin:0 auto 44px}
 /* stacked cards */
 .gift2-cards{position:relative;height:220px;margin-bottom:0;display:flex;align-items:center;justify-content:center}
-.gift2-card{position:absolute;width:min(300px,72vw);aspect-ratio:1.586;background:#EAB8C8;border-radius:18px;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 24px 60px rgba(109,0,21,0.22);z-index:2}
+.gift2-card{position:absolute;width:min(300px,72vw);aspect-ratio:1.586;background:#F4D3DB;border-radius:18px;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 24px 60px rgba(109,0,21,0.22);z-index:2}
 .gift2-card:first-child,.gift2-card:last-child{z-index:1}
 .gift2-card-bow{position:absolute;color:rgba(109,0,21,0.35)}
 .gift2-card-pam{font-family:var(--display);font-size:1.8rem;color:var(--wine);position:relative;z-index:1}

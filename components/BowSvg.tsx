@@ -1,16 +1,24 @@
 export default function BowSvg({ className, style }: { className?: string; style?: React.CSSProperties }) {
   return (
-    <svg viewBox="0 0 56 58" fill="currentColor" className={className} style={style} aria-hidden="true">
-      {/* left loop — compact, rounded */}
-      <path d="M28 22 C25 15 14 10 14 17 C14 22 20 24 25 22.5 C26.5 22 27.5 22 28 22Z" />
-      {/* right loop — mirror */}
-      <path d="M28 22 C31 15 42 10 42 17 C42 22 36 24 31 22.5 C29.5 22 28.5 22 28 22Z" />
-      {/* centre knot */}
-      <ellipse cx="28" cy="22.5" rx="3" ry="3.5" />
+    <svg
+      viewBox="0 0 32 38"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      style={style}
+      aria-hidden="true"
+    >
+      {/* left loop */}
+      <path d="M16 15 C14 8 3 5 4 11 C5 16 12 17 15.5 15.5" />
+      {/* right loop */}
+      <path d="M16 15 C18 8 29 5 28 11 C27 16 20 17 16.5 15.5" />
       {/* left tail */}
-      <path d="M25.5 26 C23 34 21 43 19 53 L22 53 C23.5 43 25.5 34 27.5 26Z" />
-      {/* right tail — slight rightward curve */}
-      <path d="M30.5 26 C33 34 36 43 37 53 L34 53 C33 43 31 34 28.5 26Z" />
+      <path d="M15.5 17 C13 24 11 30 9 37" />
+      {/* right tail with slight curl */}
+      <path d="M16.5 17 C19 24 21 31 22 35 C22.5 37 22 38.5 21 38" />
     </svg>
   )
 }

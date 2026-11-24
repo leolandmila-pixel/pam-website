@@ -8,6 +8,10 @@ export const metadata: Metadata = giftMetadata
 function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string; opacity?: number }) {
   return (
     <div className="gift2-card" style={{ transform: `rotate(${rotate}deg) translateX(${offset})`, opacity: opacity ?? 1 }}>
+      <BowSvg className="gift2-card-bow" style={{ top: '8%', left: '8%', width: 20 }} />
+      <BowSvg className="gift2-card-bow" style={{ top: '6%', right: '10%', width: 18 }} />
+      <BowSvg className="gift2-card-bow" style={{ bottom: '8%', left: '10%', width: 18 }} />
+      <BowSvg className="gift2-card-bow" style={{ bottom: '6%', right: '8%', width: 16 }} />
       <span className="gift2-card-pam">PAM</span>
     </div>
   )
@@ -16,15 +20,15 @@ function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string;
 /* Scattered background bows */
 const bgBows: { top: string; left?: string; right?: string; width: number }[] = [
   { top: '12%', left: '3%',   width: 20 },
-  { top: '14%', right: '5%',  width: 18 },
-  { top: '28%', left: '2%',   width: 16 },
-  { top: '30%', right: '3%',  width: 20 },
+  { top: '18%', right: '5%',  width: 18 },
+  { top: '32%', left: '2%',   width: 16 },
+  { top: '38%', right: '3%',  width: 20 },
   { top: '52%', left: '4%',   width: 18 },
-  { top: '55%', right: '4%',  width: 16 },
-  { top: '76%', left: '3%',   width: 20 },
+  { top: '58%', right: '4%',  width: 16 },
+  { top: '72%', left: '3%',   width: 20 },
   { top: '78%', right: '5%',  width: 16 },
-  { top: '92%', left: '12%',  width: 14 },
-  { top: '90%', right: '12%', width: 14 },
+  { top: '90%', left: '10%',  width: 14 },
+  { top: '93%', right: '10%', width: 14 },
 ]
 
 export default async function GiftPage({ searchParams }: { searchParams: Promise<{ cancelled?: string }> }) {

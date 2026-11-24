@@ -18,18 +18,37 @@ const BowSvg = ({ className, style }: { className?: string; style?: React.CSSPro
 
 function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string; opacity?: number }) {
   return (
-    <div
-      className="gift2-card"
-      style={{ transform: `rotate(${rotate}deg) translateX(${offset})`, opacity: opacity ?? 1 }}
-    >
-      <BowSvg className="gift2-card-bow" style={{ top: '5%', left: '5%', width: 18 }} />
-      <BowSvg className="gift2-card-bow" style={{ top: '4%', right: '7%', width: 16 }} />
-      <BowSvg className="gift2-card-bow" style={{ bottom: '6%', left: '7%', width: 16 }} />
-      <BowSvg className="gift2-card-bow" style={{ bottom: '4%', right: '5%', width: 14 }} />
+    <div className="gift2-card" style={{ transform: `rotate(${rotate}deg) translateX(${offset})`, opacity: opacity ?? 1 }}>
+      <BowSvg className="gift2-card-bow" style={{ top: '8%', left: '8%', width: 20 }} />
+      <BowSvg className="gift2-card-bow" style={{ top: '6%', right: '10%', width: 18 }} />
+      <BowSvg className="gift2-card-bow" style={{ bottom: '8%', left: '10%', width: 18 }} />
+      <BowSvg className="gift2-card-bow" style={{ bottom: '6%', right: '8%', width: 16 }} />
       <span className="gift2-card-pam">PAM</span>
     </div>
   )
 }
+
+/* Scattered background bows — static positions matching image 14 */
+const bgBows: { top: string; left?: string; right?: string; width: number }[] = [
+  { top: '6%',  left: '4%',   width: 22 },
+  { top: '3%',  left: '18%',  width: 16 },
+  { top: '5%',  right: '6%',  width: 20 },
+  { top: '2%',  right: '22%', width: 14 },
+  { top: '18%', left: '1%',   width: 18 },
+  { top: '22%', right: '2%',  width: 16 },
+  { top: '38%', left: '3%',   width: 20 },
+  { top: '42%', right: '4%',  width: 18 },
+  { top: '55%', left: '8%',   width: 14 },
+  { top: '60%', right: '10%', width: 16 },
+  { top: '72%', left: '2%',   width: 20 },
+  { top: '70%', right: '3%',  width: 18 },
+  { top: '82%', left: '14%',  width: 14 },
+  { top: '86%', right: '16%', width: 16 },
+  { top: '90%', left: '4%',   width: 18 },
+  { top: '92%', right: '5%',  width: 14 },
+  { top: '14%', left: '48%',  width: 12 },
+  { top: '78%', left: '50%',  width: 12 },
+]
 
 export default async function GiftPage({ searchParams }: { searchParams: Promise<{ cancelled?: string }> }) {
   const { cancelled } = await searchParams
@@ -37,10 +56,20 @@ export default async function GiftPage({ searchParams }: { searchParams: Promise
     <main>
       {/* ===== HERO ===== */}
       <section className="gift2-hero">
+        {/* corner bows */}
         <BowSvg className="gift2-corner gift2-corner-tl" />
         <BowSvg className="gift2-corner gift2-corner-tr" />
         <BowSvg className="gift2-corner gift2-corner-bl" />
         <BowSvg className="gift2-corner gift2-corner-br" />
+
+        {/* scattered background bows */}
+        {bgBows.map((b, i) => (
+          <BowSvg
+            key={i}
+            className="gift2-bg-bow"
+            style={{ top: b.top, left: b.left, right: b.right, width: b.width }}
+          />
+        ))}
 
         <div className="container gift2-inner">
           <span className="eyebrow gift2-eyebrow">PAM Gift Cards</span>
@@ -53,17 +82,15 @@ export default async function GiftPage({ searchParams }: { searchParams: Promise
 
           <div className="gift2-cards" aria-hidden="true">
             <GiftCard rotate={-7} offset="-48%" opacity={0.75} />
-            <GiftCard rotate={1} offset="0%" />
-            <GiftCard rotate={8} offset="48%" opacity={0.75} />
+            <GiftCard rotate={1}  offset="0%" />
+            <GiftCard rotate={8}  offset="48%" opacity={0.75} />
           </div>
         </div>
       </section>
 
-      {/* ===== FORM ===== */}
-      <section className="gift-section">
-        <div className="container gift-container">
-          <GiftForm cancelled={cancelled === '1'} />
-        </div>
+      {/* ===== CHECKOUT FORM ===== */}
+      <section className="gift2-form-section">
+        <GiftForm cancelled={cancelled === '1'} />
       </section>
 
       {/* ===== HOW IT WORKS ===== */}

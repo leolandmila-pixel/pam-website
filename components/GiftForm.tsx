@@ -9,38 +9,59 @@ const GIFT_API =
 type Plan = 'plus' | 'couple' | 'family'
 type Months = 3 | 6 | 12
 
-// Must match the Stripe prices (lookup keys gift_<plan>_<months>m).
-// Stripe charges its own stored price; these are for display only.
 const PRICES: Record<Plan, Record<Months, string>> = {
-  plus: { 3: '44.99', 6: '89.99', 12: '144.99' },
-  couple: { 3: '74.99', 6: '149.99', 12: '239.99' },
-  family: { 3: '89.99', 6: '179.99', 12: '289.99' },
+  plus:   { 3: '44.99',  6: '89.99',  12: '144.99' },
+  couple: { 3: '74.99',  6: '149.99', 12: '239.99' },
+  family: { 3: '89.99',  6: '179.99', 12: '289.99' },
 }
 
 const PLANS: { id: Plan; name: string; blurb: string }[] = [
-  { id: 'plus', name: 'PAM Plus', blurb: 'For one parent' },
-  { id: 'couple', name: 'PAM Couple', blurb: 'For both parents' },
-  { id: 'family', name: 'PAM Family', blurb: 'Parents plus grandparents, nannies and carers' },
+  { id: 'plus',   name: 'PAM Plus', blurb: '1 parent' },
+  { id: 'couple', name: 'Couple',   blurb: '2 parents' },
+  { id: 'family', name: 'Family',   blurb: '+ carers' },
 ]
 
 const DURATIONS: { id: Months; label: string }[] = [
-  { id: 3, label: '3 months' },
-  { id: 6, label: '6 months' },
+  { id: 3,  label: '3 months' },
+  { id: 6,  label: '6 months' },
   { id: 12, label: '12 months' },
 ]
 
+const CHIPS = [
+  "You’re doing an amazing job ♡",
+  'One less thing to remember',
+  'For all the little moments',
+]
+
+function BowSvg({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 60 72" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M30 28 C27 20 18 11 12 14 C8 17 9 24 14 26 C19 28.5 27 28 30 28Z" />
+      <path d="M30 28 C28 23 22 16 19 18 C17 19.5 18 23 21 24 C24 25.5 28 27 30 28Z" opacity={0.45} />
+      <path d="M30 28 C33 20 42 11 48 14 C52 17 51 24 46 26 C41 28.5 33 28 30 28Z" />
+      <path d="M30 28 C32 23 38 16 41 18 C43 19.5 42 23 39 24 C36 25.5 32 27 30 28Z" opacity={0.45} />
+      <ellipse cx="30" cy="28.5" rx="3.5" ry="4" />
+      <path d="M27 32 C25 44 23.5 56 23 70 L26.5 70 C26.5 56 28 44 30 32Z" />
+      <path d="M30 32 C32 44 33.5 56 34 70 L37.5 70 C37.5 56 36 44 33 32Z" />
+    </svg>
+  )
+}
+
 export default function GiftForm({ cancelled = false }: { cancelled?: boolean }) {
-  const [plan, setPlan] = useState<Plan>('couple')
-  const [months, setMonths] = useState<Months>(12)
-  const [sendTo, setSendTo] = useState<'recipient' | 'buyer'>('recipient')
+  const [plan, setPlan]                   = useState<Plan>('plus')
+  const [months, setMonths]               = useState<Months>(3)
   const [recipientName, setRecipientName] = useState('')
   const [recipientEmail, setRecipientEmail] = useState('')
-  const [message, setMessage] = useState('')
-  const [buyerName, setBuyerName] = useState('')
-  const [buyerEmail, setBuyerEmail] = useState('')
-  const [website, setWebsite] = useState('') // honeypot
-  const [error, setError] = useState(cancelled ? 'Payment cancelled. Your gift hasn’t been bought, so you can try again.' : '')
-  const [submitting, setSubmitting] = useState(false)
+  const [message, setMessage]             = useState('')
+  const [buyerName, setBuyerName]         = useState('')
+  const [buyerEmail, setBuyerEmail]       = useState('')
+  const [sendToMe, setSendToMe]           = useState(false)
+  const [website, setWebsite]             = useState('')
+  const [error, setError]                 = useState(
+    cancelled ? 'Payment cancelled. Your gift hasn’t been bought, so you can try again.' : ''
+  )
+  const [submitting, setSubmitting]       = useState(false)
+  const [showPlanChanger, setShowPlanChanger] = useState(false)
 
   async function submit(e: React.FormEvent) {
     e.preventDefault()
@@ -51,8 +72,10 @@ export default function GiftForm({ cancelled = false }: { cancelled?: boolean })
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          plan, months, sendTo, recipientName, recipientEmail, message,
-          buyerName, buyerEmail, website,
+          plan, months,
+          sendTo: sendToMe ? 'buyer' : 'recipient',
+          recipientName, recipientEmail,
+          message, buyerName, buyerEmail, website,
         }),
       })
       const data = await res.json().catch(() => null)
@@ -68,92 +91,156 @@ export default function GiftForm({ cancelled = false }: { cancelled?: boolean })
   }
 
   const price = PRICES[plan][months]
+  const planObj = PLANS.find(p => p.id === plan)!
 
   return (
-    <form className="gift-form" onSubmit={submit} noValidate>
-      <fieldset className="gift-step">
-        <legend className="gift-step-h"><span>1</span> Choose a plan</legend>
-        <div className="gift-options gift-options-3">
-          {PLANS.map((p) => (
-            <label key={p.id} className={`gift-option${plan === p.id ? ' is-on' : ''}`}>
-              <input type="radio" name="plan" value={p.id} checked={plan === p.id} onChange={() => setPlan(p.id)} />
-              <b>{p.name}</b>
-              <small>{p.blurb}</small>
+    <div className="gift-checkout-wrap">
+      <div className="gift-checkout-head">
+        <span className="gift-checkout-eyebrow">Checkout</span>
+        <h2 className="gift-checkout-h2">Make it <em>personal.</em></h2>
+      </div>
+
+      <form className="gift-checkout-cols" onSubmit={submit} noValidate>
+        {/* ===== LEFT COLUMN ===== */}
+        <div className="gift-checkout-left">
+
+          {/* Step 1 */}
+          <div className="gift-step-block">
+            <h3 className="gift-step-block-h">
+              <span className="gift-step-num">1</span> WHO&apos;S IT FOR?
+            </h3>
+            <div className="gift-field-row">
+              <div className="field">
+                <label htmlFor="g-rname">Their first name</label>
+                <input id="g-rname" placeholder="e.g. Sarah" value={recipientName} onChange={e => setRecipientName(e.target.value)} maxLength={60} required autoComplete="off" />
+              </div>
+              <div className="field">
+                <label htmlFor="g-remail">Their email</label>
+                <input id="g-remail" type="email" placeholder="sarah@email.com" value={recipientEmail} onChange={e => setRecipientEmail(e.target.value)} maxLength={254} required={!sendToMe} autoComplete="off" />
+              </div>
+            </div>
+            <label className="gift-send-toggle">
+              <input type="checkbox" checked={sendToMe} onChange={e => setSendToMe(e.target.checked)} />
+              <span>Send the gift to my email instead (to give in person)</span>
             </label>
-          ))}
-        </div>
-      </fieldset>
-
-      <fieldset className="gift-step">
-        <legend className="gift-step-h"><span>2</span> Choose how long</legend>
-        <div className="gift-options gift-options-3">
-          {DURATIONS.map((d) => (
-            <label key={d.id} className={`gift-option${months === d.id ? ' is-on' : ''}`}>
-              <input type="radio" name="months" value={d.id} checked={months === d.id} onChange={() => setMonths(d.id)} />
-              <b>{d.label}</b>
-              <small>A${PRICES[plan][d.id]}</small>
-            </label>
-          ))}
-        </div>
-      </fieldset>
-
-      <fieldset className="gift-step">
-        <legend className="gift-step-h"><span>3</span> Who’s it for?</legend>
-        <div className="field">
-          <label htmlFor="g-rname">Their first name</label>
-          <input id="g-rname" value={recipientName} onChange={(e) => setRecipientName(e.target.value)} maxLength={60} required autoComplete="off" />
-        </div>
-        <div className="gift-options gift-options-2" role="radiogroup" aria-label="How should we deliver the gift?">
-          <label className={`gift-option${sendTo === 'recipient' ? ' is-on' : ''}`}>
-            <input type="radio" name="sendTo" checked={sendTo === 'recipient'} onChange={() => setSendTo('recipient')} />
-            <b>Email it to them</b>
-            <small>We’ll send it straight away</small>
-          </label>
-          <label className={`gift-option${sendTo === 'buyer' ? ' is-on' : ''}`}>
-            <input type="radio" name="sendTo" checked={sendTo === 'buyer'} onChange={() => setSendTo('buyer')} />
-            <b>Send it to me</b>
-            <small>To print or give in person</small>
-          </label>
-        </div>
-        {sendTo === 'recipient' && (
-          <div className="field">
-            <label htmlFor="g-remail">Their email</label>
-            <input id="g-remail" type="email" value={recipientEmail} onChange={(e) => setRecipientEmail(e.target.value)} maxLength={254} required autoComplete="off" />
           </div>
-        )}
-        <div className="field">
-          <label htmlFor="g-msg">Personal message (optional)</label>
-          <textarea id="g-msg" value={message} onChange={(e) => setMessage(e.target.value)} maxLength={300} rows={3} />
-          <span className="field-hint">{300 - message.length} characters left</span>
-        </div>
-      </fieldset>
 
-      <fieldset className="gift-step">
-        <legend className="gift-step-h"><span>4</span> Your details</legend>
-        <div className="form-row">
-          <div className="field">
-            <label htmlFor="g-bname">Your name</label>
-            <input id="g-bname" value={buyerName} onChange={(e) => setBuyerName(e.target.value)} maxLength={60} required autoComplete="name" />
+          {/* Step 2 */}
+          <div className="gift-step-block">
+            <h3 className="gift-step-block-h">
+              <span className="gift-step-num">2</span> FROM YOU
+            </h3>
+            <div className="gift-field-row">
+              <div className="field">
+                <label htmlFor="g-bname">Your name</label>
+                <input id="g-bname" placeholder="e.g. Mum &amp; Dad" value={buyerName} onChange={e => setBuyerName(e.target.value)} maxLength={60} required autoComplete="name" />
+              </div>
+              <div className="field">
+                <label htmlFor="g-bemail">Your email <span className="field-note">(for your receipt)</span></label>
+                <input id="g-bemail" type="email" placeholder="you@email.com" value={buyerEmail} onChange={e => setBuyerEmail(e.target.value)} maxLength={254} required autoComplete="email" />
+              </div>
+            </div>
           </div>
-          <div className="field">
-            <label htmlFor="g-bemail">Your email</label>
-            <input id="g-bemail" type="email" value={buyerEmail} onChange={(e) => setBuyerEmail(e.target.value)} maxLength={254} required autoComplete="email" />
+
+          {/* Step 3 */}
+          <div className="gift-step-block">
+            <h3 className="gift-step-block-h">
+              <span className="gift-step-num">3</span> YOUR MESSAGE
+            </h3>
+            <div className="field">
+              <label htmlFor="g-msg">Add a personal note <span className="field-note">(optional)</span></label>
+              <textarea id="g-msg" placeholder="Write something from the heart..." value={message} onChange={e => setMessage(e.target.value)} maxLength={250} rows={4} />
+              <span className="field-hint">{message.length}/250</span>
+            </div>
+            <div className="gift-chips">
+              {CHIPS.map(c => (
+                <button key={c} type="button" className="gift-chip" onClick={() => setMessage(c)}>{c}</button>
+              ))}
+            </div>
+          </div>
+
+          {/* honeypot */}
+          <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px' }}>
+            <label>Website<input tabIndex={-1} value={website} onChange={e => setWebsite(e.target.value)} autoComplete="off" /></label>
+          </div>
+
+          {error && <p className="gift-error" role="alert">{error}</p>}
+        </div>
+
+        {/* ===== RIGHT SIDEBAR ===== */}
+        <div className="gift-checkout-right">
+
+          {/* Gift preview */}
+          <p className="gift-sidebar-label">GIFT PREVIEW</p>
+          <div className="gift-preview-card">
+            <div className="gift-preview-header">
+              <span className="gift-preview-for">FOR {recipientName.toUpperCase() || 'YOU'}</span>
+              <BowSvg className="gift-preview-bow" />
+            </div>
+            <p className="gift-preview-msg" data-empty={!message ? '' : undefined}>
+              {message || 'Your message will appear here…'}
+            </p>
+            <div className="gift-preview-footer">
+              <span className="gift-preview-with-love">With love</span>
+              <span className="gift-preview-pam">PAM</span>
+            </div>
+          </div>
+
+          {/* Order summary */}
+          <p className="gift-sidebar-label" style={{ marginTop: 20 }}>ORDER SUMMARY</p>
+          <div className="gift-summary-box">
+            <div className="gift-summary-line">
+              <span>Plan</span>
+              <b>{planObj.name} · {planObj.blurb}</b>
+            </div>
+            <div className="gift-summary-line">
+              <span>Duration</span>
+              <b>{months} months</b>
+            </div>
+            <div className="gift-summary-line">
+              <span>Delivery</span>
+              <b>Instantly by email</b>
+            </div>
+
+            <button type="button" className="gift-change-plan" onClick={() => setShowPlanChanger(v => !v)}>
+              Change plan
+            </button>
+
+            {showPlanChanger && (
+              <div className="gift-plan-changer">
+                <p className="gift-changer-label">Plan</p>
+                <div className="gift-changer-options">
+                  {PLANS.map(p => (
+                    <button key={p.id} type="button" className={`gift-changer-btn${plan === p.id ? ' on' : ''}`} onClick={() => setPlan(p.id)}>
+                      {p.name}
+                    </button>
+                  ))}
+                </div>
+                <p className="gift-changer-label">Duration</p>
+                <div className="gift-changer-options">
+                  {DURATIONS.map(d => (
+                    <button key={d.id} type="button" className={`gift-changer-btn${months === d.id ? ' on' : ''}`} onClick={() => setMonths(d.id)}>
+                      {d.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="gift-summary-total">
+              <span>Total (AUD)</span>
+              <span className="gift-summary-amount">${price}</span>
+            </div>
+
+            <button type="submit" className="gift-pay-btn" disabled={submitting}>
+              {submitting ? 'Opening secure checkout…' : 'Continue to payment'}
+            </button>
+            <p className="gift-fineprint2">
+              Secure payment on the next step · Redeemed in-app · No expiry
+            </p>
           </div>
         </div>
-        <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px' }}>
-          <label>Website<input tabIndex={-1} value={website} onChange={(e) => setWebsite(e.target.value)} autoComplete="off" /></label>
-        </div>
-      </fieldset>
-
-      {error && <p className="gift-error" role="alert">{error}</p>}
-
-      <button type="submit" className="send-btn gift-pay" disabled={submitting}>
-        {submitting ? 'Opening secure checkout…' : `Continue to payment · A$${price}`}
-      </button>
-      <p className="gift-fineprint">
-        Secure payment by Stripe. Prices in AUD, no GST charged. The gift starts when it’s redeemed, can be redeemed
-        within 3 years, and doesn’t renew. Unredeemed gifts can be refunded within 30 days.
-      </p>
-    </form>
+      </form>
+    </div>
   )
 }

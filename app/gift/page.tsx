@@ -19,8 +19,8 @@ function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string;
 
 /* Scattered background bows */
 const bgBows: { top: string; left?: string; right?: string; width: number }[] = [
-  { top: '5%',  left: '3%',   width: 20 },
-  { top: '7%',  right: '5%',  width: 18 },
+  { top: '12%', left: '3%',   width: 20 },
+  { top: '14%', right: '5%',  width: 18 },
   { top: '28%', left: '2%',   width: 16 },
   { top: '30%', right: '3%',  width: 20 },
   { top: '52%', left: '4%',   width: 18 },

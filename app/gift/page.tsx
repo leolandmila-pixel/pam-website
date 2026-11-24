@@ -17,26 +17,18 @@ function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string;
   )
 }
 
-/* Scattered background bows — static positions matching image 14 */
+/* Scattered background bows */
 const bgBows: { top: string; left?: string; right?: string; width: number }[] = [
-  { top: '6%',  left: '4%',   width: 22 },
-  { top: '3%',  left: '18%',  width: 16 },
-  { top: '5%',  right: '6%',  width: 20 },
-  { top: '2%',  right: '22%', width: 14 },
-  { top: '18%', left: '1%',   width: 18 },
-  { top: '22%', right: '2%',  width: 16 },
-  { top: '38%', left: '3%',   width: 20 },
-  { top: '42%', right: '4%',  width: 18 },
-  { top: '55%', left: '8%',   width: 14 },
-  { top: '60%', right: '10%', width: 16 },
-  { top: '72%', left: '2%',   width: 20 },
-  { top: '70%', right: '3%',  width: 18 },
-  { top: '82%', left: '14%',  width: 14 },
-  { top: '86%', right: '16%', width: 16 },
-  { top: '90%', left: '4%',   width: 18 },
-  { top: '92%', right: '5%',  width: 14 },
-  { top: '14%', left: '48%',  width: 12 },
-  { top: '78%', left: '50%',  width: 12 },
+  { top: '5%',  left: '3%',   width: 20 },
+  { top: '7%',  right: '5%',  width: 18 },
+  { top: '28%', left: '2%',   width: 16 },
+  { top: '30%', right: '3%',  width: 20 },
+  { top: '52%', left: '4%',   width: 18 },
+  { top: '55%', right: '4%',  width: 16 },
+  { top: '76%', left: '3%',   width: 20 },
+  { top: '78%', right: '5%',  width: 16 },
+  { top: '92%', left: '12%',  width: 14 },
+  { top: '90%', right: '12%', width: 14 },
 ]
 
 export default async function GiftPage({ searchParams }: { searchParams: Promise<{ cancelled?: string }> }) {

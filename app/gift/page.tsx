@@ -37,12 +37,6 @@ export default async function GiftPage({ searchParams }: { searchParams: Promise
     <main>
       {/* ===== HERO ===== */}
       <section className="gift2-hero">
-        {/* corner bows */}
-        <BowSvg className="gift2-corner gift2-corner-tl" />
-        <BowSvg className="gift2-corner gift2-corner-tr" />
-        <BowSvg className="gift2-corner gift2-corner-bl" />
-        <BowSvg className="gift2-corner gift2-corner-br" />
-
         {/* scattered background bows */}
         {bgBows.map((b, i) => (
           <BowSvg

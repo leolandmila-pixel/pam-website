@@ -1336,6 +1336,37 @@ footer{background:var(--wine);color:var(--cream);padding:80px 0 30px;margin-top:
   h1,h2,h3{font-size:clamp(1.4rem,5vw,2.4rem)}
 }
 
+/* ============== GIFT CARDS — CONCEPT C FESTIVE ============== */
+.gift2-hero{background:var(--blush-soft,#FAE9EE);padding:110px max(24px,env(safe-area-inset-left,0px)) 70px;text-align:center;position:relative;overflow:hidden}
+.gift2-corner{position:absolute;color:rgba(109,0,21,0.18);pointer-events:none}
+.gift2-corner-tl{top:20px;left:20px;width:64px;transform:scaleX(-1)}
+.gift2-corner-tr{top:20px;right:20px;width:64px}
+.gift2-corner-bl{bottom:24px;left:20px;width:48px;transform:scaleX(-1)}
+.gift2-corner-br{bottom:24px;right:20px;width:48px}
+.gift2-inner{max-width:820px;margin:0 auto;position:relative}
+.gift2-eyebrow{justify-content:center}
+.gift2-h1{font-family:var(--display);font-weight:400;font-size:clamp(2.4rem,6vw,4.8rem);color:var(--wine-deep,#4A0010);line-height:1.04;text-wrap:balance;margin:0 auto 20px;max-width:14em}
+.gift2-h1 em{font-style:italic;color:var(--wine)}
+.gift2-sub{font-size:1rem;color:var(--ink-mid,#5A2535);line-height:1.72;max-width:38em;margin:0 auto 44px}
+/* stacked cards */
+.gift2-cards{position:relative;height:220px;margin-bottom:0;display:flex;align-items:center;justify-content:center}
+.gift2-card{position:absolute;width:min(280px,68vw);aspect-ratio:1.586;background:var(--blush,#F4D3DB);border-radius:16px;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 20px 50px rgba(109,0,21,0.18);z-index:2}
+.gift2-card:first-child,.gift2-card:last-child{z-index:1}
+.gift2-card-bow{position:absolute;color:rgba(109,0,21,0.4)}
+.gift2-card-pam{font-family:var(--display);font-size:1.7rem;color:var(--wine);position:relative;z-index:1}
+/* how it works */
+.gift2-how-wrap{background:var(--cream-mid,#F5EDE5);padding:0}
+.gift2-how{max-width:900px;margin:0 auto;padding:72px max(24px,env(safe-area-inset-left,0px));display:grid;grid-template-columns:repeat(3,1fr);gap:48px;text-align:center}
+.gift2-step-bow{width:40px;color:var(--wine);margin:0 auto 14px;opacity:0.6}
+.gift2-step h3{font-family:var(--label,var(--sans));font-weight:700;font-size:0.88rem;color:var(--wine-deep,#4A0010);margin-bottom:7px;letter-spacing:0.01em}
+.gift2-step p{font-size:0.84rem;color:var(--ink-mid,#5A2535);line-height:1.65}
+@media(max-width:640px){
+  .gift2-hero{padding-top:88px}
+  .gift2-corner-tl,.gift2-corner-bl{width:40px}
+  .gift2-corner-tr,.gift2-corner-br{width:40px}
+  .gift2-how{grid-template-columns:1fr;gap:32px}
+}
+
 /* ============== GIFT CARDS ============== */
 .pricing-gift{text-align:center;margin:18px 0 0;font-size:1rem;color:var(--ink)}
 .pricing-gift a{color:var(--wine);font-weight:600}

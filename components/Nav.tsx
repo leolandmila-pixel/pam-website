@@ -39,6 +39,7 @@ const links: NavLink[] = [
       { href: '/newborn-admin-checklist', label: 'Newborn Admin Checklist' },
     ],
   },
+  { href: '/gift', label: 'Gift Card' },
   { href: '/contact', label: 'Contact' },
   { href: '/faq', label: 'FAQ' },
 ]

@@ -8,10 +8,6 @@ export const metadata: Metadata = giftMetadata
 function GiftCard({ rotate, offset, opacity }: { rotate: number; offset: string; opacity?: number }) {
   return (
     <div className="gift2-card" style={{ transform: `rotate(${rotate}deg) translateX(${offset})`, opacity: opacity ?? 1 }}>
-      <BowSvg className="gift2-card-bow" style={{ top: '8%', left: '8%', width: 20 }} />
-      <BowSvg className="gift2-card-bow" style={{ top: '6%', right: '10%', width: 18 }} />
-      <BowSvg className="gift2-card-bow" style={{ bottom: '8%', left: '10%', width: 18 }} />
-      <BowSvg className="gift2-card-bow" style={{ bottom: '6%', right: '8%', width: 16 }} />
       <span className="gift2-card-pam">PAM</span>
     </div>
   )
